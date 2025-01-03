@@ -1,0 +1,360 @@
+<theme>
+    <view name="gamelist">
+        <image name="section-logo">
+            <pos>0.01 0.02</pos>
+            <maxSize>0.2 0.1</maxSize>
+            <path>./_inc/systems/logos/${system.theme}.webp</path>
+            <default>./_inc/systems/logos/default.webp</default>
+            <color>${highlightColor}</color>
+            <brightness>2</brightness>
+            <saturation>0</saturation>
+            <zIndex>6</zIndex>
+        </image>
+
+
+        <image name="gameImage">
+            <pos>0.02 0.41</pos>
+            <origin>0 0.5</origin>
+            <maxSize>.55 .55</maxSize>
+            <imageType>miximage, screenshot</imageType>
+            <default>./_inc/images/defaultlist-box.webp</default> 
+            <zIndex>8</zIndex>
+        </image>
+    
+        <video name="videothumb">
+            <pos>0 0</pos>
+            <cropSize>1 1</cropSize>
+            <default>./_inc/images/no-media.mp4</default> <!-- Fallback to default cover -->
+            <interpolation>nearest</interpolation>
+            <pillarboxes>true</pillarboxes>
+            <pillarboxThreshold>0.85 0.90</pillarboxThreshold>
+            <delay>0</delay>
+            <opacity>.2</opacity>
+            <fadeInTime>0</fadeInTime>
+            <zIndex>2</zIndex>
+        </video>
+                
+        <text name="glastplayedtext">
+            <pos>0.36 .686</pos>
+            <origin>0 0.5</origin>
+            <size>0.3 0.05</size>
+            <fontSize>${labelFontSize}</fontSize>
+            <fontPath>${labelFont}</fontPath>
+            <letterCase>uppercase</letterCase>
+            <text>Last Played:</text>
+            <color>${highlightColor}</color>
+            <lineSpacing>1</lineSpacing>
+            <zIndex>65</zIndex>
+        </text>
+
+        <datetime name="lastPlayedDate">
+            <pos>${selPosition}</pos>
+            <origin>0 0.5</origin>
+            <size>0.16 0.06</size>
+            <fontSize>${titlelFontSize}</fontSize>
+            <fontPath>${h2Font}</fontPath>
+            <metadata>lastplayed</metadata>
+            <defaultValue>unplayed</defaultValue>
+            <color>${highlightColor}</color>
+            <lineSpacing>1</lineSpacing>
+            <zIndex>65</zIndex>
+        </datetime>
+
+        <text name="gamTitle">
+            <pos>0.02 0.75</pos>
+            <origin>0 0.5</origin>
+            <size>0.45 0.012</size> 
+            <fontPath>${labelFont}</fontPath>
+            <letterCase>uppercase</letterCase>
+            <fontSize>${titlesFontSize}</fontSize>
+            <metadata>name</metadata>
+            <defaultValue>Unknown</defaultValue>
+            <color>${transColor}</color>
+            <lineSpacing>1</lineSpacing>
+            <zIndex>65</zIndex>
+        </text>
+
+        <image name="line1">
+            <pos>0.02 .775</pos>
+            <origin>0 .6</origin>
+            <maxSize>.45 .5</maxSize>
+            <path>./_inc/images/line.svg</path>
+            <color>${baseColor}25</color>
+            <zIndex>70</zIndex>
+        </image>
+
+        <image name="line2">
+            <pos>0.02 .825</pos>
+            <origin>0 .5</origin>
+            <maxSize>.45 .5</maxSize>
+            <path>./_inc/images/line.svg</path>
+            <color>${baseColor}25</color>
+            <zIndex>70</zIndex>
+        </image>
+
+        <rating name="ratinggraphic">
+            <pos>0.02 .8</pos>
+            <origin>0 0.5</origin>
+            <size>0 0.03</size>
+            <filledPath>./_inc/images/star_filled.svg</filledPath>
+            <unfilledPath>./_inc/images/star_unfilled.svg</unfilledPath>
+            <color>${highlightColor}</color>
+            <zIndex>65</zIndex>
+        </rating>
+
+        <image name="players-icon">
+            <pos>0.115 0.8</pos>
+            <origin>0 .5</origin>
+            <maxSize>.027 .027</maxSize>
+            <path>./_inc/images/icon-players.svg</path>
+            <color>${highlightColor}</color>
+            <brightness>2</brightness>
+            <saturation>0</saturation>
+            <metadataElement>true</metadataElement>
+            <zIndex>65</zIndex>
+        </image>
+
+        <text name="game-players">
+            <pos>0.135 .8</pos>
+            <origin>0 0.5</origin>
+            <size>0.1 0.05</size>
+            <fontSize>${labelFontSize}</fontSize>
+            <fontPath>${labelFont}</fontPath>
+            <letterCase>uppercase</letterCase>
+            <metadata>players</metadata>
+            <defaultValue>??</defaultValue>
+            <color>${transColor}</color>
+            <lineSpacing>1</lineSpacing>
+            <zIndex>65</zIndex>
+        </text>
+
+        <image name="genre-icon">
+            <pos>0.17 .8</pos>
+            <origin>0 .5</origin>
+            <maxSize>.027 .027</maxSize>
+            <path>./_inc/images/genre.svg</path>
+            <color>${highlightColor}</color>
+            <brightness>2</brightness>
+            <saturation>0</saturation>
+            <metadataElement>true</metadataElement>
+            <zIndex>65</zIndex>
+        </image>
+
+        <text name="genre">
+            <pos>0.19 .8</pos>
+            <origin>0 0.5</origin>
+            <size>0.3 0.05</size>
+            <fontSize>${labelFontSize}</fontSize>
+            <fontPath>${labelFont}</fontPath>
+            <letterCase>uppercase</letterCase>
+            <metadata>genre</metadata>
+            <defaultValue>??</defaultValue>
+            <color>${transColor}</color>
+            <lineSpacing>1</lineSpacing>
+            <zIndex>65</zIndex>
+        </text>
+
+        <image name="date-icon">
+            <pos>0.02 .85</pos>
+            <origin>0 .5</origin>
+            <maxSize>.027 .027</maxSize>
+            <path>./_inc/images/release-date.svg</path>
+            <color>${highlightColor}</color>
+            <brightness>2</brightness>
+            <saturation>0</saturation>
+            <metadataElement>true</metadataElement>
+            <zIndex>65</zIndex>
+        </image>
+
+        <image name="developer-icon">
+            <pos>.09 .85</pos>
+            <origin>0 .5</origin>
+            <maxSize>.027 .027</maxSize>
+            <path>./_inc/images/icon-developer.svg</path>
+            <color>${highlightColor}</color>
+            <brightness>2</brightness>
+            <saturation>0</saturation>
+            <metadataElement>true</metadataElement>
+            <zIndex>65</zIndex>
+        </image>
+
+        <text name="developer">
+            <pos>.11 .85</pos>
+            <origin>0 .5</origin>
+            <size>.3 .018</size>
+            <fontSize>${labelFontSize}</fontSize>
+            <fontPath>${labelFont}</fontPath>
+            <letterCase>uppercase</letterCase>
+            <metadata>developer</metadata>
+            <defaultValue>Unknown</defaultValue>
+            <color>${transColor}</color>
+            <lineSpacing>1</lineSpacing>
+            <zIndex>65</zIndex>
+        </text>
+
+        <datetime name="releasedatedate">
+            <pos>.04 .85</pos>
+            <origin>0 0.5</origin>
+            <fontSize>${labelFontSize}</fontSize>
+            <fontPath>${labelFont}</fontPath>
+            <letterCase>uppercase</letterCase>
+            <format>%Y</format>
+            <metadata>releasedate</metadata>
+            <defaultValue>??</defaultValue>
+            <color>${transColor}</color>
+            <lineSpacing>1</lineSpacing>
+            <zIndex>65</zIndex>
+        </datetime>
+
+        <badges name="badges">
+            <pos>0.3 .84</pos>
+            <origin>0 0</origin>
+            <size>.35 .35</size>
+            <horizontalAlignment>left</horizontalAlignment>
+            <direction>row</direction>
+            <lines>1</lines>
+            <itemsPerLine>8</itemsPerLine>
+            <slots>collection, folder, favorite, completed, kidgame, broken, altemulator, manual</slots>
+            <badgeIconColor>cccccc</badgeIconColor>
+            <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
+            <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
+            <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
+            <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
+            <customBadgeIcon badge="kidgame">./_inc/images/badge-kidgame.svg</customBadgeIcon>
+            <customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
+            <customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
+            <customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
+            <customBadgeIcon badge="manual">./_inc/images/badge-manual.svg</customBadgeIcon>
+            <zIndex>65</zIndex>
+        </badges>
+        
+        <textlist name="game-list">
+            <origin>0 0</origin>
+            <pos>0.55 .1</pos>
+            <size>.38 .8</size>
+            <fontPath>${listFont}</fontPath>
+            <selectorColor>${baseColor}20</selectorColor>
+            <fontSize>${listFontSize}</fontSize>
+            <selectorHeight>.001</selectorHeight>
+            <lineSpacing>2</lineSpacing>
+            <letterCase>lowercase</letterCase>
+            <selectorVerticalOffset>${selectorOffset}</selectorVerticalOffset>
+            <primaryColor>${transColor}</primaryColor>
+            <secondaryColor>${baseColor}50</secondaryColor>
+            <selectedColor>${highlightColor}</selectedColor>
+            <systemNameSuffix>${highlightColor}</systemNameSuffix>
+            <indicators>ascii</indicators>
+        </textlist>
+        
+        <image name="listBlackBG">
+            <pos>0 0</pos>
+            <cropSize>1 1</cropSize>
+            <path>./_inc/images/list-bg.webp</path>
+            <zIndex>5</zIndex>
+        </image>
+                
+        <video name="gamelistBgVideo">
+            <pos>0 0</pos>
+            <cropSize>1 1</cropSize>
+            <path>./_inc/images/grid-bg.mp4</path>
+            <zIndex>2</zIndex>
+            <brightness>${vidBright}</brightness>
+            <saturation>${vidSat}</saturation>
+            <color>${vidColor}</color>
+        </video>
+        <image name="gamelistBgImage">
+            <pos>0 0</pos>
+            <cropSize>1 1</cropSize>
+            <path>./_inc/images/grid-bg.webp</path>
+            <zIndex>1</zIndex>
+            <brightness>${vidBright}</brightness>
+            <saturation>${vidSat}</saturation>
+            <color>${vidColor}</color>
+        </image>
+              
+    </view>
+    <aspectRatio name="4:3">
+        <view name="gamelist">
+            <video name="videothumb">
+               <!-- <pos>0.34 0.49</pos> -->
+            </video>
+            <image name="game-logo">
+                <pos>0.16 .12</pos>
+                <size>0.35 0.15</size>
+            </image>
+            <textlist name="game-list">
+                <pos>0.58 .08</pos>
+                <size>.37 .85</size>
+            </textlist>
+        <image name="listBlackBG">
+            <pos>.08 0</pos>
+            <cropSize>.9 1</cropSize>
+            <path>./_inc/images/list-bg.webp</path>
+            <zIndex>5</zIndex>
+        </image>
+        <image name="gameImage">
+            <pos>0.01 0.47</pos>
+            <maxSize>.5 .5</maxSize>
+        </image>
+        <datetime name="lastPlayedDate">
+            <pos>0.36 .71</pos>
+            <size>0.2 0.06</size>
+        </datetime>
+
+        <image name="line1">
+            <maxSize>.5 .5</maxSize>
+        </image>
+
+        <image name="line2">
+            <maxSize>.5 .5</maxSize>
+        </image>
+        <image name="players-icon">
+            <pos>0.135 0.8</pos>
+        </image>
+
+        <text name="game-players">
+            <pos>0.155 .8</pos>
+        </text>
+
+        <image name="genre-icon">
+            <pos>0.18 .8</pos>
+        </image>
+
+        <text name="genre">
+            <pos>0.205 .8</pos>
+        </text>
+
+        <image name="developer-icon">
+            <pos>.1 .85</pos>
+        </image>
+
+        <text name="developer">
+            <pos>.125 .85</pos>
+        </text>
+
+        <datetime name="releasedatedate">
+            <pos>.045 .85</pos>
+        </datetime>
+        <badges name="badges">
+            <pos>0.43 .84</pos>
+        </badges>    
+    </view>
+    </aspectRatio>
+    <aspectRatio name="21:9">
+        <view name="gamelist"> 
+            <image name="section-logo">
+                <pos>0.01 0.02</pos>
+                <size>0.15 0.1</size>
+            </image>
+             <text name="glastplayedtext">
+                <pos>0.24 .686</pos>
+            </text>
+
+            <datetime name="lastPlayedDate">
+                <pos>0.24 .71</pos>
+            </datetime>
+      
+        </view> 
+    </aspectRatio>
+</theme>
+

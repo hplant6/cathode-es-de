@@ -1,0 +1,60 @@
+<!--
+   CATHODE
+
+ (cathode-es-de) Theme by Henry P.
+
+-->
+
+<theme>
+   
+    <include>./../base.xml</include>
+    
+  <variant name="carousel-carousel">
+        <include>./../${performance}</include>
+        <include>./../syscarousel.xml</include>
+        <include>./../carousel.xml</include>
+        <include>./custom.xml</include>
+    </variant>
+    <variant name="carousel-grid">
+        <include>./../${performance}</include>
+        <include>./../syscarousel.xml</include>
+        <include>./../grid.xml</include>
+    </variant>
+    <variant name="carousel-list">
+        <include>./../${performance}</include>
+        <include>./../syscarousel.xml</include>
+        <include>./../list.xml</include>
+    </variant>
+    <variant name="list-list">
+        <include>./../${performance}</include>
+        <include>./../syslist.xml</include>
+        <include>./../list.xml</include>
+    </variant> 
+    <variant name="list-grid">
+        <include>./../${performance}</include>
+        <include>./../syslist.xml</include>
+        <include>./../grid.xml</include>
+    </variant> 
+    <variant name="list-carousel">
+        <include>./../${performance}</include>
+        <include>./../syslist.xml</include>
+        <include>./../carousel.xml</include>
+        <include>./custom.xml</include>
+    </variant> 
+    <variant name="grid-grid">
+        <include>./../${performance}</include>
+        <include>./../sysgrid.xml</include>
+        <include>./../grid.xml</include>
+    </variant> 
+    <variant name="grid-carousel">
+        <include>./../${performance}</include>
+        <include>./../sysgrid.xml</include>
+        <include>./../carousel.xml</include>
+        <include>./custom.xml</include>
+    </variant> 
+    <variant name="grid-list">
+        <include>./../${performance}</include>
+        <include>./../sysgrid.xml</include>
+        <include>./../list.xml</include>
+    </variant>  
+</theme>        

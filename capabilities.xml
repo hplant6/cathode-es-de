@@ -1,0 +1,148 @@
+<themeCapabilities>
+    <themeName>Cathode</themeName>
+
+    <!-- Aspect ratios -->
+    <aspectRatio>16:9</aspectRatio>
+    <aspectRatio>16:10</aspectRatio>
+    <aspectRatio>21:9</aspectRatio>
+    <aspectRatio>4:3</aspectRatio>
+
+    <!-- Transitions -->
+    <transitions name="fadeAndSlide">
+        <label>Default</label>
+        <selectable>true</selectable>
+        <systemToSystem>fade</systemToSystem>
+        <systemToGamelist>slide</systemToGamelist>
+        <gamelistToGamelist>fade</gamelistToGamelist>
+        <gamelistToSystem>slide</gamelistToSystem>
+        <startupToSystem>slide</startupToSystem>
+    </transitions>
+
+    <!-- Configurable Options -->
+    <fontSize>x-large</fontSize>
+    <fontSize>large</fontSize>
+    <fontSize>medium</fontSize>
+    <fontSize>small</fontSize>
+
+    <colorScheme name="classic-red1080">
+        <label>Classic(Red) [High CPU]</label>
+    </colorScheme>
+    <colorScheme name="classic-red">
+        <label>Classic(Red) [Low CPU]</label>
+    </colorScheme>
+    <colorScheme name="classic-blue1080">
+        <label>Classic(Blue) [High CPU]</label>
+    </colorScheme>
+    <colorScheme name="classic-blue">
+        <label>Classic(Blue) [Low CPU]</label>
+    </colorScheme>
+    <colorScheme name="classic-yellow1080">
+        <label>Classic(Yellow) [High CPU]</label>
+    </colorScheme>
+    <colorScheme name="classic-yellow">
+        <label>Classic(Yellow) [Low CPU]</label>
+    </colorScheme>
+    <colorScheme name="cyber-alpha1080">
+        <label>Cyber Neon [High CPU]</label>
+    </colorScheme>
+    <colorScheme name="cyber-alpha">
+        <label>Cyber Neon [Low CPU]</label>
+    </colorScheme>
+    <colorScheme name="cyber-beta1080">
+        <label>Cyber Teal [High CPU]</label>
+    </colorScheme>
+    <colorScheme name="cyber-beta">
+        <label>Cyber Teal [Low CPU]</label>
+    </colorScheme>
+    <colorScheme name="dark1080">
+        <label>Resident Eerie [High CPU]</label>
+    </colorScheme>
+    <colorScheme name="dark">
+        <label>Resident Eerie [Low CPU]</label>
+    </colorScheme>
+    <colorScheme name="Nautical1080">
+        <label>Nautical [High CPU]</label>
+    </colorScheme>
+    <colorScheme name="Nautical">
+        <label>Nautical [Low CPU]</label>
+    </colorScheme>
+    <colorScheme name="Grape1080">
+        <label>Grape [High CPU]</label>
+    </colorScheme>
+    <colorScheme name="Grape">
+        <label>Grape [Low CPU]</label>
+    </colorScheme>
+    <colorScheme name="Gameboy1080">
+        <label>Gameboy [High CPU]</label>
+    </colorScheme>
+    <colorScheme name="Gameboy">
+        <label>Gameboy [Low CPU]</label>
+    </colorScheme>
+    <colorScheme name="xbox1080">
+        <label>Xbox Live [High CPU]</label>
+    </colorScheme>
+    <colorScheme name="xbox">
+        <label>Xbox Live[Low CPU]</label>
+    </colorScheme>
+    <colorScheme name="Virtualboy1080">
+        <label>Virtualboy [High CPU]</label>
+    </colorScheme>
+    <colorScheme name="Virtualboy">
+        <label>Virtualboy [Low CPU]</label>
+    </colorScheme>
+    <colorScheme name="OrangeCathode1080">
+        <label>Orange Phosphor [High CPU]</label>
+    </colorScheme>
+    <colorScheme name="OrangeCathode">
+        <label>Orange Phosphor [Low CPU]</label>
+    </colorScheme>
+
+
+
+    <!-- Variants -->
+    <variant name="carousel-carousel">
+        <label>(recommended) Carousels</label>
+        <selectable>true</selectable>
+        <transitions>fadeAndSlide</transitions>
+    </variant>
+    <variant name="carousel-grid">
+        <label>Carousel/Systems, Grid/Games</label>
+        <selectable>true</selectable>
+        <transitions>fadeAndSlide</transitions>
+    </variant>
+    <variant name="carousel-list">
+        <label>System/Carousel, List/Games</label>
+        <selectable>true</selectable>
+        <transitions>fadeAndSlide</transitions>
+    </variant>
+    <variant name="grid-grid">
+        <label>Grids</label>
+        <selectable>true</selectable>
+        <transitions>fadeAndSlide</transitions>
+    </variant>
+    <variant name="grid-carousel">
+        <label>Grid/Systems, Carousel/Games</label>
+        <selectable>true</selectable>
+        <transitions>fadeAndSlide</transitions>
+    </variant>
+    <variant name="grid-list">
+        <label>Grid/Systems, List/Games</label>
+        <selectable>true</selectable>
+        <transitions>fadeAndSlide</transitions>
+    </variant>
+    <variant name="list-list">
+        <label>Lists</label>
+        <selectable>true</selectable>
+        <transitions>fadeAndSlide</transitions>
+    </variant>
+    <variant name="list-carousel">
+        <label>List/Systems, Carousel/Games</label>
+        <selectable>true</selectable>
+        <transitions>fadeAndSlide</transitions>
+    </variant>
+    <variant name="list-grid">
+        <label>List/Systems, Grid/Games</label>
+        <selectable>true</selectable>
+        <transitions>fadeAndSlide</transitions>
+    </variant>
+</themeCapabilities>

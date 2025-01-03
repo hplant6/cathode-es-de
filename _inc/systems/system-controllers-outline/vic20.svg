@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:ns="&amp;ns_sfw;" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" viewBox="0 0 598.2 350.3">
+  <!-- Generator: Adobe Illustrator 29.0.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 192)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3 {
+        fill: none;
+        stroke: #f4f4f4;
+        stroke-width: 2px;
+      }
+
+      .st1 {
+        stroke-linejoin: round;
+      }
+
+      .st2 {
+        stroke-miterlimit: 2.4;
+      }
+
+      .st3 {
+        stroke-miterlimit: 3;
+      }
+    </style>
+  </defs>
+  <g id="Layer_3" inkscape:version="1.2.2 (732a01da63, 2022-12-09)">
+    <sodipodi:namedview id="namedview41" bordercolor="#111111" borderopacity="1" inkscape:current-layer="Layer_3" inkscape:cx="283.25715" inkscape:cy="284.03533" inkscape:deskcolor="#d1d1d1" inkscape:pagecheckerboard="1" inkscape:pageopacity="0" inkscape:showpageshadow="0" inkscape:window-height="1032" inkscape:window-maximized="0" inkscape:window-width="1350" inkscape:window-x="525" inkscape:window-y="73" inkscape:zoom="5.7827312" pagecolor="#090e0e" showgrid="false"/>
+    <g id="Layer_1" inkscape:version="1.2.2 (732a01da63, 2022-12-09)">
+      <g id="_x3C_defs">
+        <inkscape:path-effect id="path-effect4794" bendpath="m 64.819937,97.223405 h 14.75365" effect="bend_path" is_visible="true" prop_scale="1" scale_y_rel="false" vertical="false"/>
+        <inkscape:path-effect id="path-effect4791" bendpath="m 64.919937,97.223405 h 14.75365" effect="bend_path" is_visible="true" prop_scale="1" scale_y_rel="false" vertical="false"/>
+      </g>
+      <sodipodi:namedview id="namedview39" bordercolor="#666666" borderopacity="1" gridtolerance="10" guidetolerance="10" inkscape:current-layer="Layer_1" inkscape:cx="68.749557" inkscape:cy="47.565101" inkscape:deskcolor="#d1d1d1" inkscape:pagecheckerboard="1" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:showpageshadow="0" inkscape:window-height="1009" inkscape:window-maximized="1" inkscape:window-width="1920" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:zoom="2.5018343" objecttolerance="10" pagecolor="#ffffff" showgrid="true"/>
+      <g id="g6496">
+        <rect id="rect4932" class="st1" x="293.1" y="37.9" width="8.8" height="21.3"/>
+        <rect id="rect4880" class="st1" x="290.5" y="58.4" width="13.9" height="39.8"/>
+        <path id="rect5083-1-0-8-5-3-0-0-9" class="st1" d="M287.6,66.7h20c.4,0,.7.2.7.6v4.4c0,.2-.4.6-.7.6h-20c-.4,0-.7-.2-.7-.6v-4.4c0-.2.4-.6.7-.6Z"/>
+        <path id="rect5083-1-0-8-5-3-0" class="st1" d="M287,82.1h21.1c.6,0,1.1.6,1.1,1.1v6.1c0,.6-.6,1.1-1.1,1.1h-21.1c-.6,0-1.1-.6-1.1-1.1v-6.1c0-.6.6-1.1,1.1-1.1Z"/>
+        <path id="rect5083-1-0-8-5-3-0-0" class="st1" d="M287.4,74.4h20.4c.4,0,.7.2.7.6v4.4c0,.2-.4.6-.7.6h-20.4c-.4,0-.7-.2-.7-.6v-4.4c0-.2.4-.6.7-.6Z"/>
+        <path id="rect5083-1-0-8-5" class="st1" d="M288.7,56.8h17.6c.7,0,1.3.6,1.3,1.1v5.9c0,.6-.6,1.1-1.3,1.1h-17.6c-.7,0-1.3-.6-1.3-1.1v-5.9c0-.6.6-1.1,1.3-1.1Z"/>
+        <rect id="rect5083-1-0-8-5-3" class="st1" x="286.1" y="89.8" width="22.7" height="8.4" rx=".7" ry=".7"/>
+        <rect id="rect4978" class="st1" x="189.5" y="89.1" width="216" height="216.6" rx="27.9" ry="27.9"/>
+        <g id="g8">
+          <circle id="circle6" class="st3" cx="233.7" cy="133.1" r="20.4"/>
+        </g>
+        <path id="path30" class="st0" d="M257.2,133.1c0,13-10.6,23.7-23.7,23.7s-23.7-10.6-23.7-23.7,10.6-23.7,23.7-23.7,23.7,10.6,23.7,23.7ZM233.7,112.4c-11.4,0-20.7,9.4-20.7,20.7s9.4,20.7,20.7,20.7,20.7-9.4,20.7-20.7-9.4-20.7-20.7-20.7Z" inkscape:connector-curvature="0"/>
+        <path id="rect4815" class="st1" d="M263.8,126.8c-5.1,0-4.6,3.1-4.8,6.6.4,13.9-12.8,25.1-23.7,25.3-7.5,0-7.9,1.1-7.9,7.3-.2,17.6.4,30.3.4,47.9v43.1c0,6.4,7.5,11,12.8,11h113.3c5.1,0,12.8-4.6,12.8-11v-43.1c0-17.6.6-30.3.4-47.9,0-6.2-.2-7.3-7.9-7.3s-24-11.4-23.7-25.3c0-3.3.6-6.8-4.8-6.6h-67.3.2Z" inkscape:connector-curvature="0"/>
+        <g id="g5237-9-4">
+          <path id="rect4778-9-2-6-22-8" class="st1" d="M295.1,132.3h4.8v5.7h-4.8v-5.7Z" inkscape:connector-curvature="0"/>
+          <path id="rect4778-9-2-6-5-4-1" class="st1" d="M293.5,132.3h1.7v5.7h-1.7v-5.7Z" inkscape:connector-curvature="0"/>
+          <path id="rect4778-9-2-6-5-8-77-2" class="st1" d="M299.9,132.3h1.7v5.7h-1.7v-5.7Z" inkscape:connector-curvature="0"/>
+        </g>
+        <path id="path4796" class="st1" d="M309.4,158.6c-7.7-2.4-15.8-2.4-23.5,0l1.3,2.9c6.8-2,14.1-2,21.1,0l1.3-2.9h-.2ZM316.9,161.7l-1.3,2.9c6.2,3.5,11.4,8.6,14.7,15l2.9-1.3c-3.7-7.2-9.5-12.8-16.5-16.7h.2ZM336.6,185.9l-2.9,1.3c2,6.8,2,14.1,0,21.1l2.9,1.3c2.4-7.7,2.4-15.8,0-23.5h0v-.2ZM278.4,161.5c-7.2,3.7-12.8,9.5-16.7,16.5l2.9,1.3c3.5-6.2,8.6-11.4,15-14.7l-1.3-2.9v-.2ZM258.6,185.3c-2.4,7.7-2.4,15.8,0,23.5l2.9-1.3c-2-6.8-2-14.1,0-21.1l-2.9-1.3v.2ZM330.3,215.6c-3.5,6.2-8.6,11.4-15,14.7l1.3,2.9c7.2-3.7,12.8-9.5,16.7-16.5l-2.9-1.3v.2ZM264.7,215.2l-2.9,1.3c3.7,7.2,9.5,12.8,16.5,16.7l1.3-2.9c-6.2-3.5-11.4-8.6-14.7-15h-.2ZM307.8,233.4c-6.8,2-14.1,2-21.1,0l-1.3,2.9c7.7,2.4,15.8,2.4,23.5,0l-1.3-2.9h.2Z" inkscape:connector-curvature="0"/>
+        <rect id="rect4778-9-2-3-0-4-0-5-9" class="st1" x="319.1" y="217.8" width="7" height="9.2" inkscape:transform-center-x="0.1335562" inkscape:transform-center-y="-3.3040202" transform="translate(-62.8 293.2) rotate(-45)"/>
+        <rect id="rect4778-9-2-3-0-4" class="st1" x="317.8" y="168.2" width="9.2" height="7" inkscape:transform-center-x="3.3040195" inkscape:transform-center-y="0.13355563" transform="translate(-27 278.3) rotate(-45)"/>
+        <rect id="rect4778-9-2" class="st1" x="257.2" y="194" width="9.2" height="7" inkscape:transform-center-x="-13.656553" inkscape:transform-center-y="-16.798768"/>
+        <rect id="rect4778-9-2-3" class="st1" x="329" y="194" width="9.2" height="7" inkscape:transform-center-x="-13.656553" inkscape:transform-center-y="-16.798768"/>
+        <rect id="rect4778-9-2-3-0-4-0" class="st1" x="267.9" y="219" width="9.2" height="7" inkscape:transform-center-x="3.3040195" inkscape:transform-center-y="0.13355563" transform="translate(-77.5 257.8) rotate(-45)"/>
+        <rect id="rect4778-9-2-3-0-4-0-5" class="st1" x="268.9" y="167.5" width="7" height="9.2" inkscape:transform-center-x="0.1335562" inkscape:transform-center-y="-3.3040202" transform="translate(-41.9 243) rotate(-45)"/>
+        <path id="rect5077" class="st1" d="M215,273.9h43.1c3.5,0,6.2,3.3,6.2,7.3v.7c0,4-2.8,7.3-6.2,7.3h-43.1c-3.5,0-6.2-3.3-6.2-7.3v-.7c0-4,2.8-7.3,6.2-7.3Z"/>
+        <g id="g5237">
+          <path id="rect4778-9-2-6" class="st1" d="M295.1,146.8h4.8v5.9h-4.8v-5.9Z" inkscape:connector-curvature="0"/>
+          <path id="rect4778-9-2-6-5" class="st1" d="M293.5,146.8h1.7v5.9h-1.7v-5.9Z" inkscape:connector-curvature="0"/>
+          <path id="rect4778-9-2-6-5-8" class="st1" d="M299.9,146.8h1.7v5.9h-1.7v-5.9Z" inkscape:connector-curvature="0"/>
+        </g>
+        <g id="g5237-9">
+          <path id="rect4778-9-2-6-22" class="st1" d="M295.1,139.5h4.8v5.9h-4.8v-5.9Z" inkscape:connector-curvature="0"/>
+          <path id="rect4778-9-2-6-5-4" class="st1" d="M293.5,139.5h1.7v5.9h-1.7v-5.9Z" inkscape:connector-curvature="0"/>
+          <path id="rect4778-9-2-6-5-8-77" class="st1" d="M299.9,139.5h1.7v5.9h-1.7v-5.9Z" inkscape:connector-curvature="0"/>
+        </g>
+        <g id="g8-6">
+          <circle id="circle6-9" class="st3" cx="361.5" cy="133.1" r="20.4"/>
+        </g>
+        <path id="path30-3" class="st0" d="M385,133.1c0,13-10.6,23.7-23.7,23.7s-23.7-10.6-23.7-23.7,10.6-23.7,23.7-23.7,23.7,10.6,23.7,23.7ZM361.5,112.4c-11.4,0-20.7,9.4-20.7,20.7s9.4,20.7,20.7,20.7,20.7-9.4,20.7-20.7-9.4-20.7-20.7-20.7Z" inkscape:connector-curvature="0"/>
+        <g id="g8-69">
+          <circle id="circle6-2" class="st2" cx="233.7" cy="133.1" r="16.3"/>
+        </g>
+        <g id="g8-69-2">
+          <circle id="circle6-2-4" class="st2" cx="361.5" cy="133.1" r="16.3"/>
+        </g>
+        <path id="path4991" class="st1" d="M217.7,275.9c-3.5,0-6.2,2.6-6.2,5.7h0v1.1h12.1v-1.1c0-3.1-2.8-5.7-6.2-5.7h.4ZM211.9,283.1c0,.2,0,.4.2.6h11.4s0-.4.2-.6h-11.9.2ZM212.4,284.3s.2.4.4.6h10.1s.2-.4.4-.6h-10.8ZM213.2,285.3c1.1,1.3,2.9,1.8,4.6,1.8s3.5-.7,4.6-1.8h-9.2Z" inkscape:connector-curvature="0"/>
+        <rect id="rect4778-9-2-3-0" class="st1" x="294" y="157.3" width="7" height="9.2" inkscape:transform-center-x="0.036263862" inkscape:transform-center-y="-0.016569883"/>
+        <rect id="rect4778-9-2-8" class="st1" x="294" y="228.2" width="7" height="9.2"/>
+        <circle id="circle34" class="st0" cx="297.5" cy="197.4" r="34.5" transform="translate(79.5 480.2) rotate(-85.9)"/>
+      </g>
+    </g>
+  </g>
+</svg>
