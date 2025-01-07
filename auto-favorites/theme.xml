@@ -1,0 +1,84 @@
+
+<!--
+   CATHODE
+
+ (cathode-es-de) Theme by Henry P.
+
+-->
+
+<theme>
+    <include>./../base.xml</include>
+
+    <variant name="carousel-carousel">
+        <include>./../${performance}</include>
+        <include>./../syscarousel.xml</include>
+    </variant>
+    <variant name="carousel-grid">
+        <include>./../${performance}</include>
+        <include>./../syscarousel.xml</include>
+    </variant>
+    <variant name="carousel-list">
+        <include>./../${performance}</include>
+        <include>./../syscarousel.xml</include>
+    </variant>
+    <variant name="list-list">
+        <include>./../${performance}</include>
+        <include>./../syslist.xml</include>
+    </variant> 
+    <variant name="list-grid">
+        <include>./../${performance}</include>
+        <include>./../syslist.xml</include>
+    </variant> 
+    <variant name="list-carousel">
+        <include>./../${performance}</include>
+        <include>./../syslist.xml</include>
+    </variant> 
+    <variant name="grid-grid">
+        <include>./../${performance}</include>
+        <include>./../sysgrid.xml</include>
+    </variant> 
+    <variant name="grid-carousel">
+        <include>./../${performance}</include>
+        <include>./../sysgrid.xml</include>
+    </variant> 
+    <variant name="grid-list">
+        <include>./../${performance}</include>
+        <include>./../sysgrid.xml</include>
+    </variant>     
+
+    <include>./../grid.xml</include>
+    <view name="system">   
+          
+        <text name="system-description">
+             <visible>false</visible> 
+         </text>      
+         <image name="system-controllers-outline">
+                <visible>false</visible>
+         </image>
+         <image name="sel-gamart">
+                <visible>false</visible>
+         </image>
+         <text name="gameCountL">
+               <visible>false</visible>
+        </text>
+        <text name="gameCount">
+               <visible>false</visible>
+        </text>
+    </view>      
+    <view name="system">   
+        <text name="system-description">
+             <pos>0.5 0.92</pos>  
+         </text>      
+         <image name="system-controllers-outline">
+                <visible>false</visible>
+         </image>
+    </view>      
+    <view name="gamelist">      
+         <image name="gamelistBgImage">
+            <visible>false</visible>
+         </image> 
+         <video name="gamelistBgVideo">
+            <visible>false</visible>
+         </video>   
+    </view>     
+</theme>
