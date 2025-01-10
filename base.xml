@@ -38,6 +38,7 @@
             <gridDate>0.845 .1</gridDate>
             <glistInfo>.785 0.04</glistInfo>
             <gbadge>0.527 .056</gbadge>
+            
         </variables>
     </fontSize>
     <fontSize name="large">
@@ -513,7 +514,7 @@
 
             <arcadeLogo>F25430</arcadeLogo>
             <consoleLogo>F25430</consoleLogo>
-            <computerLogo>F2543</computerLogo>
+            <computerLogo>F25430</computerLogo>
 
             <performance>1080p.xml</performance>
 
@@ -545,7 +546,7 @@
 
             <arcadeLogo>F25430</arcadeLogo>
             <consoleLogo>F25430</consoleLogo>
-            <computerLogo>F2543</computerLogo>
+            <computerLogo>F25430</computerLogo>
 
             <performance>stills.xml</performance>
 

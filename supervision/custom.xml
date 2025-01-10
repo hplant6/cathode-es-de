@@ -16,6 +16,7 @@
             <zIndex>30</zIndex>
     </video>
     <video name="gamelistBgVideo">
+            <audio>false</audio>
       <pos>0 0</pos>
       <cropSize>1 1</cropSize>
       <path>./../_inc/systems/cabinets/1080p/${system.theme}.mp4</path> 
@@ -73,6 +74,7 @@
   <aspectRatio name="4:3">
         <view name="gamelist">
         <video name="gamelistBgVideo">
+            <audio>false</audio>
                 <cropPos>.8 0</cropPos>
             </video>
             <image name="gamelistBgImage">

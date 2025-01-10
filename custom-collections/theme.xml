@@ -64,9 +64,13 @@
         <text name="gameCount">
                <visible>false</visible>
         </text>
+        <video name="backgroundpromo">
+            <path>./../_inc/images/custom-bg.mp4</path> 
+        </video>
     </view>        
     <view name="gamelist">
         <video name="gridBgVideo">
+            <audio>false</audio>
             <pos>0 0</pos>
             <cropSize>1 1</cropSize>
             <path>./../_inc/images/custom-bg.mp4</path> <!-- Path to the specific game video -->
@@ -288,14 +292,6 @@
             <lineSpacing>1.5</lineSpacing>
             <zIndex>64</zIndex>
         </text>
-
-        <!-- <image name="line1">
-            <pos>0.36 .54</pos>
-            <maxSize>.22 .5</maxSize>
-            <path>./../_inc/images/line.svg</path>
-            <color>FFFFFF60</color>
-            <zIndex>70</zIndex> 
-        </image> -->
         
         <text name="gameinfo">
             <size>.22 .2</size>
@@ -332,6 +328,7 @@
             <visible>false</visible>
          </image> 
          <video name="gamelistBgVideo">
+            <audio>false</audio>
             <visible>false</visible>
          </video>   
     </view>   

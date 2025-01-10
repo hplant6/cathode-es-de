@@ -21,6 +21,7 @@
       <zIndex>14</zIndex>
     </image>
     <video name="gamelistBgVideo">
+            <audio>false</audio>
       <pos>0 0</pos>
       <cropSize>1 1</cropSize>
       <path>./../_inc/systems/cabinets/1080p/arcade-bg.mp4</path> 

@@ -202,6 +202,7 @@
             <itemSpacing>0.016 0.022</itemSpacing>
             <imageType>cover</imageType>
             <defaultImage>./_inc/images/default-box.webp</defaultImage>
+            <defaultFolderImage>./_inc/images/folder.webp</defaultFolderImage> 
 			<scaleInwards>false</scaleInwards>
 			<unfocusedItemDimming>0.4</unfocusedItemDimming>
             <unfocusedItemSaturation>0.7</unfocusedItemSaturation>
@@ -227,6 +228,7 @@
         </video>
         
         <video name="gamelistBgVideo">
+            <audio>false</audio>
             <pos>0 .19</pos>
             <cropSize>1 1</cropSize>
             <path>./_inc/images/grid-bg.mp4</path> <!-- Path to the specific game video -->

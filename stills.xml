@@ -23,7 +23,7 @@
 
     <view name="gamelist">
         <video name="gamelistBgVideo">
-        <visible>false</visible>
+            <visible>false</visible>
         </video>
          <image name="gamelistBgImage">
             <pos>0 0</pos>
@@ -34,9 +34,6 @@
             <saturation>${vidSat}</saturation>
             <color>${vidColor}</color>
         </image>
-        <image name="gamelistBgImage">
-            <visible>false</visible>
-       </image> 
        </view>
         
 </theme>

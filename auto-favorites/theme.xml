@@ -78,6 +78,7 @@
             <visible>false</visible>
          </image> 
          <video name="gamelistBgVideo">
+            <audio>false</audio>
             <visible>false</visible>
          </video>   
     </view>     

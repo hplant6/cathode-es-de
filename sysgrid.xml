@@ -102,6 +102,7 @@
             <zIndex>4</zIndex>
         </image>
         <video name="gridpromo">
+            <audio>false</audio>
             <pos>0 0</pos>
             <cropSize>.7 1</cropSize>
             <cropPos>0.7 0</cropPos>

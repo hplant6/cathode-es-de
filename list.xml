@@ -254,6 +254,7 @@
         </image>
                 
         <video name="gamelistBgVideo">
+            <audio>false</audio>
             <pos>0 0</pos>
             <cropSize>1 1</cropSize>
             <path>./_inc/images/grid-bg.mp4</path>

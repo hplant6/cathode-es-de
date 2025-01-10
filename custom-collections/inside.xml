@@ -44,7 +44,8 @@
                 <opacity>.8</opacity>
                 <zIndex>20</zIndex>
              </text>
-             <video name="gamelistBgVideo">
+             <video name="backgroundpromo">
+                <audio>false</audio>
                 <zIndex>1</zIndex>
             </video> 
         
@@ -66,6 +67,7 @@
             <visible>false</visible>
          </image> 
          <video name="gamelistBgVideo">
+            <audio>false</audio>
             <visible>false</visible>
          </video>   
     </view>   
