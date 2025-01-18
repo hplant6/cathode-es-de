@@ -1,0 +1,947 @@
+<theme>
+    <!-- metadata -->
+    <include>./_inc/systems/system-metadata/_default.xml</include>
+    <include>./_inc/systems/system-metadata/${system.theme}.xml</include>
+
+    <variables>
+    <!-- font type -->
+        <labelFont>./_inc/fonts/Oxanium-Regular.ttf</labelFont>
+        <pFont>./_inc/fonts/IBMPlexMono-Light.ttf</pFont>
+        <h2Font>./_inc/fonts/road-rage.otf</h2Font>
+        <listFont>./_inc/fonts/VCR_OSD_MONO.ttf</listFont>
+        <counterFont>./_inc/fonts/IBMPlexMono-Regular.ttf</counterFont>
+        <helpFont>./_inc/fonts/Oxanium-SemiBold.ttf</helpFont>
+    </variables>
+
+    <!-- font adjustment -->
+    <fontSize name="x-large">
+        <variables>
+            <paraFontSize>0.024</paraFontSize>
+            <listFontSize>0.031</listFontSize>
+            <labelFontSize>0.024</labelFontSize>
+            <caraFontSize>0.056</caraFontSize>
+            <titlesFontSize>0.025</titlesFontSize>
+            <titlemFontSize>0.027</titlemFontSize>
+            <titlemmFontSize>0.03</titlemmFontSize>
+            <metaFontSize>0.011</metaFontSize>
+            <titlelFontSize>0.04</titlelFontSize>          
+            <listLineSpacing>1.85</listLineSpacing>
+            <listPos>0.0397 .284</listPos>
+            <selectorOffset>.05</selectorOffset>
+            <gridDate>0.875 .1</gridDate>
+            <glistInfo>.785 0.04</glistInfo>
+            <gbadge>0.527 .056</gbadge>
+            <remove>False</remove>
+
+        </variables>
+    </fontSize>
+    <fontSize name="large">
+        <variables>
+            <paraFontSize>0.02</paraFontSize>
+            <listFontSize>0.027</listFontSize>
+            <labelFontSize>0.02</labelFontSize>
+            <caraFontSize>0.052</caraFontSize>
+            <titlesFontSize>0.022</titlesFontSize>
+            <titlemFontSize>0.024</titlemFontSize>
+            <titlemmFontSize>0.03</titlemmFontSize>
+            <metaFontSize>0.011</metaFontSize>
+            <titlelFontSize>0.036</titlelFontSize>          
+            <listLineSpacing>1.81</listLineSpacing>
+            <listPos>0.0397 .284</listPos>
+            <selectorOffset>.041</selectorOffset>
+            <gridDate>0.875 .1</gridDate>
+            <glistInfo>.795 0.045</glistInfo>
+            <gbadge>0.535 .054</gbadge>
+            <remove>False</remove>
+        </variables>
+    </fontSize>
+    <fontSize name="medium">
+        <variables>
+           <paraFontSize>0.014</paraFontSize> 
+            <listFontSize>0.02</listFontSize>
+            <labelFontSize>0.016</labelFontSize>
+            <caraFontSize>0.046</caraFontSize>
+            <titlesFontSize>0.016</titlesFontSize>
+            <titlemFontSize>0.018</titlemFontSize>
+            <titlemmFontSize>0.024</titlemmFontSize>
+            <titlelFontSize>0.03</titlelFontSize>
+            <metaFontSize>0.010</metaFontSize>
+            <listLineSpacing>2.43</listLineSpacing>
+            <listPos>0.0397 .29</listPos>
+            <selectorOffset>.033</selectorOffset>
+            <gridDate>0.875 .1</gridDate>
+            <glistInfo>.813 0.055</glistInfo>
+            <gbadge>0.555 .054</gbadge>
+            <remove>true</remove>
+        </variables>
+    </fontSize>
+    <fontSize name="small">
+        <variables>
+            <paraFontSize>0.012</paraFontSize>
+
+            <listFontSize>0.0163</listFontSize>
+
+            <labelFontSize>0.012</labelFontSize>
+
+            <caraFontSize>0.04</caraFontSize>
+
+            <titlesFontSize>0.012</titlesFontSize>
+            <titlemFontSize>0.014</titlemFontSize>
+            <titlemmFontSize>0.02</titlemmFontSize>
+            <titlelFontSize>0.026</titlelFontSize>
+
+            <metaFontSize>0.012</metaFontSize>
+
+            <listLineSpacing>3</listLineSpacing>
+            <listPos>0.0397 .294</listPos>
+            <selectorOffset>.027</selectorOffset>
+            <gridDate>0.875 .1</gridDate>
+            <glistInfo>.827 0.056</glistInfo>
+            <gbadge>0.57 .054</gbadge>
+            <remove>False</remove>
+        </variables>
+    </fontSize>
+
+    <colorScheme name="classic-red1080">
+        <variables>
+            <highlightColor>ff0000</highlightColor>
+            <baseColor>FFFFFF</baseColor>
+            <subColor>343434</subColor>
+            <transColor>FFFFFF90</transColor>
+            <gifColor>FFFFFF65</gifColor>
+            <counterColor>ffffff</counterColor>
+            <selColor>ffffff</selColor>
+            <contColor>ffffff25</contColor>
+            <lineColor>ffffff25</lineColor>
+
+            <vidColor>ffffff</vidColor>
+            <vidSat>1</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>FFDE00</arcadeLogo>
+            <consoleLogo>d4fffd</consoleLogo>
+            <computerLogo>FFFFFF</computerLogo>
+            
+            <performance>1080p.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/classic/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/classic/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/classic/select.wav</selectSound>
+            <backSound>./_inc/sounds/classic/back.wav</backSound>
+            <scrollSound>./_inc/sounds/classic/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/classic/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/classic/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+    <colorScheme name="classic-red">
+        <variables>
+            <highlightColor>ff0000</highlightColor>
+            <baseColor>FFFFFF</baseColor>
+            <subColor>343434</subColor>
+            <transColor>FFFFFF90</transColor>
+            <gifColor>FFFFFF65</gifColor>
+            <counterColor>ffffff</counterColor>
+            <selColor>ffffff</selColor>
+            <contColor>ffffff25</contColor>
+            <lineColor>ffffff25</lineColor>
+
+            <vidColor>ffffff</vidColor>
+            <vidSat>1</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>FFDE00</arcadeLogo>
+            <consoleLogo>d4fffd</consoleLogo>
+            <computerLogo>FFFFFF</computerLogo>
+
+            <performance>stills.xml</performance>
+            
+            <sysbrowseSound>./_inc/sounds/classic/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/classic/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/classic/select.wav</selectSound>
+            <backSound>./_inc/sounds/classic/back.wav</backSound>
+            <scrollSound>./_inc/sounds/classic/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/classic/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/classic/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+    <colorScheme name="classic-blue1080">
+        <variables>
+            <highlightColor>4600f9</highlightColor>
+            <baseColor>FFFFFF</baseColor>
+            <subColor>cccccc</subColor>
+            <transColor>FFFFFF90</transColor>
+            <gifColor>FFFFFF</gifColor>
+            <counterColor>ffffff</counterColor>
+            <selColor>ffffff</selColor>
+            <contColor>ffffff25</contColor>
+            <lineColor>ffffff25</lineColor>
+
+            <vidColor>ffffff</vidColor>
+            <vidSat>1</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>FFDE00</arcadeLogo>
+            <consoleLogo>d4fffd</consoleLogo>
+            <computerLogo>FFFFFF</computerLogo>
+
+            <performance>1080p.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/classic/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/classic/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/classic/select.wav</selectSound>
+            <backSound>./_inc/sounds/classic/back.wav</backSound>
+            <scrollSound>./_inc/sounds/classic/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/classic/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/classic/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+     <colorScheme name="classic-blue">
+        <variables>
+            <highlightColor>4600f9</highlightColor>
+            <baseColor>FFFFFF</baseColor>
+            <subColor>cccccc</subColor>
+            <transColor>FFFFFF90</transColor>
+            <gifColor>FFFFFF</gifColor>
+            <counterColor>ffffff</counterColor>
+            <selColor>ffffff</selColor>
+            <contColor>ffffff25</contColor>
+            <lineColor>ffffff25</lineColor>
+
+            <vidColor>ffffff</vidColor>
+            <vidSat>1</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>FFDE00</arcadeLogo>
+            <consoleLogo>d4fffd</consoleLogo>
+            <computerLogo>FFFFFF</computerLogo>
+
+            <performance>stills.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/classic/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/classic/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/classic/select.wav</selectSound>
+            <backSound>./_inc/sounds/classic/back.wav</backSound>
+            <scrollSound>./_inc/sounds/classic/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/classic/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/classic/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+    <colorScheme name="classic-yellow1080">
+        <variables>
+            <highlightColor>f9a400</highlightColor>
+            <baseColor>FFFFFF</baseColor>
+            <subColor>cccccc</subColor>
+            <transColor>FFFFFF90</transColor>
+            <gifColor>FFFFFF</gifColor>
+            <counterColor>ffffff</counterColor>
+            <selColor>ffffff</selColor>
+            <contColor>ffffff25</contColor>
+            <lineColor>ffffff25</lineColor>
+            
+            <vidColor>ffffff</vidColor>
+            <vidSat>1</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>FFDE00</arcadeLogo>
+            <consoleLogo>d4fffd</consoleLogo>
+            <computerLogo>FFFFFF</computerLogo>
+
+            <performance>1080p.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/classic/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/classic/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/classic/select.wav</selectSound>
+            <backSound>./_inc/sounds/classic/back.wav</backSound>
+            <scrollSound>./_inc/sounds/classic/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/classic/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/classic/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+<colorScheme name="classic-yellow">
+        <variables>
+            <highlightColor>f9a400</highlightColor>
+            <baseColor>FFFFFF</baseColor>
+            <subColor>cccccc</subColor>
+            <transColor>FFFFFF90</transColor>
+            <gifColor>FFFFFF</gifColor>
+            <counterColor>ffffff</counterColor>
+            <selColor>ffffff</selColor>
+            <contColor>ffffff25</contColor>
+            <lineColor>ffffff25</lineColor>
+            
+            <vidColor>ffffff</vidColor>
+            <vidSat>1</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>FFDE00</arcadeLogo>
+            <consoleLogo>d4fffd</consoleLogo>
+            <computerLogo>FFFFFF</computerLogo>
+
+            <performance>stills.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/classic/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/classic/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/classic/select.wav</selectSound>
+            <backSound>./_inc/sounds/classic/back.wav</backSound>
+            <scrollSound>./_inc/sounds/classic/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/classic/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/classic/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="cyber-alpha1080">
+        <variables>
+            <highlightColor>FF005C</highlightColor>
+            <baseColor>00B7C5</baseColor>
+            <subColor>575757</subColor>
+            <transColor>1BF2DD</transColor>
+            <gifColor>575757</gifColor>
+            <counterColor>ffffff</counterColor>
+            <selColor>1BF2DD</selColor>
+            <contColor>46736E</contColor>
+            <lineColor>00B7C550</lineColor>
+            
+            <vidColor>C466FA</vidColor>
+            <vidSat>1</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>FFDE00</arcadeLogo>
+            <consoleLogo>d4fffd</consoleLogo>
+            <computerLogo>FFFFFF</computerLogo>
+
+            <performance>1080p.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/cyber/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/cyber/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/cyber/select.wav</selectSound>
+            <backSound>./_inc/sounds/cyber/back.wav</backSound>
+            <scrollSound>./_inc/sounds/cyber/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/cyber/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/cyber/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="cyber-alpha">
+        <variables>
+            <highlightColor>f9005e</highlightColor>
+            <baseColor>FFFFFF</baseColor>
+            <subColor>FFFFFF</subColor>
+            <transColor>00f6f9</transColor>
+            <gifColor>00f6f9</gifColor>
+            <counterColor>ffffff</counterColor>
+            <selColor>ffffff</selColor>
+            <contColor>ffffff25</contColor>
+            <lineColor>00B7C550</lineColor>
+            
+            <vidColor>AA79FA</vidColor>
+            <vidSat>1</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>FFDE00</arcadeLogo>
+            <consoleLogo>d4fffd</consoleLogo>
+            <computerLogo>FFFFFF</computerLogo>
+
+            <performance>stills.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/cyber/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/cyber/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/cyber/select.wav</selectSound>
+            <backSound>./_inc/sounds/cyber/back.wav</backSound>
+            <scrollSound>./_inc/sounds/cyber/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/cyber/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/cyber/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="cyber-beta1080">
+        <variables>
+            <highlightColor>F28705</highlightColor>
+            <baseColor>025159</baseColor>
+            <subColor>038C8C</subColor>
+            <transColor>03A696</transColor>
+            <gifColor>03A696</gifColor>
+            <counterColor>ffffff</counterColor>
+            <selColor>88F2E8</selColor>
+            <contColor>025159</contColor>
+            <lineColor>02515950</lineColor>
+            
+            <vidColor>00DBFA</vidColor>
+            <vidSat>1</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>FFDE00</arcadeLogo>
+            <consoleLogo>d4fffd</consoleLogo>
+            <computerLogo>FFFFFF</computerLogo>
+
+            <performance>1080p.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/cyber/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/cyber/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/cyber/select.wav</selectSound>
+            <backSound>./_inc/sounds/cyber/back.wav</backSound>
+            <scrollSound>./_inc/sounds/cyber/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/cyber/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/cyber/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="cyber-beta">
+        <variables>
+            <highlightColor>F28705</highlightColor>
+            <baseColor>025159</baseColor>
+            <subColor>038C8C</subColor>
+            <transColor>03A696</transColor>
+            <gifColor>03A696</gifColor>
+            <counterColor>ffffff</counterColor>
+            <selColor>88F2E8</selColor>
+            <contColor>025159</contColor>
+            <lineColor>02515950</lineColor>
+            
+            <vidColor>00DBFA</vidColor>
+            <vidSat>1</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>FFDE00</arcadeLogo>
+            <consoleLogo>d4fffd</consoleLogo>
+            <computerLogo>FFFFFF</computerLogo>
+
+            <performance>stills.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/cyber/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/cyber/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/cyber/select.wav</selectSound>
+            <backSound>./_inc/sounds/cyber/back.wav</backSound>
+            <scrollSound>./_inc/sounds/cyber/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/cyber/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/cyber/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+    
+    <colorScheme name="dark1080">
+        <variables>
+            <highlightColor>490000</highlightColor>
+            <baseColor>636363</baseColor>
+            <subColor>222222</subColor>
+            <transColor>656565</transColor>
+            <gifColor>555555</gifColor>
+            <counterColor>636363</counterColor>
+            <selColor>676767</selColor>
+            <contColor>ffffff25</contColor>
+            <lineColor>63636350</lineColor>
+            
+            <vidColor>ffffff</vidColor>
+            <vidSat>.1</vidSat>
+            <vidBright>-.1</vidBright>
+
+            <arcadeLogo>FFDE00</arcadeLogo>
+            <consoleLogo>d4fffd</consoleLogo>
+            <computerLogo>FFFFFF</computerLogo>
+
+            <performance>1080p.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/dark/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/dark/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/dark/select.wav</selectSound>
+            <backSound>./_inc/sounds/dark/back.wav</backSound>
+            <scrollSound>./_inc/sounds/dark/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/dark/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/dark/launch.wav</launchSound>
+        </variables>
+    </colorScheme>
+
+     <colorScheme name="dark">
+        <variables>
+            <highlightColor>490000</highlightColor>
+            <baseColor>636363</baseColor>
+            <subColor>222222</subColor>
+            <transColor>656565</transColor>
+            <gifColor>555555</gifColor>
+            <counterColor>636363</counterColor>
+            <selColor>676767</selColor>
+            <contColor>ffffff25</contColor>
+            <lineColor>63636350</lineColor>
+            
+            <vidColor>ffffff</vidColor>
+            <vidSat>.1</vidSat>
+            <vidBright>-.1</vidBright>
+
+            <arcadeLogo>FFDE00</arcadeLogo>
+            <consoleLogo>d4fffd</consoleLogo>
+            <computerLogo>FFFFFF</computerLogo>
+
+            <performance>1080p.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/dark/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/dark/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/dark/select.wav</selectSound>
+            <backSound>./_inc/sounds/dark/back.wav</backSound>
+            <scrollSound>./_inc/sounds/dark/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/dark/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/dark/launch.wav</launchSound>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="Nautical1080">
+        <variables>
+            <highlightColor>F25430</highlightColor>
+            <baseColor>A68A58</baseColor>
+            <subColor>0E416D</subColor>
+            <transColor>A68A58</transColor>
+            <gifColor>1463FF</gifColor>
+            <counterColor>F25430</counterColor>
+            <selColor>A68A58</selColor>
+            <contColor>0a3280</contColor>
+             <lineColor>A68A5850</lineColor>
+            
+            <vidColor>1463FF</vidColor>
+            <vidSat>0</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>F25430</arcadeLogo>
+            <consoleLogo>F25430</consoleLogo>
+            <computerLogo>F25430</computerLogo>
+
+            <performance>1080p.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/cathode/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/cathode/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/cathode/select.wav</selectSound>
+            <backSound>./_inc/sounds/cathode/back.wav</backSound>
+            <scrollSound>./_inc/sounds/cathode/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/cathode/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/cathode/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="Nautical">
+        <variables>
+            <highlightColor>F25430</highlightColor>
+            <baseColor>A68A58</baseColor>
+            <subColor>0E416D</subColor>
+            <transColor>A68A58</transColor>
+            <gifColor>1463FF</gifColor>
+            <counterColor>F25430</counterColor>
+            <selColor>A68A58</selColor>
+            <contColor>0a3280</contColor>
+            <lineColor>A68A5850</lineColor>
+            
+            <vidColor>1463FF</vidColor>
+            <vidSat>0</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>F25430</arcadeLogo>
+            <consoleLogo>F25430</consoleLogo>
+            <computerLogo>F25430</computerLogo>
+
+            <performance>stills.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/cathode/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/cathode/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/cathode/select.wav</selectSound>
+            <backSound>./_inc/sounds/cathode/back.wav</backSound>
+            <scrollSound>./_inc/sounds/cathode/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/cathode/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/cathode/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="Grape1080">
+        <variables>
+            <highlightColor>F063F2</highlightColor>
+            <baseColor>F2BF5E</baseColor>
+            <subColor>38108F</subColor>
+            <transColor>F2B872</transColor>
+            <gifColor>F063F2</gifColor>
+            <counterColor>F2BF5E</counterColor>
+            <selColor>38108F</selColor>
+            <contColor>762EA6</contColor>
+            <lineColor>F2BF5E50</lineColor>
+            
+            <vidColor>762EA6</vidColor>
+            <vidSat>.1</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>F2BF5E</arcadeLogo>
+            <consoleLogo>F2BF5E</consoleLogo>
+            <computerLogo>F2BF5E</computerLogo>
+
+            <performance>1080p.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/cathode/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/cathode/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/cathode/select.wav</selectSound>
+            <backSound>./_inc/sounds/cathode/back.wav</backSound>
+            <scrollSound>./_inc/sounds/cathode/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/cathode/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/cathode/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="Grape">
+        <variables>
+            <highlightColor>762EA6</highlightColor>
+            <baseColor>F063F2</baseColor>
+            <subColor>38108F</subColor>
+            <transColor>38108F</transColor>
+            <gifColor>F063F2</gifColor>
+            <counterColor>762EA6</counterColor>
+            <selColor>38108F</selColor>
+            <contColor>F063F2</contColor>
+            <lineColor>F2BF5E50</lineColor>
+            
+            <vidColor>762EA6</vidColor>
+            <vidSat>.1</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>762EA</arcadeLogo>
+            <consoleLogo>762EA</consoleLogo>
+            <computerLogo>762EA</computerLogo>
+
+            <performance>stills.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/cathode/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/cathode/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/cathode/select.wav</selectSound>
+            <backSound>./_inc/sounds/cathode/back.wav</backSound>
+            <scrollSound>./_inc/sounds/cathode/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/cathode/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/cathode/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="Gameboy1080">
+        <variables>
+            <highlightColor>AFC442</highlightColor>
+            <baseColor>2F5733</baseColor>
+            <subColor>204631</subColor>
+            <transColor>4F7436</transColor>
+            <gifColor>D7E894</gifColor>
+            <counterColor>D7E894</counterColor>
+            <selColor>D7E894</selColor>
+            <contColor>D7E894</contColor>
+            <lineColor>2F573350</lineColor>
+
+            <vidColor>4F7436</vidColor>
+            <vidSat>0</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>AFC442</arcadeLogo>
+            <consoleLogo>AFC442</consoleLogo>
+            <computerLogo>AFC442</computerLogo>
+
+            <performance>1080p.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/8bit/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/8bit/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/8bit/select.wav</selectSound>
+            <backSound>./_inc/sounds/8bit/back.wav</backSound>
+            <scrollSound>./_inc/sounds/8bit/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/8bit/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/8bit/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="Gameboy">
+        <variables>
+            <highlightColor>AFC442</highlightColor>
+            <baseColor>2F5733</baseColor>
+            <subColor>204631</subColor>
+            <transColor>4F7436</transColor>
+            <gifColor>D7E894</gifColor>
+            <counterColor>D7E894</counterColor>
+            <selColor>D7E894</selColor>
+            <contColor>D7E894</contColor>
+            <lineColor>2F573350</lineColor>
+
+            <vidColor>4F7436</vidColor>
+            <vidSat>0</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>AFC442</arcadeLogo>
+            <consoleLogo>AFC442</consoleLogo>
+            <computerLogo>AFC442</computerLogo>
+
+            <performance>stills.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/8bit/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/8bit/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/8bit/select.wav</selectSound>
+            <backSound>./_inc/sounds/8bit/back.wav</backSound>
+            <scrollSound>./_inc/sounds/8bit/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/8bit/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/8bit/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+    <colorScheme name="Virtualboy1080">
+        <variables>
+            <highlightColor>F20505</highlightColor>
+            <baseColor>590202</baseColor>
+            <subColor>590202</subColor>
+            <transColor>A60303</transColor>
+            <gifColor>F20505</gifColor>
+            <counterColor>F20505</counterColor>
+            <selColor>F20505</selColor>
+            <contColor>F20505</contColor>
+            <lineColor>59020250</lineColor>
+
+            <vidColor>A60303</vidColor>
+            <vidSat>0</vidSat>
+            <vidBright>0.1</vidBright>
+
+            <arcadeLogo>F20505</arcadeLogo>
+            <consoleLogo>F20505</consoleLogo>
+            <computerLogo>F20505</computerLogo>
+
+            <performance>1080p.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/8bit/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/8bit/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/8bit/select.wav</selectSound>
+            <backSound>./_inc/sounds/8bit/back.wav</backSound>
+            <scrollSound>./_inc/sounds/8bit/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/8bit/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/8bit/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="xbox">
+        <variables>
+            <highlightColor>108810</highlightColor>
+            <baseColor>72A63F</baseColor>
+            <subColor>343434</subColor>
+            <transColor>FFFFFF90</transColor>
+            <gifColor>FFFFFF65</gifColor>
+            <counterColor>ffffff</counterColor>
+            <selColor>108810</selColor>
+            <contColor>ffffff25</contColor>
+            <lineColor>72A63F50</lineColor>
+
+            <vidColor>ffffff</vidColor>
+            <vidSat>0</vidSat>
+            <vidBright>.1</vidBright>
+
+            <arcadeLogo>ffffff</arcadeLogo>
+            <consoleLogo>ffffff</consoleLogo>
+            <computerLogo>ffffff</computerLogo>
+
+            <performance>stills.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/live/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/live/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/live/select.wav</selectSound>
+            <backSound>./_inc/sounds/live/back.wav</backSound>
+            <scrollSound>./_inc/sounds/live/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/live/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/live/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="xbox1080">
+        <variables>
+            <highlightColor>108810</highlightColor>
+            <baseColor>72A63F</baseColor>
+            <subColor>343434</subColor>
+            <transColor>FFFFFF90</transColor>
+            <gifColor>FFFFFF65</gifColor>
+            <counterColor>ffffff</counterColor>
+            <selColor>108810</selColor>
+            <contColor>ffffff25</contColor>
+            <lineColor>72A63F50</lineColor>
+
+            <vidColor>ffffff</vidColor>
+            <vidSat>0</vidSat>
+            <vidBright>.1</vidBright>
+
+            <arcadeLogo>ffffff</arcadeLogo>
+            <consoleLogo>ffffff</consoleLogo>
+            <computerLogo>ffffff</computerLogo>
+
+            <performance>1080p.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/live/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/live/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/live/select.wav</selectSound>
+            <backSound>./_inc/sounds/live/back.wav</backSound>
+            <scrollSound>./_inc/sounds/live/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/live/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/live/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="Virtualboy">
+        <variables>
+            <highlightColor>F20505</highlightColor>
+            <baseColor>590202</baseColor>
+            <subColor>590202</subColor>
+            <transColor>A60303</transColor>
+            <gifColor>F20505</gifColor>
+            <counterColor>F20505</counterColor>
+            <selColor>F20505</selColor>
+            <contColor>F20505</contColor>
+            <lineColor>59020250</lineColor>
+
+            <vidColor>A60303</vidColor>
+            <vidSat>0</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>F20505</arcadeLogo>
+            <consoleLogo>F20505</consoleLogo>
+            <computerLogo>F20505</computerLogo>
+
+
+            <performance>stills.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/8bit/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/8bit/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/8bit/select.wav</selectSound>
+            <backSound>./_inc/sounds/8bit/back.wav</backSound>
+            <scrollSound>./_inc/sounds/8bit/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/8bit/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/8bit/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="OrangeCathode1080">
+        <variables>
+            <highlightColor>FF7700</highlightColor>
+            <baseColor>F27127</baseColor>
+            <subColor>D94929</subColor>
+            <transColor>FF9300</transColor>
+            <gifColor>F2A516</gifColor>
+            <counterColor>FF9300</counterColor>
+            <selColor>F2A516</selColor>
+            <contColor>FF7700</contColor>
+            <lineColor>F2712750</lineColor>
+
+            <vidColor>F27127</vidColor>
+            <vidSat>0</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>FF7700</arcadeLogo>
+            <consoleLogo>FF7700</consoleLogo>
+            <computerLogo>FF7700</computerLogo>
+
+
+            <performance>1080p.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/8bit/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/8bit/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/8bit/select.wav</selectSound>
+            <backSound>./_inc/sounds/8bit/back.wav</backSound>
+            <scrollSound>./_inc/sounds/8bit/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/8bit/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/8bit/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="OrangeCathode">
+        <variables>
+            <highlightColor>FF7700</highlightColor>
+            <baseColor>F27127</baseColor>
+            <subColor>D94929</subColor>
+            <transColor>FF9300</transColor>
+            <gifColor>F2A516</gifColor>
+            <counterColor>FF9300</counterColor>
+            <selColor>F2A516</selColor>
+            <contColor>FF7700</contColor>
+            <lineColor>F2712750</lineColor>
+
+            <vidColor>F27127</vidColor>
+            <vidSat>0</vidSat>
+            <vidBright>0</vidBright>
+
+            <performance>stills.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/8bit/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/8bit/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/8bit/select.wav</selectSound>
+            <backSound>./_inc/sounds/8bit/back.wav</backSound>
+            <scrollSound>./_inc/sounds/8bit/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/8bit/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/8bit/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+
+
+    <view name="all">
+        
+    
+        <!-- nav sounds -->
+        <sound name="systembrowse">
+           <path>${sysbrowseSound}</path>
+        </sound>
+        <sound name="quicksysselect">
+           <path>${quicksysselectSound}</path>
+        </sound>
+        <sound name="select">
+           <path>${selectSound}</path>
+        </sound>
+        <sound name="back">
+           <path>${backSound}</path>
+        </sound>
+        <sound name="scroll">
+           <path>${scrollSound}</path>
+        </sound>
+        <sound name="favorite">
+           <path>${favSound}</path>
+        </sound>
+        <sound name="launch">
+           <path>${launchSound}</path>
+        </sound>
+
+       
+    </view>
+    <view name="system,gamelist">
+    <!-- Help info -->
+        <helpsystem name="help">
+            <pos>0.5 0.975</pos>
+            <origin>.5 0</origin>
+            <opacity>1</opacity>
+            <textColor>${baseColor}70</textColor>
+            <iconColor>${highlightColor}90</iconColor>
+            <fontSize>0.013</fontSize>
+            <fontPath>${helpFont}</fontPath>
+            <iconTextSpacing>0.003</iconTextSpacing>
+        </helpsystem>
+    </view>
+
+    <!-- Aspect Ratios -->
+
+    
+
+    <aspectRatio name="4:3">
+        <view name="system">    
+        </view> 
+        <view name="gamelist">
+            <video name="gamelistBgVideo">
+                <cropPos>.8 0</cropPos>
+            </video>
+            <image name="gamelistBgImage">
+                <cropPos>.8 0</cropPos>
+            </image>
+        </view>
+    </aspectRatio>
+    
+</theme>
