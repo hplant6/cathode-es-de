@@ -72,7 +72,7 @@
             <size>0.4 0.05</size>
             <fontSize>${titlelFontSize}</fontSize>
             <fontPath>./../_inc/fonts/road-rage.otf</fontPath>
-            <metadata>developer</metadata>
+            <metadata>sourceSystemName</metadata>
             <defaultValue>??</defaultValue>
             <color>${highlightColor}</color>
             <lineSpacing>1</lineSpacing>
@@ -86,6 +86,7 @@
             <fontPath>./../_inc/fonts/Oxanium-Regular.ttf</fontPath>
             <letterCase>uppercase</letterCase>
             <metadata>name</metadata>
+            <systemNameSuffix>false</systemNameSuffix>
             <defaultValue>Unknown</defaultValue>
             <color>${transColor}</color>
             <lineSpacing>1</lineSpacing>
