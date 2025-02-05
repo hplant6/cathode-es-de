@@ -16,15 +16,15 @@
     <!-- font adjustment -->
     <fontSize name="x-large">
         <variables>
-            <paraFontSize>0.024</paraFontSize>
-            <listFontSize>0.031</listFontSize>
-            <labelFontSize>0.024</labelFontSize>
-            <caraFontSize>0.056</caraFontSize>
-            <titlesFontSize>0.025</titlesFontSize>
-            <titlemFontSize>0.027</titlemFontSize>
-            <titlemmFontSize>0.03</titlemmFontSize>
-            <metaFontSize>0.011</metaFontSize>
-            <titlelFontSize>0.04</titlelFontSize>          
+            <paraFontSize>0.03</paraFontSize>
+            <listFontSize>0.037</listFontSize>
+            <labelFontSize>0.03</labelFontSize>
+            <caraFontSize>0.058</caraFontSize>
+            <titlesFontSize>0.031</titlesFontSize>
+            <titlemFontSize>0.033</titlemFontSize>
+            <titlemmFontSize>0.036</titlemmFontSize>
+            <metaFontSize>0.028</metaFontSize>
+            <titlelFontSize>0.044</titlelFontSize>          
             <listLineSpacing>1.85</listLineSpacing>
             <listPos>0.0397 .284</listPos>
             <selectorOffset>.05</selectorOffset>
@@ -32,6 +32,7 @@
             <glistInfo>.785 0.04</glistInfo>
             <gbadge>0.527 .056</gbadge>
             <remove>False</remove>
+            <helpPos>0.5 0.965</helpPos>
 
         </variables>
     </fontSize>
@@ -53,6 +54,7 @@
             <glistInfo>.795 0.045</glistInfo>
             <gbadge>0.535 .054</gbadge>
             <remove>False</remove>
+            <helpPos>0.5 0.975</helpPos>
         </variables>
     </fontSize>
     <fontSize name="medium">
@@ -73,6 +75,7 @@
             <glistInfo>.813 0.055</glistInfo>
             <gbadge>0.555 .054</gbadge>
             <remove>true</remove>
+            <helpPos>0.5 0.975</helpPos>
         </variables>
     </fontSize>
     <fontSize name="small">
@@ -99,6 +102,7 @@
             <glistInfo>.827 0.056</glistInfo>
             <gbadge>0.57 .054</gbadge>
             <remove>False</remove>
+            <helpPos>0.5 0.975</helpPos>
         </variables>
     </fontSize>
 
@@ -479,7 +483,7 @@
             <consoleLogo>d4fffd</consoleLogo>
             <computerLogo>FFFFFF</computerLogo>
 
-            <performance>1080p.xml</performance>
+            <performance>stills.xml</performance>
 
             <sysbrowseSound>./_inc/sounds/dark/systembrowse.wav</sysbrowseSound>
             <quicksysselectSound>./_inc/sounds/dark/quicksysselect.wav</quicksysselectSound>
@@ -916,12 +920,12 @@
     <view name="system,gamelist">
     <!-- Help info -->
         <helpsystem name="help">
-            <pos>0.5 0.975</pos>
+            <pos>${helpPos}</pos>
             <origin>.5 0</origin>
             <opacity>1</opacity>
             <textColor>${baseColor}70</textColor>
             <iconColor>${highlightColor}90</iconColor>
-            <fontSize>0.013</fontSize>
+            <fontSize>${paraFontSize}</fontSize>
             <fontPath>${helpFont}</fontPath>
             <iconTextSpacing>0.003</iconTextSpacing>
         </helpsystem>

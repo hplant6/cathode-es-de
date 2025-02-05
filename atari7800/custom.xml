@@ -1,0 +1,30 @@
+
+<theme>
+  <view name="gamelist">
+   <image name="sys-logo">
+            <pos>0.655 0.038</pos>
+            <maxSize>0.14 0.14</maxSize>
+            <saturation>0</saturation>
+            <brightness>2</brightness>
+            <color>${consoleLogo}</color>
+            <path>./../_inc/systems/logos/${system.theme}.webp</path>
+            <default>./../_inc/systems/logos/default.webp</default>
+            <zIndex>14</zIndex>
+    </image>
+</view>
+<aspectRatio name="4:3">
+        <view name="gamelist">
+            <image name="sys-logo">
+                <pos>0.6 0.048</pos> <!-- +.03   +.012-->
+            </image>
+        </view>
+  </aspectRatio>
+  <aspectRatio name="16:10">
+        <view name="gamelist">
+           <image name="sys-logo">
+                <pos>0.67 0.043</pos>
+            </image> 
+        </view>
+  </aspectRatio>
+    
+</theme>

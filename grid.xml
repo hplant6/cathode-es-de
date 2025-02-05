@@ -81,8 +81,7 @@
             <scanlines>true</scanlines>
             <zIndex>4</zIndex>
             <brightness>${vidBright}</brightness>
-            <saturation>${vidSat}</saturation>
-            <color>${vidColor}</color>
+            
             <videoCornerRadius>.01</videoCornerRadius>
         </video>
 

@@ -41,7 +41,7 @@
             <zIndex>1</zIndex>
             <pos>0 0</pos>
             <cropSize>1 1</cropSize>
-            <path>./_inc/systems/cabinets/Images/console-bg.webp</path> <!-- Path to the specific game video -->
+            <path>./_inc/systems/cabinets/images/console-bg.webp</path> <!-- Path to the specific game video -->
             <zIndex>1</zIndex>
             <brightness>${vidBright}</brightness>
             <saturation>${vidSat}</saturation>

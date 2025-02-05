@@ -27,7 +27,7 @@
     <image name="gamelistBgImage">
       <pos>0 0</pos>
       <cropSize>1 1</cropSize>
-      <path>./../_inc/systems/cabinets/Images/${system.theme}.webp</path> 
+      <path>./../_inc/systems/cabinets/images/${system.theme}.webp</path> 
       <zIndex>8</zIndex>
       <brightness>${vidBright}</brightness>
       <saturation>${vidSat}</saturation>
