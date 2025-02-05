@@ -2,8 +2,9 @@
 <theme>
   <view name="gamelist">
    <video name="gamevideo">
-            <pos>0.78 0.38</pos>
-            <maxSize>0.29 0.29</maxSize>
+            <pos>0.77 0.38</pos>
+            <cropSize>0.25 0.32</cropSize>
+            <cropPos>0 .5</cropPos>
             <origin>0.5 0.5</origin>
             <imageType>screenshot, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
             <default>./../_inc/images/computer-no-media.mp4</default> <!-- Fallback to default cover -->
@@ -46,7 +47,7 @@
   <image name="gamelistBgImage">
       <pos>0 0</pos>
       <cropSize>1 1</cropSize>
-      <path>./../_inc/systems/cabinets/Images/computer-bg.webp</path> 
+      <path>./../_inc/systems/cabinets/images/computer-bg.webp</path> 
       <zIndex>8</zIndex>
       <brightness>${vidBright}</brightness>
       <saturation>${vidSat}</saturation>
@@ -57,8 +58,10 @@
         <view name="gamelist">
             <video name="gamevideo">
                 <pos>.76 0.38</pos>
-                <maxSize>0.36 0.36</maxSize>
+                <cropSize>0.36 0.36</cropSize>
             </video>
+
+            
             <image name="cabinetOverlay">
                 <pos>-.15 0</pos>
                 <cropSize>1.1 1</cropSize>
@@ -71,8 +74,11 @@
   <aspectRatio name="16:10">
         <view name="gamelist">
             <video name="gamevideo">
-                <pos>0.8 0.38</pos>
+                <pos>0.78 0.38</pos>
+
             </video>
+
+            
             <image name="sys-logo">
               <pos>0.64 0.038</pos>  <!-- +.03   +.012-->
             </image>  
@@ -82,8 +88,9 @@
         <view name="gamelist">
             <video name="gamevideo">
                 <pos>0.77 0.35</pos>
-                <maxSize>0.29 0.4</maxSize>
-            </video>    
+                <cropSize>0.29 0.4</cropSize>
+            </video>
+     
             <image name="sys-logo">
                 <pos>.023 .2</pos>
                 <color>${highlightColor}</color>
@@ -142,5 +149,6 @@
             </text>   
         </view>
     </aspectRatio>
+    
     
 </theme>
