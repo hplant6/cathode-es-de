@@ -68,10 +68,7 @@
                 <pos>0.81 0.38</pos>
                 <cropSize>0.28 0.3</cropSize>
             </image>
-            <video name="gamedefault">
-                <pos>0.81 0.38</pos>
-                <cropSize>0.28 0.3</cropSize>
-            </video>
+            
             <image name="sys-logo">
               <pos>0.64 0.038</pos>  <!-- +.03   +.012-->
             </image>
@@ -105,10 +102,7 @@
                 <pos>0.776 0.35</pos>
                 <cropSize>0.28 0.4</cropSize>
             </image>
-            <video name="gamedefault">
-                <pos>0.776 0.35</pos>
-                <cropSize>0.28 0.4</cropSize>
-            </video>      
+                  
             <image name="sys-logo">
                 <pos>.023 .2</pos>
                 <color>${highlightColor}</color>
