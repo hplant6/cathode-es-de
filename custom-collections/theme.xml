@@ -65,6 +65,7 @@
                <visible>false</visible>
         </text>
         <video name="backgroundpromo">
+            <audio>false</audio>
             <path>./../_inc/images/custom-bg.mp4</path> 
         </video>
     </view>        
