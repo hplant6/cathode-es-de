@@ -323,6 +323,32 @@
                 <zIndex>71</zIndex>
                 <visible>${remove}</visible>
             </text>
+            <datetime name="mobile-stat">
+                <pos>.783 .067</pos>
+                <size>.14 .03</size>
+                <fontPath>${listFont}</fontPath>
+                <fontSize>${metaFontSize}</fontSize>
+                <horizontalAlignment>center</horizontalAlignment>
+                <metadata>lastplayed</metadata>
+                <defaultValue>unplayed</defaultValue>
+                <color>${counterColor}</color>
+                <format>%m/%d/%Y</format>
+                <displayRelative>false</displayRelative>
+                <lineSpacing>1</lineSpacing>
+                <zIndex>71</zIndex>
+                <visible>${mobileStat}</visible>
+            </datetime>
+            <text name="mobile-stat-title">
+                <pos>.783 .042</pos>
+                <size>.14 .03</size>
+                <fontPath>${listFont}</fontPath>
+                <fontSize>.02</fontSize>
+                <horizontalAlignment>center</horizontalAlignment>
+                <text>LAST PLAYED</text>
+                <color>${counterColor}</color>
+                <zIndex>71</zIndex>
+                <visible>${mobileStat}</visible>
+            </text>
             <text name="pkaycountnumber">    
                 <pos>.873 .06</pos>
                 <size>.107 .018</size>
@@ -423,7 +449,12 @@
                 <pos>-.15 0</pos>
                 <cropSize>1.1 1</cropSize>
             </image>
-
+            <datetime name="mobile-stat">
+                    <pos>.802 .067</pos>
+            </datetime>
+            <text name="mobile-stat-title">
+                <pos>.802 .042</pos>
+            </text>  
             <image name="game-logo">
                 <maxSize>0.35 0.15</maxSize>
             </image>
@@ -479,13 +510,17 @@
     </aspectRatio>
     <aspectRatio name="16:10">
         <view name="gamelist">
+            <datetime name="mobile-stat">
+                    <pos>.822 .067</pos>
+            </datetime>
+            <text name="mobile-stat-title">
+                <pos>.822 .042</pos>
+            </text>            
             <video name="gamevideo">
-                <pos>.79 0.38</pos>
-                
+                <pos>.79 0.38</pos>   
             </video>
             <image name="gamescreen">
                 <pos>.79 0.38</pos>
-                
             </image>
             
             <image name="sys-logo">
@@ -513,6 +548,12 @@
     </aspectRatio>
     <aspectRatio name="21:9">
         <view name="gamelist">
+            <datetime name="mobile-stat">
+                <visible>false</visible>
+            </datetime>
+            <text name="mobile-stat-title">
+                <visible>false</visible>
+            </text> 
             <video name="gamevideo">
                 <pos>0.774 0.35</pos>
                 <cropSize>0.28 0.4</cropSize>

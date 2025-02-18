@@ -26,5 +26,14 @@
             </image> 
         </view>
   </aspectRatio>
+  <aspectRatio name="21:9">
+        <view name="gamelist">
+           <image name="sys-logo">
+                <pos>.023 .2</pos>
+                <color>${highlightColor}</color>
+                <maxSize>0.08 0.08</maxSize>
+            </image>
+        </view>
+  </aspectRatio>
     
 </theme>
