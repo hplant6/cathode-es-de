@@ -6,6 +6,7 @@
     <variables>
     <!-- font type -->
         <labelFont>./_inc/fonts/Oxanium-Regular.ttf</labelFont>
+        <clockFont>./_inc/fonts/Oxanium-Regular.ttf</clockFont>
         <pFont>./_inc/fonts/IBMPlexMono-Light.ttf</pFont>
         <h2Font>./_inc/fonts/road-rage.otf</h2Font>
         <listFont>./_inc/fonts/VCR_OSD_MONO.ttf</listFont>
@@ -23,7 +24,7 @@
             <titlesFontSize>0.031</titlesFontSize>
             <titlemFontSize>0.033</titlemFontSize>
             <titlemmFontSize>0.036</titlemmFontSize>
-            <metaFontSize>0.028</metaFontSize>
+            <metaFontSize>0.026</metaFontSize>
             <titlelFontSize>0.044</titlelFontSize>          
             <listLineSpacing>1.85</listLineSpacing>
             <listPos>0.0397 .284</listPos>
@@ -31,7 +32,8 @@
             <gridDate>0.875 .1</gridDate>
             <glistInfo>.785 0.04</glistInfo>
             <gbadge>0.527 .056</gbadge>
-            <remove>False</remove>
+            <remove>false</remove>
+            <mobileStat>true</mobileStat>
             <helpPos>0.5 0.965</helpPos>
 
         </variables>
@@ -45,7 +47,7 @@
             <titlesFontSize>0.022</titlesFontSize>
             <titlemFontSize>0.024</titlemFontSize>
             <titlemmFontSize>0.03</titlemmFontSize>
-            <metaFontSize>0.011</metaFontSize>
+            <metaFontSize>0.024</metaFontSize>
             <titlelFontSize>0.036</titlelFontSize>          
             <listLineSpacing>1.81</listLineSpacing>
             <listPos>0.0397 .284</listPos>
@@ -53,7 +55,8 @@
             <gridDate>0.875 .1</gridDate>
             <glistInfo>.795 0.045</glistInfo>
             <gbadge>0.535 .054</gbadge>
-            <remove>False</remove>
+            <remove>false</remove>
+            <mobileStat>true</mobileStat>
             <helpPos>0.5 0.975</helpPos>
         </variables>
     </fontSize>
@@ -75,6 +78,7 @@
             <glistInfo>.813 0.055</glistInfo>
             <gbadge>0.555 .054</gbadge>
             <remove>true</remove>
+            <mobileStat>false</mobileStat>
             <helpPos>0.5 0.975</helpPos>
         </variables>
     </fontSize>
@@ -101,7 +105,8 @@
             <gridDate>0.875 .1</gridDate>
             <glistInfo>.827 0.056</glistInfo>
             <gbadge>0.57 .054</gbadge>
-            <remove>False</remove>
+            <remove>true</remove>
+            <mobileStat>false</mobileStat>
             <helpPos>0.5 0.975</helpPos>
         </variables>
     </fontSize>

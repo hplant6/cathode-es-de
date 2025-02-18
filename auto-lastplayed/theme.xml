@@ -150,12 +150,13 @@
             <color>${transColor}</color>
             <lineSpacing>1</lineSpacing>
             <zIndex>65</zIndex>
+            <visible>${remove}</visible>
         </text>
 
         <datetime name="lastPlayedDate">
             <pos>${gridDate}</pos>
             <origin>0 0.5</origin>
-            <size>0.1 0.06</size>
+            <size>0.25 0.2</size>
             <fontSize>${labelFontSize}</fontSize>
             <fontPath>./../_inc/fonts/Oxanium-Regular.ttf</fontPath>
             <letterCase>uppercase</letterCase>
@@ -165,6 +166,22 @@
             <color>${transColor}</color>
             <lineSpacing>1</lineSpacing>
             <zIndex>65</zIndex>
+            <visible>${remove}</visible>
+        </datetime>
+        <datetime name="MobilelastPlayed">
+            <pos>0.78 .1</pos>
+            <origin>0 0.5</origin>
+            <size>0.25 0.2</size>
+            <fontSize>${labelFontSize}</fontSize>
+            <fontPath>./../_inc/fonts/Oxanium-Regular.ttf</fontPath>
+            <letterCase>uppercase</letterCase>
+            <horizontalAlignment>left</horizontalAlignment>
+            <metadata>lastplayed</metadata>
+            <defaultValue>unopened</defaultValue>
+            <color>${transColor}</color>
+            <lineSpacing>1</lineSpacing>
+            <zIndex>65</zIndex>
+            <visible>${mobileStat}</visible>
         </datetime>
 
         <badges name="badges">
@@ -317,6 +334,90 @@
         <text name="gameCount">
                <visible>false</visible>
         </text>
-    </view>           
+    </view>
+    <aspectRatio name="4:3">
+        <view name="gamelist">
+            <image name="date-icon">
+                <pos>0.4 .15</pos>
+            </image>
+
+            <datetime name="releasedatedate">
+                <pos>.42 .15</pos>
+            </datetime>
+
+            <image name="players-icon">
+                <pos>0.475 0.15</pos>
+            </image>
+
+            <text name="game-players">
+                <pos>0.491 .15</pos>
+            </text>
+
+            <image name="genre-icon">
+                <pos>0.525 0.15</pos>
+            </image>
+
+            <text name="genre">
+                <pos>0.545 .15</pos>
+            </text>
+        </view>
+  </aspectRatio>
+  <aspectRatio name="16:10">
+        <view name="gamelist">
+           <image name="date-icon">
+                <pos>0.39 .15</pos>
+            </image>
+
+            <datetime name="releasedatedate">
+                <pos>.41 .15</pos>
+            </datetime>
+
+            <image name="players-icon">
+                <pos>0.465 0.15</pos>
+            </image>
+
+            <text name="game-players">
+                <pos>0.481 .15</pos>
+            </text>
+
+            <image name="genre-icon">
+                <pos>0.515 0.15</pos>
+            </image>
+
+            <text name="genre">
+                <pos>0.535 .15</pos>
+            </text>
+        </view>
+  </aspectRatio>
+  <aspectRatio name="21:9">
+        <view name="gamelist">
+           <image name="date-icon">
+                <pos>0.35 .15</pos>
+            </image>
+
+            <datetime name="releasedatedate">
+                <pos>.365 .15</pos>
+            </datetime>
+
+            <image name="players-icon">
+                <pos>0.40 0.15</pos>
+            </image>
+
+            <text name="game-players">
+                <pos>0.413 .15</pos>
+            </text>
+
+            <image name="genre-icon">
+                <pos>0.435 0.15</pos>
+            </image>
+
+            <text name="genre">
+                <pos>0.45 .15</pos>
+            </text>
+            <badges name="badges">
+                <pos>0.527 .04</pos>
+            </badges>
+        </view>
+  </aspectRatio>           
         
 </theme>
