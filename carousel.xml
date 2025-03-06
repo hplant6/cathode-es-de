@@ -31,7 +31,7 @@
                 <letterCase>uppercase</letterCase>
                 <lineSpacing>1.2</lineSpacing>
                 <selectedItemMargins>0.03 0.03</selectedItemMargins>
-                <horizontalOffset>-0.41</horizontalOffset>
+                <horizontalOffset>-0.405</horizontalOffset>
                 <verticalOffset>.2</verticalOffset>
                 <reflections>true</reflections>
                 <reflectionsOpacity>.25</reflectionsOpacity>
@@ -229,6 +229,7 @@
         </image>
         <text name="genre">
             <pos>.22 .29</pos>
+            <size>0.19 0.05</size>
             <origin>0 0.5</origin>
             <fontSize>${labelFontSize}</fontSize>
             <fontPath>${labelFont}</fontPath>
@@ -468,19 +469,19 @@
                 <pos>.15 .29</pos> <!-- +.01 -->
             </image>
             <image name="genre-icon">
-                <pos>.21 .29</pos> <!-- +.01 -->
+                <pos>.22 .29</pos> <!-- +.01 -->
             </image>
             <text name="genre">
-                <pos>.235 .29</pos>  <!-- +.01 -->      
+                <pos>.245 .29</pos>  <!-- +.01 -->      
             </text>
             <datetime name="releasedatedate">
                 <pos>.055 .34</pos> <!-- +.005 --> 
             </datetime> 
             <image name="developer-icon">
-                <pos>.1 .34</pos> <!-- +.01 --> 
+                <pos>.12 .34</pos> <!-- +.01 --> 
             </image> 
             <text name="developer">
-                <pos>.125 .34</pos>  <!-- +.015 -->
+                <pos>.145 .34</pos>  <!-- +.015 -->
             </text>
             <text name="lastPlayed">
                 <pos>.8 .042</pos> <!-- +.03   +.012-->

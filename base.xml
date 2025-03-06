@@ -880,6 +880,10 @@
             <vidSat>0</vidSat>
             <vidBright>0</vidBright>
 
+            <arcadeLogo>FF7700</arcadeLogo>
+            <consoleLogo>FF7700</consoleLogo>
+            <computerLogo>FF7700</computerLogo>
+
             <performance>stills.xml</performance>
 
             <sysbrowseSound>./_inc/sounds/8bit/systembrowse.wav</sysbrowseSound>

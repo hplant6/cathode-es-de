@@ -385,15 +385,18 @@
     </view>
     <aspectRatio name="4:3">
         <view name="gamelist">
-        <textlist name="game-list">
-            <pos>.52 .3</pos>	
-			<size>.42 .61</size>
-        </textlist>
+            <text name="gametitle">
+                <size>.45 .018</size>
+            </text>
+            <textlist name="game-list">
+                <pos>.52 .3</pos>	
+                <size>.42 .61</size>
+            </textlist>
 
-        <image name="listContainer">
-            <pos>.51 .29</pos>	
-			<cropSize>1 .65</cropSize>
-        </image>
+            <image name="listContainer">
+                <pos>.51 .29</pos>	
+                <cropSize>1 .65</cropSize>
+            </image>
 
             <image name="players-icon">
              <pos>0.145 0.54</pos>
@@ -404,19 +407,20 @@
             </text>
 
             <image name="genre-icon">
-                <pos>0.2 .54</pos>
+                <pos>0.22 .54</pos>
             </image>
 
             <text name="genre">
-                <pos>0.225 .54</pos>
+                <pos>0.245 .54</pos>
+                <size>0.22 0.05</size>
             </text>
 
             <image name="developer-icon">
-                <pos>.09 .59</pos>
+                <pos>.11 .59</pos>
             </image>
 
             <text name="developer">
-                <pos>.115 .59</pos>
+                <pos>.135 .59</pos>
             </text>
 
             <datetime name="releasedatedate">
@@ -498,6 +502,7 @@
                 <cropPos>0 -0.01</cropPos>
                 <cropSize>1.5 1.5</cropSize>
             </image>
+            
 
         </view>
     </aspectRatio>

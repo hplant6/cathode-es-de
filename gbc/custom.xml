@@ -72,19 +72,19 @@
                 <pos>.15 .29</pos> <!-- +.01 -->
             </image>
             <image name="genre-icon">
-                <pos>.21 .29</pos> <!-- +.01 -->
+                <pos>.22 .29</pos> <!-- +.01 -->
             </image>
             <text name="genre">
-                <pos>.235 .29</pos>  <!-- +.01 -->      
+                <pos>.245 .29</pos>  <!-- +.01 -->      
             </text>
             <datetime name="releasedatedate">
                 <pos>.055 .34</pos> <!-- +.005 --> 
             </datetime> 
             <image name="developer-icon">
-                <pos>.1 .34</pos> <!-- +.01 --> 
+                <pos>.12 .34</pos> <!-- +.01 --> 
             </image> 
             <text name="developer">
-                <pos>.125 .34</pos>  <!-- +.015 -->
+                <pos>.145 .34</pos>  <!-- +.015 -->
             </text>
             
             <text name="lastPlayed">
