@@ -376,6 +376,10 @@
     </view>
     <aspectRatio name="4:3">
         <view name="gamelist">
+            
+            <text name="gametitle">
+                <size>.45 .018</size>
+            </text>
 
             <grid name="game-grid">
                 <size>.5 .75</size>
@@ -391,19 +395,20 @@
             </text>
 
             <image name="genre-icon">
-                <pos>0.2 .54</pos>
+                <pos>0.22 .54</pos>
             </image>
 
             <text name="genre">
-                <pos>0.225 .54</pos>
+                <pos>0.245 .54</pos>
+                <size>0.22 0.05</size>
             </text>
 
             <image name="developer-icon">
-                <pos>.09 .59</pos>
+                <pos>.11 .59</pos>
             </image>
 
             <text name="developer">
-                <pos>.115 .59</pos>
+                <pos>.135 .59</pos>
             </text>
 
             <datetime name="releasedatedate">
