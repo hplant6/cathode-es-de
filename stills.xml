@@ -36,6 +36,9 @@
             <saturation>${vidSat}</saturation>
             <color>${vidColor}</color>
         </image>
+        <video name="nut">
+            <visible>false</visible>
+        </video>
         <video name="ListBgVideo">
             <visible>flase</visible> 
         </video>

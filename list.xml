@@ -214,7 +214,7 @@
         <text name="genre">
             <pos>0.19 .54</pos>
             <origin>0 0.5</origin>
-            <size>0.3 0.05</size>
+            <size>0.2 0.05</size>
             <fontSize>${labelFontSize}</fontSize>
             <fontPath>${labelFont}</fontPath>
             <letterCase>uppercase</letterCase>

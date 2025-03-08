@@ -1,0 +1,177 @@
+
+<theme>
+  <view name="gamelist">
+            <video name="nut">
+                    <pos>0.75 0.38</pos>
+                    <cropSize>0.23 0.32</cropSize>
+                    <cropPos>.5 .2</cropPos>
+                    <origin>0.5 0.5</origin>
+                    <imageType>screenshot, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
+                    <default>./../_inc/images/nut.mp4</default> <!-- Fallback to default cover -->
+                    <interpolation>nearest</interpolation>
+                    <pillarboxes>true</pillarboxes>
+                    <pillarboxThreshold>0.85 0.90</pillarboxThreshold>
+                    <delay>0</delay>
+                    <fadeInTime>0</fadeInTime>
+                    <zIndex>30</zIndex>
+                </video>
+            <image name="nutimg">
+                    <pos>0.75 0.38</pos>
+                    <cropSize>0.23 0.32</cropSize>
+                    <cropPos>.5 .2</cropPos>
+                    <origin>0.5 0.5</origin>
+                    <path>./../_inc/images/nut.mp4</path> <!-- Fallback to default cover -->
+                    <zIndex>29</zIndex>
+            </image>
+            <text name="appTitle">
+                <pos>.02 .3</pos>
+                <origin>0 .5</origin>
+                <size>.4 .3</size>
+                <fontSize>.12</fontSize>
+                <fontPath>./.${labelFont}</fontPath>
+                <letterCase>uppercase</letterCase>
+                <metadata>name</metadata>
+                <defaultValue>Unknown</defaultValue>
+                <color>${baseColor}</color>
+                <lineSpacing>1</lineSpacing>
+                <zIndex>65</zIndex>
+            </text>
+            <text name="meta">
+                <pos>.025 .4</pos>
+                <origin>0 .5</origin>
+                <fontSize>${labelFontSize}</fontSize>
+                <fontPath>./.${labelFont}</fontPath>
+                <letterCase>uppercase</letterCase>
+                <metadata>physicalNameExtension</metadata>
+                <color>${baseColor}</color>
+                <lineSpacing>1</lineSpacing>
+                <zIndex>65</zIndex>
+            </text>
+            <image name="line">
+                <pos>0.02 .367</pos>
+                <origin>0 .5</origin>
+                <maxSize>.45 .9</maxSize>
+                <path>./../_inc/images/line.svg</path>
+                <color>${lineColor}</color>
+                <zIndex>70</zIndex>
+            </image>
+    <image name="cabinetOverlay">
+      <brightness>${vidBright}</brightness>
+      <saturation>${vidSat}</saturation>
+      <color>${vidColor}</color>
+      <pos>0 0</pos>
+      <cropSize>1 1</cropSize>
+      <path>./../_inc/images/computer-overlay.webp</path>
+      <zIndex>70</zIndex>
+    </image>
+    <video name="gamelistBgVideo">
+            <audio>false</audio>
+      <pos>0 0</pos>
+      <cropSize>1 1</cropSize>
+      <path>./../_inc/systems/cabinets/1080p/computer-bg.mp4</path> 
+      <zIndex>9</zIndex>
+      <brightness>${vidBright}</brightness>
+      <saturation>${vidSat}</saturation>
+      <color>${vidColor}</color>
+    </video>
+  <image name="gamelistBgImage">
+      <pos>0 0</pos>
+      <cropSize>1 1</cropSize>
+      <path>./../_inc/systems/cabinets/images/computer-bg.webp</path> 
+      <zIndex>8</zIndex>
+      <brightness>${vidBright}</brightness>
+      <saturation>${vidSat}</saturation>
+      <color>${vidColor}</color>
+    </image>
+     <carousel name="gamelistCarousel">
+                <pos>0.5 1.22</pos>
+                <origin>0.5 1</origin>
+                <size>1 0.7</size>
+                <type>horizontal</type>
+                <imageType>3dbox, cover</imageType>
+                <defaultImage>./../_inc/images/emu-box.webp</defaultImage>
+                <defaultFolderImage>./../_inc/images/folder.webp</defaultFolderImage> 
+                <maxItemCount>8</maxItemCount>
+                <itemSize>0.12 0.25</itemSize>
+                <itemScale>1.6</itemScale>
+                <imageInterpolation>linear</imageInterpolation>
+                <itemAxisHorizontal>true</itemAxisHorizontal>
+                <itemHorizontalAlignment>bottom</itemHorizontalAlignment>
+                <itemVerticalAlignment>bottom</itemVerticalAlignment>
+                <fastScrolling>true</fastScrolling>
+                <color>00000000</color>
+                <textColor>${transColor}</textColor>
+                <textBackgroundColor>000000FF</textBackgroundColor>
+                <fontSize>${caraFontSize}</fontSize>
+                <fontPath>${labelFont}</fontPath>
+                <letterCase>uppercase</letterCase>
+                <lineSpacing>1.2</lineSpacing>
+                <selectedItemMargins>0.03 0.03</selectedItemMargins>
+                <horizontalOffset>-0.405</horizontalOffset>
+                <verticalOffset>.2</verticalOffset>
+                <reflections>true</reflections>
+                <reflectionsOpacity>.25</reflectionsOpacity>
+                <reflectionsFalloff>3</reflectionsFalloff>
+                <unfocusedItemOpacity>1</unfocusedItemOpacity>
+                <zIndex>50</zIndex>
+        </carousel>
+        <image name="section-logo">
+                <pos>-0.01 0.02</pos>
+                <maxSize>0.25 0.17</maxSize>
+                <path>./../_inc/systems/logos/${system.theme}.webp</path>
+                <default>./../_inc/systems/logos/default.webp</default>
+                <color>${highlightColor}</color>
+                <brightness>2</brightness>
+                <saturation>0</saturation>
+                <zIndex>14</zIndex>
+        </image>
+  </view>
+
+<aspectRatio name="4:3">
+        <view name="gamelist">
+            <video name="nut">
+                <pos>.76 0.38</pos>
+                <cropSize>0.36 0.36</cropSize>
+                <cropPos>.7 .2</cropPos>
+            </video>
+            <image name="nutimg">
+                <pos>.76 0.38</pos>
+                <cropSize>0.36 0.36</cropSize>
+                <cropPos>.7 .2</cropPos>
+            </image>
+            
+            <image name="cabinetOverlay">
+                <pos>-.15 0</pos>
+                <cropSize>1.1 1</cropSize>
+            </image>
+        </view>
+  </aspectRatio>
+  <aspectRatio name="16:10">
+        <view name="gamelist">
+            <video name="nut">
+                <pos>0.78 0.38</pos>
+            </video>
+            <image name="nutimg">
+                <pos>0.78 0.38</pos>
+            </image>
+
+        </view>
+  </aspectRatio>
+   <aspectRatio name="21:9">
+        <view name="gamelist">
+            <video name="nut">
+                <pos>0.77 0.35</pos>
+                <cropSize>0.29 0.4</cropSize>
+                <cropPos>1 .2</cropPos>
+            </video>
+            <image name="nutimg">
+                <pos>0.77 0.35</pos>
+                <cropSize>0.29 0.4</cropSize>
+                <cropPos>1 .2</cropPos>
+            </image>
+     
+           
+        </view>
+    </aspectRatio>
+    
+</theme>

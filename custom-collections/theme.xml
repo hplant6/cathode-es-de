@@ -79,13 +79,14 @@
         </video>
         <textlist name="sys-list">
             <origin>0 0</origin>
-            <pos>0 .28</pos>
+            <pos>0.06 .28</pos>
             <size>.31 .55</size>
             <fontPath>./../_inc/fonts/VCR_OSD_MONO.ttf</fontPath>
             <selectorColor>ffffff20</selectorColor>
             <fontSize>0.03</fontSize>
             <selectorHeight>0.001</selectorHeight>
             <horizontalAlignment>right</horizontalAlignment>
+            <textHorizontalScrollDelay>1</textHorizontalScrollDelay>
             <lineSpacing>1.5</lineSpacing>
             <letterCase>uppercase</letterCase>
             <selectorVerticalOffset>.043</selectorVerticalOffset>
@@ -95,7 +96,7 @@
             <indicators>ascii</indicators>
          </textlist>   
          <video name="videothumb">
-            <pos>0.59 0.55</pos>
+            <pos>0.65 0.55</pos>
             <cropSize>0.52 0.52</cropSize>
             <origin>0.5 0.5</origin>
             <imageType>screenshot, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
@@ -122,7 +123,7 @@
         </text>
         <text name="gamesys">
             <size>.22 .02</size>
-            <pos>0.395 .33</pos>
+            <pos>0.445 .33</pos>
             <letterCase>uppercase</letterCase>
             <fontSize>${paraFontSize}</fontSize>
             <fontPath>./../_inc/fonts/VCR_OSD_MONO.ttf</fontPath>
@@ -135,7 +136,7 @@
         </text>
         <text name="gamesystxt">
             <size>.22 .02</size>
-            <pos>0.36 .33</pos>
+            <pos>0.41 .33</pos>
             <letterCase>uppercase</letterCase>
             <fontSize>${paraFontSize}</fontSize>
             <fontPath>./../_inc/fonts/VCR_OSD_MONO.ttf</fontPath>
@@ -148,7 +149,7 @@
         </text>
         <text name="gameplayers">
             <size>.22 .02</size>
-            <pos>0.4 .353</pos>
+            <pos>0.45 .353</pos>
             <letterCase>uppercase</letterCase>
             <fontSize>${paraFontSize}</fontSize>
             <fontPath>./../_inc/fonts/VCR_OSD_MONO.ttf</fontPath>
@@ -161,7 +162,7 @@
         </text>
         <text name="gameplayerstxt">
             <size>.22 .02</size>
-            <pos>0.36 .353</pos>
+            <pos>0.41 .353</pos>
             <letterCase>uppercase</letterCase>
             <fontSize>${paraFontSize}</fontSize>
             <fontPath>./../_inc/fonts/VCR_OSD_MONO.ttf</fontPath>
@@ -174,7 +175,7 @@
         </text>
         <text name="gamerating">
             <size>.22 .02</size>
-            <pos>0.395 .375</pos>
+            <pos>0.445 .375</pos>
             <letterCase>uppercase</letterCase>
             <fontSize>${paraFontSize}</fontSize>
             <fontPath>./../_inc/fonts/VCR_OSD_MONO.ttf</fontPath>
@@ -187,7 +188,7 @@
         </text>
         <text name="gameratingtxt">
             <size>.22 .02</size>
-            <pos>0.36 .375</pos>
+            <pos>0.41 .375</pos>
             <letterCase>uppercase</letterCase>
             <fontSize>${paraFontSize}</fontSize>
             <fontPath>./../_inc/fonts/VCR_OSD_MONO.ttf</fontPath>
@@ -200,7 +201,7 @@
         </text>
         <text name="gamedev">
             <size>.22 .02</size>
-            <pos>0.41 .397</pos>
+            <pos>0.46 .397</pos>
             <letterCase>uppercase</letterCase>
             <fontSize>${paraFontSize}</fontSize>
             <fontPath>./../_inc/fonts/VCR_OSD_MONO.ttf</fontPath>
@@ -213,7 +214,7 @@
         </text>
         <text name="gamedevtxt">
             <size>.22 .02</size>
-            <pos>0.36 .397</pos>
+            <pos>0.41 .397</pos>
             <letterCase>uppercase</letterCase>
             <fontSize>${paraFontSize}</fontSize>
             <fontPath>./../_inc/fonts/VCR_OSD_MONO.ttf</fontPath>
@@ -226,7 +227,7 @@
         </text>
         <datetime name="releasedatedate">
             <size>.22 .02</size>
-            <pos>.386 .42</pos>
+            <pos>.436 .42</pos>
             <fontSize>${paraFontSize}</fontSize>
             <fontPath>./../_inc/fonts/VCR_OSD_MONO.ttf</fontPath>
             <letterCase>uppercase</letterCase>
@@ -240,7 +241,7 @@
         </datetime>
         <text name="gamedatetxt">
             <size>.22 .02</size>
-            <pos>0.36 .42</pos>
+            <pos>0.41 .42</pos>
             <letterCase>uppercase</letterCase>
             <fontSize>${paraFontSize}</fontSize>
             <fontPath>./../_inc/fonts/VCR_OSD_MONO.ttf</fontPath>
@@ -253,7 +254,7 @@
         </text>
         <text name="gamegenre">
             <size>.22 .02</size>
-            <pos>0.39 .443</pos>
+            <pos>0.44 .443</pos>
             <letterCase>uppercase</letterCase>
             <fontSize>${paraFontSize}</fontSize>
             <fontPath>./../_inc/fonts/VCR_OSD_MONO.ttf</fontPath>
@@ -266,7 +267,7 @@
         </text>
         <text name="gamegenretxt">
            <size>.22 .02</size>
-            <pos>0.36 .443</pos>
+            <pos>0.41 .443</pos>
             <letterCase>uppercase</letterCase>
             <fontSize>${paraFontSize}</fontSize>
             <fontPath>./../_inc/fonts/VCR_OSD_MONO.ttf</fontPath>
@@ -282,7 +283,7 @@
 
         <text name="gameemulator">
             <size>.22 .02</size>
-            <pos>0.405 .466</pos>
+            <pos>0.455 .466</pos>
             <letterCase>uppercase</letterCase>
             <fontSize>${paraFontSize}</fontSize>
             <fontPath>./../_inc/fonts/VCR_OSD_MONO.ttf</fontPath>
@@ -295,7 +296,7 @@
         </text>
         <text name="gameemulatortxt">
             <size>.22 .02</size>
-            <pos>0.36 .466</pos>
+            <pos>0.41 .466</pos>
             <letterCase>uppercase</letterCase>
             <fontSize>${paraFontSize}</fontSize>
             <fontPath>./../_inc/fonts/VCR_OSD_MONO.ttf</fontPath>
@@ -310,7 +311,7 @@
         
         <text name="gameinfo">
             <size>.22 .2</size>
-            <pos>0.36 .51</pos>
+            <pos>0.41 .51</pos>
             <fontSize>${paraFontSize}</fontSize>
             <fontPath>./../_inc/fonts/VCR_OSD_MONO.ttf</fontPath>
             <metadata>description</metadata>
@@ -393,16 +394,7 @@
     </aspectRatio>
      <aspectRatio name="21:9">
         <view name="gamelist">
-            <datetime name="lastPlayedDate">
-                <pos>0.783 .1 </pos>
-            </datetime>
-            <grid name="game-grid">
-			    <pos>.05 .22</pos>
-            </grid>
-            <image name="section-logo">
-                <pos>0.03 0.03</pos>
-                <size>0.2 0.15</size>
-            </image>    	            
+             	            
         </view>
     </aspectRatio>   
 </theme>
