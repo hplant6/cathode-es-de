@@ -6,8 +6,7 @@
                     <cropSize>0.23 0.32</cropSize>
                     <cropPos>.5 .2</cropPos>
                     <origin>0.5 0.5</origin>
-                    <imageType>screenshot, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
-                    <default>./../_inc/images/nut.mp4</default> <!-- Fallback to default cover -->
+                    <path>./../_inc/images/nut.mp4</path> <!-- Fallback to default cover -->
                     <interpolation>nearest</interpolation>
                     <pillarboxes>true</pillarboxes>
                     <pillarboxThreshold>0.85 0.90</pillarboxThreshold>
@@ -26,7 +25,7 @@
             <text name="appTitle">
                 <pos>.02 .3</pos>
                 <origin>0 .5</origin>
-                <size>.4 .3</size>
+                <size>.5 .15</size>
                 <fontSize>.12</fontSize>
                 <fontPath>./.${labelFont}</fontPath>
                 <letterCase>uppercase</letterCase>

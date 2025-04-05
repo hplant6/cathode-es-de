@@ -38,7 +38,7 @@
             <text name="appTitle">
                 <pos>.02 .3</pos>
                 <origin>0 .5</origin>
-                <size>.4 .3</size>
+                <size>.5 .15</size>
                 <fontSize>.12</fontSize>
                 <fontPath>./.${labelFont}</fontPath>
                 <letterCase>uppercase</letterCase>
