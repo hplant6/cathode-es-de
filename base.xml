@@ -995,8 +995,9 @@
         </image>
 
         <systemstatus name="gstatus-ind">
+            <origin> 0 0 </origin>
             <color>${highlightColor}</color>
-            <pos>.08 .957</pos>
+            <pos>.008 .957</pos>
             <entries>battery</entries>
             <height>0.04</height>
             <textRelativeScale>1</textRelativeScale>
@@ -1020,7 +1021,7 @@
                 <pos>.993 .996</pos>
             </clock>
             <systemstatus name="gstatus-ind">
-                <pos>.107 .957</pos>
+                <pos>.009 .957</pos>
             </systemstatus>
             <image name="clockOverlay">
                 <path>./_inc/images/4-3overlay.png</path>
@@ -1048,7 +1049,7 @@
                 <pos>.993 .996</pos>
             </clock>
             <systemstatus name="gstatus-ind">
-                <pos>.089 .957</pos>
+                <pos>.007 .957</pos>
             </systemstatus>
             <image name="clockOverlay">
                 <path>./_inc/images/16-10overlay.png</path>
@@ -1066,7 +1067,7 @@
     <aspectRatio name="21:9">
         <view name="system,gamelist">
             <systemstatus name="gstatus-ind">
-                <pos>.06 .957</pos>
+                <pos>.0045 .957</pos>
             </systemstatus>
             <image name="clockOverlay">
                 <path>./_inc/images/21-9overlay.png</path>
