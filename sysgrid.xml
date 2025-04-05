@@ -77,9 +77,9 @@
         </text>
 
         <text name="gameCount">
-            <pos>0.38 0.79</pos>
-            <origin>1 1</origin>
-            <size>0.2 0.05</size>
+            <pos>0.29 0.79</pos>
+            <origin>.5 1</origin>
+            <size>0.4 0.05</size>
             <systemdata>gamecount</systemdata>
             <fontSize>${titlemFontSize}</fontSize>
             <fontPath>${h2Font}</fontPath>
