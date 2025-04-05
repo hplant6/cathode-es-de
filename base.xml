@@ -1006,7 +1006,7 @@
             <customIcon icon="icon_battery_medium">./_inc/images/bat-med.svg</customIcon>
             <customIcon icon="icon_battery_high">./_inc/images/bat-high.svg</customIcon>
             <customIcon icon="icon_battery_full">./_inc/images/bat-full.svg</customIcon>
-            <customIcon icon="icon_battery_icon_battery_charging">./_inc/images/bat-chrg.svg</customIcon>
+            <customIcon icon="icon_battery_charging">./_inc/images/bat-chrg.svg</customIcon>
         </systemstatus>
     </view>
 
