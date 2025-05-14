@@ -6,12 +6,18 @@
     <variables>
     <!-- font type -->
         <labelFont>./_inc/fonts/Oxanium-Regular.ttf</labelFont>
+<<<<<<< HEAD
+        <clockFont>./_inc/fonts/LCDfont.ttf</clockFont>
+=======
         <clock>./_inc/fonts/LCDfont.ttf</clock>
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
         <pFont>./_inc/fonts/IBMPlexMono-Light.ttf</pFont>
         <h2Font>./_inc/fonts/road-rage.otf</h2Font>
         <listFont>./_inc/fonts/VCR_OSD_MONO.ttf</listFont>
         <counterFont>./_inc/fonts/IBMPlexMono-Regular.ttf</counterFont>
         <helpFont>./_inc/fonts/Oxanium-SemiBold.ttf</helpFont>
+    <!-- Media -->    
+        <screenMedia>Screenshot, titlescreen, fanart</screenMedia>
     </variables>
 
     <!-- font adjustment -->
@@ -111,6 +117,8 @@
         </variables>
     </fontSize>
 
+<<<<<<< HEAD
+=======
     <colorScheme name="classic-red1080">
         <variables>
             <highlightColor>ff0000</highlightColor>
@@ -144,6 +152,7 @@
 
         </variables>
     </colorScheme>
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
     <colorScheme name="classic-red">
         <variables>
             <highlightColor>ff0000</highlightColor>
@@ -153,9 +162,116 @@
             <gifColor>FFFFFF65</gifColor>
             <counterColor>ffffff</counterColor>
             <selColor>ffffff</selColor>
-            <contColor>ffffff25</contColor>
+            <contColor>ffffff40</contColor>
             <lineColor>ffffff25</lineColor>
+<<<<<<< HEAD
+            <clock2>ff000075</clock2>
+            <clock>true</clock>
+
+            <vidColor>ffffff</vidColor>
+            <vidSat>1</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>FFDE00</arcadeLogo>
+            <consoleLogo>d4fffd</consoleLogo>
+            <computerLogo>FFFFFF</computerLogo>
+            
+            <performance>1080p.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/classic/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/classic/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/classic/select.wav</selectSound>
+            <backSound>./_inc/sounds/classic/back.wav</backSound>
+            <scrollSound>./_inc/sounds/classic/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/classic/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/classic/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+    <colorScheme name="classic-red-noclock">
+        <variables>
+            <highlightColor>ff0000</highlightColor>
+            <baseColor>FFFFFF</baseColor>
+            <subColor>343434</subColor>
+            <transColor>FFFFFF90</transColor>
+            <gifColor>FFFFFF65</gifColor>
+            <counterColor>ffffff</counterColor>
+            <selColor>ffffff</selColor>
+            <contColor>ffffff40</contColor>
+            <lineColor>ffffff25</lineColor>
+            <clock2>ff000075</clock2>
+            <clock>false</clock>
+
+            <vidColor>ffffff</vidColor>
+            <vidSat>1</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>FFDE00</arcadeLogo>
+            <consoleLogo>d4fffd</consoleLogo>
+            <computerLogo>FFFFFF</computerLogo>
+            
+            <performance>1080p.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/classic/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/classic/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/classic/select.wav</selectSound>
+            <backSound>./_inc/sounds/classic/back.wav</backSound>
+            <scrollSound>./_inc/sounds/classic/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/classic/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/classic/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+    <colorScheme name="classic-red-stills">
+        <variables>
+            <highlightColor>ff0000</highlightColor>
+            <baseColor>FFFFFF</baseColor>
+            <subColor>343434</subColor>
+            <transColor>FFFFFF90</transColor>
+            <gifColor>FFFFFF65</gifColor>
+            <counterColor>ffffff</counterColor>
+            <selColor>ffffff</selColor>
+            <contColor>ffffff40</contColor>
+            <lineColor>ffffff25</lineColor>
+            <clock2>ff000075</clock2>
+            <clock>true</clock>
+
+            <vidColor>ffffff</vidColor>
+            <vidSat>1</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>FFDE00</arcadeLogo>
+            <consoleLogo>d4fffd</consoleLogo>
+            <computerLogo>FFFFFF</computerLogo>
+            
+            <performance>mixed.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/classic/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/classic/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/classic/select.wav</selectSound>
+            <backSound>./_inc/sounds/classic/back.wav</backSound>
+            <scrollSound>./_inc/sounds/classic/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/classic/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/classic/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+    <colorScheme name="classic-red-novid">
+        <variables>
+            <highlightColor>ff0000</highlightColor>
+            <baseColor>FFFFFF</baseColor>
+            <subColor>343434</subColor>
+            <transColor>FFFFFF90</transColor>
+            <gifColor>FFFFFF65</gifColor>
+            <counterColor>ffffff</counterColor>
+            <selColor>ffffff</selColor>
+            <contColor>ffffff40</contColor>
+            <lineColor>ffffff25</lineColor>
+            <clock2>ff000075</clock2>
+            <clock>true</clock>
+=======
             <clock2>00fe72</clock2>
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
 
             <vidColor>ffffff</vidColor>
             <vidSat>1</vidSat>
@@ -177,7 +293,7 @@
 
         </variables>
     </colorScheme>
-    <colorScheme name="classic-blue1080">
+    <colorScheme name="classic-blue">
         <variables>
             <highlightColor>4600f9</highlightColor>
             <baseColor>FFFFFF</baseColor>
@@ -186,9 +302,14 @@
             <gifColor>FFFFFF</gifColor>
             <counterColor>ffffff</counterColor>
             <selColor>ffffff</selColor>
-            <contColor>ffffff25</contColor>
+            <contColor>ffffff40</contColor>
             <lineColor>ffffff25</lineColor>
+<<<<<<< HEAD
+            <clock2>4600f975</clock2>
+            <clock>true</clock>
+=======
             <clock2>00fe72</clock2>
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
 
             <vidColor>ffffff</vidColor>
             <vidSat>1</vidSat>
@@ -210,7 +331,7 @@
 
         </variables>
     </colorScheme>
-     <colorScheme name="classic-blue">
+    <colorScheme name="classic-blue-stills">
         <variables>
             <highlightColor>4600f9</highlightColor>
             <baseColor>FFFFFF</baseColor>
@@ -219,9 +340,48 @@
             <gifColor>FFFFFF</gifColor>
             <counterColor>ffffff</counterColor>
             <selColor>ffffff</selColor>
-            <contColor>ffffff25</contColor>
+            <contColor>ffffff40</contColor>
             <lineColor>ffffff25</lineColor>
+<<<<<<< HEAD
+            <clock2>4600f975</clock2>
+            <clock>true</clock>
+
+            <vidColor>ffffff</vidColor>
+            <vidSat>1</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>FFDE00</arcadeLogo>
+            <consoleLogo>d4fffd</consoleLogo>
+            <computerLogo>FFFFFF</computerLogo>
+
+            <performance>mixed.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/classic/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/classic/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/classic/select.wav</selectSound>
+            <backSound>./_inc/sounds/classic/back.wav</backSound>
+            <scrollSound>./_inc/sounds/classic/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/classic/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/classic/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+     <colorScheme name="classic-blue-novid">
+        <variables>
+            <highlightColor>4600f9</highlightColor>
+            <baseColor>FFFFFF</baseColor>
+            <subColor>cccccc</subColor>
+            <transColor>FFFFFF90</transColor>
+            <gifColor>FFFFFF</gifColor>
+            <counterColor>ffffff</counterColor>
+            <selColor>ffffff</selColor>
+            <contColor>ffffff40</contColor>
+            <lineColor>ffffff25</lineColor>
+            <clock2>4600f975</clock2>
+            <clock>true</clock>
+=======
             <clock2>00fe72</clock2>
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
 
             <vidColor>ffffff</vidColor>
             <vidSat>1</vidSat>
@@ -243,7 +403,7 @@
 
         </variables>
     </colorScheme>
-    <colorScheme name="classic-yellow1080">
+    <colorScheme name="classic-yellow">
         <variables>
             <highlightColor>f9a400</highlightColor>
             <baseColor>FFFFFF</baseColor>
@@ -252,9 +412,14 @@
             <gifColor>FFFFFF</gifColor>
             <counterColor>ffffff</counterColor>
             <selColor>ffffff</selColor>
-            <contColor>ffffff25</contColor>
+            <contColor>ffffff40</contColor>
             <lineColor>ffffff25</lineColor>
+<<<<<<< HEAD
+            <clock2>f9a40075</clock2>
+            <clock>true</clock>
+=======
             <clock2>00fe72</clock2>
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
             
             <vidColor>ffffff</vidColor>
             <vidSat>1</vidSat>
@@ -276,7 +441,7 @@
 
         </variables>
     </colorScheme>
-<colorScheme name="classic-yellow">
+    <colorScheme name="classic-yellow-stills">
         <variables>
             <highlightColor>f9a400</highlightColor>
             <baseColor>FFFFFF</baseColor>
@@ -285,9 +450,48 @@
             <gifColor>FFFFFF</gifColor>
             <counterColor>ffffff</counterColor>
             <selColor>ffffff</selColor>
-            <contColor>ffffff25</contColor>
+            <contColor>ffffff40</contColor>
             <lineColor>ffffff25</lineColor>
+<<<<<<< HEAD
+            <clock2>f9a40075</clock2>
+            <clock>true</clock>
+            
+            <vidColor>ffffff</vidColor>
+            <vidSat>1</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>FFDE00</arcadeLogo>
+            <consoleLogo>d4fffd</consoleLogo>
+            <computerLogo>FFFFFF</computerLogo>
+
+            <performance>mixed.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/classic/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/classic/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/classic/select.wav</selectSound>
+            <backSound>./_inc/sounds/classic/back.wav</backSound>
+            <scrollSound>./_inc/sounds/classic/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/classic/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/classic/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+<colorScheme name="classic-yellow-novid">
+        <variables>
+            <highlightColor>f9a400</highlightColor>
+            <baseColor>FFFFFF</baseColor>
+            <subColor>cccccc</subColor>
+            <transColor>FFFFFF90</transColor>
+            <gifColor>FFFFFF</gifColor>
+            <counterColor>ffffff</counterColor>
+            <selColor>ffffff</selColor>
+            <contColor>ffffff40</contColor>
+            <lineColor>ffffff25</lineColor>
+            <clock2>f9a40075</clock2>
+            <clock>true</clock>
+=======
             <clock2>00fe72</clock2>
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
             
             <vidColor>ffffff</vidColor>
             <vidSat>1</vidSat>
@@ -310,7 +514,7 @@
         </variables>
     </colorScheme>
 
-    <colorScheme name="cyber-alpha1080">
+    <colorScheme name="cyber-alpha">
         <variables>
             <highlightColor>FF005C</highlightColor>
             <baseColor>00B7C5</baseColor>
@@ -322,6 +526,10 @@
             <contColor>46736E</contColor>
             <lineColor>00B7C550</lineColor>
             <clock2>46736E</clock2>
+<<<<<<< HEAD
+            <clock>true</clock>
+=======
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
             
             <vidColor>C466FA</vidColor>
             <vidSat>1</vidSat>
@@ -343,21 +551,24 @@
 
         </variables>
     </colorScheme>
-
-    <colorScheme name="cyber-alpha">
+      <colorScheme name="cyber-alpha-stills">
         <variables>
-            <highlightColor>f9005e</highlightColor>
-            <baseColor>FFFFFF</baseColor>
-            <subColor>FFFFFF</subColor>
-            <transColor>00f6f9</transColor>
-            <gifColor>00f6f9</gifColor>
+            <highlightColor>FF005C</highlightColor>
+            <baseColor>00B7C5</baseColor>
+            <subColor>575757</subColor>
+            <transColor>1BF2DD</transColor>
+            <gifColor>575757</gifColor>
             <counterColor>ffffff</counterColor>
-            <selColor>ffffff</selColor>
-            <contColor>ffffff25</contColor>
+            <selColor>1BF2DD</selColor>
+            <contColor>46736E</contColor>
             <lineColor>00B7C550</lineColor>
             <clock2>46736E</clock2>
+<<<<<<< HEAD
+            <clock>true</clock>
+=======
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
             
-            <vidColor>AA79FA</vidColor>
+            <vidColor>C466FA</vidColor>
             <vidSat>1</vidSat>
             <vidBright>0</vidBright>
 
@@ -365,7 +576,7 @@
             <consoleLogo>d4fffd</consoleLogo>
             <computerLogo>FFFFFF</computerLogo>
 
-            <performance>stills.xml</performance>
+            <performance>mixed.xml</performance>
 
             <sysbrowseSound>./_inc/sounds/cyber/systembrowse.wav</sysbrowseSound>
             <quicksysselectSound>./_inc/sounds/cyber/quicksysselect.wav</quicksysselectSound>
@@ -378,20 +589,28 @@
         </variables>
     </colorScheme>
 
-    <colorScheme name="cyber-beta1080">
+    <colorScheme name="cyber-alpha-novid">
         <variables>
-            <highlightColor>F28705</highlightColor>
-            <baseColor>025159</baseColor>
-            <subColor>038C8C</subColor>
-            <transColor>03A696</transColor>
-            <gifColor>03A696</gifColor>
+            <highlightColor>f9005e</highlightColor>
+            <baseColor>FFFFFF</baseColor>
+            <subColor>FFFFFF</subColor>
+            <transColor>00f6f9</transColor>
+            <gifColor>00f6f9</gifColor>
             <counterColor>ffffff</counterColor>
+<<<<<<< HEAD
+            <selColor>ffffff</selColor>
+            <contColor>ffffff25</contColor>
+            <lineColor>00B7C550</lineColor>
+            <clock2>46736E</clock2>
+            <clock>true</clock>
+=======
             <selColor>88F2E8</selColor>
             <contColor>025159</contColor>
             <lineColor>02515950</lineColor>
             <clock2>025159</clock2>
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
             
-            <vidColor>00DBFA</vidColor>
+            <vidColor>AA79FA</vidColor>
             <vidSat>1</vidSat>
             <vidBright>0</vidBright>
 
@@ -399,7 +618,7 @@
             <consoleLogo>d4fffd</consoleLogo>
             <computerLogo>FFFFFF</computerLogo>
 
-            <performance>1080p.xml</performance>
+            <performance>stills.xml</performance>
 
             <sysbrowseSound>./_inc/sounds/cyber/systembrowse.wav</sysbrowseSound>
             <quicksysselectSound>./_inc/sounds/cyber/quicksysselect.wav</quicksysselectSound>
@@ -424,6 +643,79 @@
             <contColor>025159</contColor>
             <lineColor>02515950</lineColor>
             <clock2>025159</clock2>
+<<<<<<< HEAD
+            <clock>true</clock>
+            
+            <vidColor>00DBFA</vidColor>
+            <vidSat>1</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>FFDE00</arcadeLogo>
+            <consoleLogo>d4fffd</consoleLogo>
+            <computerLogo>FFFFFF</computerLogo>
+
+            <performance>1080p.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/cyber/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/cyber/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/cyber/select.wav</selectSound>
+            <backSound>./_inc/sounds/cyber/back.wav</backSound>
+            <scrollSound>./_inc/sounds/cyber/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/cyber/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/cyber/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+     <colorScheme name="cyber-beta-stills">
+        <variables>
+            <highlightColor>F28705</highlightColor>
+            <baseColor>025159</baseColor>
+            <subColor>038C8C</subColor>
+            <transColor>03A696</transColor>
+            <gifColor>03A696</gifColor>
+            <counterColor>ffffff</counterColor>
+            <selColor>88F2E8</selColor>
+            <contColor>025159</contColor>
+            <lineColor>02515950</lineColor>
+            <clock2>025159</clock2>
+            <clock>true</clock>
+            
+            <vidColor>00DBFA</vidColor>
+            <vidSat>1</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>FFDE00</arcadeLogo>
+            <consoleLogo>d4fffd</consoleLogo>
+            <computerLogo>FFFFFF</computerLogo>
+
+            <performance>mixed.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/cyber/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/cyber/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/cyber/select.wav</selectSound>
+            <backSound>./_inc/sounds/cyber/back.wav</backSound>
+            <scrollSound>./_inc/sounds/cyber/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/cyber/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/cyber/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="cyber-beta-novid">
+        <variables>
+            <highlightColor>F28705</highlightColor>
+            <baseColor>025159</baseColor>
+            <subColor>038C8C</subColor>
+            <transColor>03A696</transColor>
+            <gifColor>03A696</gifColor>
+            <counterColor>ffffff</counterColor>
+            <selColor>88F2E8</selColor>
+            <contColor>025159</contColor>
+            <lineColor>02515950</lineColor>
+            <clock2>025159</clock2>
+            <clock>true</clock>
+=======
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
             
             <vidColor>00DBFA</vidColor>
             <vidSat>1</vidSat>
@@ -446,7 +738,7 @@
         </variables>
     </colorScheme>
     
-    <colorScheme name="dark1080">
+    <colorScheme name="dark">
         <variables>
             <highlightColor>490000</highlightColor>
             <baseColor>636363</baseColor>
@@ -458,6 +750,10 @@
             <contColor>ffffff25</contColor>
             <lineColor>63636350</lineColor>
             <clock2>490000</clock2>
+<<<<<<< HEAD
+            <clock>true</clock>
+=======
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
             
             <vidColor>ffffff</vidColor>
             <vidSat>.1</vidSat>
@@ -478,8 +774,7 @@
             <launchSound>./_inc/sounds/dark/launch.wav</launchSound>
         </variables>
     </colorScheme>
-
-     <colorScheme name="dark">
+    <colorScheme name="dark-stills">
         <variables>
             <highlightColor>490000</highlightColor>
             <baseColor>636363</baseColor>
@@ -491,6 +786,45 @@
             <contColor>ffffff25</contColor>
             <lineColor>63636350</lineColor>
             <clock2>490000</clock2>
+<<<<<<< HEAD
+            <clock>true</clock>
+            
+            <vidColor>ffffff</vidColor>
+            <vidSat>.1</vidSat>
+            <vidBright>-.1</vidBright>
+
+            <arcadeLogo>FFDE00</arcadeLogo>
+            <consoleLogo>d4fffd</consoleLogo>
+            <computerLogo>FFFFFF</computerLogo>
+
+            <performance>mixed.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/dark/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/dark/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/dark/select.wav</selectSound>
+            <backSound>./_inc/sounds/dark/back.wav</backSound>
+            <scrollSound>./_inc/sounds/dark/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/dark/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/dark/launch.wav</launchSound>
+        </variables>
+    </colorScheme>
+    
+
+     <colorScheme name="dark-novid">
+        <variables>
+            <highlightColor>490000</highlightColor>
+            <baseColor>636363</baseColor>
+            <subColor>222222</subColor>
+            <transColor>656565</transColor>
+            <gifColor>555555</gifColor>
+            <counterColor>636363</counterColor>
+            <selColor>676767</selColor>
+            <contColor>ffffff25</contColor>
+            <lineColor>63636350</lineColor>
+            <clock2>490000</clock2>
+            <clock>true</clock>
+=======
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
             
             <vidColor>ffffff</vidColor>
             <vidSat>.1</vidSat>
@@ -512,6 +846,8 @@
         </variables>
     </colorScheme>
 
+<<<<<<< HEAD
+=======
     <colorScheme name="Nautical1080">
         <variables>
             <highlightColor>F25430</highlightColor>
@@ -546,7 +882,77 @@
         </variables>
     </colorScheme>
 
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
     <colorScheme name="Nautical">
+        <variables>
+            <highlightColor>F25430</highlightColor>
+            <baseColor>A68A58</baseColor>
+            <subColor>0E416D</subColor>
+            <transColor>A68A58</transColor>
+            <gifColor>1463FF</gifColor>
+            <counterColor>F25430</counterColor>
+            <selColor>A68A58</selColor>
+            <contColor>0a3280</contColor>
+             <lineColor>A68A5850</lineColor>
+             <clock2>0a3280</clock2>
+             <clock>true</clock>
+            
+            <vidColor>1463FF</vidColor>
+            <vidSat>0</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>F25430</arcadeLogo>
+            <consoleLogo>F25430</consoleLogo>
+            <computerLogo>F25430</computerLogo>
+
+            <performance>1080p.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/cathode/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/cathode/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/cathode/select.wav</selectSound>
+            <backSound>./_inc/sounds/cathode/back.wav</backSound>
+            <scrollSound>./_inc/sounds/cathode/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/cathode/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/cathode/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+    <colorScheme name="Nautical-stills">
+        <variables>
+            <highlightColor>F25430</highlightColor>
+            <baseColor>A68A58</baseColor>
+            <subColor>0E416D</subColor>
+            <transColor>A68A58</transColor>
+            <gifColor>1463FF</gifColor>
+            <counterColor>F25430</counterColor>
+            <selColor>A68A58</selColor>
+            <contColor>0a3280</contColor>
+             <lineColor>A68A5850</lineColor>
+             <clock2>0a3280</clock2>
+             <clock>true</clock>
+            
+            <vidColor>1463FF</vidColor>
+            <vidSat>0</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>F25430</arcadeLogo>
+            <consoleLogo>F25430</consoleLogo>
+            <computerLogo>F25430</computerLogo>
+
+            <performance>mixed.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/cathode/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/cathode/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/cathode/select.wav</selectSound>
+            <backSound>./_inc/sounds/cathode/back.wav</backSound>
+            <scrollSound>./_inc/sounds/cathode/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/cathode/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/cathode/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="Nautical-novid">
         <variables>
             <highlightColor>F25430</highlightColor>
             <baseColor>A68A58</baseColor>
@@ -558,6 +964,10 @@
             <contColor>0a3280</contColor>
             <lineColor>A68A5850</lineColor>
             <clock2>0a3280</clock2>
+<<<<<<< HEAD
+            <clock>true</clock>
+=======
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
             
             <vidColor>1463FF</vidColor>
             <vidSat>0</vidSat>
@@ -580,7 +990,7 @@
         </variables>
     </colorScheme>
 
-    <colorScheme name="Grape1080">
+    <colorScheme name="Grape">
         <variables>
             <highlightColor>F063F2</highlightColor>
             <baseColor>F2BF5E</baseColor>
@@ -592,6 +1002,10 @@
             <contColor>762EA6</contColor>
             <lineColor>F2BF5E50</lineColor>
             <clock2>762EA6</clock2>
+<<<<<<< HEAD
+            <clock>true</clock>
+=======
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
             
             <vidColor>762EA6</vidColor>
             <vidSat>.1</vidSat>
@@ -613,8 +1027,42 @@
 
         </variables>
     </colorScheme>
+    <colorScheme name="Grape-stills">
+        <variables>
+            <highlightColor>F063F2</highlightColor>
+            <baseColor>F2BF5E</baseColor>
+            <subColor>38108F</subColor>
+            <transColor>F2B872</transColor>
+            <gifColor>F063F2</gifColor>
+            <counterColor>F2BF5E</counterColor>
+            <selColor>38108F</selColor>
+            <contColor>762EA6</contColor>
+            <lineColor>F2BF5E50</lineColor>
+            <clock2>762EA6</clock2>
+            <clock>true</clock>
+            
+            <vidColor>762EA6</vidColor>
+            <vidSat>.1</vidSat>
+            <vidBright>0</vidBright>
 
-    <colorScheme name="Grape">
+            <arcadeLogo>F2BF5E</arcadeLogo>
+            <consoleLogo>F2BF5E</consoleLogo>
+            <computerLogo>F2BF5E</computerLogo>
+
+            <performance>mixed.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/cathode/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/cathode/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/cathode/select.wav</selectSound>
+            <backSound>./_inc/sounds/cathode/back.wav</backSound>
+            <scrollSound>./_inc/sounds/cathode/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/cathode/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/cathode/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="Grape-novid">
         <variables>
             <highlightColor>762EA6</highlightColor>
             <baseColor>F063F2</baseColor>
@@ -626,6 +1074,10 @@
             <contColor>F063F2</contColor>
             <lineColor>F2BF5E50</lineColor>
             <clock2>762EA6</clock2>
+<<<<<<< HEAD
+            <clock>true</clock>
+=======
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
             
             <vidColor>762EA6</vidColor>
             <vidSat>.1</vidSat>
@@ -648,7 +1100,7 @@
         </variables>
     </colorScheme>
 
-    <colorScheme name="Gameboy1080">
+    <colorScheme name="Gameboy">
         <variables>
             <highlightColor>AFC442</highlightColor>
             <baseColor>2F5733</baseColor>
@@ -660,6 +1112,10 @@
             <contColor>D7E894</contColor>
             <lineColor>2F573350</lineColor>
             <clock2>D7E894</clock2>
+<<<<<<< HEAD
+            <clock>true</clock>
+=======
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
 
             <vidColor>4F7436</vidColor>
             <vidSat>0</vidSat>
@@ -681,8 +1137,42 @@
 
         </variables>
     </colorScheme>
+    <colorScheme name="Gameboy-stills">
+        <variables>
+            <highlightColor>AFC442</highlightColor>
+            <baseColor>2F5733</baseColor>
+            <subColor>204631</subColor>
+            <transColor>4F7436</transColor>
+            <gifColor>D7E894</gifColor>
+            <counterColor>D7E894</counterColor>
+            <selColor>D7E894</selColor>
+            <contColor>D7E894</contColor>
+            <lineColor>2F573350</lineColor>
+            <clock2>D7E894</clock2>
+            <clock>true</clock>
 
-    <colorScheme name="Gameboy">
+            <vidColor>4F7436</vidColor>
+            <vidSat>0</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>AFC442</arcadeLogo>
+            <consoleLogo>AFC442</consoleLogo>
+            <computerLogo>AFC442</computerLogo>
+
+            <performance>mixed.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/8bit/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/8bit/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/8bit/select.wav</selectSound>
+            <backSound>./_inc/sounds/8bit/back.wav</backSound>
+            <scrollSound>./_inc/sounds/8bit/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/8bit/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/8bit/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="Gameboy-novid">
         <variables>
             <highlightColor>AFC442</highlightColor>
             <baseColor>2F5733</baseColor>
@@ -698,6 +1188,10 @@
             <vidSat>0</vidSat>
             <vidBright>0</vidBright>
             <clock2>D7E894</clock2>
+<<<<<<< HEAD
+            <clock>true</clock>
+=======
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
 
             <arcadeLogo>AFC442</arcadeLogo>
             <consoleLogo>AFC442</consoleLogo>
@@ -715,7 +1209,7 @@
 
         </variables>
     </colorScheme>
-    <colorScheme name="Virtualboy1080">
+    <colorScheme name="Virtualboy">
         <variables>
             <highlightColor>F20505</highlightColor>
             <baseColor>590202</baseColor>
@@ -727,6 +1221,10 @@
             <contColor>F20505</contColor>
             <lineColor>59020250</lineColor>
             <clock2>F20505</clock2>
+<<<<<<< HEAD
+            <clock>true</clock>
+=======
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
 
             <vidColor>A60303</vidColor>
             <vidSat>0</vidSat>
@@ -737,6 +1235,75 @@
             <computerLogo>F20505</computerLogo>
 
             <performance>1080p.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/8bit/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/8bit/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/8bit/select.wav</selectSound>
+            <backSound>./_inc/sounds/8bit/back.wav</backSound>
+            <scrollSound>./_inc/sounds/8bit/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/8bit/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/8bit/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+    <colorScheme name="Virtualboy-stills">
+        <variables>
+            <highlightColor>F20505</highlightColor>
+            <baseColor>590202</baseColor>
+            <subColor>590202</subColor>
+            <transColor>A60303</transColor>
+            <gifColor>F20505</gifColor>
+            <counterColor>F20505</counterColor>
+            <selColor>F20505</selColor>
+            <contColor>F20505</contColor>
+            <lineColor>59020250</lineColor>
+            <clock2>F20505</clock2>
+            <clock>true</clock>
+
+            <vidColor>A60303</vidColor>
+            <vidSat>0</vidSat>
+            <vidBright>0.1</vidBright>
+
+            <arcadeLogo>F20505</arcadeLogo>
+            <consoleLogo>F20505</consoleLogo>
+            <computerLogo>F20505</computerLogo>
+
+            <performance>mixed.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/8bit/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/8bit/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/8bit/select.wav</selectSound>
+            <backSound>./_inc/sounds/8bit/back.wav</backSound>
+            <scrollSound>./_inc/sounds/8bit/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/8bit/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/8bit/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+    <colorScheme name="Virtualboy-novid">
+        <variables>
+            <highlightColor>F20505</highlightColor>
+            <baseColor>590202</baseColor>
+            <subColor>590202</subColor>
+            <transColor>A60303</transColor>
+            <gifColor>F20505</gifColor>
+            <counterColor>F20505</counterColor>
+            <selColor>F20505</selColor>
+            <contColor>F20505</contColor>
+            <lineColor>59020250</lineColor>
+            <clock2>F20505</clock2>
+            <clock>true</clock>
+
+            <vidColor>A60303</vidColor>
+            <vidSat>0</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>F20505</arcadeLogo>
+            <consoleLogo>F20505</consoleLogo>
+            <computerLogo>F20505</computerLogo>
+
+
+            <performance>stills.xml</performance>
 
             <sysbrowseSound>./_inc/sounds/8bit/systembrowse.wav</sysbrowseSound>
             <quicksysselectSound>./_inc/sounds/8bit/quicksysselect.wav</quicksysselectSound>
@@ -761,6 +1328,9 @@
             <contColor>ffffff25</contColor>
             <lineColor>72A63F50</lineColor>
             <clock2>72A63F</clock2>
+<<<<<<< HEAD
+            <clock>true</clock>
+=======
 
             <vidColor>ffffff</vidColor>
             <vidSat>0</vidSat>
@@ -795,6 +1365,7 @@
             <contColor>ffffff25</contColor>
             <lineColor>72A63F50</lineColor>
             <clock2>72A63F</clock2>
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
 
             <vidColor>ffffff</vidColor>
             <vidSat>0</vidSat>
@@ -817,8 +1388,21 @@
         </variables>
     </colorScheme>
 
-    <colorScheme name="Virtualboy">
+    <colorScheme name="xbox-stills">
         <variables>
+<<<<<<< HEAD
+            <highlightColor>108810</highlightColor>
+            <baseColor>72A63F</baseColor>
+            <subColor>343434</subColor>
+            <transColor>FFFFFF90</transColor>
+            <gifColor>FFFFFF65</gifColor>
+            <counterColor>ffffff</counterColor>
+            <selColor>108810</selColor>
+            <contColor>ffffff25</contColor>
+            <lineColor>72A63F50</lineColor>
+            <clock2>72A63F</clock2>
+            <clock>true</clock>
+=======
             <highlightColor>F20505</highlightColor>
             <baseColor>590202</baseColor>
             <subColor>590202</subColor>
@@ -829,30 +1413,65 @@
             <contColor>F20505</contColor>
             <lineColor>59020250</lineColor>
             <clock2>F20505</clock2>
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
 
-            <vidColor>A60303</vidColor>
+            <vidColor>ffffff</vidColor>
             <vidSat>0</vidSat>
-            <vidBright>0</vidBright>
+            <vidBright>.1</vidBright>
 
-            <arcadeLogo>F20505</arcadeLogo>
-            <consoleLogo>F20505</consoleLogo>
-            <computerLogo>F20505</computerLogo>
+            <arcadeLogo>ffffff</arcadeLogo>
+            <consoleLogo>ffffff</consoleLogo>
+            <computerLogo>ffffff</computerLogo>
 
+            <performance>mixed.xml</performance>
 
-            <performance>stills.xml</performance>
-
-            <sysbrowseSound>./_inc/sounds/8bit/systembrowse.wav</sysbrowseSound>
-            <quicksysselectSound>./_inc/sounds/8bit/quicksysselect.wav</quicksysselectSound>
-            <selectSound>./_inc/sounds/8bit/select.wav</selectSound>
-            <backSound>./_inc/sounds/8bit/back.wav</backSound>
-            <scrollSound>./_inc/sounds/8bit/scroll.wav</scrollSound>
-            <favSound>./_inc/sounds/8bit/favorite.wav</favSound>
-            <launchSound>./_inc/sounds/8bit/launch.wav</launchSound>
+            <sysbrowseSound>./_inc/sounds/live/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/live/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/live/select.wav</selectSound>
+            <backSound>./_inc/sounds/live/back.wav</backSound>
+            <scrollSound>./_inc/sounds/live/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/live/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/live/launch.wav</launchSound>
 
         </variables>
     </colorScheme>
 
-    <colorScheme name="OrangeCathode1080">
+    <colorScheme name="xbox-novid">
+        <variables>
+            <highlightColor>108810</highlightColor>
+            <baseColor>72A63F</baseColor>
+            <subColor>343434</subColor>
+            <transColor>FFFFFF90</transColor>
+            <gifColor>FFFFFF65</gifColor>
+            <counterColor>ffffff</counterColor>
+            <selColor>108810</selColor>
+            <contColor>ffffff25</contColor>
+            <lineColor>72A63F50</lineColor>
+            <clock2>72A63F</clock2>
+            <clock>true</clock>
+
+            <vidColor>ffffff</vidColor>
+            <vidSat>0</vidSat>
+            <vidBright>.1</vidBright>
+
+            <arcadeLogo>ffffff</arcadeLogo>
+            <consoleLogo>ffffff</consoleLogo>
+            <computerLogo>ffffff</computerLogo>
+
+            <performance>stills.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/live/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/live/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/live/select.wav</selectSound>
+            <backSound>./_inc/sounds/live/back.wav</backSound>
+            <scrollSound>./_inc/sounds/live/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/live/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/live/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="OrangeCathode">
         <variables>
             <highlightColor>FF7700</highlightColor>
             <baseColor>F27127</baseColor>
@@ -864,6 +1483,10 @@
             <contColor>FF7700</contColor>
             <lineColor>F2712750</lineColor>
             <clock2>FF7700</clock2>
+<<<<<<< HEAD
+            <clock>true</clock>
+=======
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
 
             <vidColor>F27127</vidColor>
             <vidSat>0</vidSat>
@@ -887,7 +1510,7 @@
         </variables>
     </colorScheme>
 
-    <colorScheme name="OrangeCathode">
+    <colorScheme name="OrangeCathode-stills">
         <variables>
             <highlightColor>FF7700</highlightColor>
             <baseColor>F27127</baseColor>
@@ -899,6 +1522,10 @@
             <contColor>FF7700</contColor>
             <lineColor>F2712750</lineColor>
             <clock2>FF7700</clock2>
+<<<<<<< HEAD
+            <clock>true</clock>
+=======
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
 
             <vidColor>F27127</vidColor>
             <vidSat>0</vidSat>
@@ -908,6 +1535,45 @@
             <consoleLogo>FF7700</consoleLogo>
             <computerLogo>FF7700</computerLogo>
 
+<<<<<<< HEAD
+
+            <performance>mixed.xml</performance>
+
+            <sysbrowseSound>./_inc/sounds/8bit/systembrowse.wav</sysbrowseSound>
+            <quicksysselectSound>./_inc/sounds/8bit/quicksysselect.wav</quicksysselectSound>
+            <selectSound>./_inc/sounds/8bit/select.wav</selectSound>
+            <backSound>./_inc/sounds/8bit/back.wav</backSound>
+            <scrollSound>./_inc/sounds/8bit/scroll.wav</scrollSound>
+            <favSound>./_inc/sounds/8bit/favorite.wav</favSound>
+            <launchSound>./_inc/sounds/8bit/launch.wav</launchSound>
+
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="OrangeCathode-novid">
+        <variables>
+            <highlightColor>FF7700</highlightColor>
+            <baseColor>F27127</baseColor>
+            <subColor>D94929</subColor>
+            <transColor>FF9300</transColor>
+            <gifColor>F2A516</gifColor>
+            <counterColor>FF9300</counterColor>
+            <selColor>F2A516</selColor>
+            <contColor>FF7700</contColor>
+            <lineColor>F2712750</lineColor>
+            <clock2>FF7700</clock2>
+            <clock>true</clock>
+
+            <vidColor>F27127</vidColor>
+            <vidSat>0</vidSat>
+            <vidBright>0</vidBright>
+
+            <arcadeLogo>FF7700</arcadeLogo>
+            <consoleLogo>FF7700</consoleLogo>
+            <computerLogo>FF7700</computerLogo>
+
+=======
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
             <performance>stills.xml</performance>
 
             <sysbrowseSound>./_inc/sounds/8bit/systembrowse.wav</sysbrowseSound>
@@ -966,13 +1632,21 @@
             <origin>1 1</origin>
             <size> 1 1</size>
             <pos>.995 .996</pos>
+<<<<<<< HEAD
+            <fontPath>${clockFont}</fontPath>
+=======
             <fontPath>${clock}</fontPath>
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
             <fontSize>.051</fontSize>
             <color>${highlightColor}</color>
             <horizontalAlignment>right</horizontalAlignment>
         </clock>
 
         <image name="clockOverlay">
+<<<<<<< HEAD
+            <visible>${clock}</visible>
+=======
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
             <zIndex>1</zIndex>
             <origin>0 0</origin>
             <pos>0 0</pos>
@@ -984,6 +1658,10 @@
            <color>${clock2}</color>
         </image>
         <image name="clockBG">
+<<<<<<< HEAD
+            <visible>${clock}</visible>
+=======
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
             <zIndex>1</zIndex>
             <origin>0 0</origin>
             <pos>0 0</pos>
@@ -1001,7 +1679,11 @@
             <entries>battery</entries>
             <height>0.04</height>
             <textRelativeScale>1</textRelativeScale>
+<<<<<<< HEAD
+            <fontPath>${clockFont}</fontPath>
+=======
             <fontPath>${clock}</fontPath>
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
             <customIcon icon="icon_battery_low">./_inc/images/bat-low.svg</customIcon>
             <customIcon icon="icon_battery_medium">./_inc/images/bat-med.svg</customIcon>
             <customIcon icon="icon_battery_high">./_inc/images/bat-high.svg</customIcon>
@@ -1077,5 +1759,21 @@
             </image>    
         </view> 
     </aspectRatio>
+<<<<<<< HEAD
+    <aspectRatio name="3:2">
+        <view name="system,gamelist">
+            <systemstatus name="gstatus-ind">
+                <pos>.009 .957</pos>
+            </systemstatus>
+            <image name="clockOverlay">
+                <path>./_inc/images/3-2overlay.png</path>
+            </image>
+            <image name="clockBG">
+                <path>./_inc/images/3-2clocks.png</path>
+            </image>    
+        </view> 
+    </aspectRatio>
+=======
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
     
 </theme>

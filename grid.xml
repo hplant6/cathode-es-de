@@ -79,11 +79,19 @@
             <opacity>.7</opacity>
             <fadeInTime>0</fadeInTime>
             <scanlines>true</scanlines>
-            <zIndex>4</zIndex>
+            <zIndex>5</zIndex>
             <brightness>${vidBright}</brightness>
             
             <videoCornerRadius>.01</videoCornerRadius>
         </video>
+        <image name="imagethumb1">
+            <pos>0.02 0.104</pos>
+            <maxSize>.36 .36</maxSize>
+            <opacity>.7</opacity>
+            <imageType>screenshot, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
+            <default>./../_inc/images/empty-state.webp</default> <!-- Fallback to default cover -->
+            <zIndex>4</zIndex>
+    </image>
 
         <image name="videothumbtop">
             <pos>0.02 0.104</pos>       <!--.16 save -->
@@ -91,7 +99,7 @@
             <path>./_inc/images/cover.gif</path>
             <brightness>1</brightness>
             <opacity>.1</opacity>
-            <zIndex>5</zIndex>
+            <zIndex>6</zIndex>
             <cornerRadius>.01</cornerRadius>
         </image>
 
@@ -131,14 +139,6 @@
         </image>
         <image name="line5">
             <pos>0.4 .26</pos>
-            <origin>0 .5</origin>
-            <maxSize>.58 .5</maxSize>
-            <path>./_inc/images/line.svg</path>
-            <color>${lineColor}</color>
-            <zIndex>70</zIndex>
-        </image>
-        <image name="line6">
-            <pos>0.4 .96</pos>
             <origin>0 .5</origin>
             <maxSize>.58 .5</maxSize>
             <path>./_inc/images/line.svg</path>
@@ -299,7 +299,7 @@
         <badges name="badges">
             <pos>0.02 .895</pos>
             <origin>0 0</origin>
-            <size>.35 .35</size>
+            <size>.2 .2</size>
             <horizontalAlignment>left</horizontalAlignment>
             <direction>row</direction>
             <lines>1</lines>
@@ -373,6 +373,9 @@
         <image name="gamelistBgImage">
             <visible>false</visible>
         </image> 
+        <helpsystem name="help">
+            <entries>a, b, x, y, lt, rt</entries>
+        </helpsystem>
     </view>
     <aspectRatio name="4:3">
         <view name="gamelist">
@@ -463,6 +466,10 @@
                 <pos>0.02 0.104</pos>
                 <maxSize>.46 .345</maxSize>
             </video>
+            <image name="imagethumb1">
+                <pos>0.02 0.104</pos>
+                <maxSize>.46 .345</maxSize>
+            </image>
 
             <image name="videothumbtop">
                 <pos>0.02 0.104</pos>
@@ -491,12 +498,32 @@
 
         </view>
     </aspectRatio>
+     <aspectRatio name="3:2">
+        <view name="gamelist">
+            
+            <text name="genre">
+                <size>0.2 0.05</size>
+            </text>
+            <datetime name="lastPlayedDate">
+                <pos>.83 .0815</pos>
+            </datetime>
+            <text name="completed">
+                <pos>.83 .15</pos>
+            </text>
+            
+        </view>
+        
+    </aspectRatio>
      <aspectRatio name="21:9">
         <view name="gamelist">
             <video name="videothumb1">
                 <pos>0.02 0.1</pos>
                 <maxSize>.36 .481</maxSize>
             </video>
+            <image name="imagethumb1">
+                <pos>0.02 0.1</pos>
+                <maxSize>.36 .481</maxSize>
+            </image>
             
             <image name="videothumbtop">
                 <pos>0.02 0.1</pos>
@@ -518,9 +545,7 @@
             <image name="line5">
                 <visible>false</visible>
             </image>
-            <image name="line6">
-                <visible>false</visible>
-            </image>
+        
             <badges name="badges">
                 <size>.25 .25</size>
             </badges>   
@@ -633,6 +658,10 @@
                 <pos>0.02 0.12</pos>
                 <maxSize>.36 .324</maxSize>
             </video>
+            <image name="imagethumb1">
+                <pos>0.02 0.12</pos>
+                <maxSize>.36 .324</maxSize>
+            </image>
 
             <image name="videothumbtop">
                 <pos>0.02 0.12</pos>       <!--.16 save -->

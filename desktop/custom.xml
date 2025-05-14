@@ -19,7 +19,11 @@
                     <cropSize>0.23 0.32</cropSize>
                     <cropPos>.5 .2</cropPos>
                     <origin>0.5 0.5</origin>
+<<<<<<< HEAD
+                    <path>./../_inc/images/nut.jpg</path> <!-- Fallback to default cover -->
+=======
                     <path>./../_inc/images/nut.mp4</path> <!-- Fallback to default cover -->
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
                     <zIndex>29</zIndex>
             </image>
             <text name="appTitle">
@@ -83,6 +87,9 @@
       <color>${vidColor}</color>
     </image>
      <carousel name="gamelistCarousel">
+<<<<<<< HEAD
+                <defaultImage>./../_inc/images/default-box.webp</defaultImage>
+=======
                 <pos>0.5 1.22</pos>
                 <origin>0.5 1</origin>
                 <size>1 0.7</size>
@@ -113,6 +120,7 @@
                 <reflectionsFalloff>3</reflectionsFalloff>
                 <unfocusedItemOpacity>1</unfocusedItemOpacity>
                 <zIndex>50</zIndex>
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
         </carousel>
         <image name="section-logo">
                 <pos>-0.01 0.02</pos>

@@ -27,6 +27,13 @@
         <video name="gamelistBgVideo">
             <visible>false</visible>
         </video>
+        
+        <video name="gamevideo">
+            <visible>false</visible>
+        </video>
+        <video name="videothumb1">
+            <visible>false</visible>
+        </video>
          <image name="gamelistBgImage">
             <pos>0 0</pos>
             <cropSize>1 1</cropSize>

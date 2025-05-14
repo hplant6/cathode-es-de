@@ -77,6 +77,9 @@
                <saturation>${vidSat}</saturation>
                <color>${vidColor}</color>
             </image> 
+<<<<<<< HEAD
+      
+=======
             <!--  
             <clock name="sysClock">
                 <pos>.018 .016</pos>
@@ -86,6 +89,7 @@
                 <color>${gifColor}</color>
             </clock>
                 -->
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
     </view>
 
     <aspectRatio name="21:9">

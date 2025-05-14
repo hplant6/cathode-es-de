@@ -114,6 +114,17 @@ a<theme>
             </image>
         </view> 
     </aspectRatio>
+    <aspectRatio name="3:2">
+      <view name="system">
+
+             <image name="OVRGRID2">
+               <visible>flase</visible>
+             </image>
+             <image name="system-controllers-outline">
+                <pos>.58 .80</pos>
+             </image>
+      </view> 
+    </aspectRatio>
     <aspectRatio name="4:3">
       <view name="system">
   
