@@ -20,7 +20,7 @@
             <maxSize>0.295 0.3</maxSize>
             <origin>0.5 0.5</origin>
             <imageType>screenshot, fanart, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
-            <default>${rootpath2}/_inc/images/empty-state43.jpg</default> <!-- Fallback to default cover -->
+            <default>./../_inc/images/empty-state.webp</default> <!-- Fallback to default cover -->
             <zIndex>29</zIndex>
         </image>  
     <image name="cabinetOverlay">
@@ -114,7 +114,6 @@
             </image>  
         </view>
   </aspectRatio>
-<<<<<<< HEAD
    <aspectRatio name="21:9">
         <view name="gamelist">
             <video name="gamevideo">
@@ -127,16 +126,10 @@
             </image>
      
             <image name="sys-logo">
-=======
-  <aspectRatio name="21:9">
-        <view name="gamelist">
-           <image name="sys-logo">
->>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
                 <pos>.023 .2</pos>
                 <color>${highlightColor}</color>
                 <maxSize>0.08 0.08</maxSize>
             </image>
-<<<<<<< HEAD
              <text name="gameTitle">
                 <visible>false</visible>
              </text>   
@@ -190,9 +183,5 @@
             </text>   
         </view>
     </aspectRatio>
-=======
-        </view>
-  </aspectRatio>
->>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
     
 </theme>

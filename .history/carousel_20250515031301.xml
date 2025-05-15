@@ -1,0 +1,695 @@
+<theme>
+<variables>
+        <rootpath2>./</rootpath2>
+        <systemPromoVideo>${rootpath2}/_inc/systems/system-view/1080p/${system.theme}.mp4</systemPromoVideo>
+         
+        <gameCarouselItemSize>0.12 0.25</gameCarouselItemSize>
+        
+    </variables>
+    <view name="gamelist">
+       
+
+        <image name="cabinetOverlay">
+            <brightness>${vidBright}</brightness>
+            <saturation>${vidSat}</saturation>
+            <color>${vidColor}</color>
+            <pos>0 0</pos>
+            <cropSize>1 1</cropSize>
+            <path>${rootpath2}/_inc/images/tv-overlay.webp</path>
+            <zIndex>70</zIndex>
+            
+        </image>
+        
+        <video name="gamevideo">
+            <pos>0.77 0.38</pos>
+            <maxSize>0.295 0.3</maxSize>
+            <origin>0.5 0.5</origin>
+            <default>${rootpath2}/_inc/images/empty-state43.mp4</default> <!-- Fallback to default cover -->
+            <interpolation>nearest</interpolation>
+            <pillarboxes>true</pillarboxes>
+            <pillarboxThreshold>0.85 0.90</pillarboxThreshold>
+            <delay>0</delay>
+            <fadeInTime>0</fadeInTime>
+            <zIndex>30</zIndex>
+        </video>
+        <image name="gameimage">
+            <pos>0.77 0.38</pos>
+            <maxSize>0.295 0.3</maxSize>
+            <origin>0.5 0.5</origin>
+            <imageType>screenshot, fanart, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
+            <default>${rootpath2}/_inc/images/empty-state.webp</default> <!-- Fallback to default cover -->
+            <zIndex>29</zIndex>
+        </image>
+        
+        <!-- Fanart -->
+        <image name="game-logo">
+            <pos>0.03 0.03</pos>
+            <maxSize>0.25 0.15</maxSize>
+            <brightness>.2</brightness>
+            <imageType>marquee</imageType>
+            <default>${rootpath2}/_inc/images/default-logo.webp</default> 
+            <zIndex>45</zIndex>
+        </image>
+        <image name="sys-logo">
+            <pos>0.642 0.036</pos>
+            <maxSize>0.14 0.14</maxSize>
+            <saturation>0</saturation>
+            <brightness>2</brightness>
+            <color>${consoleLogo}</color>
+            <path>${rootpath2}/_inc/systems/logos/${system.theme}.webp</path>
+            <default>${rootpath2}/_inc/systems/logos/default.webp</default>
+            <zIndex>14</zIndex>
+        </image>
+        <video name="gamelistBgVideo">
+            <zIndex>2</zIndex>
+            <audio>false</audio>
+            <pos>0 0</pos>
+            <cropSize>1 1</cropSize>
+            <path>${rootpath2}/_inc/systems/cabinets/1080p/console-bg.mp4</path> 
+            <zIndex>9</zIndex>
+            <brightness>${vidBright}</brightness>
+            <saturation>${vidSat}</saturation>
+            <color>${vidColor}</color>
+        </video>
+         <image name="gamelistBgImage">
+            <zIndex>1</zIndex>
+            <pos>0 0</pos>
+            <cropSize>1 1</cropSize>
+            <path>${rootpath2}/_inc/systems/cabinets/images/console-bg.webp</path>
+            <zIndex>8</zIndex>
+            <brightness>${vidBright}</brightness>
+            <saturation>${vidSat}</saturation>
+            <color>${vidColor}</color>
+        </image>
+        
+
+        <!-- Game carousel -->
+        
+    
+            <!-- game metadata Leftside-->
+         <text name="gameTitle">
+                <pos>.03 .24</pos>
+                <origin>0 .5</origin>
+                <size>.4 .018</size>
+                <fontSize>${labelFontSize}</fontSize>
+                <fontPath>${labelFont}</fontPath>
+                <letterCase>uppercase</letterCase>
+                <metadata>name</metadata>
+                <defaultValue>Unknown</defaultValue>
+                <color>${transColor}</color>
+                <lineSpacing>1</lineSpacing>
+                <zIndex>65</zIndex>
+         </text>
+
+             
+       
+        <image name="developer-icon">
+                <pos>.09 .34</pos>
+                <origin>0 .5</origin>
+                <maxSize>.027 .027</maxSize>
+                <path>${rootpath2}/_inc/images/icon-developer.svg</path>
+                <color>${highlightColor}</color>
+                <brightness>2</brightness>
+                <saturation>0</saturation>
+                <metadataElement>true</metadataElement>
+                <zIndex>65</zIndex>
+        </image>
+        <text name="developer">
+                <pos>.11 .34</pos>
+                <origin>0 .5</origin>
+                <size>.3 .018</size>
+                <fontSize>${labelFontSize}</fontSize>
+                <fontPath>${labelFont}</fontPath>
+
+                <metadata>developer</metadata>
+                <defaultValue>Unknown</defaultValue>
+                <color>${transColor}</color>
+                <lineSpacing>1</lineSpacing>
+                <zIndex>65</zIndex>
+        </text>
+      
+        <image name="date-icon">
+                <pos>.03 .34</pos>
+                <origin>0 .5</origin>
+                <maxSize>.027 .027</maxSize>
+                <path>${rootpath2}/_inc/images/release-date.svg</path>
+                <color>${highlightColor}</color>
+                <brightness>2</brightness>
+                <saturation>0</saturation>
+                <metadataElement>true</metadataElement>
+                <zIndex>65</zIndex>
+        </image>
+
+        <datetime name="releasedatedate">
+                <pos>.05 .34</pos>
+                <origin>0 0.5</origin>
+                <fontSize>${labelFontSize}</fontSize>
+                <fontPath>${labelFont}</fontPath>
+                <letterCase>uppercase</letterCase>
+                <format>%Y</format>
+                <metadata>releasedate</metadata>
+                <defaultValue>????</defaultValue>
+                <color>${transColor}</color>
+                <lineSpacing>1</lineSpacing>
+                <zIndex>65</zIndex>
+            </datetime>
+
+
+            <!-- top metadata row-->
+        <rating name="ratinggraphic">
+                <pos>.03 .29</pos>
+                <origin>0 0.5</origin>
+                <size>0 0.03</size>
+                <filledPath>${rootpath2}/_inc/images/star_filled.svg</filledPath>
+                <unfilledPath>${rootpath2}/_inc/images/star_unfilled.svg</unfilledPath>
+                <color>${highlightColor}</color>
+                <zIndex>65</zIndex>
+        </rating>
+        
+        <image name="players-icon">
+                <pos>.14 .29</pos>
+                <origin>0 .5</origin>
+                <maxSize>.027 .027</maxSize>
+                <path>${rootpath2}/_inc/images/icon-players.svg</path>
+                <color>${highlightColor}</color>
+                <brightness>2</brightness>
+                <saturation>0</saturation>
+                <metadataElement>true</metadataElement>
+                <zIndex>65</zIndex>
+        </image>
+        <text name="game-players">
+            <pos>.16 .29</pos>
+            <origin>0 0.5</origin>
+            <size>0.1 0.05</size>
+            <fontSize>${labelFontSize}</fontSize>
+            <fontPath>${labelFont}</fontPath>
+            <letterCase>uppercase</letterCase>
+            <metadata>players</metadata>
+            <defaultValue>??</defaultValue>
+            <color>${transColor}</color>
+            <lineSpacing>1</lineSpacing>
+            <zIndex>65</zIndex>
+        </text>
+
+        
+        <image name="genre-icon">
+                <pos>.20 .29</pos>
+                <origin>0 .5</origin>
+                <maxSize>.027 .027</maxSize>
+                <path>${rootpath2}/_inc/images/genre.svg</path>
+                <color>${highlightColor}</color>
+                <brightness>2</brightness>
+                <saturation>0</saturation>
+                <metadataElement>true</metadataElement>
+                <zIndex>65</zIndex>
+        </image>
+        <text name="genre">
+            <pos>.22 .29</pos>
+            <size>0.19 0.05</size>
+            <origin>0 0.5</origin>
+            <fontSize>${labelFontSize}</fontSize>
+            <fontPath>${labelFont}</fontPath>
+            <letterCase>uppercase</letterCase>
+            <metadata>genre</metadata>
+            <defaultValue>Unknown</defaultValue>
+            <color>${transColor}</color>
+            <lineSpacing>1</lineSpacing>
+            <zIndex>65</zIndex>
+        </text>
+
+        <!-- Line graphic-->
+        <image name="line1">
+                <pos>0.03 .266</pos>
+                <origin>0 .5</origin>
+                <maxSize>.38 .9</maxSize>
+                <path>${rootpath2}/_inc/images/line.svg</path>
+                <color>${lineColor}</color>
+                <zIndex>70</zIndex>
+            </image>
+        <image name="line2">
+                <pos>0.03 .316</pos>
+                <origin>0 .5</origin>
+                <maxSize>.38 .9</maxSize>
+                <path>${rootpath2}/_inc/images/line.svg</path>
+                <color>${lineColor}</color>
+                <zIndex>70</zIndex>
+            </image>
+
+            <image name="line3">
+                <pos>0.03 .367</pos>
+                <origin>0 .5</origin>
+                <maxSize>.38 .9</maxSize>
+                <path>${rootpath2}/_inc/images/line.svg</path>
+                <color>${lineColor}</color>
+                <zIndex>70</zIndex>
+            </image>
+        
+
+        <text name="descriptiontext">
+                <pos>0.03 .39</pos>
+                <size>.4 .15</size>
+                <metadata>description</metadata>
+                <container>true</container>
+                <fontSize>${paraFontSize}</fontSize>
+                <color>${baseColor}</color>
+                <fontPath>${pFont}</fontPath>
+                <lineSpacing>1.5</lineSpacing>
+                <zIndex>65</zIndex>
+        </text>
+      
+
+        
+        <!-- game metadata rightside-->
+        <text name="lastPlayed">
+                <pos>.77 .04</pos>
+                <size>.1 .018</size>
+                <fontPath>${counterFont}</fontPath>
+                <fontSize>${metaFontSize}</fontSize>
+                <horizontalAlignment>right</horizontalAlignment>
+                <text>Last played:</text>
+                <color>${counterColor}</color>
+                <lineSpacing>1</lineSpacing>
+                <metadataElement>true</metadataElement>
+                <zIndex>71</zIndex>
+                <visible>${remove}</visible>
+            </text>
+            <datetime name="lastPlayedDate">    
+                <pos>.873 .04</pos>
+                <size>.107 .018</size>
+                <horizontalAlignment>left</horizontalAlignment>
+                <fontPath>${counterFont}</fontPath>
+                <fontSize>${metaFontSize}</fontSize>
+                <metadata>lastplayed</metadata>
+                <defaultValue>Never</defaultValue>
+                <color>${counterColor}</color>
+                <displayRelative>true</displayRelative>
+                <lineSpacing>1</lineSpacing>
+                <zIndex>71</zIndex>
+                <visible>${remove}</visible>
+            </datetime>
+            <text name="playcount">
+                <pos>.77 .06</pos>
+                <size>.1 .018</size>
+                <fontPath>${counterFont}</fontPath>
+                <fontSize>${metaFontSize}</fontSize>
+                <horizontalAlignment>right</horizontalAlignment>
+                <text>Play count:</text>
+                <color>${counterColor}</color>
+                <lineSpacing>1</lineSpacing>
+                <metadataElement>true</metadataElement>
+                <zIndex>71</zIndex>
+                <visible>${remove}</visible>
+            </text>
+            <datetime name="mobile-stat">
+                <pos>.783 .067</pos>
+                <size>.14 .03</size>
+                <fontPath>${listFont}</fontPath>
+                <fontSize>${metaFontSize}</fontSize>
+                <horizontalAlignment>center</horizontalAlignment>
+                <metadata>lastplayed</metadata>
+                <defaultValue>unplayed</defaultValue>
+                <color>${counterColor}</color>
+                <format>%m/%d/%Y</format>
+                <displayRelative>false</displayRelative>
+                <lineSpacing>1</lineSpacing>
+                <zIndex>71</zIndex>
+                <visible>${mobileStat}</visible>
+            </datetime>
+            <text name="mobile-stat-title">
+                <pos>.783 .042</pos>
+                <size>.14 .03</size>
+                <fontPath>${listFont}</fontPath>
+                <fontSize>.02</fontSize>
+                <horizontalAlignment>center</horizontalAlignment>
+                <text>LAST PLAYED</text>
+                <color>${counterColor}</color>
+                <zIndex>71</zIndex>
+                <visible>${mobileStat}</visible>
+            </text>
+            <text name="pkaycountnumber">    
+                <pos>.873 .06</pos>
+                <size>.107 .018</size>
+                <horizontalAlignment>left</horizontalAlignment>
+                <fontPath>${counterFont}</fontPath>
+                <fontSize>${metaFontSize}</fontSize>
+                <metadata>playcount</metadata>
+                <defaultValue>Never</defaultValue>
+                <color>${counterColor}</color>
+                <lineSpacing>1</lineSpacing>
+                <zIndex>71</zIndex>
+                <visible>${remove}</visible>
+            </text>
+            <text name="kidgameLabel">
+                <pos>.77 .08</pos>
+                <size>.1 .018</size>
+                <fontPath>${counterFont}</fontPath>
+                <fontSize>${metaFontSize}</fontSize>
+                <horizontalAlignment>right</horizontalAlignment>
+                <text>Kid-friendly:</text>
+                <color>${counterColor}</color>
+                <lineSpacing>1</lineSpacing>
+                <metadataElement>true</metadataElement>
+                <zIndex>71</zIndex>
+                <visible>${remove}</visible>
+            </text>
+
+            <!-- Kidgame Value (Yes/No) -->
+            <text name="kidgame">
+                <pos>.873 .08</pos>
+                <size>.107 .018</size>
+                <horizontalAlignment>left</horizontalAlignment>
+                <fontPath>${counterFont}</fontPath>
+                <fontSize>${metaFontSize}</fontSize>
+                <metadata>kidgame</metadata>
+                <defaultValue>No</defaultValue>
+                <color>${counterColor}</color>
+                <lineSpacing>1</lineSpacing>
+                <zIndex>71</zIndex>
+                <visible>${remove}</visible>
+            </text>
+        <!-- Badges -->
+        <badges name="badges">
+                <pos>0.2 .59</pos>
+                <origin>0 0</origin>
+                <size>.35 .35</size>
+                <horizontalAlignment>left</horizontalAlignment>
+                <direction>row</direction>
+                <lines>1</lines>
+                <itemsPerLine>8</itemsPerLine>
+                <slots>collection, folder, favorite, completed, kidgame, broken, altemulator, manual</slots>
+                <badgeIconColor>BBBBBB</badgeIconColor>
+                <customBadgeIcon badge="collection">${rootpath2}/_inc/images/badge-collection.svg</customBadgeIcon>
+                <customBadgeIcon badge="folder">${rootpath2}/_inc/images/badge-folder.svg</customBadgeIcon>
+                <customBadgeIcon badge="favorite">${rootpath2}/_inc/images/badge-favorite.svg</customBadgeIcon>
+                <customBadgeIcon badge="completed">${rootpath2}/_inc/images/badge-completed.svg</customBadgeIcon>
+                <customBadgeIcon badge="kidgame">${rootpath2}/_inc/images/badge-kidgame.svg</customBadgeIcon>
+                <customBadgeIcon badge="broken">${rootpath2}/_inc/images/badge-broken.svg</customBadgeIcon>
+                <customBadgeIcon badge="controller">${rootpath2}/_inc/images/badge-controller.svg</customBadgeIcon>
+                <customBadgeIcon badge="altemulator">${rootpath2}/_inc/images/badge-altemulator.svg</customBadgeIcon>
+                <customBadgeIcon badge="manual">${rootpath2}/_inc/images/badge-manual.svg</customBadgeIcon>
+                <zIndex>65</zIndex>
+            </badges>
+
+            <text name="badgesTitle">
+                <pos>.194 .569</pos>
+                <origin>0 .5</origin>
+                <size>.3 .018</size>
+                <fontSize>${labelFontSize}</fontSize>
+                <fontPath>${labelFont}</fontPath>
+                <letterCase>uppercase</letterCase>
+                <text>badges</text>
+                <color>${highlightColor}</color>
+                <lineSpacing>1</lineSpacing>
+                <zIndex>65</zIndex>
+             </text>
+
+             <image name="badge-container">
+                <pos>.195 .634</pos>
+                <origin>0 .5</origin>
+                <maxSize>.2 .2</maxSize>
+                <path>${rootpath2}/_inc/images/badge-container.webp</path>
+                <zIndex>63</zIndex>
+            </image>
+            <helpsystem name="help">
+                <entries>a, b, x, y, lt, rt</entries>
+            </helpsystem>
+
+    </view>
+    <aspectRatio name="4:3">
+        <view name="gamelist">
+            <video name="gamevideo">
+                <pos>.755 0.38</pos>
+                <cropSize>0.33 0.33</cropSize>
+            </video>
+            <image name="gameimage">
+                <pos>.755 0.38</pos>
+                <cropSize>0.33 0.33</cropSize>
+            </image>
+            <image name="gamescreen">
+                <pos>.755 0.38</pos>
+                <cropSize>0.33 0.33</cropSize>
+            </image>
+            <image name="cabinetOverlay">
+                <pos>-.15 0</pos>
+                <cropSize>1.1 1</cropSize>
+            </image>
+            <datetime name="mobile-stat">
+                    <pos>.802 .067</pos>
+            </datetime>
+            <text name="mobile-stat-title">
+                <pos>.802 .042</pos>
+            </text>  
+            <image name="game-logo">
+                <maxSize>0.35 0.15</maxSize>
+            </image>
+            <image name="sys-logo">
+                <pos>0.6 0.048</pos> <!-- +.03   +.012-->
+            </image>
+            <text name="game-players">
+                <pos>.175 .29</pos> <!-- +.015 -->
+            </text>
+            <image name="players-icon">
+                <pos>.15 .29</pos> <!-- +.01 -->
+            </image>
+            <image name="genre-icon">
+                <pos>.22 .29</pos> <!-- +.01 -->
+            </image>
+            <text name="genre">
+                <pos>.245 .29</pos>  <!-- +.01 -->      
+            </text>
+            <datetime name="releasedatedate">
+                <pos>.055 .34</pos> <!-- +.005 --> 
+            </datetime> 
+            <image name="developer-icon">
+                <pos>.12 .34</pos> <!-- +.01 --> 
+            </image> 
+            <text name="developer">
+                <pos>.145 .34</pos>  <!-- +.015 -->
+<<<<<<< HEAD
+            </text>
+            <text name="lastPlayed">
+                <pos>.8 .042</pos> <!-- +.03   +.012-->
+            </text>
+            <datetime name="lastPlayedDate">    
+                <pos>.903 .042</pos><!-- +.03   +.012-->
+            </datetime>  
+            <text name="playcount">
+                <pos>.8 .062</pos> <!-- +.03   +.012-->
+            </text>
+            <text name="pkaycountnumber">    
+                <pos>.903 .062</pos> <!-- +.03   +.012-->
+            </text> 
+            <text name="kidgameLabel">
+                <pos>.8 .082</pos>
+            </text>
+            <text name="kidgame">
+                <pos>.903 .082</pos>
+            </text> 
+            <text name="badgesTitle"> <!-- +0   +.01-->
+                <pos>.194 .579</pos>
+            </text>
+            <badges name="badges">
+                <pos>0.2 .6</pos> <!-- +0   +.01-->
+            </badges>               
+        </view>
+    </aspectRatio>
+    <aspectRatio name="3:2">
+        <view name="gamelist">
+            <video name="gamevideo">
+                <pos>.82 0.38</pos>
+                <cropSize>0.33 0.33</cropSize>
+            </video>
+            <image name="gameimage">
+                <pos>.82 0.38</pos>
+                <cropSize>0.33 0.33</cropSize>
+            </image>
+            <image name="gamescreen">
+                <pos>.82 0.38</pos>
+                <cropSize>0.33 0.33</cropSize>
+            </image>
+            <image name="cabinetOverlay">
+                <pos>-.05 0</pos>
+                <cropSize>1.1 1</cropSize>
+            </image>
+            <datetime name="mobile-stat">
+                    <pos>.85 .067</pos>
+            </datetime>
+            <text name="mobile-stat-title">
+                <pos>.85 .042</pos>
+            </text>  
+            <image name="game-logo">
+                <maxSize>0.35 0.15</maxSize>
+            </image>
+            <image name="sys-logo">
+                <pos>0.66 0.048</pos> <!-- +.03   +.012-->
+            </image>
+            <text name="game-players">
+                <pos>.175 .29</pos> <!-- +.015 -->
+            </text>
+            <image name="players-icon">
+                <pos>.15 .29</pos> <!-- +.01 -->
+            </image>
+            <image name="genre-icon">
+                <pos>.22 .29</pos> <!-- +.01 -->
+            </image>
+            <text name="genre">
+                <pos>.245 .29</pos>  <!-- +.01 -->      
+            </text>
+            <datetime name="releasedatedate">
+                <pos>.055 .34</pos> <!-- +.005 --> 
+            </datetime> 
+            <image name="developer-icon">
+                <pos>.12 .34</pos> <!-- +.01 --> 
+            </image> 
+            <text name="developer">
+                <pos>.145 .34</pos>  <!-- +.015 -->
+=======
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
+            </text>
+            <text name="lastPlayed">
+                <pos>.8 .042</pos> <!-- +.03   +.012-->
+            </text>
+            <datetime name="lastPlayedDate">    
+                <pos>.903 .042</pos><!-- +.03   +.012-->
+            </datetime>  
+            <text name="playcount">
+                <pos>.8 .062</pos> <!-- +.03   +.012-->
+            </text>
+            <text name="pkaycountnumber">    
+                <pos>.903 .062</pos> <!-- +.03   +.012-->
+            </text> 
+            <text name="kidgameLabel">
+                <pos>.8 .082</pos>
+            </text>
+            <text name="kidgame">
+                <pos>.903 .082</pos>
+            </text> 
+            <text name="badgesTitle"> <!-- +0   +.01-->
+                <pos>.194 .579</pos>
+            </text>
+            <badges name="badges">
+                <pos>0.2 .6</pos> <!-- +0   +.01-->
+            </badges>               
+        </view>
+    </aspectRatio>
+    <aspectRatio name="16:10">
+        <view name="gamelist">
+            <datetime name="mobile-stat">
+                    <pos>.822 .067</pos>
+            </datetime>
+            <text name="mobile-stat-title">
+                <pos>.822 .042</pos>
+            </text>            
+            <video name="gamevideo">
+                <pos>.79 0.38</pos>   
+            </video>
+            <image name="gameimage">
+                <pos>.79 0.38</pos>   
+            </image>
+            <image name="gamescreen">
+                <pos>.79 0.38</pos>
+            </image>
+            
+            <image name="sys-logo">
+                <pos>0.654 0.045</pos>
+            </image>
+            <text name="lastPlayed">
+                <pos>.83 .042</pos> <!-- +.03   +.012-->
+            </text>
+            <datetime name="lastPlayedDate">    
+                <pos>.933 .042</pos><!-- +.03   +.012-->
+            </datetime>  
+            <text name="playcount">
+                <pos>.83 .062</pos> <!-- +.03   +.012-->
+            </text>
+            <text name="pkaycountnumber">    
+                <pos>.933 .062</pos> <!-- +.03   +.012-->
+            </text> 
+            <text name="kidgameLabel">
+                <pos>.83 .082</pos>
+            </text>
+            <text name="kidgame">
+                <pos>.933 .082</pos>
+            </text> 
+        </view>
+    </aspectRatio>
+    <aspectRatio name="21:9">
+        <view name="gamelist">
+            <datetime name="mobile-stat">
+                <visible>false</visible>
+            </datetime>
+            <text name="mobile-stat-title">
+                <visible>false</visible>
+            </text> 
+            <video name="gamevideo">
+                <pos>0.774 0.35</pos>
+                <cropSize>0.28 0.4</cropSize>
+            </video>
+            <image name="gameimage">
+                <pos>0.774 0.35</pos>
+                <cropSize>0.28 0.4</cropSize>
+            </image>
+            <image name="gamescreen">
+                <pos>0.774 0.35</pos>
+                <cropSize>0.28 0.4</cropSize>
+            </image>
+                   
+            <image name="sys-logo">
+                <pos>.023 .2</pos>
+                <color>${highlightColor}</color>
+                <maxSize>0.08 0.08</maxSize>
+            </image>
+             <text name="gameTitle">
+                <visible>false</visible>
+             </text>   
+            <text name="lastPlayed">
+                <visible>false</visible>
+            </text>
+            <datetime name="lastPlayedDate">    
+                <visible>false</visible>
+            </datetime>  
+            <text name="playcount">
+                <visible>false</visible>
+            </text>
+            <text name="pkaycountnumber">    
+                <visible>false</visible>
+            </text> 
+            <text name="kidgameLabel">
+                <visible>false</visible>
+            </text>
+            <text name="kidgame">
+                <visible>false</visible>
+            </text>
+            <carousel name="gamelistCarousel">
+                <maxItemCount>12</maxItemCount>
+                <itemSize>0.12 0.25</itemSize>
+                <selectedItemMargins>0.03 0.03</selectedItemMargins>
+                <horizontalOffset>-0.43</horizontalOffset>
+            </carousel> 
+            <text name="descriptiontext">
+                <size>.55 .13</size> 
+            </text>
+            <text name="badgesTitle">
+                <pos>.134 .55</pos>
+            </text>
+            <badges name="badges">
+                <pos>0.14 .57</pos>
+            </badges> 
+            <image name="badge-container">
+                <pos>.135 .634</pos>
+            </image>
+            <text name="game-players">
+                <pos>.125 .29</pos> <!-- +.015 -->
+            </text>
+            <image name="players-icon">
+                <pos>.11 .29</pos> <!-- +.01 -->
+            </image>
+            <image name="genre-icon">
+                <pos>.15 .29</pos> <!-- +.01 -->
+            </image>
+            <text name="genre">
+                <pos>.165 .29</pos>  <!-- +.01 -->      
+            </text>   
+        </view>
+    </aspectRatio>
+</theme>

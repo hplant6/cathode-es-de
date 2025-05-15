@@ -21,7 +21,7 @@
             <maxSize>0.295 0.3</maxSize>
             <origin>0.5 0.5</origin>
             <imageType>screenshot, fanart, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
-            <default>${rootpath2}/_inc/images/empty-state43.jpg</default> <!-- Fallback to default cover -->
+            <default>./../_inc/images/empty-state.webp</default> <!-- Fallback to default cover -->
             <zIndex>29</zIndex>
         </image> 
     <image name="cabinetOverlay">
