@@ -12,6 +12,13 @@
             <zIndex>14</zIndex>
     </image>
 </view>
+<aspectRatio name="3:2">
+        <view name="gamelist">
+            <image name="sys-logo">
+                <pos>0.655 0.045</pos>
+            </image>
+        </view>
+</aspectRatio> 
 <aspectRatio name="4:3">
         <view name="gamelist">
             <image name="sys-logo">
