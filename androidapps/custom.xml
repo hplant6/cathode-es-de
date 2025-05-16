@@ -86,6 +86,13 @@
                 <saturation>0</saturation>
                 <zIndex>14</zIndex>
             </image>
+<<<<<<< HEAD
+             <helpsystem name="help">
+                <entries>a, b, x, y, lt, rt</entries>
+            </helpsystem>
+
+=======
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
             <!--
             <carousel name="main">
                     <origin>0 0</origin>
@@ -111,6 +118,10 @@
             </carousel>
             -->
             <carousel name="gamelistCarousel">
+<<<<<<< HEAD
+                <defaultImage>./../_inc/images/android-box.webp</defaultImage>
+            </carousel>
+=======
                 <pos>0.5 1.22</pos>
                 <origin>0.5 1</origin>
                 <size>1 0.7</size>
@@ -142,6 +153,7 @@
                 <unfocusedItemOpacity>1</unfocusedItemOpacity>
                 <zIndex>50</zIndex>
         </carousel>
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
     </view>
      <aspectRatio name="4:3">
         <view name="gamelist">
@@ -163,6 +175,37 @@
             </image>
         </view>
     </aspectRatio>
+    <aspectRatio name="3:2">
+        <view name="gamelist">
+            <video name="nut">
+<<<<<<< HEAD
+                <pos>.83 0.387</pos>
+                <maxSize>0.51 0.47</maxSize>
+            </video>
+            <image name="nutimage">
+                <pos>.83 0.387</pos>
+                <maxSize>0.51 0.47</maxSize>
+            </image>
+            <text name="lastPlayed">
+                <pos>.88 .04</pos>
+            </text>
+            <datetime name="lastPlayedDate">    
+                <pos>.934 .04</pos>
+            </datetime>
+            <text name="playcount">
+                <pos>.88 .06</pos>
+            </text>
+            <text name="pkaycountnumber">    
+                <pos>.934 .06</pos>
+            </text>
+            <text name="kidgameLabel">
+                <pos>.88 .08</pos>
+            </text>
+            <text name="kidgame">
+                <pos>.934 .08</pos>
+            </text>
+       </view>
+    </aspectRatio>
     <aspectRatio name="16:10">
         <view name="gamelist">
             <video name="nut">
@@ -175,5 +218,16 @@
             </image>
        </view>
     </aspectRatio>
+=======
+                <pos>0.8 0.383</pos>
+                <maxSize>0.46 0.43</maxSize>
+            </video>
+            <image name="nutimg">
+                <pos>0.8 0.383</pos>
+                <maxSize>0.46 0.43</maxSize>
+            </image>
+       </view>
+    </aspectRatio>
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
           
 </theme>       

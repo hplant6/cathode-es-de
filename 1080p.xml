@@ -37,6 +37,12 @@
             <saturation>${vidSat}</saturation>
             <color>${vidColor}</color>
         </video>
+        <image name="gameimage">
+            <visible>false</visible>
+        </image>
+        <image name="imagethumb1">
+            <visible>false</visible>
+        </image>
          <image name="gamelistBgImage">
             <zIndex>1</zIndex>
             <pos>0 0</pos>

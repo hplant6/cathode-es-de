@@ -188,6 +188,21 @@
         </image>
         </view> 
     </aspectRatio>
+    <aspectRatio name="3:2">
+        <view name="system">
+            <video name="gridpromo">
+                <cropPos>0.63 0</cropPos>
+            </video>
+            <image name="gridpromoimage">
+               <cropPos>0.63 0</cropPos>
+            </image>
+             <image name="OVERGRID">
+                <pos>0.02 0</pos>
+                <cropSize>1 1</cropSize>
+                <size>.98 .98</size>
+            </image>     
+        </view> 
+    </aspectRatio>
  
 
  

@@ -41,13 +41,23 @@
       <color>${vidColor}</color>
     </image>
     </view>
+  <aspectRatio name="3:2">
+        <view name="gamelist">
+            <image name="sys-logo">
+             <pos>0.66 0.041</pos>
+            </image>  
+        </view>
+  </aspectRatio>
 <aspectRatio name="4:3">
         <view name="gamelist">
             <video name="gamevideo">
                 <pos>.76 0.38</pos>
                 <cropSize>0.36 0.36</cropSize>
             </video>
-
+            <image name="gameimage">
+                <pos>.76 0.38</pos>
+                <cropSize>0.36 0.36</cropSize>
+            </image>
             
             <image name="cabinetOverlay">
                 <pos>-.15 0</pos>
@@ -64,11 +74,18 @@
                 <pos>0.81 0.38</pos>
                 <cropSize>0.28 0.3</cropSize>
             </video>
+             <image name="gameimage">
+                <pos>0.81 0.38</pos>
+                <cropSize>0.28 0.3</cropSize>
+            </image>
             <image name="gamescreen">
                 <pos>0.81 0.38</pos>
                 <cropSize>0.28 0.3</cropSize>
             </image>
+<<<<<<< HEAD
+=======
             
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
             <image name="sys-logo">
               <pos>0.62 0.039</pos>  <!-- +.03   +.012-->
             </image>
@@ -98,6 +115,10 @@
                 <pos>0.776 0.35</pos>
                 <cropSize>0.28 0.4</cropSize>
             </video>
+            <image name="gameimage">
+                <pos>0.776 0.35</pos>
+                <cropSize>0.28 0.4</cropSize>
+            </image>
             <image name="gamescreen">
                 <pos>0.776 0.35</pos>
                 <cropSize>0.28 0.4</cropSize>

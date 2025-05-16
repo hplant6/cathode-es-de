@@ -19,7 +19,11 @@
                     <cropSize>0.23 0.32</cropSize>
                     <cropPos>.5 .2</cropPos>
                     <origin>0.5 0.5</origin>
+<<<<<<< HEAD
+                    <path>./../_inc/images/nut.jpg</path> <!-- Fallback to default cover -->
+=======
                     <path>./../_inc/images/nut.mp4</path> <!-- Fallback to default cover -->
+>>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
                     <zIndex>29</zIndex>
             </image>
             <text name="appTitle">

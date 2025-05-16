@@ -13,6 +13,10 @@
         <include>./../${performance}</include>
         <include>./../syscarousel.xml</include>
     </variant>
+    <variant name="carousel-carousel-3D">
+        <include>./../${performance}</include>
+        <include>./../syscarousel.xml</include>
+    </variant>
     <variant name="carousel-grid">
         <include>./../${performance}</include>
         <include>./../syscarousel.xml</include>
@@ -21,6 +25,10 @@
         <include>./../${performance}</include>
         <include>./../syscarousel.xml</include>
     </variant>
+    <variant name="list-carousel-3D">
+        <include>./../${performance}</include>
+        <include>./../syslist.xml</include>
+    </variant> 
     <variant name="list-list">
         <include>./../${performance}</include>
         <include>./../syslist.xml</include>
@@ -36,7 +44,11 @@
     <variant name="grid-grid">
         <include>./../${performance}</include>
         <include>./../sysgrid.xml</include>
-    </variant> 
+    </variant>
+    <variant name="grid-carousel-3D">
+        <include>./../${performance}</include>
+        <include>./../sysgrid.xml</include>
+    </variant>
     <variant name="grid-carousel">
         <include>./../${performance}</include>
         <include>./../sysgrid.xml</include>
@@ -44,7 +56,11 @@
     <variant name="grid-list">
         <include>./../${performance}</include>
         <include>./../sysgrid.xml</include>
-    </variant>    
+    </variant>
+    <variant name="low-power">
+        <include>./../${performance}</include>
+        <include>./../lowpower.xml</include>
+    </variant>      
             
     
     <view name="system">   
@@ -100,7 +116,7 @@
             <cropSize>0.52 0.52</cropSize>
             <origin>0.5 0.5</origin>
             <imageType>screenshot, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
-            <default>./../_inc/images/no-media.mp4</default> <!-- Fallback to default cover -->
+            <default>./../_inc/images/empty-state.mp4</default> <!-- Fallback to default cover -->
             <interpolation>nearest</interpolation>
             <pillarboxes>false</pillarboxes>
             <delay>0</delay>
@@ -348,6 +364,9 @@
             <audio>false</audio>
             <visible>false</visible>
          </video>
+         <helpsystem name="help">
+            <entries>a, b, x, y, lt, rt</entries>
+        </helpsystem>
             
     </view>
      <aspectRatio name="4:3">

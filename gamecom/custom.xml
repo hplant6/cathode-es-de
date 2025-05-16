@@ -5,7 +5,7 @@
             <maxSize>0.28 0.28</maxSize>
             <origin>0.5 0.5</origin>
             <imageType>screenshot, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
-            <default>./../_inc/images/green-no-media.mp4</default> <!-- Fallback to default cover -->
+            <default>./../_inc/images/empty-state-HH43.mp4</default> <!-- Fallback to default cover -->
             <interpolation>nearest</interpolation>
             <pillarboxes>true</pillarboxes>
             <pillarboxThreshold>0.85 0.90</pillarboxThreshold>
@@ -13,6 +13,14 @@
             <fadeInTime>0</fadeInTime>
             <zIndex>30</zIndex>
     </video>
+    <image name="gameimage">
+            <pos>0.765 0.38</pos>
+            <maxSize>0.28 0.28</maxSize>
+            <origin>0.5 0.5</origin>
+            <imageType>screenshot, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
+            <default>./../_inc/images/empty-state-HH.webp</default> <!-- Fallback to default cover -->
+            <zIndex>29</zIndex>
+    </image>
     <video name="gamelistBgVideo">
             <audio>false</audio>
       <pos>0 0</pos>
@@ -85,6 +93,10 @@
                 <pos>.755 0.38</pos>
                 <maxSize>0.38 0.38</maxSize>
             </video>
+            <image name="gameimage">
+                <pos>.755 0.38</pos>
+                <maxSize>0.38 0.38</maxSize>
+            </image>
             <image name="game-logo">
                 <size>0.35 0.15</size>
             </image>
@@ -143,6 +155,10 @@
                 <pos>.795 0.38</pos>
                 <maxSize>0.28 0.29</maxSize>
             </video>
+            <image name="gameimage">
+                <pos>.795 0.38</pos>
+                <maxSize>0.28 0.29</maxSize>
+            </image>
             <text name="lastPlayed">
                 <pos>.855 .04</pos>
             </text>
@@ -163,12 +179,44 @@
             </text>
        </view>
     </aspectRatio>
+    <aspectRatio name="3:2">
+        <view name="gamelist">
+            <video name="gamevideo">
+                <pos>.815 0.38</pos>
+            </video>
+            <image name="gameimage">
+                <pos>.815 0.38</pos>
+            </image>
+            <text name="lastPlayed">
+                <pos>.88 .04</pos>
+            </text>
+            <datetime name="lastPlayedDate">    
+                <pos>.934 .04</pos>
+            </datetime>
+            <text name="playcount">
+                <pos>.88 .06</pos>
+            </text>
+            <text name="pkaycountnumber">    
+                <pos>.934 .06</pos>
+            </text>
+            <text name="kidgameLabel">
+                <pos>.88 .08</pos>
+            </text>
+            <text name="kidgame">
+                <pos>.934 .08</pos>
+            </text>
+       </view>
+    </aspectRatio>
     <aspectRatio name="21:9">
         <view name="gamelist">
             <video name="gamevideo">
                 <pos>0.765 0.34</pos>
                 <maxSize>0.28 0.4</maxSize>
-            </video>    
+            </video> 
+             <image name="gameimage">
+                <pos>0.765 0.34</pos>
+                <maxSize>0.28 0.4</maxSize>
+            </image>    
             <image name="sys-logo">
                 <visible>true</visible>
                 <pos>.023 .2</pos>

@@ -86,6 +86,14 @@
             <videoCornerRadius>.01</videoCornerRadius>
             <imageType>screenshot</imageType>
         </video>
+        <image name="imagethumb1">
+            <pos>0.02 0.104</pos>
+            <maxSize>.36 .36</maxSize>
+            <opacity>.7</opacity>
+            <imageType>screenshot, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
+            <default>./../_inc/images/empty-state.webp</default> <!-- Fallback to default cover -->
+            <zIndex>4</zIndex>
+        </image>
 
         <image name="videothumbtop">
             <pos>0.02 0.104</pos>       <!--.16 save -->
@@ -140,15 +148,7 @@
             <color>${lineColor}</color>
             <zIndex>70</zIndex>
         </image>
-        <image name="line6">
-            <pos>0.41 .885</pos>
-            <origin>0 .5</origin>
-            <maxSize>.55 .5</maxSize>
-            <path>./_inc/images/line.svg</path>
-            <color>${lineColor}</color>
-            <zIndex>70</zIndex>
-        </image>
-
+        
         <text name="gametitle">
             <pos>.02 .49</pos>
             <origin>0 .5</origin>
@@ -292,7 +292,7 @@
         <badges name="badges">
             <pos>0.02 .895</pos>
             <origin>0 0</origin>
-            <size>.35 .35</size>
+            <size>.2 .2</size>
             <horizontalAlignment>left</horizontalAlignment>
             <direction>row</direction>
             <lines>1</lines>
@@ -382,6 +382,9 @@
         <image name="gamelistBgImage">
             <visible>false</visible>
         </image> 
+        <helpsystem name="help">
+            <entries>a, b, x, y, lt, rt</entries>
+        </helpsystem>
     </view>
     <aspectRatio name="4:3">
         <view name="gamelist">
@@ -445,10 +448,7 @@
                 <pos>0.52 .28</pos>
                 <maxSize>.42 .5</maxSize>
             </image>
-            <image name="line6">
-                <pos>0.52 .91</pos>
-                <maxSize>.42 .5</maxSize>
-            </image>
+           
             <image name="DesContainer">
                 <pos>.02 .62</pos>	
                 <cropSize>0.55 0.26</cropSize>
@@ -477,6 +477,10 @@
                 <pos>0.02 0.104</pos>
                 <maxSize>.46 .345</maxSize>
             </video>
+            <image name="imagethumb1">
+                <pos>0.02 0.104</pos>
+                <maxSize>.46 .345</maxSize>
+            </image>
 
             <image name="videothumbtop">
                 <pos>0.02 0.104</pos>
@@ -506,12 +510,32 @@
 
         </view>
     </aspectRatio>
+     <aspectRatio name="3:2">
+        <view name="gamelist">
+            
+            <text name="genre">
+                <size>0.2 0.05</size>
+            </text>
+            <datetime name="lastPlayedDate">
+                <pos>.83 .0815</pos>
+            </datetime>
+            <text name="completed">
+                <pos>.83 .15</pos>
+            </text>
+            
+        </view>
+        
+    </aspectRatio>
      <aspectRatio name="21:9">
         <view name="gamelist">
             <video name="videothumb1">
                 <pos>0.02 0.1</pos>
                 <maxSize>.36 .481</maxSize>
             </video>
+            <image name="imagethumb1">
+                <pos>0.02 0.1</pos>
+                <maxSize>.36 .481</maxSize>
+            </image>
 
             <image name="videothumbtop">
                 <pos>0.02 0.1</pos>
@@ -633,6 +657,10 @@
             </animation>
 
             <video name="videothumb1">
+                <pos>0.02 0.12</pos>
+                <maxSize>.36 .324</maxSize>
+            </video>
+            <video name="imagethumb1">
                 <pos>0.02 0.12</pos>
                 <maxSize>.36 .324</maxSize>
             </video>
