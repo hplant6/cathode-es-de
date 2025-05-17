@@ -1,5 +1,5 @@
 # Cathode for ES-DE
-Cathode is an ES-DE theme designed with love as a tribute to the golden days of CRT gaming. Originally crafted for large TV displays, it has since evolved to support a wide variety of gaming handhelds. I'm always open to new features and suggestions, but I prioritize implementing requests that I would enjoy running on my own machines. This theme is my passion project and serves as the daily driver on all of my personal devices.
+Cathode is an ES-DE theme designed with love as a tribute to the golden days of CRT gaming. Originally crafted for large TV displays, it has since evolved to support a wide variety of gaming handhelds. While standard aspect ratios are supported, new ones will be considered if enough requests are made. Cathode is always open to new features and suggestions, so feel free to add your own. 
 
 Feel free to explore the different color schemes and variations - happy gaming!
 
