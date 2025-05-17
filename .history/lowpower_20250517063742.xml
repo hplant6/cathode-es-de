@@ -94,8 +94,8 @@
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${transColor}</color>
              </text>
-             <image name="system-controller">
-                <pos>.45 .54</pos>
+             <image name="system-controllers-outline">
+                <pos>.43 .54</pos>
                 <origin>.5 .5</origin>
                 <maxSize>.25 .25</maxSize>
                 <path>./_inc/systems/system-controllers-outline/${system.theme}.svg</path>

@@ -94,7 +94,7 @@
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${transColor}</color>
              </text>
-             <image name="system-controller">
+             <image name="system-controllers-outline">
                 <pos>.45 .54</pos>
                 <origin>.5 .5</origin>
                 <maxSize>.25 .25</maxSize>
