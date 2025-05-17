@@ -82,21 +82,38 @@
             <fastScrolling>true</fastScrolling>
         </carousel>
         
+        <!--
+        <text name="system-description">
+                <text>${systemDescription}</text>
+                <containerStartDelay>3</containerStartDelay>
+                <pos>0.5 0.75</pos>
+                <size>0.8 0.2</size>
+                <fontSize>0.04</fontSize>
+                <lineSpacing>1.8</lineSpacing>
+                <color>${transColor}</color>
+                <fontPath>${labelFont}</fontPath>
+                <verticalAlignment>bottom</verticalAlignment>
+                <horizontalAlignment>center</horizontalAlignment>
+                <origin>0.5 0</origin>
+                <container>true</container>
+             </text>
+             -->
+             
              <text name="gameCount">
-                <pos>0.5 0.91</pos>
+                <pos>0.5 0.85</pos>
                 <origin>.5 1</origin>
                 <size>0.8 0.05</size>
                 <systemdata>gamecount</systemdata>
-                <fontSize>0.055</fontSize>
+                <fontSize>0.06</fontSize>
                 <fontPath>${labelFont}</fontPath>
                 <letterCase>uppercase</letterCase>
                 <lineSpacing>1.1</lineSpacing>
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${transColor}</color>
              </text>
-             <image name="system-controller">
-                <pos>.45 .54</pos>
-                <origin>.5 .5</origin>
+             <image name="system-controllers-outline">
+                <pos>.5 .6</pos>
+                <origin>1 .5</origin>
                 <maxSize>.25 .25</maxSize>
                 <path>./_inc/systems/system-controllers-outline/${system.theme}.svg</path>
                 <default>./_inc/systems/system-controllers-outline/default.svg</default>
