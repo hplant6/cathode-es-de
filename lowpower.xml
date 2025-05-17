@@ -8,7 +8,7 @@
      <view name="system,gamelist">
         <!-- Help info -->
         <helpsystem name="help">
-            <pos>0.5 0.94</pos>
+            <pos>${helpPos}</pos>
             <origin>.5 0</origin>
             <opacity>1</opacity>
             <textColor>${baseColor}70</textColor>
@@ -127,8 +127,8 @@
             <pos>0.01 0.08</pos>
             <cornerRadius>.02</cornerRadius>
             <cropSize>0.45 0.46</cropSize>
-            <brightness>.6</brightness>
-            <opacity>.4</opacity>
+            <brightness>.4</brightness>
+            <opacity>.7</opacity>
             <imageType>screenshot, titlescreen</imageType>
             <default>./_inc/images/empty-state.webp</default> 
             <zIndex>45</zIndex>
