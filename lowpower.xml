@@ -8,7 +8,7 @@
      <view name="system,gamelist">
         <!-- Help info -->
         <helpsystem name="help">
-            <pos>${helpPos}</pos>
+            <pos>0.5 0.945</pos>
             <origin>.5 0</origin>
             <opacity>1</opacity>
             <textColor>${baseColor}70</textColor>
