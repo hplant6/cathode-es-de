@@ -23,6 +23,11 @@
         <include>./../carousel.xml</include>   
         <include>./custom.xml</include>       
     </variant>
+<variant name="carousel-grid">
+        <include>./../${performance}</include>
+        <include>./../syscarousel.xml</include>
+        <include>./../grid.xml</include>
+    </variant>
     <variant name="carousel-list">
         <include>./../${performance}</include>
         <include>./../syscarousel.xml</include>

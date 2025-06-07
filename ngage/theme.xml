@@ -23,6 +23,11 @@
         <include>./../carousel.xml</include>   
         <include>./custom.xml</include>       
     </variant>
+<variant name="carousel-grid">
+        <include>./../${performance}</include>
+        <include>./../syscarousel.xml</include>
+        <include>./../grid.xml</include>
+    </variant>
     <variant name="carousel-list">
         <include>./../${performance}</include>
         <include>./../syscarousel.xml</include>
@@ -79,5 +84,13 @@
     <variant name="low-power">
         <include>./../${performance}</include>
         <include>./../lowpower.xml</include>
-    </variant> 
+        <view name="system">
+            <video name="lowpromo">
+                <path>./.${hhVid}</path> 
+            </video>
+            <image name="lowpromoimg">
+                <path>./.${hhImg}</path> 
+            </image>
+        </view> 
+    </variant>
 </theme>        

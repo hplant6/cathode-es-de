@@ -1,0 +1,338 @@
+<theme>
+    <include>./${performance}</include>
+    <variables>
+        <metasize>.04</metasize>
+    </variables>
+   <view name="system,gamelist">
+        <!-- Help info -->
+        <helpsystem name="help">
+            <pos>0.5 0.945</pos>
+            <origin>.5 0</origin>
+            <opacity>1</opacity>
+            <textColor>${baseColor}70</textColor>
+            <iconColor>${highlightColor}90</iconColor>
+            <fontSize>.037</fontSize>
+            <fontPath>${helpFont}</fontPath>
+            <iconTextSpacing>0.003</iconTextSpacing>
+            <entries>a, b, x, y, lt, rt</entries>
+        </helpsystem>
+        <clock name="LCDclock">
+            <fontSize>.078</fontSize>
+        </clock>
+        <systemstatus name="gstatus-ind">
+            <pos>.008 .92</pos>
+            <height>0.08</height>
+        </systemstatus>
+
+        <image name="clockOverlay">
+            <visible>false</visible>
+        </image>
+        <image name="clockBG">
+           <visible>false</visible>
+        </image>
+   </view>
+   <view name="system">
+        <video name="backgroundpromo">
+            <audio>false</audio>
+            <pos>0 0</pos>
+            <cropSize>1 1</cropSize>
+            <path>./_inc/images/sys-lowpower.mp4</path> 
+            <default>./_inc/images/sys-lowpower.mp4</default> 
+            <zIndex>9</zIndex>
+            <brightness>${vidBright}</brightness>
+            <saturation>${vidSat}</saturation>
+            <color>${vidColor}</color>
+            <zIndex>3</zIndex>
+        </video>
+        <image name="backgroundimg">
+            <pos>0 0</pos>
+            <cropSize>1 1</cropSize>
+            <path>./_inc/images/sys-lowpower.webp</path> 
+            <default>./_inc/images/sys-lowpower.webp</default> 
+            <zIndex>2</zIndex>
+        </image>   
+        <!-- System carousel -->
+        <carousel name="systemCarousel">
+            <pos>0 -.06</pos>
+            <size>1 0.4</size>
+            <type>horizontal</type>
+            <horizontalOffset>0</horizontalOffset>
+            <staticImage>./_inc/systems/logos/${system.theme}.webp</staticImage>
+            <defaultImage>./_inc/images/cathode.webp</defaultImage>
+            <maxItemCount>3</maxItemCount>
+            <itemSize>0.25 0.125</itemSize>
+            <itemScale>1.7</itemScale>
+            <imageColor>${highlightColor}</imageColor>
+            <imageBrightness>2</imageBrightness>
+            <imageSaturation>0</imageSaturation>
+            <imageInterpolation>linear</imageInterpolation>
+            <color>00000000</color>
+            <textColor>${highlightColor}</textColor>
+            <fontPath>${h2Font}</fontPath>
+            <fontSize>${caraFontSize}</fontSize>
+            <letterCase>uppercase</letterCase>
+            <lineSpacing>1.2</lineSpacing>
+            <selectedItemMargins>.01 .01</selectedItemMargins>
+            <unfocusedItemOpacity>0.5</unfocusedItemOpacity>
+            <unfocusedItemDimming>.4</unfocusedItemDimming>
+            <fastScrolling>true</fastScrolling>
+        </carousel>
+        
+             <text name="gameCount">
+                <pos>0.5 0.91</pos>
+                <origin>.5 1</origin>
+                <size>0.8 0.05</size>
+                <systemdata>gamecount</systemdata>
+                <fontSize>0.055</fontSize>
+                <fontPath>${labelFont}</fontPath>
+                <letterCase>uppercase</letterCase>
+                <lineSpacing>1.1</lineSpacing>
+                <horizontalAlignment>center</horizontalAlignment>
+                <color>${transColor}</color>
+             </text>
+             <image name="system-controller">
+                <pos>.45 .54</pos>
+                <origin>.5 .5</origin>
+                <maxSize>.25 .25</maxSize>
+                <path>./_inc/systems/system-controllers-outline/${system.theme}.svg</path>
+                <default>./_inc/systems/system-controllers-outline/default.svg</default>
+                <color>ffffff</color>
+                <zIndex>11</zIndex>
+             </image>
+             <image name="backgroundpromo">
+               <brightness>${vidBright}</brightness>
+               <saturation>${vidSat}</saturation>
+               <color>${vidColor}</color>
+            </image> 
+      
+   </view>
+   
+   <view name="gamelist">
+    <image name="game-logo">
+            <pos>0.03 0.02</pos>
+            <maxSize>0.46 0.28</maxSize>
+            <brightness>.2</brightness>
+            <imageType>marquee</imageType>
+            <default>./_inc/images/default-logo.webp</default> 
+            <zIndex>45</zIndex>
+    </image>
+       <carousel name="lowCarousel">
+                <pos>0.5 1.3</pos>
+                <origin>0.5 1</origin>
+                <size>1 1</size>
+                <type>horizontal</type>
+                <imageType>cover</imageType>
+                <defaultImage>./_inc/images/default3d-box.webp</defaultImage>
+                <defaultFolderImage>./_inc/images/folder.webp</defaultFolderImage> 
+                <maxItemCount>4</maxItemCount>
+                <itemSize>0.4 0.255</itemSize>
+                <itemScale>2.3</itemScale>
+                <imageInterpolation>linear</imageInterpolation>
+                <itemAxisHorizontal>true</itemAxisHorizontal>
+                <itemHorizontalAlignment>bottom</itemHorizontalAlignment>
+                <itemVerticalAlignment>bottom</itemVerticalAlignment>
+                <fastScrolling>true</fastScrolling>
+                <color>00000000</color>
+                <textColor>${transColor}</textColor>
+                <textBackgroundColor>000000FF</textBackgroundColor>
+                <fontSize>${caraFontSize}</fontSize>
+                <fontPath>${labelFont}</fontPath>
+                <letterCase>uppercase</letterCase>
+                <lineSpacing>1.2</lineSpacing>
+                <selectedItemMargins>0.08 0.08</selectedItemMargins>
+                <horizontalOffset>-0.32</horizontalOffset>
+                <verticalOffset>.22</verticalOffset>
+                <reflections>true</reflections>
+                <reflectionsOpacity>.25</reflectionsOpacity>
+                <reflectionsFalloff>3</reflectionsFalloff>
+                <unfocusedItemOpacity>1</unfocusedItemOpacity>
+                <zIndex>50</zIndex>
+        </carousel>
+    
+        <video name="gamevideo">
+            <pos>0.77 0.38</pos>
+            <cropSize>0.25 0.32</cropSize>
+            <cropPos>0 .5</cropPos>
+            <origin>0.5 0.5</origin>
+            <imageType>screenshot, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
+            <default>./_inc/images/empty-state43.mp4</default> <!-- Fallback to default cover -->
+            <interpolation>nearest</interpolation>
+            <pillarboxes>true</pillarboxes>
+            <pillarboxThreshold>0.85 0.90</pillarboxThreshold>
+            <delay>0</delay>
+            <fadeInTime>0</fadeInTime>
+            <zIndex>30</zIndex>
+        </video>
+        <image name="gameimage">
+            <pos>0.77 0.38</pos>
+            <cropSize>0.25 0.32</cropSize>
+            <cropPos>0 .5</cropPos>
+            <origin>0.5 0.5</origin>
+            <imageType>screenshot, fanart, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
+            <default>./_inc/images/empty-state.webp</default> <!-- Fallback to default cover -->
+            <zIndex>29</zIndex>
+        </image> 
+        
+        <image name="cabinetOverlay">
+            <brightness>${vidBright}</brightness>
+            <saturation>${vidSat}</saturation>
+            <color>${vidColor}</color>
+            <pos>0 0</pos>
+            <cropSize>1 1</cropSize>
+            <path>./_inc/images/allgames-overlay.webp</path>
+            <zIndex>49</zIndex>
+        </image>
+    <image name="sys-logo">
+      <pos>0.7 0.02</pos>
+      <maxSize>0.3 0.3</maxSize>
+      <saturation>0</saturation>
+      <brightness>2</brightness>
+      <color>${highlightColor}</color>
+      <path>./_inc/systems/logos/${system.theme}.webp</path>
+      <default>./_inc/systems/logos/default.webp</default>
+      <zIndex>14</zIndex>
+    </image>
+    <video name="gamelistBgVideo">
+            <audio>false</audio>
+      <pos>0 0</pos>
+      <cropSize>1 1</cropSize>
+      <path>./_inc/systems/cabinets/1080p/auto-allgames.mp4</path>
+      <zIndex>9</zIndex>
+    </video>
+   <image name="gamelistBgImage">
+      <pos>0 0</pos>
+      <cropSize>1 1</cropSize>
+      <path>./_inc/systems/cabinets/images/auto-allgames.webp</path> 
+      <zIndex>8</zIndex>
+      <brightness>${vidBright}</brightness>
+      <saturation>${vidSat}</saturation>
+      <color>${vidColor}</color>
+    </image>
+</view>
+<aspectRatio name="3:2">
+        <view name="gamelist">
+            <image name="sys-logo">
+                <pos>0.6 0.04</pos> <!-- +.03   +.012-->
+            </image>
+            <video name="gamevideo">
+                <pos>.82 0.38</pos>
+                <cropSize>0.33 0.33</cropSize>
+            </video>
+            <image name="gameimage">
+                <pos>.82 0.38</pos>
+                <cropSize>0.33 0.33</cropSize>
+            </image>
+            <datetime name="mobile-stat">
+                <pos>.82 .087</pos>            
+            </datetime>
+            <text name="mobile-stat-title">
+                <pos>.82 .062</pos>          
+            </text>
+            <text name="lastPlayed">
+                <pos>.77 .06</pos>           
+            </text>
+            <datetime name="lastPlayedDate">    
+                <pos>.873 .06</pos>            
+            </datetime>
+            <text name="playcount">
+                <pos>.77 .08</pos>
+            </text>
+            <datetime name="mobile-stat">
+                <pos>.783 .087</pos>            
+            </datetime>
+            <text name="mobile-stat-title">
+                <pos>.783 .062</pos>          
+            </text>
+            <text name="pkaycountnumber">    
+                <pos>.873 .08</pos>
+            </text>
+            <text name="kidgameLabel">
+                <pos>.77 .1</pos>
+            </text>
+            <text name="kidgame">
+                <pos>.873 .1</pos>           
+            </text> 
+        </view>
+  </aspectRatio>
+<aspectRatio name="4:3">
+        <view name="gamelist">
+            <image name="sys-logo">
+                <pos>0.62 0.03</pos> <!-- +.03   +.012-->
+                <maxSize>0.3 0.3</maxSize>
+            </image>
+            
+            <image name="cabinetOverlay">
+                <pos>-.15 0</pos>
+                <cropSize>1.1 1</cropSize>
+            </image>
+            <video name="gamevideo">
+                <pos>.76 0.39</pos>
+                <cropSize>0.38 0.33</cropSize>
+            </video>
+            <image name="gameimage">
+                <pos>.76 0.39</pos>
+                <cropSize>0.38 0.33</cropSize>
+            </image>
+            <text name="lastPlayed">
+                <pos>.77 .07</pos>           
+            </text>
+            <datetime name="lastPlayedDate">    
+                <pos>.873 .07</pos>            
+            </datetime>
+            <text name="playcount">
+                <pos>.77 .09</pos>
+            </text>
+            <datetime name="mobile-stat">
+                <pos>.783 .09</pos>            
+            </datetime>
+            <text name="mobile-stat-title">
+                <pos>.783 .065</pos>          
+            </text>
+            <text name="pkaycountnumber">    
+                <pos>.873 .09</pos>
+            </text>
+            <text name="kidgameLabel">
+                <pos>.77 .11</pos>
+            </text>
+            <text name="kidgame">
+                <pos>.873 .11</pos>           
+            </text> 
+        </view>
+  </aspectRatio>
+  <aspectRatio name="16:10">
+        <view name="gamelist">
+           <image name="sys-logo">
+                <pos>0.59 0.03</pos>
+           </image>
+           <datetime name="mobile-stat">
+                <pos>.8 .09</pos>            
+           </datetime>
+           <text name="mobile-stat-title">
+                <pos>.8 .06</pos>
+           </text>
+           <video name="gamevideo">
+                <pos>0.8 0.38</pos>
+           </video>
+           <image name="gameimage">
+                <pos>0.8 0.38</pos>
+           </image>  
+        </view>
+  </aspectRatio>
+  <aspectRatio name="21:9">
+        <view name="gamelist">
+           <image name="sys-logo">
+                <pos>.022 .2</pos>
+                <color>${highlightColor}</color>
+                <maxSize>0.08 0.08</maxSize>
+            </image>
+            <video name="gamevideo">
+                <pos>0.768 0.34</pos>
+                <maxSize>0.27 0.4</maxSize>    
+           </video>
+           <image name="gameimage">
+                <pos>0.768 0.34</pos>
+                <maxSize>0.27 0.4</maxSize>  
+           </image> 
+        </view>
+  </aspectRatio>
+</theme>

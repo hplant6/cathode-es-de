@@ -1,0 +1,147 @@
+
+<theme>
+  <view name="gamelist">
+   <video name="gamevideo">
+            <pos>0.77 0.38</pos>
+            <cropSize>0.25 0.32</cropSize>
+            <cropPos>0 .5</cropPos>
+            <origin>0.5 0.5</origin>
+            <imageType>screenshot, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
+            <default>./../_inc/images/empty-state43.mp4</default> <!-- Fallback to default cover -->
+            <interpolation>nearest</interpolation>
+            <pillarboxes>true</pillarboxes>
+            <pillarboxThreshold>0.85 0.90</pillarboxThreshold>
+            <delay>0</delay>
+            <fadeInTime>0</fadeInTime>
+            <zIndex>30</zIndex>
+        </video>
+    <image name="gameimage">
+            <pos>0.77 0.38</pos>
+            <cropSize>0.25 0.32</cropSize>
+            <cropPos>0 .5</cropPos>
+            <origin>0.5 0.5</origin>
+            <imageType>screenshot, fanart, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
+            <default>./../_inc/images/empty-state.webp</default> <!-- Fallback to default cover -->
+            <zIndex>29</zIndex>
+        </image> 
+        
+    <image name="cabinetOverlay">
+      <brightness>${vidBright}</brightness>
+      <saturation>${vidSat}</saturation>
+      <color>${vidColor}</color>
+      <pos>0 0</pos>
+      <cropSize>1 1</cropSize>
+      <path>./../_inc/images/allgames-overlay.webp</path>
+      <zIndex>70</zIndex>
+    </image>
+    <image name="sys-logo">
+      <pos>0.58 0.02</pos>
+      <maxSize>0.22 0.22</maxSize>
+      <saturation>0</saturation>
+      <brightness>2</brightness>
+      <color>${highlightColor}</color>
+      <path>./../_inc/systems/logos/${system.theme}.webp</path>
+      <default>./../_inc/systems/logos/default.webp</default>
+      <zIndex>14</zIndex>
+    </image>
+    <datetime name="mobile-stat">
+        <pos>.783 .09</pos>            
+    </datetime>
+    <text name="mobile-stat-title">
+        <pos>.78 .06</pos>
+    </text>
+
+    <text name="lastPlayed">
+        <pos>.77 .06</pos>           
+    </text>
+    <datetime name="lastPlayedDate">    
+        <pos>.873 .06</pos>            
+    </datetime>
+    <text name="playcount">
+        <pos>.77 .08</pos>
+    </text>
+    <datetime name="mobile-stat">
+        <pos>.783 .087</pos>            
+    </datetime>
+    <text name="mobile-stat-title">
+        <pos>.783 .062</pos>          
+    </text>
+    <text name="pkaycountnumber">    
+         <pos>.873 .08</pos>
+    </text>
+    <text name="kidgameLabel">
+        <pos>.77 .1</pos>
+    </text>
+    <text name="kidgame">
+        <pos>.873 .1</pos>           
+    </text> 
+
+    <video name="gamelistBgVideo">
+            <audio>false</audio>
+      <pos>0 0</pos>
+      <cropSize>1 1</cropSize>
+      <path>./../_inc/systems/cabinets/1080p/auto-allgames.mp4</path>
+      <zIndex>9</zIndex>
+    </video>
+   <image name="gamelistBgImage">
+      <pos>0 0</pos>
+      <cropSize>1 1</cropSize>
+      <path>./../_inc/systems/cabinets/images/auto-allgames.webp</path> 
+      <zIndex>8</zIndex>
+      <brightness>${vidBright}</brightness>
+      <saturation>${vidSat}</saturation>
+      <color>${vidColor}</color>
+    </image>
+</view>
+<aspectRatio name="3:2">
+        <view name="gamelist">
+            <image name="sys-logo">
+                <pos>0.66 0.05</pos> <!-- +.03   +.012-->
+            </image>
+        </view>
+  </aspectRatio>
+<aspectRatio name="4:3">
+        <view name="gamelist">
+            <image name="sys-logo">
+                <pos>0.54 0.052</pos> <!-- +.03   +.012-->
+            </image>
+        </view>
+  </aspectRatio>
+  <aspectRatio name="16:10">
+        <view name="gamelist">
+           <image name="sys-logo">
+                <pos>0.59 0.03</pos>
+           </image>
+           <datetime name="mobile-stat">
+                <pos>.8 .09</pos>            
+           </datetime>
+           <text name="mobile-stat-title">
+                <pos>.8 .06</pos>
+           </text>
+           <video name="gamevideo">
+                <pos>0.8 0.38</pos>
+           </video>
+           <image name="gameimage">
+                <pos>0.8 0.38</pos>
+           </image>  
+        </view>
+  </aspectRatio>
+  <aspectRatio name="21:9">
+        <view name="gamelist">
+           <image name="sys-logo">
+                <pos>.022 .2</pos>
+                <color>${highlightColor}</color>
+                <maxSize>0.08 0.08</maxSize>
+            </image>
+            <video name="gamevideo">
+                <pos>0.768 0.34</pos>
+                <maxSize>0.27 0.4</maxSize>    
+           </video>
+           <image name="gameimage">
+                <pos>0.768 0.34</pos>
+                <maxSize>0.27 0.4</maxSize>  
+           </image> 
+        </view>
+  </aspectRatio>
+    
+</theme>

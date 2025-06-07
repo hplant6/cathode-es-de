@@ -9,7 +9,7 @@
     <aspectRatio>3:2</aspectRatio>
 
     <!-- Transitions -->
-    <transitions name="fadeAndSlide">
+    <transitions name="instantFade">
         <label>Default</label>
         <selectable>true</selectable>
         <systemToSystem>fade</systemToSystem>
@@ -150,62 +150,62 @@
     <variant name="carousel-carousel-3D">
         <label>Carousels - 3D Box Art</label>
         <selectable>true</selectable>
-        <transitions>fadeAndSlide</transitions>
+        <transitions>instantFade</transitions>
     </variant>
     <variant name="carousel-carousel">
         <label>Carousels - Cover Image</label>
         <selectable>true</selectable>
-        <transitions>fadeAndSlide</transitions>
+        <transitions>instantFade</transitions>
     </variant>
     <variant name="carousel-grid">
         <label>Carousel/System, Grid/Games</label>
         <selectable>true</selectable>
-        <transitions>fadeAndSlide</transitions>
+        <transitions>instantFade</transitions>
     </variant>
     <variant name="carousel-list">
         <label>Carousel/System, List/Games</label>
         <selectable>true</selectable>
-        <transitions>fadeAndSlide</transitions>
+        <transitions>instantFade</transitions>
     </variant>
     <variant name="grid-grid">
         <label>Grids</label>
         <selectable>true</selectable>
-        <transitions>fadeAndSlide</transitions>
+        <transitions>instantFade</transitions>
     </variant>
     <variant name="grid-carousel-3D">
         <label>Grid/System, Carousel Box/Games</label>
         <selectable>true</selectable>
-        <transitions>fadeAndSlide</transitions>
+        <transitions>instantFade</transitions>
     </variant>
     <variant name="grid-carousel">
         <label>Grid/System, Carousel Cover/Games</label>
         <selectable>true</selectable>
-        <transitions>fadeAndSlide</transitions>
+        <transitions>instantFade</transitions>
     </variant>
     <variant name="grid-list">
         <label>Grid/System, List/Games</label>
         <selectable>true</selectable>
-        <transitions>fadeAndSlide</transitions>
+        <transitions>instantFade</transitions>
     </variant>
     <variant name="list-list">
         <label>Lists</label>
         <selectable>true</selectable>
-        <transitions>fadeAndSlide</transitions>
+        <transitions>instantFade</transitions>
     </variant>
     <variant name="list-carousel-3D">
         <label>List/System, Carousel Box/Games</label>
         <selectable>true</selectable>
-        <transitions>fadeAndSlide</transitions>
+        <transitions>instantFade</transitions>
     </variant>
     <variant name="list-carousel">
         <label>List/System, Carousel Cover/Games</label>
         <selectable>true</selectable>
-        <transitions>fadeAndSlide</transitions>
+        <transitions>instantFade</transitions>
     </variant>
     <variant name="list-grid">
         <label>List/System, Grid/Games</label>
         <selectable>true</selectable>
-        <transitions>fadeAndSlide</transitions>
+        <transitions>instantFade</transitions>
     </variant>
     <variant name="low-power">
         <label>Low-end Devices</label>
