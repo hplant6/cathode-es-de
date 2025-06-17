@@ -9,6 +9,7 @@
             <cropSize>1 1</cropSize>
             <path>./_inc/systems/system-view/1080p/${system.theme}.mp4</path> 
             <default>./_inc/systems/system-view/1080p/default.mp4</default> 
+            <defaultImage>./_inc/systems/system-view/images/default.webp</defaultImage>
             <zIndex>9</zIndex>
             <fadeInTime>1.5</fadeInTime>
             <brightness>${vidBright}</brightness>

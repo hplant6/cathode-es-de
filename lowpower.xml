@@ -103,29 +103,33 @@
    </view>
    
 <view name="gamelist">
-    <!--
-    <image name="game-logo">
-            
-            <pos>0.64 0.02</pos>
-            <maxSize>0.3 0.18</maxSize>
-            <brightness>.2</brightness>
-            <imageType>marquee</imageType>
-            <default>./_inc/images/default-logo.webp</default> 
-            <zIndex>60</zIndex>
-    </image>
-    -->
+    
+    
+    
+    <gamelistinfo name="gcount">
+            <pos>0.035 .04</pos>
+            <size>.47 .07</size>
+            <color>${highlightColor}</color>
+            <fontPath>${listFont}</fontPath>
+            <fontSize>.045</fontSize>
+            <horizontalAlignment>center</horizontalAlignment>
+             <zIndex>15</zIndex>
+             <backgroundColor>${highlightColor}15</backgroundColor> 
+    </gamelistinfo>
+    
+    
     <image name="sys-logo">
-      <pos>0.02 0.02</pos>
-      <maxSize>0.25 0.13</maxSize>
+      <pos>0.71 0.0035</pos>
+      <maxSize>0.18 0.08</maxSize>
       <saturation>0</saturation>
       <brightness>2</brightness>
       <color>${highlightColor}</color>
       <path>./_inc/systems/logos/${system.theme}.webp</path>
       <default>./_inc/systems/logos/default.webp</default>
-      <zIndex>14</zIndex>
+      <zIndex>71</zIndex>
     </image>
     <text name="gameName">
-        <pos>.03 .17</pos>
+        <pos>.03 .16</pos>
         <origin>0 .5</origin>
         <size>.47 .05</size>
         <fontSize>${caraFontSize}</fontSize>
@@ -140,7 +144,7 @@
         <containerStartDelay>2</containerStartDelay>
     </text>
     <rating name="ratinggraphic">
-        <pos>.03 .26</pos>
+        <pos>.03 .25</pos>
         <origin>0 0.5</origin>
         <size>0 0.06</size>
         <filledPath>./_inc/images/star_filled.svg</filledPath>
@@ -150,7 +154,7 @@
     </rating>
     
     <datetime name="releasedatedate">
-        <pos>.22 .262</pos>
+        <pos>.22 .252</pos>
         <origin>0 0.5</origin>
         <fontSize>.045</fontSize>
         <fontPath>${labelFont}</fontPath>
@@ -164,7 +168,7 @@
     </datetime>
     
     <text name="genre">
-        <pos>.03 .34</pos>
+        <pos>.03 .33</pos>
         <size>0.4 0.09</size>
         <origin>0 0.5</origin>
         <fontSize>.045</fontSize>
@@ -177,7 +181,7 @@
         <zIndex>65</zIndex>
     </text>
     <image name="line1">
-        <pos>0.03 .222</pos>
+        <pos>0.03 .212</pos>
         <origin>0 .5</origin>
         <maxSize>.47 1</maxSize>
         <path>./_inc/images/line.svg</path>
@@ -185,7 +189,7 @@
         <zIndex>70</zIndex>
     </image>
     <image name="line2">
-        <pos>0.03 .3</pos>
+        <pos>0.03 .29</pos>
         <origin>0 .5</origin>
         <maxSize>.47 1</maxSize>
         <path>./_inc/images/line.svg</path>
@@ -193,7 +197,7 @@
         <zIndex>70</zIndex>
     </image>
     <badges name="smlbadges">
-        <pos>0.29 .215</pos>
+        <pos>0.29 .205</pos>
         <origin>0 0</origin>
         <size>.165 .165</size>
         <horizontalAlignment>left</horizontalAlignment>
@@ -247,7 +251,7 @@
             <visible>false</visible>
         </video>
         <image name="lowimage">
-            <pos>0.77 0.28</pos>
+            <pos>0.77 0.32</pos>
             <cropSize>0.25 0.32</cropSize>
             <cropPos>0 .5</cropPos>
             <origin>0.5 0.5</origin>
@@ -262,7 +266,7 @@
             <color>${vidColor}</color>
             <pos>0 0</pos>
             <cropSize>1 1</cropSize>
-            <path>./_inc/images/lowpower/lowpower-overlay.webp</path>
+            <path>./_inc/images/lowpower/lowpower-console.webp</path>
             <zIndex>49</zIndex>
         </image>
     <video name="gamelistBgVideo">
@@ -275,43 +279,43 @@
       <audio>false</audio>
       <pos>0 0</pos>
       <cropSize>1 1</cropSize>
-      <path>./_inc/images/lowpower/lowpower.mp4</path>
-      <color>${highlightColor}</color>
-      <brightness>.1</brightness>
-      <saturation>0.1</saturation>
+      <path>./_inc/images/lowpower/lowbg-console.mp4</path>
+      
       <zIndex>9</zIndex>
     </video>
+    <!--
    <image name="lowpowerBgImage">
       <visible>false</visible>
       <pos>0 0</pos>
       <cropSize>1 1</cropSize>
-      <path>./_inc/images/lowpower/lowpower.webp</path> 
+      <path>./_inc/images/lowpower/computer2.webp</path> 
       <zIndex>8</zIndex>
       <color>${highlightColor}</color>
       <brightness>.1</brightness>
       <saturation>0.1</saturation>
     </image>
+    -->
 </view>
 <aspectRatio name="3:2">
         <view name="gamelist">
             <image name="sys-logo">
-               
+                <pos>0.74 0.005</pos>
             </image>
              <image name="game-logo">
                 <pos>0.64 0.03</pos>
             </image>
             <badges name="smlbadges">
-                <pos>0.33 .225</pos>
+                <pos>0.33 .215</pos>
             </badges>
             <datetime name="releasedatedate">
-                <pos>.25 .262</pos>
+                <pos>.25 .252</pos>
             </datetime>
             <video name="gamevideo">
                 <pos>.82 0.38</pos>
                 <cropSize>0.33 0.33</cropSize>
             </video>
             <image name="lowimage">
-                <pos>.82 0.289</pos>
+                <pos>.82 0.32</pos>
                 <cropSize>0.31 0.31</cropSize>
             </image>
         </view>
@@ -324,26 +328,28 @@
                 <horizontalOffset>-0.33</horizontalOffset>
              </carousel>
             <badges name="smlbadges">
-                <pos>0.36 .227</pos>
+                <pos>0.365 .217</pos>
             </badges>
             <image name="cabinetOverlay">
                 <pos>-.15 0</pos>
-                <cropSize>1.15 1</cropSize>
-                
+                <cropSize>1.15 1</cropSize>    
+            </image>
+            <image name="sys-logo">
+                <pos>0.705 0.005</pos>
             </image>
             <image name="lowimage">
-                <pos>.78 0.27</pos>
+                <pos>.78 0.33</pos>
                 <cropSize>0.31 0.295</cropSize>
             </image>
             <image name="game-logo">   
-                <pos>0.58 0.02</pos>
-                <maxSize>0.38 0.2</maxSize>
+                <pos>0.02 0.02</pos>
+                <maxSize>0.2 0.15</maxSize>
             </image>
             <datetime name="releasedatedate">
-                <pos>.275 .262</pos>
+                <pos>.275 .252</pos>
             </datetime> 
             <badges name="smlbadges">
-                <pos>.36 .225</pos>
+                <pos>.36 .215</pos>
             </badges>   
         </view>
   </aspectRatio>
@@ -355,13 +361,16 @@
                 <horizontalOffset>-0.365</horizontalOffset>
              </carousel>
              <datetime name="releasedatedate">
-                <pos>.24 .262</pos>
+                <pos>.24 .252</pos>
             </datetime>
              <badges name="smlbadges">
-                <pos>0.32 .22</pos>
+                <pos>0.32 .21</pos>
             </badges> 
+            <image name="sys-logo">
+                <pos>0.69 0.005</pos>
+            </image>
              <image name="lowimage">
-                <pos>0.79 0.28</pos>
+                <pos>0.79 0.32</pos>
             </image>   
         </view>
   </aspectRatio>

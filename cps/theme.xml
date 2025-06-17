@@ -92,5 +92,5 @@
                 <path>./.${arcadeImg}</path> 
             </image>
         </view> 
-</variant>
+    </variant>
 </theme>        

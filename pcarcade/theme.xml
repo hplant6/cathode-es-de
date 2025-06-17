@@ -81,16 +81,51 @@
         <include>./../sysgrid.xml</include>
         <include>./../list.xml</include>
     </variant> 
-    <variant name="low-power">
+   <variant name="low-power">
         <include>./../${performance}</include>
         <include>./../lowpower.xml</include>
         <view name="system">
-            <video name="lowpromo">
+         <video name="lowpromo">
                 <path>./.${arcadeVid}</path> 
             </video>
             <image name="lowpromoimg">
                 <path>./.${arcadeImg}</path> 
             </image>
-        </view> 
-    </variant> 
+        </view>
+        <view name="gamelist">
+            <video name="lowpowerBgVideo">
+                <path>./../_inc/images/lowpower/lowpower-arcade7.mp4</path>
+            </video>
+            <image name="cabinetOverlay">
+                <path>./../_inc/images/lowpower/lowpower-arcade.webp</path>
+            </image>
+            <image name="sys-logo">
+                <pos>0.66 -.03</pos>
+                <maxSize>0.23 0.1</maxSize>
+                <color>440101</color>
+                <brightness>2</brightness>
+            </image>
+        </view>
+        <aspectRatio name="3:2">
+            <view name="gamelist">
+                <image name="sys-logo">
+                <pos>0.69 -.03</pos>
+            </image>
+            </view>
+        </aspectRatio>
+        <aspectRatio name="4:3">
+            <view name="gamelist">
+                <image name="sys-logo">
+                    <pos>0.64 -.03</pos>
+                </image>
+            </view>
+        </aspectRatio>
+        <aspectRatio name="16:10">
+            <view name="gamelist">
+                <image name="sys-logo">
+                    <pos>0.68 -.03</pos>
+                </image>
+            </view>
+        </aspectRatio>
+    </variant>
 </theme>        

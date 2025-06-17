@@ -91,7 +91,40 @@
         <image name="lowpromoimg">
             <path>./.${customImg}</path> 
         </image>
-        </view> 
+        </view>
+        <view name="gamelist">
+            <video name="lowpowerBgVideo">
+                <path>./../_inc/images/lowpower/lowbg-collections.mp4</path>
+            </video>
+            <image name="cabinetOverlay">
+                <path>./../_inc/images/lowpower/lowpower-collection.webp</path>
+            </image>
+            <image name="sys-logo">
+                <pos>0.68 0.005</pos>
+                <maxSize>0.25 0.11</maxSize>
+            </image>
+        </view>
+        <aspectRatio name="3:2">
+            <view name="gamelist">
+                <image name="sys-logo">
+                <pos>0.715 0.005</pos>
+            </image>
+            </view>
+        </aspectRatio>
+        <aspectRatio name="4:3">
+            <view name="gamelist">
+                <image name="sys-logo">
+                    <pos>0.66 0.005</pos>
+                </image>
+            </view>
+        </aspectRatio>
+        <aspectRatio name="16:10">
+            <view name="gamelist">
+                <image name="sys-logo">
+                    <pos>0.69 0.005</pos>
+                </image>
+            </view>
+        </aspectRatio>
     </variant>
     <view name="system">   
         <text name="system-description">

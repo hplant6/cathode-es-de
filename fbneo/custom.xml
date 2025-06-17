@@ -11,7 +11,7 @@
       <zIndex>70</zIndex>
     </image>
     <image name="sys-logo">
-      <pos>0.6 0.035</pos>
+      <pos>0.61 0.035</pos>
       <maxSize>0.14 0.14</maxSize>
       <saturation>0</saturation>
       <brightness>2</brightness>
@@ -58,13 +58,12 @@
                 <pos>.76 0.38</pos>
                 <cropSize>0.36 0.36</cropSize>
             </image>
-            
             <image name="cabinetOverlay">
                 <pos>-.15 0</pos>
                 <cropSize>1.1 1</cropSize>
             </image>
             <image name="sys-logo">
-              <pos>0.55 0.044</pos>  <!-- +.03   +.012-->
+              <pos>0.57 0.042</pos>  <!-- +.03   +.012-->
             </image>  
         </view>
   </aspectRatio>
@@ -74,7 +73,7 @@
                 <pos>0.81 0.38</pos>
                 <cropSize>0.28 0.3</cropSize>
             </video>
-             <image name="gameimage">
+            <image name="gameimage">
                 <pos>0.81 0.38</pos>
                 <cropSize>0.28 0.3</cropSize>
             </image>
@@ -82,12 +81,9 @@
                 <pos>0.81 0.38</pos>
                 <cropSize>0.28 0.3</cropSize>
             </image>
-<<<<<<< HEAD
-=======
             
->>>>>>> ab7030732b0c93824f80b9de4e070228b9b09df6
             <image name="sys-logo">
-              <pos>0.62 0.039</pos>  <!-- +.03   +.012-->
+              <pos>0.63 0.038</pos>  <!-- +.03   +.012-->
             </image>
             <text name="lastPlayed">
                 <pos>.81 .042</pos> <!-- +.03   +.012-->
