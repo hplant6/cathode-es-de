@@ -1,0 +1,204 @@
+<!--
+   CATHODE
+
+ (cathode-es-de) Theme by Henry P.
+
+-->
+
+<theme>
+   
+    <include>./../base.xml</include>
+    
+   <variant name="carousel-carousel-3D">
+        <include>./../${performance}</include>
+        <include>./../syscarousel.xml</include>
+        <include>./../c-3dbox.xml</include>
+        <include>./custom.xml</include>
+    </variant>
+    <variant name="carousel-carousel">
+        <include>./../${performance}</include>
+        <include>./../syscarousel.xml</include>
+        <include>./../c-cover.xml</include>
+        <include>./custom.xml</include>       
+    </variant>
+<variant name="carousel-grid">
+        <include>./../${performance}</include>
+        <include>./../syscarousel.xml</include>
+        <include>./../grid.xml</include>
+    </variant>
+    <variant name="carousel-list">
+        <include>./../${performance}</include>
+        <include>./../syscarousel.xml</include>
+        <include>./../list.xml</include>
+    </variant>
+    <variant name="list-list">
+        <include>./../${performance}</include>
+        <include>./../syslist.xml</include>
+        <include>./../list.xml</include>
+    </variant> 
+    <variant name="list-grid">
+        <include>./../${performance}</include>
+        <include>./../syslist.xml</include>
+        <include>./../grid.xml</include>
+    </variant> 
+    <variant name="list-carousel-3D">
+        <include>./../${performance}</include>
+        <include>./../syslist.xml</include>
+        <include>./../c-3dbox.xml</include>
+        <include>./custom.xml</include>
+    </variant> 
+    <variant name="list-carousel">
+        <include>./../${performance}</include>
+        <include>./../syslist.xml</include>
+        <include>./../c-cover.xml</include>
+        <include>./custom.xml</include>
+    </variant> 
+    <variant name="grid-grid">
+        <include>./../${performance}</include>
+        <include>./../sysgrid.xml</include>
+        <include>./../grid.xml</include>
+    </variant> 
+    <variant name="grid-carousel-3D">
+        <include>./../${performance}</include>
+        <include>./../sysgrid.xml</include>
+        <include>./../c-3dbox.xml</include>
+        <include>./custom.xml</include>
+    </variant> 
+    <variant name="grid-carousel">
+        <include>./../${performance}</include>
+        <include>./../sysgrid.xml</include>
+        <include>./../c-cover.xml</include>
+        <include>./custom.xml</include>
+    </variant>  
+    <variant name="grid-list">
+        <include>./../${performance}</include>
+        <include>./../sysgrid.xml</include>
+        <include>./../list.xml</include>
+    </variant> 
+    <variant name="low-power">
+        <include>./../${performance}</include>
+        <include>./../lowpower.xml</include>
+        <view name="system">
+         <video name="lowpromo">
+                <path>./.${customVid}</path> 
+            </video>
+            <image name="lowpromoimg">
+                <path>./.${customImg}</path> 
+            </image>
+        </view>
+        <view name="gamelist">
+            <image name="lowimage">
+                <default>./../_inc/images/nut.jpg</default>
+                <pos>0.77 0.32</pos>
+                <cropSize>0.25 0.32</cropSize>
+                <cropPos>0.6 0</cropPos> 
+            </image>
+            <text name="insname">
+                <pos>.04 .06</pos>
+                <origin>0 .5</origin>
+                <size>.6 .15</size>
+                <fontSize>.08</fontSize>
+                <fontPath>./.${h2Font}</fontPath>
+                <letterCase>uppercase</letterCase>
+                <metadata>systemName</metadata>
+                <color>${highlightColor}</color>
+                <lineSpacing>1</lineSpacing>
+                <zIndex>65</zIndex>
+            </text>
+            <text name="descriptiontext">
+                <pos>0.02 .335</pos>
+                <size>.47 .35</size>
+                <metadata>description</metadata>
+                <container>true</container>
+                <fontSize>${listFontSize}</fontSize>
+                <color>${baseColor}</color>
+                <fontPath>./.${pFont}</fontPath>
+                <lineSpacing>1.5</lineSpacing>
+                <zIndex>65</zIndex>
+            </text>
+            <video name="lowpowerBgVideo">
+                <path>./../_inc/images/lowpower/lowbg-collections.mp4</path>
+            </video>
+            <image name="cabinetOverlay">
+                <path>./../_inc/images/lowpower/lowpower-collection.webp</path>
+            </image>
+            <image name="sys-logo">
+                <pos>0.68 0.005</pos>
+                <maxSize>0.25 0.11</maxSize>
+            </image>
+            <carousel name="lowCarousel">
+                <defaultImage>./../_inc/images/ins.webp</defaultImage>
+                <defaultFolderImage>./../_inc/images/folder.webp</defaultFolderImage> 
+            </carousel>
+            <image name="sys-logo">
+                <visible>false</visible>
+            </image>
+            <rating name="ratinggraphic">
+                <visible>false</visible>
+            </rating>
+            <datetime name="releasedatedate">
+                <visible>false</visible>
+            </datetime>
+            <text name="genre">
+                <visible>false</visible>
+            </text>
+            <image name="line1">
+                
+            </image>
+            <image name="line2">
+                <visible>false</visible>
+            </image>
+            <badges name="smlbadges">
+                <visible>false</visible>
+            </badges>
+            <gamelistinfo name="gcount">
+                 <visible>false</visible>
+            </gamelistinfo>
+        </view>
+        
+        <aspectRatio name="3:2">
+            <view name="gamelist">
+                <image name="lowimage">
+                    <pos>0.8 0.32</pos>
+                    <cropSize>0.3 0.32</cropSize>
+                    <cropPos>0.2 0.5</cropPos> 
+                </image>
+            </view>
+        </aspectRatio>
+        <aspectRatio name="4:3">
+            <view name="gamelist">
+                <image name="lowimage">
+                    <pos>0.783 0.32</pos>
+                    <cropSize>0.35 0.32</cropSize>
+                    <cropPos>0.2 0.5</cropPos> 
+                </image>
+            </view>
+        </aspectRatio>
+        <aspectRatio name="16:10">
+            <view name="gamelist">
+                <image name="lowimage">
+                    <pos>0.8 0.32</pos>
+                    <cropSize>0.25 0.32</cropSize>
+                    <cropPos>0.6 0.5</cropPos> 
+                </image>
+            </view>
+        </aspectRatio>
+    </variant>
+    <view name="system">
+        <text name="system-description">
+             <visible>false</visible>
+         </text>      
+         <image name="system-controllers-outline">
+                <visible>false</visible>
+         </image>
+         <image name="sel-gamart">
+                <visible>false</visible>
+         </image>
+         <text name="gameCountL">
+               <visible>false</visible>
+        </text>
+        <text name="gameCount">
+               <visible>false</visible>
+        </text>
+    </view> 
+</theme>        
