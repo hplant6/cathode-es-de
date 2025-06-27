@@ -66,12 +66,12 @@
                   <cropPos>.8 0</cropPos>
             </image>
             <video name="gamevideo">
-                <pos>.75 0.365</pos>
-                <maxSize>0.32 0.32</maxSize>
+                <pos>.75 0.35</pos>
+                <maxSize>0.38 0.36</maxSize>
             </video>
             <image name="gameimage">
-                <pos>.75 0.365</pos>
-                <maxSize>0.32 0.32</maxSize>
+                <pos>.75 0.35</pos>
+                <maxSize>0.38 0.38</maxSize>
             </image>
             <image name="game-logo">
                 <size>0.35 0.15</size>
