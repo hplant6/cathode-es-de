@@ -78,6 +78,44 @@
             </image>  
         </view>
   </aspectRatio>
+  <aspectRatio name="5:3_vertical">       
+        <view name="gamelist">
+            <video name="gamelistBgVideo">
+                <pos>-.7 .19</pos>
+                <cropSize>1.8 .6</cropSize>
+            </video>
+            <image name="gamelistBgImage">
+                <pos>-.7 .19</pos>
+                <cropSize>1.8 .6</cropSize>
+            </image>
+            <image name="cabinetOverlay">
+                <pos>-.7 .19</pos>
+                <cropSize>1.8 .6</cropSize>
+            </image>
+            <video name="gamevideo">
+                <pos>0.66 0.42</pos>
+                <maxSize>0.42 0.185</maxSize>    
+            </video> 
+            <image name="gameimage">
+                <pos>0.66 0.42</pos>
+                <maxSize>0.42 0.185</maxSize>
+            </image> 
+            <image name="sys-logo">
+                <pos>.5 0.055</pos>
+                <origin>.5 0</origin>
+                <maxSize>0.5 0.15</maxSize>
+                <color>${highlightColor}</color>
+            </image>
+            <datetime name="mobile-stat">
+                <pos>.18 .19</pos>
+                <size>1 0.09</size>
+            </datetime>
+            <text name="mobile-stat-title">
+                <pos>.18 .175</pos>
+                <size>1 0.09</size>
+            </text>    
+        </view>
+  </aspectRatio>
 <aspectRatio name="4:3">
         <view name="gamelist">
             <video name="gamevideo">

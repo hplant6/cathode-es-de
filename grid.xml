@@ -681,5 +681,207 @@
             </text> 
         </view>
     </aspectRatio>
+    <aspectRatio name="5:3_vertical">
+    
+        <view name="gamelist">
+            <helpsystem name="help">
+                <pos>0.5 0.97</pos>
+                <entries>x, y, l, r</entries>
+            </helpsystem>
+            <image name="section-logo">
+                <pos>.5 0.005</pos>
+                <origin>.5 0</origin>
+                <maxSize>0.5 0.15</maxSize>
+            </image>
+            <gamelistinfo name="gcount">
+                <origin>.5 0</origin>
+                <pos>0.5 .1</pos>
+                <size>1 .03</size>
+                <color>${highlightColor}</color>
+                <fontPath>${listFont}</fontPath>
+                <fontSize>.045</fontSize>
+                <horizontalAlignment>center</horizontalAlignment>
+                <zIndex>15</zIndex>
+                <backgroundColor>${highlightColor}15</backgroundColor>         
+            </gamelistinfo>
+
+            <image name="game-logo">
+                <pos>0.5 0.14</pos>
+                <maxSize>.8 0.1</maxSize>
+                <origin>.5 0 </origin>
+            </image>
+
+            <animation name= "frame">
+                <pos>0.02 0.25</pos>
+                <size>0.55 0.21</size>
+            </animation>
+            <video name="videothumb1">
+                <pos>0.02 0.25</pos>
+                <maxSize>.55 .21</maxSize>
+            </video>
+            <image name="imagethumb1">
+                <pos>0.02 0.25</pos>
+                <maxSize>.55 .21</maxSize>
+            </image>
+            <image name="videothumbtop">
+                <pos>0.02 0.25</pos>  
+                <size>.55 .21</size>     
+                <maxSize>.52 .5</maxSize>
+                <cornerRadius>.01</cornerRadius>
+            </image>
+
+            <rating name="ratinggraphic">
+                <pos>0.6 .27</pos>
+                <origin>0 0.5</origin>
+                <size>0 0.03</size>
+            </rating>
+            <image name="line5">
+                <pos>0.6 .3</pos>
+                <origin>0 .5</origin>
+                <maxSize>.38 .5</maxSize>
+                <color>ffffff79</color>
+            </image>
+            <image name="date-icon">
+                <pos>0.6 .325</pos>
+                <origin>0 .5</origin>
+                <maxSize>.045 .045</maxSize>
+            </image>
+             <datetime name="releasedatedate">
+                <pos>0.66 .325</pos>
+                <origin>0 0.5</origin>
+                <size>0.16 0.05</size>
+                <fontSize>0.042</fontSize>
+            </datetime>
+            <image name="players-icon">
+                <pos>0.78 0.325</pos>
+                <origin>0 .5</origin>
+                <maxSize>.045 .045</maxSize>
+            </image>
+            <text name="game-players">
+                <pos>0.825 .325</pos>
+                <origin>0 0.5</origin>
+                <size>0.1 0.05</size>
+                <fontSize>0.042</fontSize>
+            </text>
+            <image name="line2">
+                <pos>0.6 .35</pos>
+                <origin>0 .5</origin>
+                <maxSize>.38 .5</maxSize>
+                <color>ffffff79</color>
+            </image>   
+            <image name="genre-icon">
+                <visible>false</visible>
+            </image>
+            <text name="genre">
+                <pos>0.6 .375</pos>
+                <origin>0 0.5</origin>
+                <size>.36 .018</size>
+                <fontSize>0.042</fontSize>
+            </text>
+            <image name="line3">
+                <pos>0.6 .4</pos>
+                <origin>0 .5</origin>
+                <maxSize>.38 .5</maxSize>
+                <color>ffffff79</color>
+            </image> 
+            <image name="developer-icon">
+                <visible>false</visible>
+            </image>
+            <text name="developer">
+                <pos>.6 .425</pos>
+                <origin>0 .5</origin>
+                <size>.36 .018</size>
+                <fontSize>0.042</fontSize>
+            </text>
+            <image name="line4">
+                <pos>0.6 .46</pos>
+                <origin>0 .5</origin>
+                <maxSize>.38 .5</maxSize>
+                <color>ffffff70</color>
+                <path>./_inc/images/line.svg</path>
+                <zIndex>70</zIndex>
+            </image> 
+            <text name="gametitle">
+                <visible>false</visible>
+            </text>
+             
+            <text name="lastPlayedDate">
+                <pos>.02 .485</pos>
+                <origin>0 .5</origin>
+                <size>.6 .018</size>
+                <fontSize>0.035</fontSize>
+                <fontPath>${listFont}</fontPath>
+                <letterCase>uppercase</letterCase>
+                <horizontalAlignment>left</horizontalAlignment>
+                <text>PLAYED:</text>
+                <color>${transColor}</color>
+                <lineSpacing>1</lineSpacing>
+                <zIndex>65</zIndex>
+            </text>
+            <datetime name="lastPlayedDate">
+                <pos>.02 .51</pos>
+                <origin>0 .5</origin>
+                <size>.6 .018</size>
+                <fontSize>0.035</fontSize>
+            </datetime>
+            <text name="badges">
+                <pos>.32 .485</pos>
+                <origin>0 .5</origin>
+                <size>.6 .018</size>
+                <fontSize>0.035</fontSize>
+                <fontPath>${listFont}</fontPath>
+                <letterCase>uppercase</letterCase>
+                <horizontalAlignment>left</horizontalAlignment>
+                <text>BADGES:</text>
+                <color>${transColor}</color>
+                <lineSpacing>1</lineSpacing>
+                <zIndex>65</zIndex>
+            </text>
+            <badges name="badges">
+                <pos>0.47 .47</pos>
+                <origin>0 0</origin>
+                <size>.7 .2</size>
+
+            </badges>
+            <image name="line7">
+                <pos>0.01 .548</pos>
+                <origin>0 .5</origin>
+                <maxSize>.98 1</maxSize>
+                <color>ffffff70</color>
+                <path>./_inc/images/line.svg</path>
+                <zIndex>70</zIndex>
+            </image>
+             <grid name="game-grid">
+                <origin>0 0</origin> 
+                <pos>.02 .54</pos>	
+                <size>.98 .56</size>
+                <itemSize>0.17 0.17</itemSize>
+                <itemScale>1.2</itemScale>
+                <itemSpacing>0.02 0.01</itemSpacing>
+                <scaleInwards>false</scaleInwards>
+            </grid> 
+          
+            <video name="gridBgVideo">
+                <pos>0 0</pos>
+                <cropSize>1 1</cropSize>
+                <cropPos>.42 0</cropPos>
+            </video>
+            <image name="gridBgImage">
+                <pos>0 0</pos>
+                <cropSize>1 1</cropSize>
+                <cropPos>.42 0</cropPos>
+            </image>
+        
+            <text name="completed">
+                <visible>false</visible>
+            </text>
+            <image name="DesContainer">
+                <visible>false</visible>
+            </image> 
+            <text name="system-description">
+                <visible>false</visible>
+            </text> 
+        </view>
+  </aspectRatio>
 </theme>
 

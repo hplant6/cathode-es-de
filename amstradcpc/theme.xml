@@ -100,6 +100,9 @@
             <video name="lowpowerBgVideo">
                 <path>./../_inc/images/lowpower/lowbg-computer.mp4</path>
             </video>
+            <image name="lowpowerBgImg">
+                <path>./../_inc/images/lowpower/lowbg-computer.webp</path>
+            </image>
             <image name="cabinetOverlay">
                 <path>./../_inc/images/lowpower/lowpower-computer.webp</path>
             </image>
@@ -126,6 +129,15 @@
             <view name="gamelist">
                 <image name="sys-logo">
                     <pos>0.72 0.005</pos>
+                </image>
+            </view>
+        </aspectRatio>
+        <aspectRatio name="5:3_vertical">
+            <view name="gamelist">
+                 <image name="sys-logo">
+                    <pos>.5 .045</pos>
+                    <origin>.5 0</origin>
+                    <maxSize>0.6 0.33</maxSize>
                 </image>
             </view>
         </aspectRatio>

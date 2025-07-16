@@ -18,14 +18,23 @@
                 <defaultFolderImage>./../_inc/images/folder.webp</defaultFolderImage>
         </carousel>
         
-        <image name="gameimage">
+        <image name="gameimageINS">
+            <visible>${lp-screenimg}</visible>
             <pos>0.763 0.38</pos>
             <cropSize>0.25 0.32</cropSize>
             <origin>0.5 0.5</origin>
-            <imageType>screenshot, fanart, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
-            <default>./../_inc/images/nut.webp</default> <!-- Fallback to default cover -->
-            <zIndex>29</zIndex>
-        </image> 
+            <imageType>screenshot, fanart, titlescreen</imageType> <!-- Dynamically fetch media -->
+            <default>./../_inc/images/nut.jpg</default> <!-- Fallback to default cover -->
+            <zIndex>68</zIndex>
+        </image>
+        <video name="gamevidINS">
+            <visible>${lp-screenvid}</visible>
+            <pos>0.763 0.38</pos>
+            <cropSize>0.25 0.32</cropSize>
+            <origin>0.5 0.5</origin>
+            <default>./../_inc/images/nut.mp4</default> <!-- Fallback to default cover -->
+            <zIndex>69</zIndex>
+        </video>  
 
         <text name="insname">
                 <pos>.03 .08</pos>
@@ -137,10 +146,14 @@
                 <pos>.82 0.38</pos>
                 <cropSize>0.33 0.33</cropSize>
             </video>
-            <image name="gameimage">
+            <image name="gameimageINS">
                 <pos>.82 0.38</pos>
                 <cropSize>0.33 0.33</cropSize>
             </image>
+            <video name="gamevidINS">
+                <pos>.82 0.38</pos>
+                <cropSize>0.33 0.33</cropSize>
+            </video>
             <datetime name="mobile-stat">
                 <pos>.82 .087</pos>            
             </datetime>
@@ -188,10 +201,14 @@
                 <pos>.76 0.39</pos>
                 <cropSize>0.38 0.33</cropSize>
             </video>
-            <image name="gameimage">
+            <image name="gameimageINS">
                 <pos>.76 0.39</pos>
                 <cropSize>0.38 0.33</cropSize>
             </image>
+            <video name="gamevidINS">
+                <pos>.76 0.39</pos>
+                <cropSize>0.38 0.33</cropSize>
+            </video>
             <text name="lastPlayed">
                 <pos>.77 .07</pos>           
             </text>
@@ -232,9 +249,12 @@
            <video name="gamevideo">
                 <pos>0.8 0.38</pos>
            </video>
-           <image name="gameimage">
+           <image name="gameimageINS">
                 <pos>0.8 0.38</pos>
-           </image>  
+           </image>
+           <video name="gamevidINS">
+                <pos>0.8 0.38</pos>     
+           </video>  
         </view>
   </aspectRatio>
   <aspectRatio name="21:9">
@@ -248,11 +268,96 @@
                 <pos>0.768 0.34</pos>
                 <maxSize>0.27 0.4</maxSize>    
            </video>
-           <image name="gameimage">
+           <image name="gameimageINS">
                 <pos>0.768 0.34</pos>
                 <maxSize>0.27 0.4</maxSize>  
-           </image> 
+           </image>
+           <video name="gamevidINS">
+                <pos>0.768 0.34</pos>
+                <maxSize>0.27 0.4</maxSize>     
+           </video>   
         </view>
+  </aspectRatio>
+     <aspectRatio name="5:3_vertical">
+        <view name="system, gamelist">
+            <helpsystem name="help">
+                <pos>0.5 0.02</pos>
+                <entries>a, b, x, y</entries>
+            </helpsystem>
+        </view>
+        <view name="system">
+            <carousel name="systemCarousel">
+                <fontSize>.035</fontSize>
+            </carousel>
+        </view>               
+        <view name="gamelist">
+            <video name="gamelistBgVideo">
+                <pos>-.7 .19</pos>
+                <cropSize>1.8 .6</cropSize>
+            </video>
+            <image name="gamelistBgImage">
+                <pos>-.7 .19</pos>
+                <cropSize>1.8 .6</cropSize>
+            </image>
+            <image name="cabinetOverlay">
+                <pos>-.7 .19</pos>
+                <cropSize>1.8 .6</cropSize>
+            </image>
+            <image name="gameimageINS">
+                <pos>0.69 0.42</pos>
+                <cropSize>0.42 0.2</cropSize>
+                <zIndex>75</zIndex>
+            </image>
+            <video name="gamevidINS">
+                <pos>0.69 0.42</pos>
+                <cropSize>0.42 0.2</cropSize>
+                <zIndex>75</zIndex>   
+           </video>  
+            <image name="sys-logo">
+                <pos>.5 0.055</pos>
+                <origin>.5 0</origin>
+                <maxSize>0.5 0.15</maxSize>
+                <color>${highlightColor}</color>
+            </image>
+            <datetime name="mobile-stat">
+                <visible>false</visible>
+            </datetime>
+            <text name="mobile-stat-title">
+                <visible>false</visible>
+            </text> 
+            <carousel name="gamelistCarousel">
+                <pos>0.5 .95</pos>
+                <origin>0.5 1</origin>
+            </carousel>
+            <gamelistinfo name="gcount">
+                <origin>.5 0</origin>
+                <pos>0.5 .16</pos>
+                <size>1 .03</size>
+                <color>${highlightColor}</color>
+                <fontPath>${listFont}</fontPath>
+                <fontSize>.045</fontSize>
+                <horizontalAlignment>center</horizontalAlignment>
+                <zIndex>15</zIndex>
+                <backgroundColor>${highlightColor}15</backgroundColor>         
+            </gamelistinfo>
+            <text name="insname">
+                <pos>.5 .02</pos>
+                <origin>.5 0</origin>
+                <size>.8 .15</size>
+                <horizontalAlignment>center</horizontalAlignment>
+            </text>
+            <text name="appTitle">
+                <pos>.03 .73</pos>
+                <origin>0 .5</origin>
+                <size>.94 .05</size>
+                <fontSize>.052</fontSize>
+            </text>
+            <text name="descriptiontext">
+                <pos>.03 .75</pos>
+                <size>.94 .05</size>
+            </text> 
+        </view>
+        
   </aspectRatio>
     
 </theme>

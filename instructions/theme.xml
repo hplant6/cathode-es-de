@@ -91,8 +91,16 @@
                 <default>./../_inc/images/nut.jpg</default>
                 <pos>0.77 0.32</pos>
                 <cropSize>0.25 0.32</cropSize>
-                <cropPos>0.6 0</cropPos> 
+                <cropPos>0.6 0</cropPos>
+                <visible>${lp-screenimg}</visible> 
             </image>
+            <video name="lowvid">
+                <default>./../_inc/images/nut.mp4</default>
+                <pos>0.77 0.32</pos>
+                <cropSize>0.25 0.32</cropSize>
+                <cropPos>0.6 0</cropPos>
+                <visible>${lp-screenvid}</visible> 
+            </video>
             <text name="insname">
                 <pos>.04 .07</pos>
                 <origin>0 .5</origin>
@@ -119,6 +127,9 @@
             <video name="lowpowerBgVideo">
                 <path>./../_inc/images/lowpower/lowbg-collections.mp4</path>
             </video>
+            <image name="lowpowerBgImg">
+                <path>./../_inc/images/lowpower/lowbg-collections.webp</path>
+            </image>
             <image name="cabinetOverlay">
                 <path>./../_inc/images/lowpower/lowpower-collection.webp</path>
             </image>
@@ -166,6 +177,11 @@
                     <cropSize>0.3 0.32</cropSize>
                     <cropPos>0.2 0.5</cropPos> 
                 </image>
+                <video name="lowvid">
+                    <pos>0.82 0.32</pos>
+                    <cropSize>0.3 0.32</cropSize>
+                    <cropPos>0.2 0.5</cropPos> 
+                </video>
                 <text name="insname">
                     <pos>.04 .07</pos>
                 </text>
@@ -178,6 +194,11 @@
                     <cropSize>0.35 0.32</cropSize>
                     <cropPos>0.2 0.5</cropPos> 
                 </image>
+                <video name="lowvid">
+                    <pos>0.783 0.32</pos>
+                    <cropSize>0.35 0.32</cropSize>
+                    <cropPos>0.2 0.5</cropPos>  
+                </video>
                 <text name="insname">
                     <pos>.04 .05</pos>
                 </text>
@@ -190,6 +211,55 @@
                     <cropSize>0.25 0.32</cropSize>
                     <cropPos>0.6 0.5</cropPos> 
                 </image>
+                <video name="lowvid">
+                    <pos>0.8 0.32</pos>
+                    <cropSize>0.25 0.32</cropSize>
+                    <cropPos>0.6 0.5</cropPos>  
+                </video>
+            </view>
+        </aspectRatio>
+        <aspectRatio name="5:3_vertical">
+            <view name="system">
+                <carousel name="systemCarousel">
+                    <fontSize>${titlesFontSize}</fontSize>
+                </carousel>
+            </view>
+            <view name="gamelist">
+                <text name="insname">
+                    <pos>.5 .1</pos>
+                    <origin>.5 .5</origin>
+                    <size>1 .15</size>
+                    <fontSize>.1</fontSize>
+                    <horizontalAlignment>center</horizontalAlignment>
+                </text>
+                 <gamelistinfo name="gcount">
+                    <visible>true</visible>
+                    <origin>.5 0</origin>
+                    <pos>0.5 .16</pos>
+                    <size>1 .03</size>        
+                </gamelistinfo>
+                <image name="lowimage">
+                    <pos>0.57 0.385</pos>
+                    <cropSize>0.42 0.185</cropSize>
+                    <cropPos>.5 .5</cropPos>
+                </image>
+                <video name="lowvid">
+                    <pos>0.57 0.385</pos>
+                    <cropSize>0.42 0.185</cropSize>
+                    <cropPos>.5 .5</cropPos>
+                </video>
+                <text name="gameName">
+                    <pos>.02 .79</pos>
+                    <size>.9 .2</size>
+                </text>
+                <image name="line1">
+                    <pos>0.02 .82</pos>
+                </image>
+                <text name="descriptiontext">
+                    <pos>0.02 .835</pos>
+                    <size>.9 .35</size>
+                </text>
+             
             </view>
         </aspectRatio>
     </variant>

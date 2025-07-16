@@ -1,0 +1,530 @@
+<theme>
+    <include>./${performance}</include>
+    <variables>
+        <metasize>.04</metasize>
+    </variables>
+   <view name="system,gamelist">
+        <!-- Help info -->
+        <helpsystem name="help">
+            <pos>0.5 0.945</pos>
+            <origin>.5 0</origin>
+            <opacity>1</opacity>
+            <textColor>${baseColor}70</textColor>
+            <iconColor>${highlightColor}90</iconColor>
+            <fontSize>.037</fontSize>
+            <fontPath>${helpFont}</fontPath>
+            <iconTextSpacing>0.003</iconTextSpacing>
+            <entries>a, b, x, y, lt, rt</entries>
+        </helpsystem>
+        <clock name="LCDclock">
+            <fontSize>.078</fontSize>
+        </clock>
+        <systemstatus name="gstatus-ind">
+            <pos>.008 .92</pos>
+            <height>0.08</height>
+        </systemstatus>
+
+        <image name="clockOverlay">
+            <visible>false</visible>
+        </image>
+        <image name="clockBG">
+           <visible>false</visible>
+        </image>
+         <video name="backgroundpromo">
+            <visible>false</visible>
+        </video>
+        <image name="backgroundpromo">
+            <visible>false</visible>
+        </image>
+
+   </view>
+   <view name="system">
+        <video name="lowpromo">
+            <visible>true</visible>
+            <path>${consoleVid}</path>
+            <audio>false</audio>
+            <pos>0 0</pos>
+            <cropSize>1 1</cropSize>
+            <brightness>${vidBright}</brightness>
+            <saturation>${vidSat}</saturation>
+            <color>${vidColor}</color>
+            <zIndex>3</zIndex>
+        </video>
+           
+        <!-- System carousel -->
+        <carousel name="systemCarousel">
+            <pos>0 -.06</pos>
+            <size>1 0.4</size>
+            <type>horizontal</type>
+            <horizontalOffset>0</horizontalOffset>
+            <staticImage>./_inc/systems/logos/${system.theme}.webp</staticImage>
+            <maxItemCount>3</maxItemCount>
+            <itemSize>0.25 0.125</itemSize>
+            <itemScale>1.7</itemScale>
+            <imageColor>${highlightColor}</imageColor>
+            <imageBrightness>2</imageBrightness>
+            <imageSaturation>0</imageSaturation>
+            <imageInterpolation>linear</imageInterpolation>
+            <color>00000000</color>
+            <textColor>${highlightColor}</textColor>
+            <fontPath>${h2Font}</fontPath>
+            <fontSize>${titlelFontSize}</fontSize>
+            <letterCase>uppercase</letterCase>
+            <lineSpacing>1.2</lineSpacing>
+            <selectedItemMargins>.01 .01</selectedItemMargins>
+            <unfocusedItemOpacity>0.5</unfocusedItemOpacity>
+            <unfocusedItemDimming>.4</unfocusedItemDimming>
+            <fastScrolling>true</fastScrolling>
+        </carousel>
+        
+             <text name="gameCount">
+                <pos>0.5 0.91</pos>
+                <origin>.5 1</origin>
+                <size>0.8 0.05</size>
+                <systemdata>gamecount</systemdata>
+                <fontSize>0.055</fontSize>
+                <fontPath>${labelFont}</fontPath>
+                <letterCase>uppercase</letterCase>
+                <lineSpacing>1.1</lineSpacing>
+                <horizontalAlignment>center</horizontalAlignment>
+                <color>${transColor}</color>
+             </text>
+             <image name="system-controller">
+                <pos>.45 .54</pos>
+                <origin>.5 .5</origin>
+                <maxSize>.25 .25</maxSize>
+                <path>./_inc/systems/system-controllers-outline/${system.theme}.svg</path>
+                <default>./_inc/systems/system-controllers-outline/default.svg</default>
+                <color>ffffff</color>
+                <zIndex>11</zIndex>
+             </image>
+      
+   </view>
+   
+<view name="gamelist">
+    
+    
+    
+    <gamelistinfo name="gcount">
+            <pos>0.035 .04</pos>
+            <size>.47 .07</size>
+            <color>${highlightColor}</color>
+            <fontPath>${listFont}</fontPath>
+            <fontSize>.045</fontSize>
+            <horizontalAlignment>center</horizontalAlignment>
+             <zIndex>15</zIndex>
+             <backgroundColor>${highlightColor}15</backgroundColor> 
+    </gamelistinfo>
+    
+    
+    <image name="sys-logo">
+        <pos>0.65 0.0035</pos>
+        <maxSize>0.25 0.14</maxSize>
+        <saturation>0</saturation>
+        <brightness>2</brightness>
+        <color>${highlightColor}</color>
+        <path>./_inc/systems/logos/${system.theme}.webp</path>
+        <default>./_inc/systems/logos/default.webp</default>
+        <zIndex>71</zIndex>
+    </image>
+    <text name="gameName">
+        <pos>.03 .16</pos>
+        <origin>0 .5</origin>
+        <size>.47 .05</size>
+        <fontSize>${caraFontSize}</fontSize>
+        <fontPath>${listFont}</fontPath>
+        <metadata>name</metadata>
+        <defaultValue>Unknown</defaultValue>
+        <color>${baseColor}</color>
+        <lineSpacing>1</lineSpacing>
+        <zIndex>65</zIndex>
+        <container>true</container>
+        <containerType>horizontal</containerType>
+        <containerStartDelay>2</containerStartDelay>
+    </text>
+    <rating name="ratinggraphic">
+        <pos>.03 .25</pos>
+        <origin>0 0.5</origin>
+        <size>0 0.06</size>
+        <filledPath>./_inc/images/star_filled.svg</filledPath>
+        <unfilledPath>./_inc/images/star_unfilled.svg</unfilledPath>
+        <color>${highlightColor}</color>
+        <zIndex>65</zIndex>
+    </rating>
+    
+    <datetime name="releasedatedate">
+        <pos>.22 .252</pos>
+        <origin>0 0.5</origin>
+        <fontSize>.045</fontSize>
+        <fontPath>${labelFont}</fontPath>
+        <letterCase>uppercase</letterCase>
+        <format>%Y</format>
+        <metadata>releasedate</metadata>
+        <defaultValue>????</defaultValue>
+        <color>${transColor}</color>
+        <lineSpacing>1</lineSpacing>
+        <zIndex>65</zIndex>
+    </datetime>
+    
+    <text name="genre">
+        <pos>.03 .33</pos>
+        <size>0.4 0.09</size>
+        <origin>0 0.5</origin>
+        <fontSize>.045</fontSize>
+        <fontPath>${labelFont}</fontPath>
+        <letterCase>uppercase</letterCase>
+        <metadata>genre</metadata>
+        <defaultValue>Unknown</defaultValue>
+        <color>${transColor}</color>
+        <lineSpacing>1</lineSpacing>
+        <zIndex>65</zIndex>
+    </text>
+    <image name="line1">
+        <pos>0.03 .212</pos>
+        <origin>0 .5</origin>
+        <maxSize>.47 1</maxSize>
+        <path>./_inc/images/line.svg</path>
+        <color>${highlightColor}70</color>
+        <zIndex>70</zIndex>
+    </image>
+    <image name="line2">
+        <pos>0.03 .29</pos>
+        <origin>0 .5</origin>
+        <maxSize>.47 1</maxSize>
+        <path>./_inc/images/line.svg</path>
+        <color>${highlightColor}70</color>
+        <zIndex>70</zIndex>
+    </image>
+    <badges name="smlbadges">
+        <pos>0.29 .205</pos>
+        <origin>0 0</origin>
+        <size>.165 .165</size>
+        <horizontalAlignment>left</horizontalAlignment>
+        <direction>row</direction>
+        <lines>1</lines>
+        <itemsPerLine>3</itemsPerLine>
+        <slots>favorite, folder</slots>
+        <customBadgeIcon badge="folder">./_inc/images/folder.svg</customBadgeIcon>
+        <customBadgeIcon badge="favorite">./_inc/images/favorite.svg</customBadgeIcon>
+        <folderLinkPos>0.5 0.6</folderLinkPos> 
+        <badgeIconColor>${transColor}</badgeIconColor>
+        <zIndex>75</zIndex>
+    </badges>
+   
+    <carousel name="lowCarousel">
+        <pos>0.5 1.21</pos>
+        <origin>0.5 1</origin>
+        <size>1 1</size>
+        <type>horizontal</type>
+        <imageType>cover</imageType>
+        <defaultImage>./_inc/images/default3d-box.webp</defaultImage>
+        <defaultFolderImage>./_inc/images/folder.webp</defaultFolderImage> 
+        <maxItemCount>6</maxItemCount>
+        <itemSize>0.155 0.27</itemSize>
+        <imageFit>contain</imageFit>
+        <itemScale>1.9</itemScale>
+        <itemsBeforeCenter>5</itemsBeforeCenter>
+        <imageInterpolation>linear</imageInterpolation>
+        <itemAxisHorizontal>true</itemAxisHorizontal>
+        <itemHorizontalAlignment>bottom</itemHorizontalAlignment>
+        <itemVerticalAlignment>bottom</itemVerticalAlignment>
+        <fastScrolling>true</fastScrolling>
+        <color>00000000</color>
+        <textColor>${transColor}</textColor>
+        <textBackgroundColor>000000FF</textBackgroundColor>
+        <fontSize>${caraFontSize}</fontSize>
+        <fontPath>${labelFont}</fontPath>
+        <letterCase>uppercase</letterCase>
+        <lineSpacing>1.2</lineSpacing>
+        <selectedItemMargins>0.06 0.06</selectedItemMargins>
+        <horizontalOffset>-0.37</horizontalOffset>
+        <verticalOffset>.22</verticalOffset>
+        <reflections>true</reflections>
+        <reflectionsOpacity>.25</reflectionsOpacity>
+        <reflectionsFalloff>3</reflectionsFalloff>
+        <unfocusedItemOpacity>1</unfocusedItemOpacity>
+        <imageColor>${vidColor}</imageColor>
+        <imageBrightness>${vidBright}</imageBrightness>
+        <imageSaturation>${vidSat}</imageSaturation>
+        <zIndex>50</zIndex>
+    </carousel>
+
+    <video name="gamevideo">
+        <visible>false</visible>
+    </video>
+        
+    <image name="lowimage">
+        <pos>0.77 0.32</pos>
+        <cropSize>0.25 0.32</cropSize>
+        <cropPos>0 .5</cropPos>
+        <origin>0.5 0.5</origin>
+        <imageType>screenshot, fanart, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
+        <default>./_inc/images/empty-state.webp</default> <!-- Fallback to default cover -->
+        <brightness>${vidBright}</brightness>
+        <saturation>${vidSat}</saturation>
+        <color>${vidColor}</color>
+        <zIndex>29</zIndex>
+        <visible>${lp-screenvid}</visible>
+    </image> 
+    <video name="lowvid">
+        <pos>0.77 0.32</pos>
+        <cropSize>0.25 0.32</cropSize>
+        <cropPos>0 .5</cropPos>
+        <origin>0.5 0.5</origin>
+        <imageType>screenshot, fanart, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
+        <default>./_inc/images/empty-state.webp</default> <!-- Fallback to default cover -->
+        <brightness>${vidBright}</brightness>
+        <saturation>${vidSat}</saturation>
+        <color>${vidColor}</color>
+        <zIndex>29</zIndex>
+        <visible>${lp-screenvid}</visible>
+    </video> 
+        
+    <image name="cabinetOverlay">
+        <brightness>${vidBright}</brightness>
+        <saturation>${vidSat}</saturation>
+        <color>${vidColor}</color>
+        <pos>0 0</pos>
+        <cropSize>1 1</cropSize>
+        <path>./_inc/images/lowpower/lowpower-console.webp</path>
+        <zIndex>49</zIndex>
+    </image>
+    <video name="gamelistBgVideo">
+        <visible>false</visible>
+    </video>
+    <image name="gamelistBgImage">
+        <visible>false</visible>
+    </image>
+    <video name="lowpowerBgVideo">
+        <visible>${lp-bgvid}</visible>
+        <audio>false</audio>
+        <pos>0 0</pos>
+        <cropSize>1 1</cropSize>
+        <path>./_inc/images/lowpower/lowbg-console.mp4</path>
+        <brightness>${vidBright}</brightness>
+        <saturation>${vidSat}</saturation>
+        <color>${vidColor}</color>
+        <zIndex>9</zIndex>
+    </video>
+    <image name="lowpowerBgImg">
+        <visible>${lp-bgimg}</visible>
+        <pos>0 0</pos>
+        <cropSize>1 1</cropSize>
+        <path>./_inc/images/lowpower/lowbg-console.webp</path>
+        <brightness>${vidBright}</brightness>
+        <saturation>${vidSat}</saturation>
+        <color>${vidColor}</color>
+        <zIndex>9</zIndex>
+    </image>
+ 
+</view>
+<aspectRatio name="3:2">
+        <view name="gamelist">
+            <image name="sys-logo">
+                <pos>0.70 0.005</pos>
+            </image>
+             <image name="game-logo">
+                <pos>0.64 0.03</pos>
+            </image>
+            <badges name="smlbadges">
+                <pos>0.33 .215</pos>
+            </badges>
+            <datetime name="releasedatedate">
+                <pos>.25 .252</pos>
+            </datetime>
+            <video name="gamevideo">
+                <pos>.82 0.38</pos>
+                <cropSize>0.33 0.33</cropSize>
+            </video>
+            <image name="lowimage">
+                <pos>.82 0.32</pos>
+                <cropSize>0.31 0.31</cropSize>
+            </image>
+            <video name="lowvid">
+                <pos>.82 0.32</pos>
+                <cropSize>0.31 0.31</cropSize>
+            </video>
+        </view>
+  </aspectRatio>
+<aspectRatio name="4:3">
+        <view name="gamelist">
+             <carousel name="lowCarousel">
+                <maxItemCount>5</maxItemCount>
+                <itemsBeforeCenter>4</itemsBeforeCenter>
+                <horizontalOffset>-0.33</horizontalOffset>
+             </carousel>
+            <badges name="smlbadges">
+                <pos>0.365 .217</pos>
+            </badges>
+            <image name="cabinetOverlay">
+                <pos>-.15 0</pos>
+                <cropSize>1.15 1</cropSize>    
+            </image>
+            <image name="sys-logo">
+                <pos>0.64 0.005</pos>
+                <maxSize>0.3 0.22</maxSize>
+            </image>
+            <image name="lowimage">
+                <pos>.78 0.33</pos>
+                <cropSize>0.31 0.295</cropSize>
+            </image>
+            <video name="lowvid">
+                <pos>.78 0.33</pos>
+                <cropSize>0.31 0.295</cropSize>
+            </video>
+            <image name="game-logo">   
+                <pos>0.02 0.02</pos>
+                <maxSize>0.2 0.15</maxSize>
+            </image>
+            <datetime name="releasedatedate">
+                <pos>.275 .252</pos>
+            </datetime> 
+            <badges name="smlbadges">
+                <pos>.36 .215</pos>
+            </badges>   
+        </view>
+  </aspectRatio>
+  <aspectRatio name="16:10">
+        <view name="gamelist">
+             <carousel name="lowCarousel">
+                <maxItemCount>5</maxItemCount>
+                <itemsBeforeCenter>4</itemsBeforeCenter>
+                <horizontalOffset>-0.365</horizontalOffset>
+             </carousel>
+             <datetime name="releasedatedate">
+                <pos>.24 .252</pos>
+            </datetime>
+             <badges name="smlbadges">
+                <pos>0.32 .21</pos>
+            </badges> 
+            <image name="sys-logo">
+                <pos>0.68 0.005</pos>
+            </image>
+             <image name="lowimage">
+                <pos>0.79 0.32</pos>
+            </image>
+            <video name="lowvid">
+                <pos>0.79 0.32</pos>
+            </video>   
+        </view>
+  </aspectRatio>
+  <aspectRatio name="5:3_vertical">
+        <view name="system, gamelist">
+            <helpsystem name="help">
+                <pos>0.5 0.02</pos>
+            </helpsystem>
+            <systemstatus name="gstatus-ind">
+                <pos>.008 .95</pos>
+                <height>0.08</height>
+            </systemstatus>
+        </view>        
+        <view name="system">
+            <video name="lowpromo">
+                <pos>0 .25</pos>
+                <cropSize>1 .7</cropSize>
+            </video>
+            <text name="gameCount">
+                <pos>0.5 0.34</pos>
+                <origin>.5 1</origin>
+                <size>0.8 0.05</size>
+             </text>
+            <carousel name="systemCarousel">
+                <pos>0 -.06</pos>
+            </carousel>
+            <image name="system-controller">
+                <pos>.41 .61</pos>
+                <origin>.5 .5</origin>
+                <maxSize>.35 .35</maxSize>
+             </image>
+             <image name="fade">
+                <pos>.5 .95</pos>
+                <origin>.5 .5</origin>
+                <size>1 .15</size>
+                <path>./_inc/images/fade.svg</path>
+                <zIndex>11</zIndex>
+             </image>
+             
+        </view>
+        <view name="gamelist">
+            <video name="lowpowerBgVideo">
+                <pos>-.20 .192</pos>
+                <size>1.2 .6</size>
+                <cropSize>1 1</cropSize>
+            </video>
+            <image name="lowpowerBgImg">
+                <pos>-.20 .192</pos>
+                <size>1.2 .6</size>
+                <cropSize>1 1</cropSize>
+            </image>
+            <image name="cabinetOverlay">
+                <pos>-.8 .19</pos>
+                <cropSize>1.8 .6</cropSize>
+            </image>
+            <image name="lowimage">
+                <pos>0.59 0.385</pos>
+                <cropSize>0.42 0.185</cropSize>
+                <cropPos>0 .5</cropPos>
+            </image>
+            <video name="lowvid">
+                <pos>0.59 0.385</pos>
+                <cropSize>0.42 0.185</cropSize>
+                <cropPos>0 .5</cropPos>
+            </video> 
+            <carousel name="lowCarousel">
+                <pos>0.5 1.04</pos>
+                <origin>0.5 1</origin>
+            </carousel>
+            <image name="sys-logo">
+                <pos>.5 .045</pos>
+                <origin>.5 0</origin>
+                <maxSize>0.6 0.33</maxSize>
+            </image>
+             <gamelistinfo name="gcount">
+                <origin>.5 0</origin>
+                <pos>0.5 .16</pos>
+                <size>1 .03</size>        
+            </gamelistinfo>
+
+            <text name="gameName">
+                <pos>.03 .79</pos>
+                <origin>0 .5</origin>
+                <size>.94 .05</size>
+            </text>
+            <rating name="ratinggraphic">
+                <pos>.03 .845</pos>
+                <origin>0 0.5</origin>
+                <size>0 0.033</size>
+            </rating>
+            
+            <datetime name="releasedatedate">
+                <pos>.34 .847</pos>
+                <origin>0 0.5</origin>
+                <fontSize>.049</fontSize>
+            </datetime>
+            
+            <text name="genre">
+                <pos>.03 .905</pos>
+                <size>1 0.09</size>
+                <origin>0 0.5</origin>
+                <fontSize>.049</fontSize>
+            </text>
+            <image name="line1">
+                <pos>0.03 .82</pos>
+                <origin>0 .5</origin>
+                <maxSize>.94 1</maxSize>
+            </image>
+            <image name="line2">
+                <pos>0.03 .875</pos>
+                <origin>0 .5</origin>
+                <maxSize>.94 1</maxSize>
+            </image>
+            <badges name="smlbadges">
+                <pos>0.475 .83</pos>
+                <origin>0 0</origin>
+                <size>.2 .2</size>
+            </badges>
+        </view>
+  </aspectRatio>
+
+
+</theme>

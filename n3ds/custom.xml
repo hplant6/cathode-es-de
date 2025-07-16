@@ -280,5 +280,53 @@
             </text>   
         </view>
     </aspectRatio>
+     <aspectRatio name="5:3_vertical">       
+        <view name="gamelist">
+            <video name="gamelistBgVideo">
+                <pos>-.7 .19</pos>
+                <cropSize>1.8 .6</cropSize>
+            </video>
+            <image name="gamelistBgImage">
+                <pos>-.7 .19</pos>
+                <cropSize>1.8 .6</cropSize>
+            </image>
+            <image name="cabinetOverlay">
+                <pos>-.7 .19</pos>
+                <cropSize>1.8 .6</cropSize>
+            </image>
+            <video name="gamevideo">
+                <pos>0.67 0.415</pos>
+                <maxSize>0.44 0.17</maxSize>    
+            </video> 
+            <image name="gameimage">
+                <pos>0.7 0.415</pos>
+                <maxSize>0.44 0.17</maxSize>
+            </image> 
+            <image name="sys-logo">
+                <visible>true</visible>
+                <pos>.5 0.055</pos>
+                <origin>.5 0</origin>
+                <maxSize>0.5 0.15</maxSize>
+                <color>${highlightColor}</color>
+            </image>
+            <image name="fade">
+                <pos>.5 .75</pos>
+                <origin>.5 .5</origin>
+                <size>1 .15</size>
+                <path>./../_inc/images/fade.svg</path>
+                <zIndex>60</zIndex>
+            </image> 
+            <datetime name="mobile-stat">
+                <pos>.335 .19</pos>
+                <size>1 0.09</size>
+                <visible>true</visible>
+            </datetime>
+            <text name="mobile-stat-title">
+                <pos>.335 .175</pos>
+                <size>1 0.09</size>
+                <visible>true</visible>
+            </text>    
+        </view>
+  </aspectRatio>
     
 </theme>

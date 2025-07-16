@@ -157,5 +157,68 @@
             </image>
        </view>
     </aspectRatio>
+     <aspectRatio name="5:3_vertical">       
+        <view name="gamelist">
+            <video name="gamelistBgVideo">
+                <pos>-.7 .19</pos>
+                <cropSize>1.8 .6</cropSize>
+            </video>
+            <image name="gamelistBgImage">
+                <pos>-.7 .19</pos>
+                <cropSize>1.8 .6</cropSize>
+            </image>
+            <image name="cabinetOverlay">
+                <pos>-.7 .19</pos>
+                <cropSize>1.8 .6</cropSize>
+            </image>
+            <video name="nut">
+                <pos>0.66 0.42</pos>
+                <maxSize>0.69 0.27</maxSize>    
+            </video> 
+            <image name="nutimg">
+                <pos>0.66 0.42</pos>
+                <maxSize>0.69 0.27</maxSize> 
+            </image> 
+            <image name="section-logo">
+                <visible>true</visible>
+                <pos>.5 0.055</pos>
+                <origin>.5 0</origin>
+                <maxSize>0.5 0.15</maxSize>
+                <color>${highlightColor}</color>
+            </image>
+            
+            <carousel name="gamelistCarousel">
+                <pos>0.5 .95</pos>
+                <origin>0.5 1</origin>
+            </carousel>
+            <text name="appTitle">
+                <pos>.03 .73</pos>
+                <origin>0 .5</origin>
+                <size>.94 .05</size>
+                <fontSize>.052</fontSize>
+            </text>
+            <text name="meta">
+                <pos>.03 .77</pos>
+            </text>
+            <image name="fade">
+                <pos>.5 .75</pos>
+                <origin>.5 .5</origin>
+                <size>1 .15</size>
+                <path>./../_inc/images/fade.svg</path>
+                <zIndex>60</zIndex>
+            </image> 
+            <gamelistinfo name="gcount">
+                <origin>.5 0</origin>
+                <pos>0.5 .16</pos>
+                <size>1 .03</size>
+                <color>${highlightColor}</color>
+                <fontPath>${listFont}</fontPath>
+                <fontSize>.045</fontSize>
+                <horizontalAlignment>center</horizontalAlignment>
+                <zIndex>15</zIndex>
+                <backgroundColor>${highlightColor}15</backgroundColor>         
+            </gamelistinfo>    
+        </view>
+  </aspectRatio>
           
 </theme>       

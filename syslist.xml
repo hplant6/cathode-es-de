@@ -137,6 +137,80 @@ a<theme>
              </image>
       </view> 
     </aspectRatio>
+    <aspectRatio name="5:3_vertical">
+        <view name="system, gamelist">
+          
+            <helpsystem name="help">
+                <pos>0.5 0.02</pos>
+            </helpsystem>
+            <systemstatus name="gstatus-ind">
+                <pos>.008 .95</pos>
+                <height>0.08</height>
+            </systemstatus>
+            <clock name="LCDclock">
+                <fontSize>.08</fontSize>
+            </clock>
+        </view>        
+        <view name="system">
+            <video name="backgroundpromo">
+              <pos>0 .07</pos>
+              <cropSize>1 .5</cropSize>
+            </video>
+          <image name="backgroundpromo">
+              <pos>0 .07</pos>
+              <cropSize>1 .5</cropSize>
+          </image>
+          <image name="sys-logo">
+                <pos>0.5 0.06</pos>
+                <maxSize>0.6 0.29</maxSize>
+                <origin>.5 0 </origin>
+          </image>
+          <image name="fade">
+            <pos>.5 .575</pos>
+            <origin>.5 .5</origin>
+            <size>1 .15</size>
+            <path>./_inc/images/fade.svg</path>
+            <zIndex>11</zIndex>
+          </image>
+          <text name="gameCountL">
+              <pos>0.5 0.147</pos>
+              <origin>.5 0</origin>
+              <size>0.8 0.1</size>
+              <zIndex>12</zIndex>
+          </text>
+          <textlist name="sys-list">
+            <origin>0 0</origin>
+            <pos>0.0397 .54</pos>
+            <size>.95 .38</size>
+            <selectorHeight>0.056</selectorHeight>
+            <selectorWidth>0.98</selectorWidth>
+            <lineSpacing>${listLineSpacing}</lineSpacing>
+            <selectorVerticalOffset>-.012</selectorVerticalOffset>
+            <selectorHorizontalOffset>-.029</selectorHorizontalOffset>
+          </textlist>
+          <image name="system-controllers-outline">
+            <pos>.5 .48</pos>
+            <origin>.5 .5</origin>
+            <maxSize>.25 .25</maxSize>
+            <zIndex>12</zIndex>
+          </image>
+          <animation name="hud-ele">
+              <pos>0.5 0.863</pos>
+              <origin>.5 0 </origin>
+              <size>0.8 0.15</size>
+          </animation>
+          <image name="OVRGRID2">
+               <pos>0 .513</pos>
+               <cropSize>1 .4</cropSize>
+               <path>./_inc/images/ovrgrid35.webp</path>
+               <color>${gifColor}</color>
+               <opacity>1</opacity>
+               <zIndex>13</zIndex>
+            </image>
+         
+             
+        </view>  
+  </aspectRatio>
  
 
 </theme>

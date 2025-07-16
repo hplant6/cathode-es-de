@@ -96,6 +96,9 @@
             <video name="lowpowerBgVideo">
                 <path>./../_inc/images/lowpower/lowpower-arcade7.mp4</path>
             </video>
+            <image name="lowpowerBgImg">
+                <path>./../_inc/images/lowpower/lowpower-arcade7.webp</path>
+            </image>
             <image name="cabinetOverlay">
                 <path>./../_inc/images/lowpower/lowpower-arcade.webp</path>
             </image>
@@ -120,10 +123,21 @@
                 </image>
             </view>
         </aspectRatio>
-        <aspectRatio name="16:10">
+         <aspectRatio name="16:10">
             <view name="gamelist">
                 <image name="sys-logo">
                     <pos>0.68 -.03</pos>
+                </image>
+            </view>
+        </aspectRatio>
+        <aspectRatio name="5:3_vertical">
+            <view name="gamelist">
+                 <image name="sys-logo">
+                    <pos>.5 .045</pos>
+                    <origin>.5 0</origin>
+                    <maxSize>0.6 0.33</maxSize>
+                    <color>${highlightColor}</color>
+                    <brightness>2</brightness>
                 </image>
             </view>
         </aspectRatio>

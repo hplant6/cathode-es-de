@@ -7,6 +7,7 @@
     <aspectRatio>21:9</aspectRatio>
     <aspectRatio>4:3</aspectRatio>
     <aspectRatio>3:2</aspectRatio>
+    <aspectRatio>5:3_vertical</aspectRatio>
 
     <!-- Transitions -->
     <transitions name="instantFade">

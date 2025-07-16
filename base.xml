@@ -140,6 +140,12 @@
             <clock2>ff000075</clock2>
             <clock>true</clock>
 
+            <lp-bgvid>true</lp-bgvid>
+            <lp-bgimg>false</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
+
+
             <vidColor>ffffff</vidColor>
             <vidSat>1</vidSat>
             <vidBright>0</vidBright>
@@ -176,6 +182,12 @@
             <lineColor>ffffff25</lineColor>
             <clock2>ff000075</clock2>
             <clock>false</clock>
+
+            <lp-bgvid>true</lp-bgvid>
+            <lp-bgimg>false</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
+
 
             <vidColor>ffffff</vidColor>
             <vidSat>1</vidSat>
@@ -217,6 +229,11 @@
             <vidSat>1</vidSat>
             <vidBright>0</vidBright>
 
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
+
             <arcadeLogo>FFDE00</arcadeLogo>
             <consoleLogo>d4fffd</consoleLogo>
             <computerLogo>FFFFFF</computerLogo>
@@ -252,6 +269,12 @@
             <vidColor>ffffff</vidColor>
             <vidSat>1</vidSat>
             <vidBright>0</vidBright>
+
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>false</lp-screenvid> 
+            <lp-screenimg>true</lp-screenimg>
+
 
             <arcadeLogo>FFDE00</arcadeLogo>
             <consoleLogo>d4fffd</consoleLogo>
@@ -289,6 +312,11 @@
             <vidSat>1</vidSat>
             <vidBright>0</vidBright>
 
+            <lp-bgvid>true</lp-bgvid>
+            <lp-bgimg>false</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
+
             <arcadeLogo>FFDE00</arcadeLogo>
             <consoleLogo>d4fffd</consoleLogo>
             <computerLogo>FFFFFF</computerLogo>
@@ -324,6 +352,11 @@
             <vidColor>ffffff</vidColor>
             <vidSat>1</vidSat>
             <vidBright>0</vidBright>
+
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
 
             <arcadeLogo>FFDE00</arcadeLogo>
             <consoleLogo>d4fffd</consoleLogo>
@@ -361,6 +394,11 @@
             <vidSat>1</vidSat>
             <vidBright>0</vidBright>
 
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>false</lp-screenvid> 
+            <lp-screenimg>true</lp-screenimg>
+
             <arcadeLogo>FFDE00</arcadeLogo>
             <consoleLogo>d4fffd</consoleLogo>
             <computerLogo>FFFFFF</computerLogo>
@@ -396,6 +434,11 @@
             <vidColor>ffffff</vidColor>
             <vidSat>1</vidSat>
             <vidBright>0</vidBright>
+
+            <lp-bgvid>true</lp-bgvid>
+            <lp-bgimg>false</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
 
             <arcadeLogo>FFDE00</arcadeLogo>
             <consoleLogo>d4fffd</consoleLogo>
@@ -433,6 +476,11 @@
             <vidSat>1</vidSat>
             <vidBright>0</vidBright>
 
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
+
             <arcadeLogo>FFDE00</arcadeLogo>
             <consoleLogo>d4fffd</consoleLogo>
             <computerLogo>FFFFFF</computerLogo>
@@ -468,6 +516,11 @@
             <vidColor>ffffff</vidColor>
             <vidSat>1</vidSat>
             <vidBright>0</vidBright>
+
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>false</lp-screenvid> 
+            <lp-screenimg>true</lp-screenimg>
 
             <arcadeLogo>FFDE00</arcadeLogo>
             <consoleLogo>d4fffd</consoleLogo>
@@ -506,6 +559,11 @@
             <vidSat>1</vidSat>
             <vidBright>0</vidBright>
 
+            <lp-bgvid>true</lp-bgvid>
+            <lp-bgimg>false</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
+
             <arcadeLogo>FFDE00</arcadeLogo>
             <consoleLogo>d4fffd</consoleLogo>
             <computerLogo>FFFFFF</computerLogo>
@@ -541,6 +599,11 @@
             <vidColor>C466FA</vidColor>
             <vidSat>1</vidSat>
             <vidBright>0</vidBright>
+
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
 
             <arcadeLogo>FFDE00</arcadeLogo>
             <consoleLogo>d4fffd</consoleLogo>
@@ -579,6 +642,11 @@
             <vidSat>1</vidSat>
             <vidBright>0</vidBright>
 
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>false</lp-screenvid> 
+            <lp-screenimg>true</lp-screenimg>
+
             <arcadeLogo>FFDE00</arcadeLogo>
             <consoleLogo>d4fffd</consoleLogo>
             <computerLogo>FFFFFF</computerLogo>
@@ -616,6 +684,11 @@
             <vidSat>1</vidSat>
             <vidBright>0</vidBright>
 
+            <lp-bgvid>true</lp-bgvid>
+            <lp-bgimg>false</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
+
             <arcadeLogo>FFDE00</arcadeLogo>
             <consoleLogo>d4fffd</consoleLogo>
             <computerLogo>FFFFFF</computerLogo>
@@ -651,6 +724,11 @@
             <vidColor>00DBFA</vidColor>
             <vidSat>1</vidSat>
             <vidBright>0</vidBright>
+
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>false</lp-screenvid> 
+            <lp-screenimg>true</lp-screenimg>
 
             <arcadeLogo>FFDE00</arcadeLogo>
             <consoleLogo>d4fffd</consoleLogo>
@@ -689,6 +767,11 @@
             <vidSat>1</vidSat>
             <vidBright>0</vidBright>
 
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>false</lp-screenvid> 
+            <lp-screenimg>true</lp-screenimg>
+
             <arcadeLogo>FFDE00</arcadeLogo>
             <consoleLogo>d4fffd</consoleLogo>
             <computerLogo>FFFFFF</computerLogo>
@@ -726,6 +809,11 @@
             <vidSat>.1</vidSat>
             <vidBright>-.1</vidBright>
 
+            <lp-bgvid>true</lp-bgvid>
+            <lp-bgimg>false</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
+
             <arcadeLogo>FFDE00</arcadeLogo>
             <consoleLogo>d4fffd</consoleLogo>
             <computerLogo>FFFFFF</computerLogo>
@@ -760,6 +848,11 @@
             <vidColor>ffffff</vidColor>
             <vidSat>.1</vidSat>
             <vidBright>-.1</vidBright>
+
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
 
             <arcadeLogo>FFDE00</arcadeLogo>
             <consoleLogo>d4fffd</consoleLogo>
@@ -798,6 +891,11 @@
             <vidSat>.1</vidSat>
             <vidBright>-.1</vidBright>
 
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>false</lp-screenvid> 
+            <lp-screenimg>true</lp-screenimg>
+
             <arcadeLogo>FFDE00</arcadeLogo>
             <consoleLogo>d4fffd</consoleLogo>
             <computerLogo>FFFFFF</computerLogo>
@@ -834,6 +932,11 @@
             <vidSat>0</vidSat>
             <vidBright>0</vidBright>
 
+            <lp-bgvid>true</lp-bgvid>
+            <lp-bgimg>false</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
+
             <arcadeLogo>F25430</arcadeLogo>
             <consoleLogo>F25430</consoleLogo>
             <computerLogo>F25430</computerLogo>
@@ -869,6 +972,11 @@
             <vidColor>1463FF</vidColor>
             <vidSat>0</vidSat>
             <vidBright>0</vidBright>
+
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
 
             <arcadeLogo>F25430</arcadeLogo>
             <consoleLogo>F25430</consoleLogo>
@@ -907,6 +1015,11 @@
             <vidSat>0</vidSat>
             <vidBright>0</vidBright>
 
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>false</lp-screenvid> 
+            <lp-screenimg>true</lp-screenimg>
+
             <arcadeLogo>F25430</arcadeLogo>
             <consoleLogo>F25430</consoleLogo>
             <computerLogo>F25430</computerLogo>
@@ -944,6 +1057,11 @@
             <vidSat>.1</vidSat>
             <vidBright>0</vidBright>
 
+            <lp-bgvid>true</lp-bgvid>
+            <lp-bgimg>false</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
+
             <arcadeLogo>F2BF5E</arcadeLogo>
             <consoleLogo>F2BF5E</consoleLogo>
             <computerLogo>F2BF5E</computerLogo>
@@ -979,6 +1097,11 @@
             <vidColor>762EA6</vidColor>
             <vidSat>.1</vidSat>
             <vidBright>0</vidBright>
+
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
 
             <arcadeLogo>F2BF5E</arcadeLogo>
             <consoleLogo>F2BF5E</consoleLogo>
@@ -1017,6 +1140,11 @@
             <vidSat>.1</vidSat>
             <vidBright>0</vidBright>
 
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>false</lp-screenvid> 
+            <lp-screenimg>true</lp-screenimg>
+
             <arcadeLogo>762EA</arcadeLogo>
             <consoleLogo>762EA</consoleLogo>
             <computerLogo>762EA</computerLogo>
@@ -1054,6 +1182,11 @@
             <vidSat>0</vidSat>
             <vidBright>0</vidBright>
 
+            <lp-bgvid>true</lp-bgvid>
+            <lp-bgimg>false</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
+
             <arcadeLogo>AFC442</arcadeLogo>
             <consoleLogo>AFC442</consoleLogo>
             <computerLogo>AFC442</computerLogo>
@@ -1089,6 +1222,11 @@
             <vidColor>4F7436</vidColor>
             <vidSat>0</vidSat>
             <vidBright>0</vidBright>
+
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
 
             <arcadeLogo>AFC442</arcadeLogo>
             <consoleLogo>AFC442</consoleLogo>
@@ -1127,6 +1265,11 @@
             <clock2>D7E894</clock2>
             <clock>true</clock>
 
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>false</lp-screenvid> 
+            <lp-screenimg>true</lp-screenimg>
+
             <arcadeLogo>AFC442</arcadeLogo>
             <consoleLogo>AFC442</consoleLogo>
             <computerLogo>AFC442</computerLogo>
@@ -1162,6 +1305,11 @@
             <vidColor>A60303</vidColor>
             <vidSat>0</vidSat>
             <vidBright>0.1</vidBright>
+
+            <lp-bgvid>true</lp-bgvid>
+            <lp-bgimg>false</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
 
             <arcadeLogo>F20505</arcadeLogo>
             <consoleLogo>F20505</consoleLogo>
@@ -1199,6 +1347,11 @@
             <vidSat>0</vidSat>
             <vidBright>0.1</vidBright>
 
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
+
             <arcadeLogo>F20505</arcadeLogo>
             <consoleLogo>F20505</consoleLogo>
             <computerLogo>F20505</computerLogo>
@@ -1234,6 +1387,11 @@
             <vidColor>A60303</vidColor>
             <vidSat>0</vidSat>
             <vidBright>0</vidBright>
+
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>false</lp-screenvid> 
+            <lp-screenimg>true</lp-screenimg>
 
             <arcadeLogo>F20505</arcadeLogo>
             <consoleLogo>F20505</consoleLogo>
@@ -1273,6 +1431,11 @@
             <vidSat>0</vidSat>
             <vidBright>.1</vidBright>
 
+            <lp-bgvid>true</lp-bgvid>
+            <lp-bgimg>false</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
+
             <arcadeLogo>ffffff</arcadeLogo>
             <consoleLogo>ffffff</consoleLogo>
             <computerLogo>ffffff</computerLogo>
@@ -1309,6 +1472,11 @@
             <vidColor>ffffff</vidColor>
             <vidSat>0</vidSat>
             <vidBright>.1</vidBright>
+
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
 
             <arcadeLogo>ffffff</arcadeLogo>
             <consoleLogo>ffffff</consoleLogo>
@@ -1347,6 +1515,11 @@
             <vidSat>0</vidSat>
             <vidBright>.1</vidBright>
 
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>false</lp-screenvid> 
+            <lp-screenimg>true</lp-screenimg>
+
             <arcadeLogo>ffffff</arcadeLogo>
             <consoleLogo>ffffff</consoleLogo>
             <computerLogo>ffffff</computerLogo>
@@ -1383,6 +1556,11 @@
             <vidColor>F27127</vidColor>
             <vidSat>0</vidSat>
             <vidBright>0</vidBright>
+
+            <lp-bgvid>true</lp-bgvid>
+            <lp-bgimg>false</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
 
             <arcadeLogo>FF7700</arcadeLogo>
             <consoleLogo>FF7700</consoleLogo>
@@ -1422,10 +1600,14 @@
             <vidSat>0</vidSat>
             <vidBright>0</vidBright>
 
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>true</lp-screenvid> 
+            <lp-screenimg>false</lp-screenimg>
+
             <arcadeLogo>FF7700</arcadeLogo>
             <consoleLogo>FF7700</consoleLogo>
             <computerLogo>FF7700</computerLogo>
-
 
             <performance>mixed.xml</performance>
 
@@ -1459,6 +1641,11 @@
             <vidColor>F27127</vidColor>
             <vidSat>0</vidSat>
             <vidBright>0</vidBright>
+
+            <lp-bgvid>false</lp-bgvid>
+            <lp-bgimg>true</lp-bgimg>
+            <lp-screenvid>false</lp-screenvid> 
+            <lp-screenimg>true</lp-screenimg>
 
             <arcadeLogo>FF7700</arcadeLogo>
             <consoleLogo>FF7700</consoleLogo>

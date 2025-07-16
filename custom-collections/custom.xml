@@ -28,13 +28,19 @@
         
     </view>        
     <view name="gamelist">
-        <video name="gridBgVideo">
+        <video name="gamelistBgVideo">
             <audio>false</audio>
             <pos>0 0</pos>
             <cropSize>1 1</cropSize>
             <path>./../_inc/images/custom-bg.mp4</path> <!-- Path to the specific game video -->
             <zIndex>5</zIndex>
         </video>
+        <image name="gamelistBgImage">
+            <pos>0 0</pos>
+            <cropSize>1 1</cropSize>
+            <path>./../_inc/images/custom-bg.webp</path> <!-- Path to the specific game video -->
+            <zIndex>4</zIndex>
+        </image>
         <textlist name="sys-list">
             <origin>0 0</origin>
             <pos>0.06 .28</pos>
@@ -53,11 +59,10 @@
             <selectedColor>FFFFFF</selectedColor>
             <indicators>ascii</indicators>
          </textlist>   
-         <video name="videothumb">
+         <video name="gamevideo">
             <pos>0.65 0.55</pos>
             <cropSize>0.52 0.52</cropSize>
             <origin>0.5 0.5</origin>
-            <imageType>screenshot, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
             <default>./../_inc/images/empty-state.mp4</default> <!-- Fallback to default cover -->
             <interpolation>nearest</interpolation>
             <pillarboxes>false</pillarboxes>
@@ -66,6 +71,15 @@
             <fadeInTime>0</fadeInTime>
             <zIndex>7</zIndex>
         </video>
+        <image name="gameimage">
+            <pos>0.65 0.55</pos>
+            <cropSize>0.52 0.52</cropSize>
+            <origin>0.5 0.5</origin>
+            <imageType>screenshot, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
+            <default>./../_inc/images/empty-state.webp</default> <!-- Fallback to default cover -->
+            <opacity>.6</opacity>
+            <zIndex>6</zIndex>
+        </image>
         <text name="collection-name">
             <pos>0.5 .24</pos>
             <origin>0.5 0</origin>
@@ -299,13 +313,7 @@
             <selection>random</selection>
             <gameCount>10</gameCount>
         </gameselector>  
-         <image name="gamelistBgImage">
-            <visible>false</visible>
-         </image> 
-         <video name="gamelistBgVideo">
-            <audio>false</audio>
-            <visible>false</visible>
-         </video>
+
          <helpsystem name="help">
             <entries>a, b, x, y, lt, rt</entries>
         </helpsystem>
@@ -357,5 +365,119 @@
         <view name="gamelist">
              	            
         </view>
-    </aspectRatio>   
+    </aspectRatio>
+    <aspectRatio name="5:3_vertical">
+           
+            <view name="gamelist">
+                <text name="collection-name">
+                    <pos>0.5 .62</pos>
+                    <fontSize>${titlemFontSize}</fontSize>
+                </text>
+                <textlist name="sys-list">
+                    <origin>0 0</origin>
+                    <pos>0.03 .65</pos>
+                    <size>.97 .3</size>
+                    <selectorVerticalOffset>.025</selectorVerticalOffset>
+                    <horizontalAlignment>left</horizontalAlignment>
+                </textlist> 
+                <video name="gamelistBgVideo">
+                    <pos>-.1 .191</pos>
+                    <size>1.2 .42</size>
+                    <cropSize>1 1</cropSize>
+                </video>
+                <image name="gamelistBgImage">
+                    <pos>-.1 .191</pos>
+                    <size>1.2 .42</size>
+                    <cropSize>1 1</cropSize>
+                </image>
+                <video name="gamevideo">
+                    <pos>.5 0.26</pos>
+                    <origin>0.5 0</origin>
+                    <cropSize>.7 .25</cropSize>
+                </video>
+                <image name="gameimage">
+                    <pos>.5 0.26</pos>
+                    <origin>0.5 0</origin>
+                    <cropSize>.7 .25</cropSize>
+                </image>
+                <image name="section-logo">
+                    <pos>.5 .045</pos>
+                    <origin>.5 0</origin>
+                    <maxSize>0.6 0.33</maxSize>
+                    <saturation>0</saturation>
+                    <brightness>2</brightness>
+                    <color>${highlightColor}</color>
+                    <path>./../_inc/systems/logos/${system.theme}.webp</path>
+                    <default>./../_inc/systems/logos/default.webp</default>
+                    <zIndex>71</zIndex>
+                </image>
+                
+                <gamelistinfo name="gcount">
+                    <origin>.5 0</origin>
+                    <pos>0.5 .16</pos>
+                    <size>1 .03</size>
+                    <color>${highlightColor}</color>
+                    <fontPath>./.${listFont}</fontPath>
+                    <fontSize>.045</fontSize>
+                    <horizontalAlignment>center</horizontalAlignment>
+                    <zIndex>15</zIndex>
+                    <backgroundColor>${highlightColor}15</backgroundColor>         
+                </gamelistinfo>
+                
+                <text name="gamesys">
+                    <pos>.03 .61</pos>
+                    <origin>0 .5</origin>
+                    <size>.94 .05</size>
+                </text>
+                <text name="custom-title">
+                    <visible>false</visible>
+                </text>
+                 <text name="gamesys">
+                    <visible>false</visible>
+                </text>
+                <text name="gamesystxt">
+                    <visible>false</visible>
+                </text>
+                <text name="gameplayers">
+                    <visible>false</visible>
+                </text>
+                <text name="gameplayerstxt">
+                    <visible>false</visible>
+                </text>
+                <text name="gamerating">
+                    <visible>false</visible>
+                </text>
+                <text name="gameratingtxt">
+                    <visible>false</visible>
+                </text>
+                <text name="gamedev">
+                    <visible>false</visible>
+                </text>
+                <text name="gamedevtxt">
+                    <visible>false</visible>
+                </text>
+                <datetime name="releasedatedate">
+                    <visible>false</visible>
+                </datetime>
+                <text name="gamedatetxt">
+                    <visible>false</visible>
+                </text>
+                <text name="gamegenre">
+                    <visible>false</visible>
+                </text>
+                <text name="gamegenretxt">
+                    <visible>false</visible>
+                </text> 
+                <text name="gameemulator">
+                    <visible>false</visible>
+                </text>
+                <text name="gameemulatortxt">
+                    <visible>false</visible>
+                </text>
+                <text name="gameinfo">
+                    <visible>false</visible>
+                </text>
+                
+            </view>
+        </aspectRatio>   
 </theme>

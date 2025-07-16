@@ -12,6 +12,7 @@
             <defaultImage>./_inc/systems/system-view/images/default.webp</defaultImage>
             <zIndex>9</zIndex>
             <fadeInTime>1.5</fadeInTime>
+            <fadeInType>transparent</fadeInType>
             <brightness>${vidBright}</brightness>
             <saturation>${vidSat}</saturation>
             <color>${vidColor}</color>
@@ -35,6 +36,7 @@
             <brightness>${vidBright}</brightness>
             <saturation>${vidSat}</saturation>
             <color>${vidColor}</color>
+            <fadeInType>transparent</fadeInType>
         </video>
         <image name="gameimage">
             <visible>false</visible>
