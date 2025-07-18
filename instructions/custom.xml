@@ -119,6 +119,12 @@
     <text name="kidgame">
        <visible>false</visible>        
     </text> 
+    <video name="gamevideo">
+        <visible>false</visible>  
+    </video>
+    <image name="gameimage">
+        <visible>false</visible>  
+    </image>
 
     <video name="gamelistBgVideo">
             <audio>false</audio>

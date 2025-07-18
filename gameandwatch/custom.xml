@@ -1,4 +1,5 @@
 <theme>
+    <include>./../longboxes.xml</include> <!-- Long 3d boxes / Cover -->
   <view name="gamelist">
     <video name="gamevideo">
             <visible>false</visible>
@@ -80,10 +81,10 @@
             <image name="cabinetOverlay">
                   <cropPos>.8 0</cropPos>
             </image>
-            <video name="gameimage">
+            <image name="gameimage">
                 <pos>.76 0.38</pos>
                 <maxSize>0.38 0.38</maxSize>
-            </video>
+            </image>
             <image name="game-logo">
                 <size>0.35 0.15</size>
             </image>

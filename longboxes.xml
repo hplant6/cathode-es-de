@@ -1,0 +1,88 @@
+<theme>
+  <view name="gamelist">
+    <carousel name="gamelistCarousel">
+                <pos>0.5 1.08</pos>
+                <origin>0.5 1</origin>
+                <size>1 0.7</size>
+                <maxItemCount>5</maxItemCount>
+                <itemSize>0.18 0.18</itemSize>
+                <itemScale>1.6</itemScale>
+                <selectedItemMargins>0.03 0.03</selectedItemMargins>
+                <horizontalOffset>-0.35</horizontalOffset>
+                <verticalOffset>.2</verticalOffset>
+    </carousel>
+    <badges name="badges">
+        <pos>0.3 .59</pos>
+    </badges>
+    <text name="badgesTitle">
+        <pos>.294 .56</pos>
+    </text>
+    <image name="badge-container">
+        <pos>.295 .634</pos>
+    </image>
+</view>
+
+<aspectRatio name="3:2">
+        <view name="gamelist">
+            <badges name="badges">
+                <pos>0.3 .6</pos>
+            </badges>
+            <text name="badgesTitle">
+                <pos>.294 .57</pos>
+            </text>
+        </view>
+  </aspectRatio>
+<aspectRatio name="4:3">
+        <view name="gamelist">
+            <carousel name="gamelistCarousel">
+                <maxItemCount>4</maxItemCount>
+                <itemSize>0.2 0.2</itemSize>
+                <itemScale>1.6</itemScale>
+                <selectedItemMargins>0.02 0.02</selectedItemMargins>
+                <horizontalOffset>-0.35</horizontalOffset>
+                <verticalOffset>.2</verticalOffset>
+            </carousel>
+            <badges name="badges">
+                <pos>0.3 .6</pos>
+            </badges>
+            <text name="badgesTitle">
+                <pos>.294 .57</pos>
+            </text>
+            <image name="badge-container">
+                <pos>.295 .634</pos>
+            </image>
+        </view>
+  </aspectRatio>
+  <aspectRatio name="16:10">
+        <view name="gamelist">
+
+        </view>
+  </aspectRatio>
+  <aspectRatio name="21:9">
+        <view name="gamelist">
+
+            <carousel name="gamelistCarousel">
+                <maxItemCount>6</maxItemCount>
+                <horizontalOffset>-0.405</horizontalOffset>
+            </carousel>
+            <badges name="badges">
+                <pos>0.2 .58</pos>
+            </badges>
+            <text name="badgesTitle">
+                <pos>.194 .54</pos>
+            </text>
+            <image name="badge-container">
+                <pos>.195 .634</pos>
+            </image>
+        </view>
+  </aspectRatio>
+  <aspectRatio name="5:3_vertical">
+    <view name="gamelist">
+        <carousel name="gamelistCarousel">
+                <pos>0.5 .81</pos>
+                <origin>0.5 1</origin>
+        </carousel>
+    </view>
+  </aspectRatio>
+    
+</theme>

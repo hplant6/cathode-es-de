@@ -1,5 +1,6 @@
 
 <theme>
+    <include>./../longboxes.xml</include> <!-- Long 3d boxes / Cover -->
   <view name="gamelist">
    <image name="sys-logo">
             <pos>0.65 0.045</pos>

@@ -619,8 +619,8 @@
                 <visible>false</visible>
             </text> 
             <video name="gamevideo">
-                <pos>0.774 0.35</pos>
-                <cropSize>0.28 0.4</cropSize>
+                <pos>0.77 0.35</pos>
+                <maxSize>0.295 0.4</maxSize>
             </video>
             <image name="gameimage">
                 <pos>0.774 0.35</pos>
@@ -667,7 +667,7 @@
                 <size>.55 .13</size> 
             </text>
             <text name="badgesTitle">
-                <pos>.134 .55</pos>
+                <pos>.134 .54</pos>
             </text>
             <badges name="badges">
                 <pos>0.14 .57</pos>

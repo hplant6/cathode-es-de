@@ -1,4 +1,5 @@
 <theme>
+    <include>./../longboxes.xml</include> <!-- Long 3d boxes / Cover -->
   <view name="gamelist">
    <video name="gamevideo">
             <pos>0.767 0.395,</pos>
