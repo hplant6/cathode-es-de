@@ -36,10 +36,10 @@
                     <color>${vidColor}</color>
             </video>
             <text name="appTitle">
-                <pos>.02 .3</pos>
+                <pos>.02 .32</pos>
                 <origin>0 .5</origin>
                 <size>.5 .15</size>
-                <fontSize>.12</fontSize>
+                <fontSize>.07</fontSize>
                 <fontPath>./.${labelFont}</fontPath>
                 <letterCase>uppercase</letterCase>
                 <metadata>name</metadata>

@@ -1,5 +1,7 @@
 <theme>
+<include>./../squareboxes.xml</include> <!-- Long 3d boxes / Cover -->
   <view name="gamelist">
+    
    <video name="gamevideo">
             <pos>0.77 0.38</pos>
             <maxSize>0.4 0.4</maxSize>
@@ -79,9 +81,9 @@
   </view>
   <aspectRatio name="4:3">
         <view name="gamelist">
-        <video name="gamelistBgVideo">
-            <audio>false</audio>
-                <cropPos>.8 0</cropPos>
+            <video name="gamelistBgVideo">
+                <audio>false</audio>
+                    <cropPos>.8 0</cropPos>
             </video>
             <image name="gamelistBgImage">
                 <cropPos>.8 0</cropPos>
@@ -98,7 +100,7 @@
                 <maxSize>0.56 0.43</maxSize>
             </image>
             <image name="game-logo">
-                <size>0.35 0.15</size>
+                <maxSize>0.35 0.15</maxSize>
             </image>
 
             <text name="game-players">
@@ -141,12 +143,7 @@
             <text name="kidgame">
                 <pos>.89 .082</pos>
             </text> 
-            <text name="badgesTitle"> <!-- +0   +.01-->
-                <pos>.194 .579</pos>
-            </text>
-            <badges name="badges">
-                <pos>0.2 .6</pos> <!-- +0   +.01-->
-            </badges>               
+                          
         </view>
     </aspectRatio>
     <aspectRatio name="16:10">
@@ -250,24 +247,11 @@
             <text name="kidgame">
                 <visible>false</visible>
             </text>
-            <carousel name="gamelistCarousel">
-                <maxItemCount>12</maxItemCount>
-                <itemSize>0.12 0.25</itemSize>
-                <selectedItemMargins>0.03 0.03</selectedItemMargins>
-                <horizontalOffset>-0.43</horizontalOffset>
-            </carousel> 
+            
             <text name="descriptiontext">
                 <size>.55 .13</size> 
             </text>
-            <text name="badgesTitle">
-                <pos>.134 .55</pos>
-            </text>
-            <badges name="badges">
-                <pos>0.14 .57</pos>
-            </badges> 
-            <image name="badge-container">
-                <pos>.135 .634</pos>
-            </image>
+            
             <text name="game-players">
                 <pos>.125 .29</pos> <!-- +.015 -->
             </text>
@@ -321,10 +305,7 @@
                 <size>1 0.09</size>
                 <visible>true</visible>
             </text>
-            <carousel name="gamelistCarousel">
-                <pos>0.5 .95</pos>
-                <origin>0.5 1</origin>
-            </carousel>
+            
             <text name="appTitle">
                 <pos>.03 .73</pos>
                 <origin>0 .5</origin>

@@ -98,7 +98,7 @@
                 <maxSize>0.4 0.355</maxSize>
             </image>
             <image name="game-logo">
-                <size>0.35 0.15</size>
+                <maxSize>0.35 0.15</maxSize>
             </image>
 
             <text name="game-players">

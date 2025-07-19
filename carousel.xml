@@ -417,6 +417,15 @@
     </view>
     <aspectRatio name="4:3">
         <view name="gamelist">
+            <text name="badgesTitle"> <!-- +0   +.01-->
+                    <pos>.224 .57</pos>
+                </text>
+            <badges name="badges">
+                <pos>0.23 .6</pos> <!-- +0   +.01-->
+            </badges>
+            <image name="badge-container">
+                <pos>.225 .634</pos>
+            </image>
             <video name="gamevideo">
                 <pos>.755 0.38</pos>
                 <cropSize>0.33 0.33</cropSize>
@@ -438,7 +447,15 @@
             </datetime>
             <text name="mobile-stat-title">
                 <pos>.802 .042</pos>
-            </text>  
+            </text>
+            <image name="fade">
+                <rotation>90</rotation>
+                <pos>.15 .5</pos>
+                <origin>.5 .5</origin>
+                <size>1 1</size>
+                <path>./_inc/images/fade.svg</path>
+                <zIndex>11</zIndex>
+            </image>   
             <image name="game-logo">
                 <maxSize>0.35 0.15</maxSize>
             </image>
@@ -484,12 +501,7 @@
             <text name="kidgame">
                 <pos>.903 .082</pos>
             </text> 
-            <text name="badgesTitle"> <!-- +0   +.01-->
-                <pos>.194 .579</pos>
-            </text>
-            <badges name="badges">
-                <pos>0.2 .6</pos> <!-- +0   +.01-->
-            </badges>               
+                         
         </view>
     </aspectRatio>
     <aspectRatio name="3:2">

@@ -1,0 +1,109 @@
+<theme>
+  <view name="gamelist">
+    <carousel name="gamelistCarousel">
+                <pos>0.5 1.18</pos>
+                <origin>0.5 1</origin>
+                <size>1 0.7</size>
+                <maxItemCount>6</maxItemCount>
+                <itemSize>0.24 0.24</itemSize>
+                <itemScale>1.6</itemScale>
+                <selectedItemMargins>0.04 0.04</selectedItemMargins>
+                <horizontalOffset>-0.385</horizontalOffset>
+                <verticalOffset>.2</verticalOffset>
+                <defaultImage>./_inc/images/default-box.webp</defaultImage>
+    </carousel>
+    <badges name="badges">
+        <pos>0.24 .59</pos>
+    </badges>
+    <text name="badgesTitle">
+        <pos>.234 .56</pos>
+    </text>
+    <image name="badge-container">
+        <pos>.235 .634</pos>
+    </image>
+</view>
+
+<aspectRatio name="3:2">
+        <view name="gamelist">
+        <carousel name="gamelistCarousel">
+                <pos>0.5 1.18</pos>
+                <maxItemCount>5</maxItemCount>
+                <itemSize>0.24 0.24</itemSize>
+                <itemScale>1.6</itemScale>
+                <selectedItemMargins>0.04 0.04</selectedItemMargins>
+                <horizontalOffset>-0.36</horizontalOffset>
+                <verticalOffset>.2</verticalOffset>
+        </carousel>
+            <badges name="badges">
+                <pos>0.3 .6</pos>
+            </badges>
+            <text name="badgesTitle">
+                <pos>.294 .57</pos>
+            </text>
+            <image name="badge-container">
+                <pos>.295 .634</pos>
+            </image>
+        </view>
+  </aspectRatio>
+<aspectRatio name="4:3">
+        <view name="gamelist">
+            <carousel name="gamelistCarousel">
+               
+                <pos>0.5 1.15</pos>
+                <maxItemCount>5</maxItemCount>
+                <itemSize>0.22 0.22</itemSize>
+                <itemScale>1.6</itemScale>
+                <selectedItemMargins>0.04 0.04</selectedItemMargins>
+                <horizontalOffset>-0.36</horizontalOffset>
+                <verticalOffset>.2</verticalOffset>
+            </carousel>
+            <badges name="badges">
+                <pos>0.31 .63</pos>
+            </badges>
+            <text name="badgesTitle">
+                <pos>.304 .6</pos>
+            </text>
+            <image name="badge-container">
+                <pos>.305 .664</pos>
+            </image>
+          
+        </view>
+  </aspectRatio>
+  <aspectRatio name="16:10">
+        <view name="gamelist">
+
+        </view>
+  </aspectRatio>
+  <aspectRatio name="21:9">
+        <view name="gamelist">
+
+            <carousel name="gamelistCarousel">
+                <maxItemCount>9</maxItemCount>
+                <horizontalOffset>-0.41</horizontalOffset>
+            </carousel>
+            <badges name="badges">
+                <pos>0.2 .58</pos>
+            </badges>
+            <text name="badgesTitle">
+                <pos>.194 .54</pos>
+            </text>
+            <image name="badge-container">
+                <pos>.195 .634</pos>
+            </image>
+        </view>
+  </aspectRatio>
+  <aspectRatio name="5:3_vertical">
+    <view name="gamelist">
+        <carousel name="gamelistCarousel">
+                <maxItemCount>4</maxItemCount>
+                <horizontalOffset>-0.32</horizontalOffset>
+                <itemSize>0.2 0.2</itemSize>
+                <pos>0.5 .84</pos>
+                <origin>0.5 1</origin>
+                <zIndex>90</zIndex>
+                       
+        </carousel>
+    </view>
+  </aspectRatio>
+    
+</theme>
