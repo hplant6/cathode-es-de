@@ -91,7 +91,7 @@
             </image>
             <video name="gamevideo">
                 <pos>.755 0.37</pos>
-                <maxSize>0.36 0.38</maxSize>
+                <maxSize>0.29 0.29</maxSize>
             </video>
             <image name="gameimage">
                 <pos>.755 0.37</pos>

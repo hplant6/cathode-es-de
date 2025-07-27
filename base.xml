@@ -141,7 +141,7 @@
             <clock>true</clock>
 
             <lp-bgvid>true</lp-bgvid>
-            <lp-bgimg>false</lp-bgimg>
+            <lp-bgimg>true</lp-bgimg>
             <lp-screenvid>true</lp-screenvid> 
             <lp-screenimg>false</lp-screenimg>
 
@@ -184,7 +184,7 @@
             <clock>false</clock>
 
             <lp-bgvid>true</lp-bgvid>
-            <lp-bgimg>false</lp-bgimg>
+            <lp-bgimg>true</lp-bgimg>
             <lp-screenvid>true</lp-screenvid> 
             <lp-screenimg>false</lp-screenimg>
 
@@ -313,7 +313,7 @@
             <vidBright>0</vidBright>
 
             <lp-bgvid>true</lp-bgvid>
-            <lp-bgimg>false</lp-bgimg>
+            <lp-bgimg>true</lp-bgimg>
             <lp-screenvid>true</lp-screenvid> 
             <lp-screenimg>false</lp-screenimg>
 
@@ -436,7 +436,7 @@
             <vidBright>0</vidBright>
 
             <lp-bgvid>true</lp-bgvid>
-            <lp-bgimg>false</lp-bgimg>
+            <lp-bgimg>true</lp-bgimg>
             <lp-screenvid>true</lp-screenvid> 
             <lp-screenimg>false</lp-screenimg>
 
@@ -560,7 +560,7 @@
             <vidBright>0</vidBright>
 
             <lp-bgvid>true</lp-bgvid>
-            <lp-bgimg>false</lp-bgimg>
+            <lp-bgimg>true</lp-bgimg>
             <lp-screenvid>true</lp-screenvid> 
             <lp-screenimg>false</lp-screenimg>
 
@@ -685,7 +685,7 @@
             <vidBright>0</vidBright>
 
             <lp-bgvid>true</lp-bgvid>
-            <lp-bgimg>false</lp-bgimg>
+            <lp-bgimg>true</lp-bgimg>
             <lp-screenvid>true</lp-screenvid> 
             <lp-screenimg>false</lp-screenimg>
 
@@ -810,7 +810,7 @@
             <vidBright>-.1</vidBright>
 
             <lp-bgvid>true</lp-bgvid>
-            <lp-bgimg>false</lp-bgimg>
+            <lp-bgimg>true</lp-bgimg>
             <lp-screenvid>true</lp-screenvid> 
             <lp-screenimg>false</lp-screenimg>
 
@@ -933,7 +933,7 @@
             <vidBright>0</vidBright>
 
             <lp-bgvid>true</lp-bgvid>
-            <lp-bgimg>false</lp-bgimg>
+            <lp-bgimg>true</lp-bgimg>
             <lp-screenvid>true</lp-screenvid> 
             <lp-screenimg>false</lp-screenimg>
 
@@ -1058,7 +1058,7 @@
             <vidBright>0</vidBright>
 
             <lp-bgvid>true</lp-bgvid>
-            <lp-bgimg>false</lp-bgimg>
+            <lp-bgimg>true</lp-bgimg>
             <lp-screenvid>true</lp-screenvid> 
             <lp-screenimg>false</lp-screenimg>
 
@@ -1183,7 +1183,7 @@
             <vidBright>0</vidBright>
 
             <lp-bgvid>true</lp-bgvid>
-            <lp-bgimg>false</lp-bgimg>
+            <lp-bgimg>true</lp-bgimg>
             <lp-screenvid>true</lp-screenvid> 
             <lp-screenimg>false</lp-screenimg>
 
@@ -1307,7 +1307,7 @@
             <vidBright>0.1</vidBright>
 
             <lp-bgvid>true</lp-bgvid>
-            <lp-bgimg>false</lp-bgimg>
+            <lp-bgimg>true</lp-bgimg>
             <lp-screenvid>true</lp-screenvid> 
             <lp-screenimg>false</lp-screenimg>
 
@@ -1432,7 +1432,7 @@
             <vidBright>.1</vidBright>
 
             <lp-bgvid>true</lp-bgvid>
-            <lp-bgimg>false</lp-bgimg>
+            <lp-bgimg>true</lp-bgimg>
             <lp-screenvid>true</lp-screenvid> 
             <lp-screenimg>false</lp-screenimg>
 
@@ -1558,7 +1558,7 @@
             <vidBright>0</vidBright>
 
             <lp-bgvid>true</lp-bgvid>
-            <lp-bgimg>false</lp-bgimg>
+            <lp-bgimg>true</lp-bgimg>
             <lp-screenvid>true</lp-screenvid> 
             <lp-screenimg>false</lp-screenimg>
 

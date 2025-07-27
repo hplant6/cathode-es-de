@@ -102,6 +102,12 @@
             <image name="cabinetOverlay">
                 <path>./../_inc/images/lowpower/lowpower-HH2.webp</path>
             </image>
+            <image name="lowimage">
+                <visible>true</visible>
+            </image>
+            <video name="lowvid">
+                <visible>false</visible>
+            </video> 
             <image name="sys-logo">
                 <pos>0.65 0.01</pos>
                 <maxSize>0.25 0.18</maxSize>

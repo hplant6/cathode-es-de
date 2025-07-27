@@ -44,6 +44,7 @@
             <path>${consoleVid}</path>
             <audio>false</audio>
             <pos>0 0</pos>
+            <fadeInTime>0</fadeInTime>
             <cropSize>1 1</cropSize>
             <brightness>${vidBright}</brightness>
             <saturation>${vidSat}</saturation>
@@ -226,7 +227,7 @@
         <origin>0.5 1</origin>
         <size>1 1</size>
         <type>horizontal</type>
-        <imageType>cover</imageType>
+        <imageType>3dbox, cover</imageType>
         <defaultImage>./_inc/images/default3d-box.webp</defaultImage>
         <defaultFolderImage>./_inc/images/folder.webp</defaultFolderImage> 
         <maxItemCount>6</maxItemCount>
@@ -317,7 +318,7 @@
         <brightness>${vidBright}</brightness>
         <saturation>${vidSat}</saturation>
         <color>${vidColor}</color>
-        <zIndex>9</zIndex>
+        <zIndex>10</zIndex>
     </video>
     <image name="lowpowerBgImg">
         <visible>${lp-bgimg}</visible>
@@ -362,9 +363,9 @@
 <aspectRatio name="4:3">
         <view name="gamelist">
              <carousel name="lowCarousel">
-                <maxItemCount>5</maxItemCount>
+                <maxItemCount>6</maxItemCount>
                 <itemsBeforeCenter>4</itemsBeforeCenter>
-                <horizontalOffset>-0.33</horizontalOffset>
+                <horizontalOffset>-0.38</horizontalOffset>
              </carousel>
             <badges name="smlbadges">
                 <pos>0.365 .217</pos>

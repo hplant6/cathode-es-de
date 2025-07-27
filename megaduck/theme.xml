@@ -115,6 +115,18 @@
                 <color>ffffff</color>
                 <zIndex>70</zIndex>
              </image>
+             <carousel name="lowCarousel">
+                <pos>0.5 1.25</pos>
+                <origin>0.5 1</origin>
+                <size>1 1</size>
+                <maxItemCount>4</maxItemCount>
+                <itemSize>0.21 0.3</itemSize>
+                <itemScale>1.9</itemScale>
+                <itemsBeforeCenter>5</itemsBeforeCenter>
+                <selectedItemMargins>0.06 0.06</selectedItemMargins>
+                <horizontalOffset>-0.3</horizontalOffset>
+                <verticalOffset>.22</verticalOffset>
+            </carousel>
         </view>
         <aspectRatio name="3:2">
             <view name="gamelist">
@@ -148,6 +160,13 @@
                     <pos>.63 .41</pos>
                     <maxSize>.16 .16</maxSize>    
                 </image>
+                <carousel name="lowCarousel">
+                    <pos>0.5 1.31</pos>
+                    <itemScale>2.2</itemScale>
+                    <maxItemCount>4</maxItemCount>
+                    <itemSize>0.19 0.29</itemSize>
+                    <horizontalOffset>-0.29</horizontalOffset>
+                </carousel>
             </view>
         </aspectRatio>
         <aspectRatio name="16:10">
@@ -173,6 +192,9 @@
                     <pos>.33 .435</pos>
                      <maxSize>.13 .13</maxSize>
                 </image>
+                <carousel name="lowCarousel">
+                    <pos>0.5 1.09</pos>
+                </carousel>
             </view>
         </aspectRatio>
     </variant>

@@ -84,5 +84,37 @@
     <variant name="low-power">
         <include>./../${performance}</include>
         <include>./../lowpower.xml</include>
+        <view name="gamelist">
+            <carousel name="lowCarousel">
+                <pos>0.5 1.25</pos>
+                <origin>0.5 1</origin>
+                <size>1 1</size>
+                <maxItemCount>4</maxItemCount>
+                <itemSize>0.21 0.3</itemSize>
+                <itemScale>1.9</itemScale>
+                <itemsBeforeCenter>5</itemsBeforeCenter>
+                <selectedItemMargins>0.06 0.06</selectedItemMargins>
+                <horizontalOffset>-0.3</horizontalOffset>
+                <verticalOffset>.22</verticalOffset>
+            </carousel>
+        </view>
+        <aspectRatio name="4:3">
+            <view name="gamelist">
+                <carousel name="lowCarousel">
+                    <pos>0.5 1.31</pos>
+                    <itemScale>2.2</itemScale>
+                    <maxItemCount>4</maxItemCount>
+                    <itemSize>0.19 0.29</itemSize>
+                    <horizontalOffset>-0.29</horizontalOffset>
+                </carousel>
+            </view>
+       </aspectRatio>
+       <aspectRatio name="5:3_vertical">
+                 <view name="gamelist">
+                <carousel name="lowCarousel">
+                    <pos>0.5 1.09</pos>
+                </carousel>
+            </view>
+       </aspectRatio>
     </variant> 
 </theme>        
