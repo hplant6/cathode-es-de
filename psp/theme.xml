@@ -81,7 +81,7 @@
         <include>./../sysgrid.xml</include>
         <include>./../list.xml</include>
     </variant> 
-     <variant name="low-power">
+    <variant name="low-power">
         <include>./../${performance}</include>
         <include>./../lowpower.xml</include>
         <view name="system">
@@ -92,28 +92,37 @@
                 <path>./.${hhImg}</path> 
             </image>
         </view>
-        <view name="gamelist">
+         <view name="gamelist">
             <video name="lowpowerBgVideo">
                 <path>./../_inc/images/lowpower/lowbg-hh.mp4</path>
             </video>
             <image name="lowpowerBgImg">
                 <path>./../_inc/images/lowpower/lowbg-hh.webp</path>
             </image>
+            <video name="lowvid">
+                <default>./../_inc/images/empty-state.mp4</default>
+            </video>
             <image name="cabinetOverlay">
-                <path>./../_inc/images/lowpower/lowpower-HH2.webp</path>
+                <path>./../_inc/images/lowpower/lowpower-psp.webp</path>  
             </image>
+            <video name="lowvid">
+                <pos>0.765 0.33</pos>
+                <cropSize>0.27 0.295</cropSize>
+            </video> 
+            <image name="lowimage">
+                <pos>0.765 0.33</pos>
+                <cropSize>0.27 0.295</cropSize>
+            </image> 
             <image name="sys-logo">
                 <pos>0.65 0.01</pos>
-                <maxSize>0.25 0.18</maxSize>
+                <maxSize>0.25 0.18</maxSize> 
             </image>
-            <image name="system-controllers-outline">
-                <pos>.652 .41</pos>
-                <origin>1 .5</origin>
-                <maxSize>.14 .14</maxSize>
-                <path>./../_inc/systems/system-controllers-outline/${system.theme}.svg</path>
-                <default>./../_inc/systems/system-controllers-outline/default.svg</default>
-                <color>ffffff</color>
-                <zIndex>70</zIndex>
+            <image name="fade">
+                <pos>.5 .7</pos>
+                <origin>.5 .5</origin>
+                <size>1 .6</size>
+                <path>./../_inc/images/fade.svg</path>
+                <zIndex>49</zIndex>
              </image>
         </view>
         <aspectRatio name="3:2">
@@ -122,10 +131,14 @@
                     <pos>0.68 0.01</pos>
                     <maxSize>0.3 0.18</maxSize>
                 </image>
-                    <image name="system-controllers-outline">
-                    <pos>.676 .41</pos>
-                     <maxSize>.13 .13</maxSize>
-                </image>
+                 <video name="lowvid">
+                    <pos>0.82 0.33</pos>
+                    <cropSize>0.33 0.29</cropSize>
+                </video> 
+                <image name="lowimage">
+                    <pos>0.82 0.33</pos>
+                    <cropSize>0.33 0.29</cropSize>
+                </image> 
             </view>
         </aspectRatio>
         <aspectRatio name="4:3">
@@ -144,10 +157,14 @@
                     <cropSize>1.2 1 </cropSize>  
                     <pos>-.17 0</pos>
                 </image>
-                <image name="system-controllers-outline">
-                    <pos>.63 .41</pos>
-                    <maxSize>.16 .16</maxSize>    
-                </image>
+                <video name="lowvid">
+                    <pos>0.78 0.33</pos>
+                    <cropSize>0.36 0.29</cropSize>
+                </video> 
+                <image name="lowimage">
+                    <pos>0.78 0.33</pos>
+                    <cropSize>0.36 0.29</cropSize>
+                </image> 
             </view>
         </aspectRatio>
         <aspectRatio name="16:10">
@@ -156,10 +173,14 @@
                     <pos>0.65 0.005</pos>
                     <maxSize>0.3 0.18</maxSize>
                 </image>
-                    <image name="system-controllers-outline">
-                    <pos>.67 .41</pos>
-                     <maxSize>.13 .13</maxSize>
-                </image>
+                <video name="lowvid">
+                    <pos>0.79 0.33</pos>
+                    <cropSize>0.3 0.3</cropSize>
+                </video> 
+                <image name="lowimage">
+                    <pos>0.79 0.33</pos>
+                    <cropSize>0.3 0.3</cropSize>
+                </image> 
             </view>
         </aspectRatio>
         <aspectRatio name="5:3_vertical">
@@ -168,11 +189,16 @@
                     <pos>.5 .045</pos>
                     <origin>.5 0</origin>
                     <maxSize>0.6 0.33</maxSize>
+                    <visible>true</visible>
                 </image>
-                 <image name="system-controllers-outline">
-                    <pos>.33 .435</pos>
-                     <maxSize>.13 .13</maxSize>
-                </image>
+                <video name="lowvid">
+                    <pos>0.57 0.385</pos>
+                    <cropSize>0.49 0.18</cropSize>
+                </video> 
+                <image name="lowimage">
+                    <pos>0.57 0.385</pos>
+                    <cropSize>0.49 0.18</cropSize>
+                </image> 
             </view>
         </aspectRatio>
     </variant>
