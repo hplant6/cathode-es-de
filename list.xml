@@ -45,7 +45,7 @@
             <lineSpacing>1</lineSpacing>
             <zIndex>65</zIndex>
         </text>
-        <datetime name="lastPlayedDate">
+        <text name="lastPlayedDate">
             <pos>.79 .082</pos>
             <origin>0 0.5</origin>
             <size>0.2 0.06</size>
@@ -53,12 +53,12 @@
             <fontPath>${listFont}</fontPath>
             <letterCase>uppercase</letterCase>
             <horizontalAlignment>left</horizontalAlignment>
-            <metadata>lastplayed</metadata>
-            <defaultValue>never</defaultValue>
+            <metadata>playtime</metadata>
+            <defaultValue>No</defaultValue>
             <color>${transColor}</color>
             <lineSpacing>1</lineSpacing>
             <zIndex>65</zIndex>
-        </datetime>
+        </text>
 
         <animation name= "frame">
             <path>./_inc/images/frame2.gif</path>
@@ -89,7 +89,7 @@
             <maxSize>.36 .36</maxSize>
             <opacity>.7</opacity>
             <imageType>screenshot, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
-            <default>./../_inc/images/empty-state.webp</default> <!-- Fallback to default cover -->
+            <default>./_inc/images/empty-state.webp</default> <!-- Fallback to default cover -->
             <zIndex>4</zIndex>
         </image>
 
@@ -462,9 +462,9 @@
             <text name="completed">
                 <visible>false</visible>
             </text>
-            <datetime name="lastPlayedDate">
+            <text name="lastPlayedDate">
                 <visible>false</visible>
-            </datetime>
+            </text>
 
             <animation name= "frame">
                 <pos>0.014 0.09</pos>
@@ -514,9 +514,9 @@
             <text name="genre">
                 <size>0.2 0.05</size>
             </text>
-            <datetime name="lastPlayedDate">
+            <text name="lastPlayedDate">
                 <pos>.83 .0815</pos>
-            </datetime>
+            </text>
             <text name="completed">
                 <pos>.83 .15</pos>
             </text>
@@ -561,10 +561,10 @@
                  <fontSize>.038</fontSize>
             </text>
 
-            <datetime name="lastPlayedDate">
+            <text name="lastPlayedDate">
                 <pos>.78 .0815</pos>
                  <fontSize>.038</fontSize>
-            </datetime>
+            </text>
 
              <gamelistinfo name="gcount">
                 <pos>0.15 0.052</pos>
@@ -645,9 +645,9 @@
            <text name="completed">
                 <pos>.815 .157</pos>
             </text>
-            <datetime name="lastPlayedDate">
+            <text name="lastPlayedDate">
                 <pos>.815 .082</pos>
-            </datetime>
+            </text>
 
             <animation name= "frame">
                 <pos>0.014 0.105</pos>
@@ -823,12 +823,12 @@
                 <lineSpacing>1</lineSpacing>
                 <zIndex>65</zIndex>
             </text>
-            <datetime name="lastPlayedDate">
+            <text name="lastPlayedDate">
                 <pos>.02 .51</pos>
                 <origin>0 .5</origin>
                 <size>.6 .018</size>
                 <fontSize>0.035</fontSize>
-            </datetime>
+            </text>
             <text name="badges">
                 <pos>.32 .485</pos>
                 <origin>0 .5</origin>

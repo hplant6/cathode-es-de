@@ -107,10 +107,10 @@
                 <maxSize>0.5 0.15</maxSize>
                 <color>${highlightColor}</color>
             </image>
-            <datetime name="mobile-stat">
+            <text name="mobile-stat">
                 <pos>.18 .19</pos>
                 <size>1 0.09</size>
-            </datetime>
+            </text>
             <text name="mobile-stat-title">
                 <pos>.18 .175</pos>
                 <size>1 0.09</size>
@@ -175,9 +175,9 @@
             <text name="lastPlayed">
                 <visible>false</visible>
             </text>
-            <datetime name="lastPlayedDate">    
+            <text name="lastPlayedDate">    
                 <visible>false</visible>
-            </datetime>  
+            </text>  
             <text name="playcount">
                 <visible>false</visible>
             </text>

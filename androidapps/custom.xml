@@ -128,9 +128,9 @@
             <text name="lastPlayed">
                 <pos>.88 .04</pos>
             </text>
-            <datetime name="lastPlayedDate">    
+            <text name="lastPlayedDate">    
                 <pos>.934 .04</pos>
-            </datetime>
+            </text>
             <text name="playcount">
                 <pos>.88 .06</pos>
             </text>

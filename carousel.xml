@@ -37,7 +37,7 @@
             <maxSize>0.295 0.3</maxSize>
             <origin>0.5 0.5</origin>
             <imageType>screenshot, fanart, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
-            <default>./_inc/images/empty-state.webp</default> <!-- Fallback to default cover -->
+            <default>${rootpath2}/_inc/images/empty-state.webp</default> <!-- Fallback to default cover -->
             <zIndex>29</zIndex>
         </image>
         
@@ -266,27 +266,26 @@
                 <fontPath>${counterFont}</fontPath>
                 <fontSize>${metaFontSize}</fontSize>
                 <horizontalAlignment>right</horizontalAlignment>
-                <text>Last played:</text>
+                <text>Play Time:</text>
                 <color>${counterColor}</color>
                 <lineSpacing>1</lineSpacing>
                 <metadataElement>true</metadataElement>
                 <zIndex>71</zIndex>
                 <visible>${remove}</visible>
             </text>
-            <datetime name="lastPlayedDate">    
+            <text name="playtime">    
                 <pos>.873 .04</pos>
                 <size>.107 .018</size>
                 <horizontalAlignment>left</horizontalAlignment>
                 <fontPath>${counterFont}</fontPath>
                 <fontSize>${metaFontSize}</fontSize>
-                <metadata>lastplayed</metadata>
-                <defaultValue>Never</defaultValue>
+                <metadata>playtime</metadata>
+                <defaultValue>Never Played</defaultValue>
                 <color>${counterColor}</color>
-                <displayRelative>true</displayRelative>
                 <lineSpacing>1</lineSpacing>
                 <zIndex>71</zIndex>
                 <visible>${remove}</visible>
-            </datetime>
+            </text>
             <text name="playcount">
                 <pos>.77 .06</pos>
                 <size>.1 .018</size>
@@ -300,28 +299,26 @@
                 <zIndex>71</zIndex>
                 <visible>${remove}</visible>
             </text>
-            <datetime name="mobile-stat">
+            <text name="mobile-stat">
                 <pos>.783 .067</pos>
                 <size>.14 .03</size>
                 <fontPath>${listFont}</fontPath>
                 <fontSize>${metaFontSize}</fontSize>
                 <horizontalAlignment>center</horizontalAlignment>
-                <metadata>lastplayed</metadata>
+                <metadata>playtime</metadata>
                 <defaultValue>unplayed</defaultValue>
                 <color>${counterColor}</color>
-                <format>%m/%d/%Y</format>
-                <displayRelative>false</displayRelative>
                 <lineSpacing>1</lineSpacing>
                 <zIndex>71</zIndex>
                 <visible>${mobileStat}</visible>
-            </datetime>
+            </text>
             <text name="mobile-stat-title">
                 <pos>.783 .042</pos>
                 <size>.14 .03</size>
                 <fontPath>${listFont}</fontPath>
                 <fontSize>.02</fontSize>
                 <horizontalAlignment>center</horizontalAlignment>
-                <text>LAST PLAYED</text>
+                <text>PLAY TIME</text>
                 <color>${counterColor}</color>
                 <zIndex>71</zIndex>
                 <visible>${mobileStat}</visible>
@@ -410,6 +407,14 @@
                 <path>${rootpath2}/_inc/images/badge-container.webp</path>
                 <zIndex>63</zIndex>
             </image>
+            <gamelistinfo name="gcount">
+                <pos>.02 .9655</pos>
+                <size>.18 .02</size>
+                <color>${highlightColor}</color>
+                <fontPath>${clockFont}</fontPath>
+                <fontSize> .04</fontSize>
+                <horizontalAlignment>right</horizontalAlignment>
+            </gamelistinfo>
             <helpsystem name="help">
                 <entries>a, b, x, y, lt, rt</entries>
             </helpsystem>
@@ -426,6 +431,11 @@
             <image name="badge-container">
                 <pos>.225 .634</pos>
             </image>
+            <gamelistinfo name="gcount">
+                <pos>.057 .9655</pos>
+                <fontSize> .035</fontSize>
+            </gamelistinfo>
+
             <video name="gamevideo">
                 <pos>.755 0.38</pos>
                 <cropSize>0.33 0.33</cropSize>
@@ -442,9 +452,9 @@
                 <pos>-.15 0</pos>
                 <cropSize>1.1 1</cropSize>
             </image>
-            <datetime name="mobile-stat">
+            <text name="mobile-stat">
                     <pos>.802 .067</pos>
-            </datetime>
+            </text>
             <text name="mobile-stat-title">
                 <pos>.802 .042</pos>
             </text>
@@ -486,9 +496,9 @@
             <text name="lastPlayed">
                 <pos>.8 .042</pos> <!-- +.03   +.012-->
             </text>
-            <datetime name="lastPlayedDate">    
+            <text name="playcount">   
                 <pos>.903 .042</pos><!-- +.03   +.012-->
-            </datetime>  
+            </text>  
             <text name="playcount">
                 <pos>.8 .062</pos> <!-- +.03   +.012-->
             </text>
@@ -518,13 +528,17 @@
                 <pos>.82 0.38</pos>
                 <cropSize>0.33 0.33</cropSize>
             </image>
+             <gamelistinfo name="gcount">
+                <pos>.052 .9655</pos>
+                <fontSize> .04</fontSize>
+            </gamelistinfo>
             <image name="cabinetOverlay">
                 <pos>-.05 0</pos>
                 <cropSize>1.1 1</cropSize>
             </image>
-            <datetime name="mobile-stat">
+            <text name="mobile-stat">
                     <pos>.85 .067</pos>
-            </datetime>
+            </text>
             <text name="mobile-stat-title">
                 <pos>.85 .042</pos>
             </text>  
@@ -558,9 +572,9 @@
             <text name="lastPlayed">
                 <pos>.8 .042</pos> <!-- +.03   +.012-->
             </text>
-            <datetime name="lastPlayedDate">    
+            <text name="playcount">  
                 <pos>.903 .042</pos><!-- +.03   +.012-->
-            </datetime>  
+            </text>  
             <text name="playcount">
                 <pos>.8 .062</pos> <!-- +.03   +.012-->
             </text>
@@ -583,15 +597,19 @@
     </aspectRatio>
     <aspectRatio name="16:10">
         <view name="gamelist">
-            <datetime name="mobile-stat">
+            <text name="mobile-stat">
                     <pos>.822 .067</pos>
-            </datetime>
+            </text>
             <text name="mobile-stat-title">
                 <pos>.822 .042</pos>
             </text>            
             <video name="gamevideo">
                 <pos>.79 0.38</pos>   
             </video>
+            <gamelistinfo name="gcount">
+                <pos>.035 .9655</pos>
+                <size>.18 .02</size>
+            </gamelistinfo>
             <image name="gameimage">
                 <pos>.79 0.38</pos>   
             </image>
@@ -605,9 +623,9 @@
             <text name="lastPlayed">
                 <pos>.83 .042</pos> <!-- +.03   +.012-->
             </text>
-            <datetime name="lastPlayedDate">    
+            <text name="playcount">   
                 <pos>.933 .042</pos><!-- +.03   +.012-->
-            </datetime>  
+            </text>  
             <text name="playcount">
                 <pos>.83 .062</pos> <!-- +.03   +.012-->
             </text>
@@ -624,9 +642,9 @@
     </aspectRatio>
     <aspectRatio name="21:9">
         <view name="gamelist">
-            <datetime name="mobile-stat">
+            <text name="mobile-stat">
                 <visible>false</visible>
-            </datetime>
+            </text>
             <text name="mobile-stat-title">
                 <visible>false</visible>
             </text> 
@@ -642,6 +660,9 @@
                 <pos>0.774 0.35</pos>
                 <cropSize>0.28 0.4</cropSize>
             </image>
+            <gamelistinfo name="gcount">
+                <pos>-.03 .9655</pos>
+            </gamelistinfo>
                    
             <image name="sys-logo">
                 <pos>.023 .2</pos>
@@ -654,9 +675,9 @@
             <text name="lastPlayed">
                 <visible>false</visible>
             </text>
-            <datetime name="lastPlayedDate">    
+            <text name="playcount"> 
                 <visible>false</visible>
-            </datetime>  
+            </text>  
             <text name="playcount">
                 <visible>false</visible>
             </text>
@@ -823,16 +844,16 @@
             <text name="lastPlayed">
                 <visible>false</visible>
             </text>
-            <datetime name="lastPlayedDate">    
+            <text name="playcount">  
                 <visible>false</visible>
-            </datetime>
+            </text>
             <text name="playcount">
                 <visible>false</visible>
             </text>
-            <datetime name="mobile-stat">
+            <text name="mobile-stat">
                 <pos>.09 .196</pos>
                 <size>1 0.09</size>
-            </datetime>
+            </text>
             <text name="mobile-stat-title">
                 <pos>.09 .18</pos>
                 <size>1 0.09</size>

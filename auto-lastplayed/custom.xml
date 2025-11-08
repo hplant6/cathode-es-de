@@ -45,9 +45,9 @@
       <default>./../_inc/systems/logos/default.webp</default>
       <zIndex>14</zIndex>
     </image>
-    <datetime name="mobile-stat">
+    <text name="mobile-stat">
         <pos>.783 .09</pos>            
-    </datetime>
+    </text>
     <text name="mobile-stat-title">
         <pos>.78 .06</pos>
     </text>
@@ -55,15 +55,15 @@
     <text name="lastPlayed">
         <pos>.77 .06</pos>           
     </text>
-    <datetime name="lastPlayedDate">    
+    <text name="lastPlayedDate">    
         <pos>.873 .06</pos>            
-    </datetime>
+    </text>
     <text name="playcount">
         <pos>.77 .08</pos>
     </text>
-    <datetime name="mobile-stat">
+    <text name="mobile-stat">
         <pos>.783 .087</pos>            
-    </datetime>
+    </text>
     <text name="mobile-stat-title">
         <pos>.783 .062</pos>          
     </text>
@@ -107,24 +107,24 @@
                 <pos>.82 0.38</pos>
                 <cropSize>0.33 0.33</cropSize>
             </image>
-            <datetime name="mobile-stat">
+            <text name="mobile-stat">
                 <pos>.82 .087</pos>            
-            </datetime>
+            </text>
             <text name="mobile-stat-title">
                 <pos>.82 .062</pos>          
             </text>
             <text name="lastPlayed">
                 <pos>.77 .06</pos>           
             </text>
-            <datetime name="lastPlayedDate">    
+            <text name="lastPlayedDate">    
                 <pos>.873 .06</pos>            
-            </datetime>
+            </text>
             <text name="playcount">
                 <pos>.77 .08</pos>
             </text>
-            <datetime name="mobile-stat">
+            <text name="mobile-stat">
                 <pos>.783 .087</pos>            
-            </datetime>
+            </text>
             <text name="mobile-stat-title">
                 <pos>.783 .062</pos>          
             </text>
@@ -167,9 +167,9 @@
                 <maxSize>0.5 0.15</maxSize>
                 <color>${highlightColor}</color>
             </image>
-            <datetime name="mobile-stat">
+            <text name="mobile-stat">
                 <visible>false</visible>
-            </datetime>
+            </text>
             <text name="mobile-stat-title">
                 <visible>false</visible>
             </text>    
@@ -197,15 +197,15 @@
             <text name="lastPlayed">
                 <pos>.77 .07</pos>           
             </text>
-            <datetime name="lastPlayedDate">    
+            <text name="lastPlayedDate">    
                 <pos>.873 .07</pos>            
-            </datetime>
+            </text>
             <text name="playcount">
                 <pos>.77 .09</pos>
             </text>
-            <datetime name="mobile-stat">
+            <text name="mobile-stat">
                 <pos>.783 .09</pos>            
-            </datetime>
+            </text>
             <text name="mobile-stat-title">
                 <pos>.783 .065</pos>          
             </text>
@@ -225,9 +225,9 @@
            <image name="sys-logo">
                 <pos>0.59 0.03</pos>
            </image>
-           <datetime name="mobile-stat">
+           <text name="mobile-stat">
                 <pos>.8 .09</pos>            
-           </datetime>
+           </text>
            <text name="mobile-stat-title">
                 <pos>.8 .06</pos>
            </text>

@@ -59,10 +59,10 @@
         <pos>.815 .04</pos>
         <horizontalAlignment>left</horizontalAlignment>
     </text>
-    <datetime name="lastPlayedDate">    
+    <text name="lastPlayedDate">    
         <pos>.863 .04</pos>
         <horizontalAlignment>left</horizontalAlignment>
-    </datetime>
+    </text>
     <text name="playcount">
         <pos>.815 .06</pos>
         <horizontalAlignment>left</horizontalAlignment>
@@ -129,9 +129,9 @@
             <text name="lastPlayed">
                 <pos>.83 .042</pos> <!-- +.03   +.012-->
             </text>
-            <datetime name="lastPlayedDate">    
+            <text name="lastPlayedDate">    
                 <pos>.89 .042</pos><!-- +.03   +.012-->
-            </datetime>  
+            </text>  
             <text name="playcount">
                 <pos>.83 .062</pos> <!-- +.03   +.012-->
             </text>
@@ -165,9 +165,9 @@
             <text name="lastPlayed">
                 <pos>.855 .04</pos>
             </text>
-            <datetime name="lastPlayedDate">    
+            <text name="lastPlayedDate">    
                 <pos>.913 .04</pos>
-            </datetime>
+            </text>
             <text name="playcount">
                 <pos>.855 .06</pos>
             </text>
@@ -195,9 +195,9 @@
             <text name="lastPlayed">
                 <pos>.88 .04</pos>
             </text>
-            <datetime name="lastPlayedDate">    
+            <text name="lastPlayedDate">    
                 <pos>.934 .04</pos>
-            </datetime>
+            </text>
             <text name="playcount">
                 <pos>.88 .06</pos>
             </text>
@@ -238,9 +238,9 @@
             <text name="lastPlayed">
                 <visible>false</visible>
             </text>
-            <datetime name="lastPlayedDate">    
+            <text name="lastPlayedDate">    
                 <visible>false</visible>
-            </datetime>  
+            </text>  
             <text name="playcount">
                 <visible>false</visible>
             </text>
@@ -314,11 +314,11 @@
                 <maxSize>0.5 0.15</maxSize>
                 <color>${highlightColor}</color>
             </image>
-            <datetime name="mobile-stat">
+            <text name="mobile-stat">
                 <pos>.335 .19</pos>
                 <size>1 0.09</size>
                 <visible>true</visible>
-            </datetime>
+            </text>
             <image name="fade">
                 <pos>.5 .75</pos>
                 <origin>.5 .5</origin>

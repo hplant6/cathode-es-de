@@ -1743,7 +1743,7 @@
             <origin> 0 0 </origin>
             <color>${highlightColor}</color>
             <pos>.008 .957</pos>
-            <entries>battery</entries>
+            <entries>battery, wifi</entries>
             <height>0.04</height>
             <textRelativeScale>1</textRelativeScale>
             <fontPath>${clockFont}</fontPath>
@@ -1752,6 +1752,7 @@
             <customIcon icon="icon_battery_high">./_inc/images/bat-high.svg</customIcon>
             <customIcon icon="icon_battery_full">./_inc/images/bat-full.svg</customIcon>
             <customIcon icon="icon_battery_charging">./_inc/images/bat-chrg.svg</customIcon>
+            <customIcon icon="icon_wifi">./_inc/images/wifi.svg</customIcon>
         </systemstatus>
     </view>
 

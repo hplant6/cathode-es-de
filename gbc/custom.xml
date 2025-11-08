@@ -102,9 +102,9 @@
             <text name="lastPlayed">
                 <pos>.785 .04</pos>
             </text>
-            <datetime name="lastPlayedDate">    
+            <text name="lastPlayedDate">    
                 <pos>.893 .04</pos>
-            </datetime>
+            </text>
             <text name="playcount">
                 <pos>.785 .06</pos>
             </text>
@@ -140,9 +140,9 @@
             <text name="lastPlayed">
                 <pos>.805 .04</pos>
             </text>
-            <datetime name="lastPlayedDate">    
+            <text name="lastPlayedDate">    
                 <pos>.913 .04</pos>
-            </datetime>
+            </text>
             <text name="playcount">
                 <pos>.805 .06</pos>
             </text>
@@ -171,9 +171,9 @@
             <text name="lastPlayed">
                 <pos>.88 .04</pos>
             </text>
-            <datetime name="lastPlayedDate">    
+            <text name="lastPlayedDate">    
                 <pos>.934 .04</pos>
-            </datetime>
+            </text>
             <text name="playcount">
                 <pos>.88 .06</pos>
             </text>
@@ -214,9 +214,9 @@
             <text name="lastPlayed">
                 <visible>false</visible>
             </text>
-            <datetime name="lastPlayedDate">    
+            <text name="lastPlayedDate">    
                 <visible>false</visible>
-            </datetime>  
+            </text>  
             <text name="playcount">
                 <visible>false</visible>
             </text>
@@ -290,11 +290,11 @@
                 <maxSize>0.5 0.15</maxSize>
                 <color>${highlightColor}</color>
             </image>
-            <datetime name="mobile-stat">
+            <text name="mobile-stat">
                 <pos>.335 .19</pos>
                 <size>1 0.09</size>
                 <visible>true</visible>
-            </datetime>
+            </text>
             <image name="fade">
                 <pos>.5 .75</pos>
                 <origin>.5 .5</origin>

@@ -157,7 +157,7 @@
 
 
         
-        <datetime name="lastPlayedDate">
+        <text name="lastPlayedDate">
             <pos>.335 .965</pos>
             <origin>0 0.5</origin>
             <size>0.15 0.2</size>
@@ -171,7 +171,7 @@
             <verticalAlignment>top</verticalAlignment>
             <lineSpacing>1</lineSpacing>
             <zIndex>65</zIndex>
-        </datetime>
+        </text>
     
 
         <image name="line3">
@@ -411,9 +411,9 @@
 
     <aspectRatio name="3:2">
         <view name="gamelist"> 
-            <datetime name="lastPlayedDate">
+            <text name="lastPlayedDate">
                 <pos>.335 1</pos>
-            </datetime>
+            </text>
             <image name="logoContainer">
                 <pos>0.51 .22</pos>	
             </image>
@@ -428,9 +428,9 @@
     </aspectRatio>
     <aspectRatio name="16:9">
         <view name="gamelist"> 
-            <datetime name="lastPlayedDate">
+            <text name="lastPlayedDate">
                 <pos>.335 .97</pos>
-            </datetime>
+            </text>
             <image name="logoContainer">
                 <pos>0.51 .22</pos>	
             </image>
@@ -456,9 +456,9 @@
     </aspectRatio>
     <aspectRatio name="16:10">
         <view name="gamelist"> 
-            <datetime name="lastPlayedDate">
+            <text name="lastPlayedDate">
                 <pos>.335 .97</pos>
-            </datetime>
+            </text>
             <image name="logoContainer">
                 <pos>0.51 .22</pos>	
             </image>

@@ -81,9 +81,9 @@
             <zIndex>6</zIndex>
         </image>
         <text name="collection-name">
-            <pos>0.5 .24</pos>
+            <pos>0.495 .24</pos>
             <origin>0.5 0</origin>
-            <horizontalAlignment>center</horizontalAlignment>
+            <horizontalAlignment>left</horizontalAlignment>
             <letterCase>uppercase</letterCase>
             <fontSize>${titlemFontSize}</fontSize>
             <fontPath>./../_inc/fonts/VCR_OSD_MONO.ttf</fontPath>
@@ -97,7 +97,7 @@
             <size>.22 .02</size>
             <pos>0.445 .33</pos>
             <letterCase>uppercase</letterCase>
-            <fontSize>${paraFontSize}</fontSize>
+            <fontSize>0.03</fontSize>
             <fontPath>./../_inc/fonts/VCR_OSD_MONO.ttf</fontPath>
             <metadata>sourceSystemName</metadata>
             <defaultValue>System undefined</defaultValue> 
@@ -296,6 +296,54 @@
             <zIndex>65</zIndex>
             <visible>${remove}</visible>
         </text>
+
+        <gamelistinfo name="gcount">
+                <pos>0.19 .255</pos>
+                <size>.18 .02</size>
+                <color>ffffff90</color>
+                <fontPath>./../_inc/fonts/VCR_OSD_MONO.ttf</fontPath>
+                <fontSize> .027</fontSize>
+                <horizontalAlignment>right</horizontalAlignment>
+        </gamelistinfo>
+        <image name="players-icn">
+                <pos>.386 .838</pos>
+                <origin>0 .5</origin>
+                <maxSize>.03 .03</maxSize>
+                <path>./../_inc/images/icon-players.svg</path>
+                <color>ffffff95</color>
+                <brightness>2</brightness>
+                <saturation>0</saturation>
+                <metadataElement>true</metadataElement>
+                <zIndex>65</zIndex>
+        </image>
+        <text name="g-players">
+            <size>.22 .02</size>
+            <pos>0.4 .83</pos>
+            <horizontalAlignment>left</horizontalAlignment>
+            <letterCase>uppercase</letterCase>
+            <fontSize>0.03</fontSize>
+            <metadata>players</metadata>
+            <fontPath>./../_inc/fonts/VCR_OSD_MONO.ttf</fontPath>
+            <defaultValue>unknown</defaultValue> 
+            <color>FFFFFF90</color>
+            <lineSpacing>1</lineSpacing>
+            <zIndex>65</zIndex>
+        </text>
+
+        <text name="system">
+            <size>.3 .02</size>
+            <pos>0.61 .83</pos>
+            <horizontalAlignment>right</horizontalAlignment>
+            <letterCase>uppercase</letterCase>
+            <fontSize>0.03</fontSize>
+            <fontPath>./../_inc/fonts/VCR_OSD_MONO.ttf</fontPath>
+            <metadata>sourceSystemName</metadata>
+            <defaultValue>unknown</defaultValue> 
+            <color>FFFFFF90</color>
+            <lineSpacing>1.5</lineSpacing>
+            <zIndex>65</zIndex>
+            
+        </text>
         
         <text name="custom-title">
             <pos>0.5 .16</pos>
@@ -319,8 +367,28 @@
         </helpsystem>
             
     </view>
+    <aspectRatio name="16:10">
+        <view name="gamelist">
+            <text name="collection-name">
+                <pos>0.505 .24</pos>
+            </text>
+        </view>
+    </aspectRatio> 
+    <aspectRatio name="3:2">
+        <view name="gamelist">
+            <text name="collection-name">
+                <pos>0.517 .24</pos>
+            </text>
+            <text name="g-players">
+                <pos>0.41 .83</pos>
+             </text>
+        </view>
+    </aspectRatio>   
      <aspectRatio name="4:3">
         <view name="gamelist">
+            <text name="collection-name">
+                <pos>0.53 .24</pos>
+            </text>  
             <image name="section-logo">
                 <pos>0.01 0.06</pos>
                 <size>0.25 0.1</size> <!-- +.1 0-->
@@ -352,10 +420,13 @@
             <text name="lastplayedtext">
                 <visible>false</visible>
             </text>
+            <text name="g-players">
+                <pos>0.41 .83</pos>
+             </text>
 
-            <datetime name="lastPlayedDate">
+            <text name="lastPlayedDate">
                 <visible>false</visible>
-            </datetime>
+            </text>
             <gamelistinfo name="gameCountN">
                 <visible>false</visible>
             </gamelistinfo>             
@@ -363,7 +434,9 @@
     </aspectRatio>
      <aspectRatio name="21:9">
         <view name="gamelist">
-             	            
+            <text name="collection-name">
+                <pos>0.47 .24</pos>
+            </text>            
         </view>
     </aspectRatio>
     <aspectRatio name="5:3_vertical">

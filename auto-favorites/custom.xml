@@ -36,14 +36,14 @@
     </image>
             
             <!--
-            <datetime name="lastPlayedDate">    
+            <text name="lastPlayedDate">    
                 <visible>true</visible>
                 <pos>.552 .57</pos>
                 <fontPath>./.${h2Font}</fontPath>
                 <color>${highlightColor}</color>
                <fontSize>${metaFontSize}</fontSize>
                <size>.2 .018</size>
-            </datetime>
+            </text>
            -->
             <text name="playcount">
                 <text>Times Played:</text>
@@ -65,9 +65,9 @@
             <text name="kidgame">
                 <visible>false</visible>
             </text> 
-            <datetime name="mobile-stat">
+            <text name="mobile-stat">
                <visible>false</visible>
-            </datetime>
+            </text>
             <text name="mobile-stat-title">
                 <visible>false</visible>
             </text>
@@ -108,9 +108,9 @@
                 <maxSize>0.2 0.2</maxSize>
                 <pos>0.675 0.009</pos>
             </image>
-            <datetime name="lastPlayedDate">    
+            <text name="lastPlayedDate">    
                 <pos>.55 .53</pos>
-            </datetime>
+            </text>
             <text name="playcount">
                 <pos>.515 .54</pos>
                 <size>.16 .018</size>
@@ -148,9 +148,9 @@
                 <maxSize>0.5 0.15</maxSize>
                 <color>${highlightColor}</color>
             </image>
-            <datetime name="mobile-stat">
+            <text name="mobile-stat">
                 <visible>false</visible>
-            </datetime>
+            </text>
             <text name="mobile-stat-title">
                 <visible>false</visible>
             </text>    
@@ -177,9 +177,9 @@
                 <pos>0.605 0.008</pos>
                  <maxSize>0.22 0.22</maxSize>
             </image>
-            <datetime name="lastPlayedDate">    
+            <text name="lastPlayedDate">    
                 <pos>.465 .53</pos>
-            </datetime>
+            </text>
             <text name="playcount">
                 <pos>.445 .54</pos>
                 <size>.16 .018</size>
@@ -205,9 +205,9 @@
             <image name="sys-logo">
                 <pos>0.675 0.006</pos>
             </image>
-            <datetime name="lastPlayedDate">    
+            <text name="lastPlayedDate">    
                 <pos>.562 .53</pos>
-            </datetime>
+            </text>
             <text name="playcount">
                 <pos>.54 .545</pos>
             </text>
@@ -231,10 +231,10 @@
                 <pos>.73 0.24</pos>
                 <maxSize>0.42 0.45</maxSize>  
             </image>
-             <datetime name="lastPlayedDate">    
+             <text name="lastPlayedDate">    
                 <pos>.68 .55</pos>
                 <horizontalAlignment>left</horizontalAlignment>
-            </datetime>
+            </text>
             <text name="playcount">
                 <pos>.485 .55</pos>
             </text>
