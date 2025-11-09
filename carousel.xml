@@ -1,7 +1,7 @@
 <theme>
 <variables>
         <rootpath2>./</rootpath2>
-        <systemPromoVideo>${rootpath2}/_inc/systems/system-view/1080p/${system.theme}.mp4</systemPromoVideo>
+        <systemPromoVideo>./_inc/systems/system-view/1080p/${system.theme}.mp4</systemPromoVideo>
          
         <gameCarouselItemSize>0.12 0.25</gameCarouselItemSize>
         
@@ -15,7 +15,7 @@
             <color>${vidColor}</color>
             <pos>0 0</pos>
             <cropSize>1 1</cropSize>
-            <path>${rootpath2}/_inc/images/tv-overlay.webp</path>
+            <path>./_inc/images/tv-overlay.webp</path>
             <zIndex>70</zIndex>
             
         </image>
@@ -24,7 +24,7 @@
             <pos>0.77 0.38</pos>
             <maxSize>0.295 0.3</maxSize>
             <origin>0.5 0.5</origin>
-            <default>${rootpath2}/_inc/images/empty-state43.mp4</default> <!-- Fallback to default cover -->
+            <default>./_inc/images/empty-state43.mp4</default> <!-- Fallback to default cover -->
             <interpolation>nearest</interpolation>
             <pillarboxes>true</pillarboxes>
             <pillarboxThreshold>0.85 0.90</pillarboxThreshold>
@@ -37,7 +37,7 @@
             <maxSize>0.295 0.3</maxSize>
             <origin>0.5 0.5</origin>
             <imageType>screenshot, fanart, titlescreen, cover</imageType> <!-- Dynamically fetch media -->
-            <default>${rootpath2}/_inc/images/empty-state.webp</default> <!-- Fallback to default cover -->
+            <default>./_inc/images/empty-state.webp</default> <!-- Fallback to default cover -->
             <zIndex>29</zIndex>
         </image>
         
@@ -56,8 +56,8 @@
             <saturation>0</saturation>
             <brightness>2</brightness>
             <color>${consoleLogo}</color>
-            <path>${rootpath2}/_inc/systems/logos/${system.theme}.webp</path>
-            <default>${rootpath2}/_inc/systems/logos/default.webp</default>
+            <path>./_inc/systems/logos/${system.theme}.webp</path>
+            <default>./_inc/systems/logos/default.webp</default>
             <zIndex>14</zIndex>
         </image>
         <video name="gamelistBgVideo">
@@ -65,7 +65,7 @@
             <audio>false</audio>
             <pos>0 0</pos>
             <cropSize>1 1</cropSize>
-            <path>${rootpath2}/_inc/systems/cabinets/1080p/console-bg.mp4</path> 
+            <path>./_inc/systems/cabinets/1080p/console-bg.mp4</path> 
             <zIndex>9</zIndex>
             <brightness>${vidBright}</brightness>
             <saturation>${vidSat}</saturation>
@@ -75,7 +75,7 @@
             <zIndex>1</zIndex>
             <pos>0 0</pos>
             <cropSize>1 1</cropSize>
-            <path>${rootpath2}/_inc/systems/cabinets/images/console-bg.webp</path>
+            <path>./_inc/systems/cabinets/images/console-bg.webp</path>
             <zIndex>8</zIndex>
             <brightness>${vidBright}</brightness>
             <saturation>${vidSat}</saturation>
@@ -107,7 +107,7 @@
                 <pos>.09 .34</pos>
                 <origin>0 .5</origin>
                 <maxSize>.027 .027</maxSize>
-                <path>${rootpath2}/_inc/images/icon-developer.svg</path>
+                <path>./_inc/images/icon-developer.svg</path>
                 <color>${highlightColor}</color>
                 <brightness>2</brightness>
                 <saturation>0</saturation>
@@ -132,7 +132,7 @@
                 <pos>.03 .34</pos>
                 <origin>0 .5</origin>
                 <maxSize>.027 .027</maxSize>
-                <path>${rootpath2}/_inc/images/release-date.svg</path>
+                <path>./_inc/images/release-date.svg</path>
                 <color>${highlightColor}</color>
                 <brightness>2</brightness>
                 <saturation>0</saturation>
@@ -160,8 +160,8 @@
                 <pos>.03 .29</pos>
                 <origin>0 0.5</origin>
                 <size>0 0.03</size>
-                <filledPath>${rootpath2}/_inc/images/star_filled.svg</filledPath>
-                <unfilledPath>${rootpath2}/_inc/images/star_unfilled.svg</unfilledPath>
+                <filledPath>./_inc/images/star_filled.svg</filledPath>
+                <unfilledPath>./_inc/images/star_unfilled.svg</unfilledPath>
                 <color>${highlightColor}</color>
                 <zIndex>65</zIndex>
         </rating>
@@ -170,7 +170,7 @@
                 <pos>.14 .29</pos>
                 <origin>0 .5</origin>
                 <maxSize>.027 .027</maxSize>
-                <path>${rootpath2}/_inc/images/icon-players.svg</path>
+                <path>./_inc/images/icon-players.svg</path>
                 <color>${highlightColor}</color>
                 <brightness>2</brightness>
                 <saturation>0</saturation>
@@ -196,7 +196,7 @@
                 <pos>.20 .29</pos>
                 <origin>0 .5</origin>
                 <maxSize>.027 .027</maxSize>
-                <path>${rootpath2}/_inc/images/genre.svg</path>
+                <path>./_inc/images/genre.svg</path>
                 <color>${highlightColor}</color>
                 <brightness>2</brightness>
                 <saturation>0</saturation>
@@ -222,7 +222,7 @@
                 <pos>0.03 .266</pos>
                 <origin>0 .5</origin>
                 <maxSize>.38 .9</maxSize>
-                <path>${rootpath2}/_inc/images/line.svg</path>
+                <path>./_inc/images/line.svg</path>
                 <color>${lineColor}</color>
                 <zIndex>70</zIndex>
             </image>
@@ -230,7 +230,7 @@
                 <pos>0.03 .316</pos>
                 <origin>0 .5</origin>
                 <maxSize>.38 .9</maxSize>
-                <path>${rootpath2}/_inc/images/line.svg</path>
+                <path>./_inc/images/line.svg</path>
                 <color>${lineColor}</color>
                 <zIndex>70</zIndex>
             </image>
@@ -239,7 +239,7 @@
                 <pos>0.03 .367</pos>
                 <origin>0 .5</origin>
                 <maxSize>.38 .9</maxSize>
-                <path>${rootpath2}/_inc/images/line.svg</path>
+                <path>./_inc/images/line.svg</path>
                 <color>${lineColor}</color>
                 <zIndex>70</zIndex>
             </image>
@@ -375,15 +375,15 @@
                 <itemsPerLine>8</itemsPerLine>
                 <slots>collection, folder, favorite, completed, kidgame, broken, altemulator, manual</slots>
                 <badgeIconColor>BBBBBB</badgeIconColor>
-                <customBadgeIcon badge="collection">${rootpath2}/_inc/images/badge-collection.svg</customBadgeIcon>
-                <customBadgeIcon badge="folder">${rootpath2}/_inc/images/badge-folder.svg</customBadgeIcon>
-                <customBadgeIcon badge="favorite">${rootpath2}/_inc/images/badge-favorite.svg</customBadgeIcon>
-                <customBadgeIcon badge="completed">${rootpath2}/_inc/images/badge-completed.svg</customBadgeIcon>
-                <customBadgeIcon badge="kidgame">${rootpath2}/_inc/images/badge-kidgame.svg</customBadgeIcon>
-                <customBadgeIcon badge="broken">${rootpath2}/_inc/images/badge-broken.svg</customBadgeIcon>
-                <customBadgeIcon badge="controller">${rootpath2}/_inc/images/badge-controller.svg</customBadgeIcon>
-                <customBadgeIcon badge="altemulator">${rootpath2}/_inc/images/badge-altemulator.svg</customBadgeIcon>
-                <customBadgeIcon badge="manual">${rootpath2}/_inc/images/badge-manual.svg</customBadgeIcon>
+                <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
+                <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
+                <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
+                <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
+                <customBadgeIcon badge="kidgame">./_inc/images/badge-kidgame.svg</customBadgeIcon>
+                <customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
+                <customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
+                <customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
+                <customBadgeIcon badge="manual">./_inc/images/badge-manual.svg</customBadgeIcon>
                 <zIndex>65</zIndex>
             </badges>
 
@@ -404,7 +404,7 @@
                 <pos>.195 .634</pos>
                 <origin>0 .5</origin>
                 <maxSize>.2 .2</maxSize>
-                <path>${rootpath2}/_inc/images/badge-container.webp</path>
+                <path>./_inc/images/badge-container.webp</path>
                 <zIndex>63</zIndex>
             </image>
             <gamelistinfo name="gcount">
