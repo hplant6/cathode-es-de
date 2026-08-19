@@ -28,7 +28,7 @@
     </variables>
 
     <!-- font adjustment -->
-    <fontSize name="x-large">
+    <fontSize name="large">
         <variables>
             <paraFontSize>0.03</paraFontSize>
             <listFontSize>0.037</listFontSize>
@@ -38,7 +38,7 @@
             <titlemFontSize>0.033</titlemFontSize>
             <titlemmFontSize>0.036</titlemmFontSize>
             <metaFontSize>0.026</metaFontSize>
-            <titlelFontSize>0.044</titlelFontSize>          
+            <titlelFontSize>0.044</titlelFontSize>
             <listLineSpacing>1.85</listLineSpacing>
             <listPos>0.0397 .284</listPos>
             <selectorOffset>.05</selectorOffset>
@@ -51,7 +51,7 @@
 
         </variables>
     </fontSize>
-    <fontSize name="large">
+    <fontSize name="medium">
         <variables>
             <paraFontSize>0.02</paraFontSize>
             <listFontSize>0.027</listFontSize>
@@ -61,7 +61,7 @@
             <titlemFontSize>0.024</titlemFontSize>
             <titlemmFontSize>0.03</titlemmFontSize>
             <metaFontSize>0.024</metaFontSize>
-            <titlelFontSize>0.036</titlelFontSize>          
+            <titlelFontSize>0.036</titlelFontSize>
             <listLineSpacing>1.81</listLineSpacing>
             <listPos>0.0397 .284</listPos>
             <selectorOffset>.041</selectorOffset>
@@ -73,9 +73,9 @@
             <helpPos>0.5 0.975</helpPos>
         </variables>
     </fontSize>
-    <fontSize name="medium">
+    <fontSize name="small">
         <variables>
-           <paraFontSize>0.014</paraFontSize> 
+           <paraFontSize>0.014</paraFontSize>
             <listFontSize>0.02</listFontSize>
             <labelFontSize>0.016</labelFontSize>
             <caraFontSize>0.046</caraFontSize>
@@ -90,34 +90,6 @@
             <gridDate>0.875 .1</gridDate>
             <glistInfo>.813 0.055</glistInfo>
             <gbadge>0.555 .054</gbadge>
-            <remove>true</remove>
-            <mobileStat>false</mobileStat>
-            <helpPos>0.5 0.975</helpPos>
-        </variables>
-    </fontSize>
-    <fontSize name="small">
-        <variables>
-            <paraFontSize>0.012</paraFontSize>
-
-            <listFontSize>0.0163</listFontSize>
-
-            <labelFontSize>0.012</labelFontSize>
-
-            <caraFontSize>0.04</caraFontSize>
-
-            <titlesFontSize>0.012</titlesFontSize>
-            <titlemFontSize>0.014</titlemFontSize>
-            <titlemmFontSize>0.02</titlemmFontSize>
-            <titlelFontSize>0.026</titlelFontSize>
-
-            <metaFontSize>0.012</metaFontSize>
-
-            <listLineSpacing>3</listLineSpacing>
-            <listPos>0.0397 .294</listPos>
-            <selectorOffset>.027</selectorOffset>
-            <gridDate>0.875 .1</gridDate>
-            <glistInfo>.827 0.056</glistInfo>
-            <gbadge>0.57 .054</gbadge>
             <remove>true</remove>
             <mobileStat>false</mobileStat>
             <helpPos>0.5 0.975</helpPos>
@@ -1833,8 +1805,37 @@
             </image>
             <image name="clockBG">
                 <path>./_inc/images/3-2clocks.png</path>
-            </image>    
-        </view> 
+            </image>
+        </view>
     </aspectRatio>
-    
+    <aspectRatio name="1:1">
+        <view name="system,gamelist">
+            <clock name="LCDclock">
+                <fontSize>.05</fontSize>
+                <pos>.99 .996</pos>
+            </clock>
+            <systemstatus name="gstatus-ind">
+                <pos>.012 .957</pos>            </systemstatus>
+            <image name="clockOverlay">
+                <path>./_inc/images/4-3overlay.png</path>
+                <cropPos>1 .5</cropPos>
+            </image>
+            <image name="clockBG">
+                <path>./_inc/images/4-3Clocks.png</path>
+                <cropPos>1 .5</cropPos>
+            </image>
+        </view>
+        <view name="gamelist">
+            <helpsystem name="help">
+                <entries>back,start,x,y,l,r,lt,rt,thumbstickclick</entries>
+            </helpsystem>
+            <video name="gamelistBgVideo">
+                <cropPos>.8 0</cropPos>
+            </video>
+            <image name="gamelistBgImage">
+                <cropPos>.8 0</cropPos>
+            </image>
+        </view>
+    </aspectRatio>
+
 </theme>

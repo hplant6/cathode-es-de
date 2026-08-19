@@ -220,4 +220,33 @@
             </text>    
         </view>
   </aspectRatio>
+
+
+  <aspectRatio name="1:1">
+        <view name="gamelist">
+            <image name="fade">
+                <pos>.18 .5</pos>
+                <size>1 .62</size>
+                <opacity>.75</opacity>
+            </image>
+            <video name="gamelistBgVideo">
+                <cropPos>.8 0</cropPos>
+            </video>
+            <image name="gamelistBgImage">
+                <cropPos>.8 0</cropPos>
+            </image>
+            <image name="cabinetOverlay">
+                <zIndex>40</zIndex>
+                <cropPos>.8 0</cropPos>
+            </image>
+            <video name="gamevideo">
+                <pos>0.7458 0.3856</pos>
+                <maxSize>0.4083 0.2676</maxSize>
+            </video>
+            <image name="gameimage">
+                <pos>0.7458 0.3856</pos>
+                <maxSize>0.4083 0.2676</maxSize>
+            </image>
+        </view>
+  </aspectRatio>
 </theme>

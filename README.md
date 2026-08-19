@@ -181,6 +181,8 @@ Extra large
 
 21:9
 
+1:1
+
 ## Transitions
 
 Default

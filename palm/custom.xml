@@ -331,4 +331,41 @@
         </view>
   </aspectRatio>
     
+
+
+  <aspectRatio name="1:1">
+        <view name="gamelist">
+            <image name="fade">
+                <pos>.18 .5</pos>
+                <size>1 .62</size>
+                <opacity>.75</opacity>
+            </image>
+            <text name="mobile-stat">
+                <pos>.768 .067</pos>
+                <size>.25 .03</size>
+            </text>
+            <text name="mobile-stat-title">
+                <pos>.768 .042</pos>
+                <size>.25 .03</size>
+            </text>
+            <video name="gamelistBgVideo">
+                <cropPos>.8 0</cropPos>
+            </video>
+            <image name="gamelistBgImage">
+                <cropPos>.8 0</cropPos>
+            </image>
+            <image name="cabinetOverlay">
+                <zIndex>40</zIndex>
+                <cropPos>.8 0</cropPos>
+            </image>
+            <video name="gamevideo">
+                <pos>0.7431 0.3796</pos>
+                <maxSize>0.4417 0.3019</maxSize>
+            </video>
+            <image name="gameimage">
+                <pos>0.7431 0.3796</pos>
+                <maxSize>0.4417 0.3019</maxSize>
+            </image>
+        </view>
+  </aspectRatio>
 </theme>

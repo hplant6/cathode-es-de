@@ -296,4 +296,31 @@
 
  
 
+  <aspectRatio name="1:1">
+    <view name="system">
+        <text name="system-name">
+            <text>${system.fullName}</text>
+            <pos>0.785 0.05</pos>
+        </text>    
+        <grid name="sys-grid">
+                <pos>0.6 0.12</pos>
+                <size>0.5 0.8</size>
+        </grid>
+        <image name="sel-logo">
+                <pos>0.295 0.09</pos>
+                <origin>0.5 0</origin>
+                <size>0 0.2</size>
+        </image>
+        <video name="gridpromo">
+                <pos>-0.05 0</pos>
+                <cropSize>1 1</cropSize>
+        </video>
+        <image name="gridpromoimage">
+                <pos>-0.05 0</pos>
+        </image>
+        <image name="OVERGRID">
+                <pos>-.03 0</pos>
+        </image>
+    </view>
+  </aspectRatio>
 </theme>

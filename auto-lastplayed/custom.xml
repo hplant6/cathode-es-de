@@ -257,4 +257,36 @@
         </view>
   </aspectRatio>
     
+
+
+  <aspectRatio name="1:1">
+        <view name="gamelist">
+            <image name="fade">
+                <pos>.18 .5</pos>
+                <size>1 .62</size>
+                <opacity>.75</opacity>
+            </image>
+            <video name="gamelistBgVideo">
+                <cropPos>.8 0</cropPos>
+            </video>
+            <image name="gamelistBgImage">
+                <cropPos>.8 0</cropPos>
+            </image>
+            <image name="sys-logo">
+                <pos>0.58 0.0589</pos>
+            </image>
+            <image name="cabinetOverlay">
+                <zIndex>40</zIndex>
+                <cropPos>.8 0</cropPos>
+            </image>
+            <video name="gamevideo">
+                <pos>0.7426 0.387</pos>
+                <maxSize>0.4 0.3037</maxSize>
+            </video>
+            <image name="gameimage">
+                <pos>0.7426 0.387</pos>
+                <maxSize>0.4 0.3037</maxSize>
+            </image>
+        </view>
+  </aspectRatio>
 </theme>

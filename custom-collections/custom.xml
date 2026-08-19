@@ -553,4 +553,44 @@
                 
             </view>
         </aspectRatio>   
+
+
+  <aspectRatio name="1:1">
+        <view name="gamelist">
+            <text name="g-players">
+                <pos>0.925 .83</pos>
+                <size>.055 .02</size>
+                <horizontalAlignment>left</horizontalAlignment>
+            </text>
+            <image name="players-icn">
+                <pos>.88 .838</pos>
+            </image>
+            <text name="system">
+                <pos>0.35 .83</pos>
+                <origin>0 0</origin>
+                <horizontalAlignment>left</horizontalAlignment>
+                <size>.3 .02</size>
+            </text>
+            <text name="collection-name">
+                <pos>0.35 .265</pos>
+                <origin>0 .5</origin>
+            </text>
+            <gamelistinfo name="gcount">
+                <pos>0.15 .265</pos>
+                <horizontalAlignment>right</horizontalAlignment>
+                <origin>0 .5</origin>
+            </gamelistinfo>
+            <textlist name="sys-list">
+                <pos>0.02 .28</pos>
+            </textlist>
+            <video name="gamevideo">
+                <pos>0.665 0.55</pos>
+                <cropSize>0.63 0.52</cropSize>
+            </video>
+            <image name="gameimage">
+                <pos>0.665 0.55</pos>
+                <cropSize>0.63 0.52</cropSize>
+            </image>
+        </view>
+  </aspectRatio>
 </theme>
