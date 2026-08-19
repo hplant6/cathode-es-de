@@ -883,5 +883,138 @@
             </text> 
         </view>
   </aspectRatio>
+
+  <aspectRatio name="1:1">
+    <view name="gamelist">
+            <text name="playtimeTitle">
+                <pos>.7867 .082</pos>
+                <origin>0 0.5</origin>
+                <size>0.2133 0.06</size>
+                <fontSize>.022</fontSize>
+                <fontPath>${listFont}</fontPath>
+                <letterCase>uppercase</letterCase>
+                <horizontalAlignment>center</horizontalAlignment>
+                <text>Playtime</text>
+                <color>${highlightColor}</color>
+                <lineSpacing>1</lineSpacing>
+                <zIndex>65</zIndex>
+            </text>
+            <image name="date-icon">
+                <pos>0.02 0.5466</pos>
+            </image>
+        <video name="gridBgVideo">
+            <pos>-.15 -.04</pos>
+            <cropSize>1.5 1.5</cropSize>
+        </video>
+        <image name="gridBgImage">
+            <pos>-.15 -.04</pos>
+            <cropSize>1.5 1.5</cropSize>
+        </image>
+        <image name="section-logo">
+            <maxSize>0.1843 0.07</maxSize>
+        </image>
+        <image name="game-logo">
+            <pos>0.4667 0.1193</pos>
+            <maxSize>0.32 0.18</maxSize>
+                <origin>0 0.5</origin>
+            </image>
+        <gamelistinfo name="gcount">
+            <pos>0.2575 0.053</pos>
+        </gamelistinfo>
+        <animation name="frame">
+            <size>0.4335 0.3315</size>
+        </animation>
+        <video name="videothumb1">
+            <maxSize>.4232 .3176</maxSize>
+        </video>
+        <image name="imagethumb1">
+            <maxSize>.4232 .3176</maxSize>
+        </image>
+        <image name="videothumbtop">
+            <maxSize>.4232 .3176</maxSize>
+        </image>
+        <image name="line1">
+            <maxSize>0.4232 .5</maxSize>
+                <pos>0.02 0.4716</pos>
+            </image>
+        <image name="line2">
+            <maxSize>0.4232 .5</maxSize>
+                <pos>0.02 0.5216</pos>
+            </image>
+        <image name="line3">
+            <maxSize>0.4232 .5</maxSize>
+                <pos>0.02 0.5716</pos>
+            </image>
+        <image name="line4">
+            <maxSize>0.4232 .5</maxSize>
+                <pos>0.02 0.8416</pos>
+            </image>
+        <image name="line5">
+            <pos>0.4667 .2387</pos>
+            <maxSize>0.5333 .5</maxSize>
+        </image>
+        <text name="gametitle">
+            <size>0.4142 .018</size>
+                <pos>.02 0.4466</pos>
+            </text>
+        <rating name="ratinggraphic">
+            <size>0 0.0166</size>
+                <pos>0.02 0.4966</pos>
+            </rating>
+        <image name="players-icon">
+            <pos>0.1353 0.4966</pos>
+        </image>
+        <text name="game-players">
+            <pos>0.1714 0.4966</pos>
+            <size>0.0383 0.05</size>
+        </text>
+        <image name="genre-icon">
+            <pos>0.215 0.4966</pos>
+        </image>
+        <text name="genre">
+            <pos>0.2511 0.4966</pos>
+            <size>0.1891 0.05</size>
+        </text>
+        <datetime name="releasedatedate">
+            <pos>.0561 0.5466</pos>
+        </datetime>
+        <image name="developer-icon">
+            <pos>.115 0.5466</pos>
+        </image>
+        <text name="developer">
+            <pos>.1511 0.5466</pos>
+            <size>.2891 .018</size>
+        </text>
+        <image name="DesContainer">
+            <cropSize>0.506 0.26</cropSize>
+                <pos>.02 0.5766</pos>
+            </image>
+        <text name="system-description">
+            <size>0.4232 0.25</size>
+                <pos>0.03 0.5916</pos>
+            </text>
+        <badges name="badges">
+            <size>.55 .3</size>
+                <pos>0.02 0.8516</pos>
+                <itemsPerLine>5</itemsPerLine>
+            </badges>
+        <text name="lastPlayedDate">
+            <pos>.7867 .118</pos>
+            <size>0.2133 0.06</size>
+                <horizontalAlignment>center</horizontalAlignment>
+            </text>
+        <text name="completed">
+            <pos>.8 .1523</pos>
+            <size>0.19 0.06</size>
+                <visible>false</visible>
+            </text>
+        <grid name="game-grid">
+            <pos>0.4667 .2442</pos>
+            <size>0.5333 .718</size>
+                <itemSize>.108 .148</itemSize>
+                <itemSpacing>.016 .020</itemSpacing>
+            </grid>
+    </view>
+  </aspectRatio>
 </theme>
 

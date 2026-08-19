@@ -218,4 +218,30 @@
     </aspectRatio>
   
     
+
+  <aspectRatio name="1:1">
+        <view name="gamelist">
+            <image name="cabinetOverlay">
+                <zIndex>40</zIndex>
+                <pos>-.4667 0</pos>
+                <cropSize>1.4667 1</cropSize>
+            </image>
+            <video name="gamevideo">
+                <pos>.749 .377</pos>
+                <maxSize>.449 .337</maxSize>
+            </video>
+            <image name="gameimage">
+                <pos>.749 .377</pos>
+                <maxSize>.449 .337</maxSize>
+            </image>
+            <image name="gamescreen">
+                <pos>.749 .377</pos>
+                <maxSize>.449 .337</maxSize>
+            </image>
+            <image name="sys-logo">
+                <pos>0.5087 0.037</pos>
+                <maxSize>0.2489 0.14</maxSize>
+            </image>
+        </view>
+  </aspectRatio>
 </theme>

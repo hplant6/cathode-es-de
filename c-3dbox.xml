@@ -47,4 +47,14 @@
 
         </view>
   </aspectRatio>
+    <aspectRatio name="1:1">
+        <view name="gamelist">
+            <carousel name="gamelistCarousel">
+                <pos>0.5 1.10</pos>
+                <origin>0.5 1</origin>
+                <maxItemCount>6</maxItemCount>
+                <itemSize>0.14 0.19</itemSize>
+            </carousel>
+        </view>
+    </aspectRatio>
 </theme>

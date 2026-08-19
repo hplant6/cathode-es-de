@@ -98,7 +98,7 @@
                 <path>./../_inc/images/lowpower/lowpower-computer.webp</path>
             </image>
             <image name="lowimage">
-                <path>./../_inc/images/empty-state.nut.jpg</path>
+                <path>./../_inc/images/nut.jpg</path>
                 <cropPos>.5 .5</cropPos>
             </image> 
             <video name="lowvid">

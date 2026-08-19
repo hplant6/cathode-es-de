@@ -541,4 +541,39 @@
   </aspectRatio>
 
 
+  <aspectRatio name="1:1">
+    <view name="system,gamelist">
+        <clock name="LCDclock">
+                <fontSize>.05</fontSize>
+        </clock>
+        <systemstatus name="gstatus-ind">
+                <pos>.008 .939</pos>
+                <height>0.05</height>
+        </systemstatus>
+    </view>
+    <view name="gamelist">
+        <helpsystem name="help">
+                <entries>x, y</entries>
+        </helpsystem>
+        <image name="cabinetOverlay">
+                <cropPos>1 0</cropPos>
+                <pos>.19 0</pos>
+        </image>
+        <image name="lowimage">
+                <pos>0.6 0.335</pos>
+                <cropSize>0.315 0.233</cropSize>
+        </image>
+        <video name="lowvid">
+                <pos>0.785 0.33</pos>
+                <cropSize>0.4 0.3</cropSize>
+        </video>
+        <datetime name="releasedatedate">
+            <pos>.35 .252</pos>
+        </datetime>
+        <badges name="smlbadges">
+            <pos>0.03 .36</pos>
+
+        </badges>
+    </view>
+  </aspectRatio>
 </theme>

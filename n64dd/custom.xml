@@ -55,4 +55,13 @@
         </view>
   </aspectRatio>
     
+
+  <aspectRatio name="1:1">
+        <view name="gamelist">
+           <image name="sys-logo">
+                <pos>0.4820 0.044</pos>
+                <maxSize>0.2489 0.14</maxSize>
+            </image>
+        </view>
+  </aspectRatio>
 </theme>

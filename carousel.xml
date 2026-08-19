@@ -718,8 +718,151 @@
                 <pos>.15 .29</pos> <!-- +.01 -->
             </image>
             <text name="genre">
-                <pos>.165 .29</pos>  <!-- +.01 -->      
-            </text>   
+                <pos>.165 .29</pos>  <!-- +.01 -->
+            </text>
+        </view>
+    </aspectRatio>
+
+  <aspectRatio name="1:1">
+        <view name="gamelist">
+            <image name="cabinetOverlay">
+                <zIndex>40</zIndex>
+                <pos>-.4667 0</pos>
+                <cropSize>1.4667 1</cropSize>
+            </image>
+            <image name="fade">
+                <rotation>90</rotation>
+                <pos>.2 .5</pos>
+                <origin>.5 .5</origin>
+                <size>1 1</size>
+                <path>./_inc/images/fade.svg</path>
+                <zIndex>11</zIndex>
+            </image>
+
+            <video name="gamevideo">
+                <pos>.753 .383</pos>
+                <maxSize>.42 .295</maxSize>
+            </video>
+            <image name="gameimage">
+                <pos>.753 .383</pos>
+                <maxSize>.42 .295</maxSize>
+            </image>
+            <image name="gamescreen">
+                <pos>.753 .383</pos>
+                <maxSize>.42 .295</maxSize>
+            </image>
+
+            <image name="game-logo">
+                <maxSize>0.35 0.15</maxSize>
+            </image>
+            <image name="sys-logo">
+                <pos>0.53 0.038</pos>
+                <maxSize>0.249 0.14</maxSize>
+            </image>
+
+
+            <text name="gameTitle">
+                <pos>.03 .20</pos>
+                <size>.3 .018</size>
+            </text>
+            <image name="line1">
+                <pos>0.03 .226</pos>
+            </image>
+
+            <rating name="ratinggraphic">
+                <pos>.03 .25</pos>
+                <size>0 .024</size>
+            </rating>
+            <image name="players-icon">
+                <pos>.175 .25</pos>
+            </image>
+            <text name="game-players">
+                <pos>.205 .25</pos>
+                <size>.13 .05</size>
+            </text>
+            <image name="genre-icon">
+                <pos>.27 .25</pos>
+            </image>
+            <text name="genre">
+                <pos>.305 .25</pos>
+            </text>
+            <image name="line2">
+                <pos>0.03 .276</pos>
+            </image>
+
+            <datetime name="releasedatedate">
+                <pos>.06 .30</pos>
+            </datetime>
+            <image name="developer-icon">
+                <pos>.145 .30</pos>
+            </image>
+            <text name="developer">
+                <pos>.18 .30</pos>
+                <size>.25 .018</size>            </text>
+            <image name="line3">
+                <pos>0.03 .327</pos>
+            </image>
+
+            <text name="descriptiontext">
+                <pos>0.03 .35</pos>
+                <size>.45 .19</size>
+            </text>
+
+            <text name="badgesTitle">
+                <pos>.195 .558</pos>
+            </text>
+            <badges name="badges">
+                <pos>.2 .588</pos>
+                <size>.62 .35</size>
+            </badges>
+            <image name="badge-container">
+                <pos>.195 .635</pos>
+                <maxSize>.356 .2</maxSize>
+            </image>
+
+            <gamelistinfo name="gcount">
+                <pos>.14 .9655</pos>
+                <size>.23 .02</size>
+                <fontSize>.04</fontSize>            </gamelistinfo>
+
+            <helpsystem name="help">
+                <entries>x, y, lt, rt</entries>
+                <pos>.56 .975</pos>
+            </helpsystem>
+
+            <text name="lastPlayed">
+                <pos>.58 .042</pos>
+                <size>.19 .018</size>
+            </text>
+            <text name="playtime">
+                <pos>.775 .042</pos>
+                <size>.19 .018</size>
+            </text>
+            <text name="playcount">
+                <pos>.58 .062</pos>
+                <size>.19 .018</size>
+            </text>
+            <text name="pkaycountnumber">
+                <pos>.775 .062</pos>
+                <size>.19 .018</size>
+            </text>
+            <text name="kidgameLabel">
+                <pos>.58 .082</pos>
+                <size>.19 .018</size>
+            </text>
+            <text name="kidgame">
+                <pos>.775 .082</pos>
+                <size>.19 .018</size>
+            </text>
+
+            <text name="mobile-stat">
+                <pos>.74 .067</pos>
+                <size>.25 .03</size>
+            </text>
+            <text name="mobile-stat-title">
+                <pos>.74 .042</pos>
+                <size>.25 .03</size>
+            </text>
         </view>
     </aspectRatio>
     <aspectRatio name="5:3_vertical">
